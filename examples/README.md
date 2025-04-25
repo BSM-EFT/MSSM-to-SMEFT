@@ -11,3 +11,4 @@ In particular:
  * [cHW_oneloop.nb](./cHW_oneloop.nb) contains the expression for the Wilson coefficient $C_{HW}$ generated at one loop
  * [cHB_oneloop.nb](./cHB_oneloop.nb) contains the expression for the Wilson coefficient $C_{HB}$ generated at one loop
  * [cHWB_oneloop.nb](./cHWB_oneloop.nb) contains the expression for the Wilson coefficient $C_{HWB}$ generated at one loop
+ * [stopBino_coeffs.nb](./stopBino_coeffs.nb) contains the calculations for extracting some of the Wilson coefficients for the stop-Bino scenario from the general MSSM results
