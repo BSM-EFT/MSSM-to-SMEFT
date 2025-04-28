@@ -1,6 +1,6 @@
-# Examples
+# Matching conditions: Examples from Section 5 
 
-Here we provide the Mathematica notebooks for reproducing the results of *Section 5*.
+Here we provide the Mathematica notebooks for reproducing the results of *Section 5 - Matching conditions and validation of results*.
 
 In particular:
 
