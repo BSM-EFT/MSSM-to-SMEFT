@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     35589,        953]
-NotebookOptionsPosition[     33550,        912]
-NotebookOutlinePosition[     34037,        930]
-CellTagsIndexPosition[     33994,        927]
+NotebookDataLength[     43037,       1188]
+NotebookOptionsPosition[     38440,       1117]
+NotebookOutlinePosition[     38972,       1137]
+CellTagsIndexPosition[     38929,       1134]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -162,8 +162,8 @@ A+xeoPtCwBLBDsBQ8DZvboOEDzD8wObnIfjo4QsARrGtpA==
  GeneratedCell->True,
  CellAutoOverwrite->True,
  CellChangeTimes->{
-  3.954483765947136*^9},ExpressionUUID->"0673c409-71b0-4393-b6e8-\
-153d5b966ac1"],
+  3.957864315085782*^9},ExpressionUUID->"364de746-e7df-41d1-a2aa-\
+2a99664612f0"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -186,13 +186,10 @@ Julie Pag\[EGrave]s, Anders Eller Thomsen, and Felix Wilsch \\n\"\>",
    "https://gitlab.com/matchete/matchete", 
     "https://gitlab.com/matchete/matchete"]],
   Editable->False]], "Print",
- CellChangeTimes->{
-  3.954481134258856*^9, 3.9544813303701773`*^9, 3.9544817114341373`*^9, 
-   3.954482402891941*^9, 3.954483383648538*^9, 3.9544834323496313`*^9, {
-   3.9544837432105427`*^9, 3.95448376629847*^9}},
+ CellChangeTimes->{3.957864315338822*^9},
  CellLabel->
   "During evaluation of \
-In[1]:=",ExpressionUUID->"224f2fdc-98f1-46c1-863c-3a7691c1b634"],
+In[1]:=",ExpressionUUID->"aa0e8dc7-f2e2-49d3-8282-ef2e2bdc9485"],
 
 Cell[BoxData[
  RowBox[{
@@ -224,8 +221,8 @@ indices \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"SU2L\\\", \\\"[\\\", \
     $CellContext`SU2L[Matchete`fund]}],
   Editable->False]], "Echo",
  CellChangeTimes->{
-  3.954483769877338*^9},ExpressionUUID->"7d56e0a1-742b-4b4f-aa2f-\
-51471b1469ac"]
+  3.957864317050254*^9},ExpressionUUID->"a398d55e-9839-4900-8448-\
+2298f89a636d"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -283,9 +280,8 @@ Cell[BoxData[
   "Write", " ", "the", " ", "results", " ", "using", " ", "the", " ", "SM", 
    " ", "Yukawa", " ", "and", " ", "gauge", " ", "couplings"}], " ", 
   "*)"}]], "Input",
- CellChangeTimes->{{3.954483975921485*^9, 
-  3.954483987724613*^9}},ExpressionUUID->"97824fc8-1479-4c71-94d1-\
-07cc8ac064f7"],
+ CellChangeTimes->{{3.954483975921485*^9, 3.954483987724613*^9}},
+ CellLabel->"In[6]:=",ExpressionUUID->"97824fc8-1479-4c71-94d1-07cc8ac064f7"],
 
 Cell[BoxData[{
  RowBox[{
@@ -375,545 +371,756 @@ Cell[BoxData[{
        RowBox[{"g2", ",", 
         RowBox[{"{", "}"}], ",", "0"}], "]"}]}]}], "}"}]}], ";"}]}], "Input",
  CellChangeTimes->{{3.954483944780726*^9, 3.9544839705246964`*^9}, {
-  3.954484053600017*^9, 3.95448406030273*^9}},
- CellLabel->"In[19]:=",ExpressionUUID->"527ba201-b3ec-4bad-8728-b6782812ad7a"],
+  3.954484053600017*^9, 3.95448406030273*^9}, {3.957863567816985*^9, 
+  3.957863589128336*^9}},
+ CellLabel->"In[7]:=",ExpressionUUID->"527ba201-b3ec-4bad-8728-b6782812ad7a"],
 
 Cell[BoxData[
  RowBox[{
   RowBox[{"matchingTreeSimp", "=", 
-   RowBox[{
-    RowBox[{"matchingTree", "/.", "yukMatching"}], "/.", "gaugeMatching"}]}], 
-  ";"}]], "Input",
+   RowBox[{"Sort", "[", 
+    RowBox[{
+     RowBox[{"matchingTree", "/.", "yukMatching"}], "/.", "gaugeMatching"}], 
+    "]"}]}], ";"}]], "Input",
  CellChangeTimes->{{3.954483865792694*^9, 3.9544839342702303`*^9}, {
-  3.9544839938263474`*^9, 3.954484004964364*^9}},
- CellLabel->"In[21]:=",ExpressionUUID->"1552d73e-c4b4-4f61-839d-75fb25c268b1"],
+  3.9544839938263474`*^9, 3.954484004964364*^9}, {3.957863334595025*^9, 
+  3.957863338959137*^9}},
+ CellLabel->"In[9]:=",ExpressionUUID->"1552d73e-c4b4-4f61-839d-75fb25c268b1"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{
-  RowBox[{"TableForm", "[", "matchingTreeSimp", "]"}], "//", 
-  "NiceForm"}]], "Input",
+ RowBox[{"For", "[", 
+  RowBox[{
+   RowBox[{"i", "=", "1"}], ",", 
+   RowBox[{"i", "<=", 
+    RowBox[{"Length", "[", "matchingTreeSimp", "]"}]}], ",", 
+   RowBox[{"i", "++"}], ",", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"Print", "[", 
+     RowBox[{"NiceForm", "[", 
+      RowBox[{"matchingTreeSimp", "[", 
+       RowBox[{"[", "i", "]"}], "]"}], "]"}], "]"}], ";"}]}], "]"}]], "Input",\
+
  CellChangeTimes->{{3.954483727728404*^9, 3.9544837332931747`*^9}, 
-   3.954483886669868*^9},
- CellLabel->"In[22]:=",ExpressionUUID->"b2e3c23d-e876-4590-aa95-eedc769829f5"],
+   3.954483886669868*^9, 3.957863345649013*^9},
+ CellLabel->"In[10]:=",ExpressionUUID->"b2e3c23d-e876-4590-aa95-eedc769829f5"],
+
+Cell[CellGroupData[{
 
 Cell[BoxData[
- FormBox[
-  TagBox[
-   TagBox[GridBox[{
-      {
-       StyleBox[
+ TagBox[
+  StyleBox[
+   RowBox[{
+    SuperscriptBox["cdH", 
+     StyleBox[
+      TemplateBox[{"i1_", "i2_"},
+       "RowDefault"],
+      FontSize->10]], "\[Rule]", 
+    RowBox[{
+     FractionBox["1", "8"], 
+     SubscriptBox["s", 
+      RowBox[{"4", "\[Beta]"}]], 
+     SubscriptBox["s", "\[Beta]"], 
+     FractionBox["1", 
+      SuperscriptBox[
+       SubscriptBox["m", "\[CapitalPhi]"], "2"]], 
+     FractionBox["1", 
+      SubscriptBox["c", "\[Beta]"]], 
+     SuperscriptBox["Yd", 
+      StyleBox[
+       TemplateBox[{"i1", "i2"},
+        "RowDefault"],
+       FontSize->10]], " ", 
+     FormBox[
+      StyleBox[
+       RowBox[{"(", 
         RowBox[{
-         SubscriptBox["g", "1"], "\[Rule]", 
-         SubscriptBox["g", "1"]}], "StandardForm"]},
-      {
-       StyleBox[
-        RowBox[{
-         SubscriptBox["g", "2"], "\[Rule]", 
-         SubscriptBox["g", "2"]}], "StandardForm"]},
-      {
-       StyleBox[
-        RowBox[{
-         SubscriptBox["g", "3"], "\[Rule]", 
-         SubscriptBox["g", "3"]}], "StandardForm"]},
-      {
-       StyleBox[
-        RowBox[{
-         SuperscriptBox["Yd", 
-          StyleBox[
-           TemplateBox[{"i1_", "i2_"},
-            "RowDefault"],
-           FontSize->10]], "\[Rule]", 
-         SuperscriptBox["Yd", 
-          StyleBox[
-           TemplateBox[{"i1", "i2"},
-            "RowDefault"],
-           FontSize->10]]}], "StandardForm"]},
-      {
-       StyleBox[
-        RowBox[{
-         SuperscriptBox["Ye", 
-          StyleBox[
-           TemplateBox[{"i1_", "i2_"},
-            "RowDefault"],
-           FontSize->10]], "\[Rule]", 
-         SuperscriptBox["Ye", 
-          StyleBox[
-           TemplateBox[{"i1", "i2"},
-            "RowDefault"],
-           FontSize->10]]}], "StandardForm"]},
-      {
-       StyleBox[
-        RowBox[{
-         SuperscriptBox["Yu", 
-          StyleBox[
-           TemplateBox[{"i1_", "i2_"},
-            "RowDefault"],
-           FontSize->10]], "\[Rule]", 
-         SuperscriptBox["Yu", 
-          StyleBox[
-           TemplateBox[{"i1", "i2"},
-            "RowDefault"],
-           FontSize->10]]}], "StandardForm"]},
-      {
-       StyleBox[
-        RowBox[{"\[Lambda]", "\[Rule]", 
-         RowBox[{
-          FractionBox["1", "4"], 
-          SuperscriptBox[
-           SubscriptBox["c", 
-            RowBox[{"2", "\[Beta]"}]], "2"], " ", 
-          FormBox[
-           StyleBox[
-            RowBox[{"(", 
-             RowBox[{
-              SuperscriptBox[
-               SubscriptBox["g", "1"], "2"], "+", 
-              SuperscriptBox[
-               SubscriptBox["g", "2"], "2"]}], ")"}],
-            SpanSymmetric->False],
-           StandardForm]}]}], "StandardForm"]},
-      {
-       StyleBox[
-        RowBox[{"\[Mu]2", "\[Rule]", "cH2"}], "StandardForm"]},
-      {
-       StyleBox[
-        RowBox[{
-         SuperscriptBox["cdH", 
-          StyleBox[
-           TemplateBox[{"i1_", "i2_"},
-            "RowDefault"],
-           FontSize->10]], "\[Rule]", 
-         RowBox[{
-          FractionBox["1", "8"], 
-          SubscriptBox["s", 
-           RowBox[{"4", "\[Beta]"}]], 
-          SubscriptBox["s", "\[Beta]"], 
-          FractionBox["1", 
-           SuperscriptBox[
-            SubscriptBox["m", "\[CapitalPhi]"], "2"]], 
-          FractionBox["1", 
-           SubscriptBox["c", "\[Beta]"]], 
-          SuperscriptBox["Yd", 
-           StyleBox[
-            TemplateBox[{"i1", "i2"},
-             "RowDefault"],
-            FontSize->10]], " ", 
-          FormBox[
-           StyleBox[
-            RowBox[{"(", 
-             RowBox[{
-              SuperscriptBox[
-               SubscriptBox["g", "1"], "2"], "+", 
-              SuperscriptBox[
-               SubscriptBox["g", "2"], "2"]}], ")"}],
-            SpanSymmetric->False],
-           StandardForm]}]}], "StandardForm"]},
-      {
-       StyleBox[
-        RowBox[{
-         SuperscriptBox["ceH", 
-          StyleBox[
-           TemplateBox[{"i1_", "i2_"},
-            "RowDefault"],
-           FontSize->10]], "\[Rule]", 
-         RowBox[{
-          FractionBox["1", "8"], 
-          SubscriptBox["s", 
-           RowBox[{"4", "\[Beta]"}]], 
-          SubscriptBox["s", "\[Beta]"], 
-          FractionBox["1", 
-           SuperscriptBox[
-            SubscriptBox["m", "\[CapitalPhi]"], "2"]], 
-          FractionBox["1", 
-           SubscriptBox["c", "\[Beta]"]], 
-          SuperscriptBox["Ye", 
-           StyleBox[
-            TemplateBox[{"i1", "i2"},
-             "RowDefault"],
-            FontSize->10]], " ", 
-          FormBox[
-           StyleBox[
-            RowBox[{"(", 
-             RowBox[{
-              SuperscriptBox[
-               SubscriptBox["g", "1"], "2"], "+", 
-              SuperscriptBox[
-               SubscriptBox["g", "2"], "2"]}], ")"}],
-            SpanSymmetric->False],
-           StandardForm]}]}], "StandardForm"]},
-      {
-       StyleBox[
-        RowBox[{"cH", "\[Rule]", 
-         RowBox[{
-          FractionBox["1", "64"], 
-          FractionBox["1", 
-           SuperscriptBox[
-            SubscriptBox["m", "\[CapitalPhi]"], "2"]], 
-          SuperscriptBox[
-           SubscriptBox["s", 
-            RowBox[{"4", "\[Beta]"}]], "2"], 
-          SuperscriptBox[
-           RowBox[{"(", 
-            RowBox[{
-             SuperscriptBox[
-              SubscriptBox["g", "1"], "2"], "+", 
-             SuperscriptBox[
-              SubscriptBox["g", "2"], "2"]}], ")"}], "2"]}]}], "StandardForm"]},
-      {
-       StyleBox[
-        RowBox[{
-         SuperscriptBox["cle", 
-          StyleBox[
-           TemplateBox[{"i1_", "i2_", "i3_", "i4_"},
-            "RowDefault"],
-           FontSize->10]], "\[Rule]", 
-         RowBox[{"-", 
-          FractionBox["1", "2"], 
-          FractionBox["1", 
-           SuperscriptBox[
-            SubscriptBox["m", "\[CapitalPhi]"], "2"]], 
-          SuperscriptBox[
-           SubscriptBox["s", "\[Beta]"], "2"], 
-          FractionBox["1", 
-           SuperscriptBox[
-            SubscriptBox["c", "\[Beta]"], "2"]], 
-          SuperscriptBox[
-           OverscriptBox["Ye", 
-            StyleBox["_",
-             FontWeight->Bold]], 
-           StyleBox[
-            TemplateBox[{"i2", "i3"},
-             "RowDefault"],
-            FontSize->10]], 
-          SuperscriptBox["Ye", 
-           StyleBox[
-            TemplateBox[{"i1", "i4"},
-             "RowDefault"],
-            FontSize->10]]}]}], "StandardForm"]},
-      {
-       StyleBox[
-        RowBox[{
-         SuperscriptBox["cledq", 
-          StyleBox[
-           TemplateBox[{"i1_", "i2_", "i3_", "i4_"},
-            "RowDefault"],
-           FontSize->10]], "\[Rule]", 
-         RowBox[{
-          FractionBox["1", 
-           SuperscriptBox[
-            SubscriptBox["m", "\[CapitalPhi]"], "2"]], 
-          SuperscriptBox[
-           SubscriptBox["s", "\[Beta]"], "2"], 
-          FractionBox["1", 
-           SuperscriptBox[
-            SubscriptBox["c", "\[Beta]"], "2"]], 
-          SuperscriptBox[
-           OverscriptBox["Yd", 
-            StyleBox["_",
-             FontWeight->Bold]], 
-           StyleBox[
-            TemplateBox[{"i4", "i3"},
-             "RowDefault"],
-            FontSize->10]], 
-          SuperscriptBox["Ye", 
-           StyleBox[
-            TemplateBox[{"i1", "i2"},
-             "RowDefault"],
-            FontSize->10]]}]}], "StandardForm"]},
-      {
-       StyleBox[
-        RowBox[{
-         SuperscriptBox["clequ1", 
-          StyleBox[
-           TemplateBox[{"i1_", "i2_", "i3_", "i4_"},
-            "RowDefault"],
-           FontSize->10]], "\[Rule]", 
-         RowBox[{
-          FractionBox["1", 
-           SuperscriptBox[
-            SubscriptBox["m", "\[CapitalPhi]"], "2"]], 
-          SuperscriptBox["Ye", 
-           StyleBox[
-            TemplateBox[{"i1", "i2"},
-             "RowDefault"],
-            FontSize->10]], 
-          SuperscriptBox["Yu", 
-           StyleBox[
-            TemplateBox[{"i3", "i4"},
-             "RowDefault"],
-            FontSize->10]]}]}], "StandardForm"]},
-      {
-       StyleBox[
-        RowBox[{
-         SuperscriptBox["cqd1", 
-          StyleBox[
-           TemplateBox[{"i1_", "i2_", "i3_", "i4_"},
-            "RowDefault"],
-           FontSize->10]], "\[Rule]", 
-         RowBox[{"-", 
-          FractionBox["1", "6"], 
-          FractionBox["1", 
-           SuperscriptBox[
-            SubscriptBox["m", "\[CapitalPhi]"], "2"]], 
-          SuperscriptBox[
-           SubscriptBox["s", "\[Beta]"], "2"], 
-          FractionBox["1", 
-           SuperscriptBox[
-            SubscriptBox["c", "\[Beta]"], "2"]], 
-          SuperscriptBox[
-           OverscriptBox["Yd", 
-            StyleBox["_",
-             FontWeight->Bold]], 
-           StyleBox[
-            TemplateBox[{"i2", "i3"},
-             "RowDefault"],
-            FontSize->10]], 
-          SuperscriptBox["Yd", 
-           StyleBox[
-            TemplateBox[{"i1", "i4"},
-             "RowDefault"],
-            FontSize->10]]}]}], "StandardForm"]},
-      {
-       StyleBox[
-        RowBox[{
-         SuperscriptBox["cqd8", 
-          StyleBox[
-           TemplateBox[{"i1_", "i2_", "i3_", "i4_"},
-            "RowDefault"],
-           FontSize->10]], "\[Rule]", 
-         RowBox[{"-", 
-          FractionBox["1", 
-           SuperscriptBox[
-            SubscriptBox["m", "\[CapitalPhi]"], "2"]], 
-          SuperscriptBox[
-           SubscriptBox["s", "\[Beta]"], "2"], 
-          FractionBox["1", 
-           SuperscriptBox[
-            SubscriptBox["c", "\[Beta]"], "2"]], 
-          SuperscriptBox[
-           OverscriptBox["Yd", 
-            StyleBox["_",
-             FontWeight->Bold]], 
-           StyleBox[
-            TemplateBox[{"i2", "i3"},
-             "RowDefault"],
-            FontSize->10]], 
-          SuperscriptBox["Yd", 
-           StyleBox[
-            TemplateBox[{"i1", "i4"},
-             "RowDefault"],
-            FontSize->10]]}]}], "StandardForm"]},
-      {
-       StyleBox[
-        RowBox[{
-         SuperscriptBox["cqu1", 
-          StyleBox[
-           TemplateBox[{"i1_", "i2_", "i3_", "i4_"},
-            "RowDefault"],
-           FontSize->10]], "\[Rule]", 
-         RowBox[{"-", 
-          FractionBox["1", "6"], 
-          FractionBox["1", 
-           SuperscriptBox[
-            SubscriptBox["m", "\[CapitalPhi]"], "2"]], 
-          FractionBox["1", 
-           SuperscriptBox[
-            SubscriptBox["s", "\[Beta]"], "2"]], 
-          SuperscriptBox[
-           SubscriptBox["c", "\[Beta]"], "2"], 
-          SuperscriptBox[
-           OverscriptBox["Yu", 
-            StyleBox["_",
-             FontWeight->Bold]], 
-           StyleBox[
-            TemplateBox[{"i2", "i3"},
-             "RowDefault"],
-            FontSize->10]], 
-          SuperscriptBox["Yu", 
-           StyleBox[
-            TemplateBox[{"i1", "i4"},
-             "RowDefault"],
-            FontSize->10]]}]}], "StandardForm"]},
-      {
-       StyleBox[
-        RowBox[{
-         SuperscriptBox["cqu8", 
-          StyleBox[
-           TemplateBox[{"i1_", "i2_", "i3_", "i4_"},
-            "RowDefault"],
-           FontSize->10]], "\[Rule]", 
-         RowBox[{"-", 
-          FractionBox["1", 
-           SuperscriptBox[
-            SubscriptBox["m", "\[CapitalPhi]"], "2"]], 
-          FractionBox["1", 
-           SuperscriptBox[
-            SubscriptBox["s", "\[Beta]"], "2"]], 
-          SuperscriptBox[
-           SubscriptBox["c", "\[Beta]"], "2"], 
-          SuperscriptBox[
-           OverscriptBox["Yu", 
-            StyleBox["_",
-             FontWeight->Bold]], 
-           StyleBox[
-            TemplateBox[{"i2", "i3"},
-             "RowDefault"],
-            FontSize->10]], 
-          SuperscriptBox["Yu", 
-           StyleBox[
-            TemplateBox[{"i1", "i4"},
-             "RowDefault"],
-            FontSize->10]]}]}], "StandardForm"]},
-      {
-       StyleBox[
-        RowBox[{
-         SuperscriptBox["cquqd1", 
-          StyleBox[
-           TemplateBox[{"i1_", "i2_", "i3_", "i4_"},
-            "RowDefault"],
-           FontSize->10]], "\[Rule]", 
-         RowBox[{"-", 
-          FractionBox["1", 
-           SuperscriptBox[
-            SubscriptBox["m", "\[CapitalPhi]"], "2"]], 
-          SuperscriptBox["Yd", 
-           StyleBox[
-            TemplateBox[{"i3", "i4"},
-             "RowDefault"],
-            FontSize->10]], 
-          SuperscriptBox["Yu", 
-           StyleBox[
-            TemplateBox[{"i1", "i2"},
-             "RowDefault"],
-            FontSize->10]]}]}], "StandardForm"]},
-      {
-       StyleBox[
-        RowBox[{
-         SuperscriptBox["cuH", 
-          StyleBox[
-           TemplateBox[{"i1_", "i2_"},
-            "RowDefault"],
-           FontSize->10]], "\[Rule]", 
-         RowBox[{"-", 
-          FractionBox["1", "8"], 
-          SubscriptBox["s", 
-           RowBox[{"4", "\[Beta]"}]], 
-          SubscriptBox["c", "\[Beta]"], 
-          FractionBox["1", 
-           SuperscriptBox[
-            SubscriptBox["m", "\[CapitalPhi]"], "2"]], 
-          FractionBox["1", 
-           SubscriptBox["s", "\[Beta]"]], 
-          SuperscriptBox["Yu", 
-           StyleBox[
-            TemplateBox[{"i1", "i2"},
-             "RowDefault"],
-            FontSize->10]], " ", 
-          FormBox[
-           StyleBox[
-            RowBox[{"(", 
-             RowBox[{
-              SuperscriptBox[
-               SubscriptBox["g", "1"], "2"], "+", 
-              SuperscriptBox[
-               SubscriptBox["g", "2"], "2"]}], ")"}],
-            SpanSymmetric->False],
-           StandardForm]}]}], "StandardForm"]},
-      {
-       StyleBox[
-        RowBox[{
-         SuperscriptBox["Ye", 
-          StyleBox[
-           TemplateBox[{"i1_", "i2_"},
-            "RowDefault"],
-           FontSize->10]], "\[Rule]", 
-         RowBox[{
-          SubscriptBox["c", "\[Beta]"], 
-          SuperscriptBox[
-           SubscriptBox["y", "e"], 
-           StyleBox[
-            TemplateBox[{"i1", "i2"},
-             "RowDefault"],
-            FontSize->10]]}]}], "StandardForm"]},
-      {
-       StyleBox[
-        RowBox[{
-         SuperscriptBox["Yu", 
-          StyleBox[
-           TemplateBox[{"i1_", "i2_"},
-            "RowDefault"],
-           FontSize->10]], "\[Rule]", 
-         RowBox[{
-          SubscriptBox["s", "\[Beta]"], 
-          SuperscriptBox[
-           SubscriptBox["y", "u"], 
-           StyleBox[
-            TemplateBox[{"i1", "i2"},
-             "RowDefault"],
-            FontSize->10]]}]}], "StandardForm"]},
-      {
-       StyleBox[
-        RowBox[{
-         SuperscriptBox["Yd", 
-          StyleBox[
-           TemplateBox[{"i1_", "i2_"},
-            "RowDefault"],
-           FontSize->10]], "\[Rule]", 
-         RowBox[{
-          SubscriptBox["c", "\[Beta]"], 
-          SuperscriptBox[
-           SubscriptBox["y", "d"], 
-           StyleBox[
-            TemplateBox[{"i1", "i2"},
-             "RowDefault"],
-            FontSize->10]]}]}], "StandardForm"]},
-      {
-       StyleBox[
-        RowBox[{
-         SubscriptBox["g", "3"], "\[Rule]", 
-         SubscriptBox["g", "3"]}], "StandardForm"]},
-      {
-       StyleBox[
-        RowBox[{
-         SubscriptBox["g", "2"], "\[Rule]", 
-         SubscriptBox["g", "2"]}], "StandardForm"]},
-      {
-       StyleBox[
-        RowBox[{
-         SubscriptBox["g", "1"], "\[Rule]", 
-         SubscriptBox["g", "1"]}], "StandardForm"]},
-      {
-       StyleBox[
-        RowBox[{"cH2", "\[Rule]", 
-         RowBox[{"-", 
-          SubsuperscriptBox["m", "H", "2"]}]}], "StandardForm"]}
-     },
-     GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
-     GridBoxSpacings->{"Columns" -> {
-         Offset[0.27999999999999997`], {
-          Offset[0.5599999999999999]}, 
-         Offset[0.27999999999999997`]}, "Rows" -> {
-         Offset[0.2], {
-          Offset[0.4]}, 
-         Offset[0.2]}}],
-    Column],
-   Function[BoxForm`e$, 
-    TableForm[BoxForm`e$]]], Matchete`NiceForm]], "Output",
- CellChangeTimes->{
-  3.95448373388898*^9, 3.954483780591214*^9, {3.954483887535424*^9, 
-   3.954483936675029*^9}, 3.954484010764736*^9, 3.954484064704399*^9},
+         SuperscriptBox[
+          SubscriptBox["g", "1"], "2"], "+", 
+         SuperscriptBox[
+          SubscriptBox["g", "2"], "2"]}], ")"}],
+       SpanSymmetric->False],
+      StandardForm]}]}], "StandardForm"],
+  Format[#, Matchete`NiceForm]& ]], "Print",
+ CellChangeTimes->{3.9578633715582113`*^9, 3.9578634722195683`*^9, 
+  3.957864289644705*^9, 3.957864323767652*^9},
  CellLabel->
-  "Out[22]//NiceForm=",ExpressionUUID->"b36ae5d6-7d28-4971-8818-532bffaf3260"]
+  "During evaluation of \
+In[10]:=",ExpressionUUID->"131aaded-d315-4836-821d-8db4967101ab"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   RowBox[{
+    SuperscriptBox["ceH", 
+     StyleBox[
+      TemplateBox[{"i1_", "i2_"},
+       "RowDefault"],
+      FontSize->10]], "\[Rule]", 
+    RowBox[{
+     FractionBox["1", "8"], 
+     SubscriptBox["s", 
+      RowBox[{"4", "\[Beta]"}]], 
+     SubscriptBox["s", "\[Beta]"], 
+     FractionBox["1", 
+      SuperscriptBox[
+       SubscriptBox["m", "\[CapitalPhi]"], "2"]], 
+     FractionBox["1", 
+      SubscriptBox["c", "\[Beta]"]], 
+     SuperscriptBox["Ye", 
+      StyleBox[
+       TemplateBox[{"i1", "i2"},
+        "RowDefault"],
+       FontSize->10]], " ", 
+     FormBox[
+      StyleBox[
+       RowBox[{"(", 
+        RowBox[{
+         SuperscriptBox[
+          SubscriptBox["g", "1"], "2"], "+", 
+         SuperscriptBox[
+          SubscriptBox["g", "2"], "2"]}], ")"}],
+       SpanSymmetric->False],
+      StandardForm]}]}], "StandardForm"],
+  Format[#, Matchete`NiceForm]& ]], "Print",
+ CellChangeTimes->{3.9578633715582113`*^9, 3.9578634722195683`*^9, 
+  3.957864289644705*^9, 3.957864323770049*^9},
+ CellLabel->
+  "During evaluation of \
+In[10]:=",ExpressionUUID->"63a65bc9-db6b-4dcc-9e66-aef7e13a8ced"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   RowBox[{"cH", "\[Rule]", 
+    RowBox[{
+     FractionBox["1", "64"], 
+     FractionBox["1", 
+      SuperscriptBox[
+       SubscriptBox["m", "\[CapitalPhi]"], "2"]], 
+     SuperscriptBox[
+      SubscriptBox["s", 
+       RowBox[{"4", "\[Beta]"}]], "2"], 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{
+        SuperscriptBox[
+         SubscriptBox["g", "1"], "2"], "+", 
+        SuperscriptBox[
+         SubscriptBox["g", "2"], "2"]}], ")"}], "2"]}]}], "StandardForm"],
+  Format[#, Matchete`NiceForm]& ]], "Print",
+ CellChangeTimes->{3.9578633715582113`*^9, 3.9578634722195683`*^9, 
+  3.957864289644705*^9, 3.957864323772155*^9},
+ CellLabel->
+  "During evaluation of \
+In[10]:=",ExpressionUUID->"66fb8a7f-e757-4a4f-a124-60191d2a78de"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   RowBox[{"cH2", "\[Rule]", 
+    RowBox[{"-", 
+     SubsuperscriptBox["m", "H", "2"]}]}], "StandardForm"],
+  Format[#, Matchete`NiceForm]& ]], "Print",
+ CellChangeTimes->{3.9578633715582113`*^9, 3.9578634722195683`*^9, 
+  3.957864289644705*^9, 3.957864323773369*^9},
+ CellLabel->
+  "During evaluation of \
+In[10]:=",ExpressionUUID->"a89e32c2-bf81-4c6a-a800-7bfa78865b6d"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   RowBox[{
+    SuperscriptBox["cle", 
+     StyleBox[
+      TemplateBox[{"i1_", "i2_", "i3_", "i4_"},
+       "RowDefault"],
+      FontSize->10]], "\[Rule]", 
+    RowBox[{"-", 
+     FractionBox["1", "2"], 
+     FractionBox["1", 
+      SuperscriptBox[
+       SubscriptBox["m", "\[CapitalPhi]"], "2"]], 
+     SuperscriptBox[
+      SubscriptBox["s", "\[Beta]"], "2"], 
+     FractionBox["1", 
+      SuperscriptBox[
+       SubscriptBox["c", "\[Beta]"], "2"]], 
+     SuperscriptBox[
+      OverscriptBox["Ye", 
+       StyleBox["_",
+        FontWeight->Bold]], 
+      StyleBox[
+       TemplateBox[{"i2", "i3"},
+        "RowDefault"],
+       FontSize->10]], 
+     SuperscriptBox["Ye", 
+      StyleBox[
+       TemplateBox[{"i1", "i4"},
+        "RowDefault"],
+       FontSize->10]]}]}], "StandardForm"],
+  Format[#, Matchete`NiceForm]& ]], "Print",
+ CellChangeTimes->{3.9578633715582113`*^9, 3.9578634722195683`*^9, 
+  3.957864289644705*^9, 3.957864323774541*^9},
+ CellLabel->
+  "During evaluation of \
+In[10]:=",ExpressionUUID->"b79678c9-0375-44bc-83cf-cfd7e3726459"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   RowBox[{
+    SuperscriptBox["cledq", 
+     StyleBox[
+      TemplateBox[{"i1_", "i2_", "i3_", "i4_"},
+       "RowDefault"],
+      FontSize->10]], "\[Rule]", 
+    RowBox[{
+     FractionBox["1", 
+      SuperscriptBox[
+       SubscriptBox["m", "\[CapitalPhi]"], "2"]], 
+     SuperscriptBox[
+      SubscriptBox["s", "\[Beta]"], "2"], 
+     FractionBox["1", 
+      SuperscriptBox[
+       SubscriptBox["c", "\[Beta]"], "2"]], 
+     SuperscriptBox[
+      OverscriptBox["Yd", 
+       StyleBox["_",
+        FontWeight->Bold]], 
+      StyleBox[
+       TemplateBox[{"i4", "i3"},
+        "RowDefault"],
+       FontSize->10]], 
+     SuperscriptBox["Ye", 
+      StyleBox[
+       TemplateBox[{"i1", "i2"},
+        "RowDefault"],
+       FontSize->10]]}]}], "StandardForm"],
+  Format[#, Matchete`NiceForm]& ]], "Print",
+ CellChangeTimes->{3.9578633715582113`*^9, 3.9578634722195683`*^9, 
+  3.957864289644705*^9, 3.957864323775961*^9},
+ CellLabel->
+  "During evaluation of \
+In[10]:=",ExpressionUUID->"783e23b6-0973-4ae3-8e60-0f7ef2a0d2a3"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   RowBox[{
+    SuperscriptBox["clequ1", 
+     StyleBox[
+      TemplateBox[{"i1_", "i2_", "i3_", "i4_"},
+       "RowDefault"],
+      FontSize->10]], "\[Rule]", 
+    RowBox[{
+     FractionBox["1", 
+      SuperscriptBox[
+       SubscriptBox["m", "\[CapitalPhi]"], "2"]], 
+     SuperscriptBox["Ye", 
+      StyleBox[
+       TemplateBox[{"i1", "i2"},
+        "RowDefault"],
+       FontSize->10]], 
+     SuperscriptBox["Yu", 
+      StyleBox[
+       TemplateBox[{"i3", "i4"},
+        "RowDefault"],
+       FontSize->10]]}]}], "StandardForm"],
+  Format[#, Matchete`NiceForm]& ]], "Print",
+ CellChangeTimes->{3.9578633715582113`*^9, 3.9578634722195683`*^9, 
+  3.957864289644705*^9, 3.957864323777268*^9},
+ CellLabel->
+  "During evaluation of \
+In[10]:=",ExpressionUUID->"0a232e62-639b-4f87-9cd7-7659ed5abb19"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   RowBox[{
+    SuperscriptBox["cqd1", 
+     StyleBox[
+      TemplateBox[{"i1_", "i2_", "i3_", "i4_"},
+       "RowDefault"],
+      FontSize->10]], "\[Rule]", 
+    RowBox[{"-", 
+     FractionBox["1", "6"], 
+     FractionBox["1", 
+      SuperscriptBox[
+       SubscriptBox["m", "\[CapitalPhi]"], "2"]], 
+     SuperscriptBox[
+      SubscriptBox["s", "\[Beta]"], "2"], 
+     FractionBox["1", 
+      SuperscriptBox[
+       SubscriptBox["c", "\[Beta]"], "2"]], 
+     SuperscriptBox[
+      OverscriptBox["Yd", 
+       StyleBox["_",
+        FontWeight->Bold]], 
+      StyleBox[
+       TemplateBox[{"i2", "i3"},
+        "RowDefault"],
+       FontSize->10]], 
+     SuperscriptBox["Yd", 
+      StyleBox[
+       TemplateBox[{"i1", "i4"},
+        "RowDefault"],
+       FontSize->10]]}]}], "StandardForm"],
+  Format[#, Matchete`NiceForm]& ]], "Print",
+ CellChangeTimes->{3.9578633715582113`*^9, 3.9578634722195683`*^9, 
+  3.957864289644705*^9, 3.957864323778616*^9},
+ CellLabel->
+  "During evaluation of \
+In[10]:=",ExpressionUUID->"3c502cb5-6580-49aa-8bf0-daf59dd94039"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   RowBox[{
+    SuperscriptBox["cqd8", 
+     StyleBox[
+      TemplateBox[{"i1_", "i2_", "i3_", "i4_"},
+       "RowDefault"],
+      FontSize->10]], "\[Rule]", 
+    RowBox[{"-", 
+     FractionBox["1", 
+      SuperscriptBox[
+       SubscriptBox["m", "\[CapitalPhi]"], "2"]], 
+     SuperscriptBox[
+      SubscriptBox["s", "\[Beta]"], "2"], 
+     FractionBox["1", 
+      SuperscriptBox[
+       SubscriptBox["c", "\[Beta]"], "2"]], 
+     SuperscriptBox[
+      OverscriptBox["Yd", 
+       StyleBox["_",
+        FontWeight->Bold]], 
+      StyleBox[
+       TemplateBox[{"i2", "i3"},
+        "RowDefault"],
+       FontSize->10]], 
+     SuperscriptBox["Yd", 
+      StyleBox[
+       TemplateBox[{"i1", "i4"},
+        "RowDefault"],
+       FontSize->10]]}]}], "StandardForm"],
+  Format[#, Matchete`NiceForm]& ]], "Print",
+ CellChangeTimes->{3.9578633715582113`*^9, 3.9578634722195683`*^9, 
+  3.957864289644705*^9, 3.957864323780055*^9},
+ CellLabel->
+  "During evaluation of \
+In[10]:=",ExpressionUUID->"66778839-5016-4a58-9c4b-36592915533e"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   RowBox[{
+    SuperscriptBox["cqu1", 
+     StyleBox[
+      TemplateBox[{"i1_", "i2_", "i3_", "i4_"},
+       "RowDefault"],
+      FontSize->10]], "\[Rule]", 
+    RowBox[{"-", 
+     FractionBox["1", "6"], 
+     FractionBox["1", 
+      SuperscriptBox[
+       SubscriptBox["m", "\[CapitalPhi]"], "2"]], 
+     FractionBox["1", 
+      SuperscriptBox[
+       SubscriptBox["s", "\[Beta]"], "2"]], 
+     SuperscriptBox[
+      SubscriptBox["c", "\[Beta]"], "2"], 
+     SuperscriptBox[
+      OverscriptBox["Yu", 
+       StyleBox["_",
+        FontWeight->Bold]], 
+      StyleBox[
+       TemplateBox[{"i2", "i3"},
+        "RowDefault"],
+       FontSize->10]], 
+     SuperscriptBox["Yu", 
+      StyleBox[
+       TemplateBox[{"i1", "i4"},
+        "RowDefault"],
+       FontSize->10]]}]}], "StandardForm"],
+  Format[#, Matchete`NiceForm]& ]], "Print",
+ CellChangeTimes->{3.9578633715582113`*^9, 3.9578634722195683`*^9, 
+  3.957864289644705*^9, 3.9578643237815332`*^9},
+ CellLabel->
+  "During evaluation of \
+In[10]:=",ExpressionUUID->"13b4fda9-a113-42d1-9a00-660ec5af5922"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   RowBox[{
+    SuperscriptBox["cqu8", 
+     StyleBox[
+      TemplateBox[{"i1_", "i2_", "i3_", "i4_"},
+       "RowDefault"],
+      FontSize->10]], "\[Rule]", 
+    RowBox[{"-", 
+     FractionBox["1", 
+      SuperscriptBox[
+       SubscriptBox["m", "\[CapitalPhi]"], "2"]], 
+     FractionBox["1", 
+      SuperscriptBox[
+       SubscriptBox["s", "\[Beta]"], "2"]], 
+     SuperscriptBox[
+      SubscriptBox["c", "\[Beta]"], "2"], 
+     SuperscriptBox[
+      OverscriptBox["Yu", 
+       StyleBox["_",
+        FontWeight->Bold]], 
+      StyleBox[
+       TemplateBox[{"i2", "i3"},
+        "RowDefault"],
+       FontSize->10]], 
+     SuperscriptBox["Yu", 
+      StyleBox[
+       TemplateBox[{"i1", "i4"},
+        "RowDefault"],
+       FontSize->10]]}]}], "StandardForm"],
+  Format[#, Matchete`NiceForm]& ]], "Print",
+ CellChangeTimes->{3.9578633715582113`*^9, 3.9578634722195683`*^9, 
+  3.957864289644705*^9, 3.957864323783011*^9},
+ CellLabel->
+  "During evaluation of \
+In[10]:=",ExpressionUUID->"d1da2f3c-2e23-4560-b467-63801fedfe05"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   RowBox[{
+    SuperscriptBox["cquqd1", 
+     StyleBox[
+      TemplateBox[{"i1_", "i2_", "i3_", "i4_"},
+       "RowDefault"],
+      FontSize->10]], "\[Rule]", 
+    RowBox[{"-", 
+     FractionBox["1", 
+      SuperscriptBox[
+       SubscriptBox["m", "\[CapitalPhi]"], "2"]], 
+     SuperscriptBox["Yd", 
+      StyleBox[
+       TemplateBox[{"i3", "i4"},
+        "RowDefault"],
+       FontSize->10]], 
+     SuperscriptBox["Yu", 
+      StyleBox[
+       TemplateBox[{"i1", "i2"},
+        "RowDefault"],
+       FontSize->10]]}]}], "StandardForm"],
+  Format[#, Matchete`NiceForm]& ]], "Print",
+ CellChangeTimes->{3.9578633715582113`*^9, 3.9578634722195683`*^9, 
+  3.957864289644705*^9, 3.957864323784275*^9},
+ CellLabel->
+  "During evaluation of \
+In[10]:=",ExpressionUUID->"0e84bf32-6dde-4a05-90d5-20101627b8a6"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   RowBox[{
+    SuperscriptBox["cuH", 
+     StyleBox[
+      TemplateBox[{"i1_", "i2_"},
+       "RowDefault"],
+      FontSize->10]], "\[Rule]", 
+    RowBox[{"-", 
+     FractionBox["1", "8"], 
+     SubscriptBox["s", 
+      RowBox[{"4", "\[Beta]"}]], 
+     SubscriptBox["c", "\[Beta]"], 
+     FractionBox["1", 
+      SuperscriptBox[
+       SubscriptBox["m", "\[CapitalPhi]"], "2"]], 
+     FractionBox["1", 
+      SubscriptBox["s", "\[Beta]"]], 
+     SuperscriptBox["Yu", 
+      StyleBox[
+       TemplateBox[{"i1", "i2"},
+        "RowDefault"],
+       FontSize->10]], " ", 
+     FormBox[
+      StyleBox[
+       RowBox[{"(", 
+        RowBox[{
+         SuperscriptBox[
+          SubscriptBox["g", "1"], "2"], "+", 
+         SuperscriptBox[
+          SubscriptBox["g", "2"], "2"]}], ")"}],
+       SpanSymmetric->False],
+      StandardForm]}]}], "StandardForm"],
+  Format[#, Matchete`NiceForm]& ]], "Print",
+ CellChangeTimes->{3.9578633715582113`*^9, 3.9578634722195683`*^9, 
+  3.957864289644705*^9, 3.957864323785709*^9},
+ CellLabel->
+  "During evaluation of \
+In[10]:=",ExpressionUUID->"46812c62-6885-45f2-865e-9ac302d7a931"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   RowBox[{
+    SubscriptBox["g", "1"], "\[Rule]", 
+    SubscriptBox["g", "1"]}], "StandardForm"],
+  Format[#, Matchete`NiceForm]& ]], "Print",
+ CellChangeTimes->{3.9578633715582113`*^9, 3.9578634722195683`*^9, 
+  3.957864289644705*^9, 3.957864323787079*^9},
+ CellLabel->
+  "During evaluation of \
+In[10]:=",ExpressionUUID->"907cd2cb-3a1d-49d9-befe-19855716f089"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   RowBox[{
+    SubscriptBox["g", "1"], "\[Rule]", 
+    SubscriptBox["g", "1"]}], "StandardForm"],
+  Format[#, Matchete`NiceForm]& ]], "Print",
+ CellChangeTimes->{3.9578633715582113`*^9, 3.9578634722195683`*^9, 
+  3.957864289644705*^9, 3.957864323788118*^9},
+ CellLabel->
+  "During evaluation of \
+In[10]:=",ExpressionUUID->"d8ce0b8e-e65a-4388-a571-fc5eb032328f"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   RowBox[{
+    SubscriptBox["g", "2"], "\[Rule]", 
+    SubscriptBox["g", "2"]}], "StandardForm"],
+  Format[#, Matchete`NiceForm]& ]], "Print",
+ CellChangeTimes->{3.9578633715582113`*^9, 3.9578634722195683`*^9, 
+  3.957864289644705*^9, 3.957864323789133*^9},
+ CellLabel->
+  "During evaluation of \
+In[10]:=",ExpressionUUID->"56244119-b201-4da6-9df0-43d7ef8e00de"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   RowBox[{
+    SubscriptBox["g", "2"], "\[Rule]", 
+    SubscriptBox["g", "2"]}], "StandardForm"],
+  Format[#, Matchete`NiceForm]& ]], "Print",
+ CellChangeTimes->{3.9578633715582113`*^9, 3.9578634722195683`*^9, 
+  3.957864289644705*^9, 3.957864323790206*^9},
+ CellLabel->
+  "During evaluation of \
+In[10]:=",ExpressionUUID->"920a2a5d-3843-4a92-899d-4c621d3527f2"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   RowBox[{
+    SubscriptBox["g", "3"], "\[Rule]", 
+    SubscriptBox["g", "3"]}], "StandardForm"],
+  Format[#, Matchete`NiceForm]& ]], "Print",
+ CellChangeTimes->{3.9578633715582113`*^9, 3.9578634722195683`*^9, 
+  3.957864289644705*^9, 3.957864323791308*^9},
+ CellLabel->
+  "During evaluation of \
+In[10]:=",ExpressionUUID->"31f08da8-16d0-49b1-a1c1-2832459a2239"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   RowBox[{
+    SubscriptBox["g", "3"], "\[Rule]", 
+    SubscriptBox["g", "3"]}], "StandardForm"],
+  Format[#, Matchete`NiceForm]& ]], "Print",
+ CellChangeTimes->{3.9578633715582113`*^9, 3.9578634722195683`*^9, 
+  3.957864289644705*^9, 3.957864323792368*^9},
+ CellLabel->
+  "During evaluation of \
+In[10]:=",ExpressionUUID->"8ec95623-ae2b-43d9-b79e-c24490c4a09d"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   RowBox[{
+    SuperscriptBox["Yd", 
+     StyleBox[
+      TemplateBox[{"i1_", "i2_"},
+       "RowDefault"],
+      FontSize->10]], "\[Rule]", 
+    RowBox[{
+     SubscriptBox["c", "\[Beta]"], 
+     SuperscriptBox[
+      SubscriptBox["y", "d"], 
+      StyleBox[
+       TemplateBox[{"i1", "i2"},
+        "RowDefault"],
+       FontSize->10]]}]}], "StandardForm"],
+  Format[#, Matchete`NiceForm]& ]], "Print",
+ CellChangeTimes->{3.9578633715582113`*^9, 3.9578634722195683`*^9, 
+  3.957864289644705*^9, 3.957864323793427*^9},
+ CellLabel->
+  "During evaluation of \
+In[10]:=",ExpressionUUID->"6dba675a-e954-484a-8fb5-d6b1b1bd1b88"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   RowBox[{
+    SuperscriptBox["Yd", 
+     StyleBox[
+      TemplateBox[{"i1_", "i2_"},
+       "RowDefault"],
+      FontSize->10]], "\[Rule]", 
+    SuperscriptBox["Yd", 
+     StyleBox[
+      TemplateBox[{"i1", "i2"},
+       "RowDefault"],
+      FontSize->10]]}], "StandardForm"],
+  Format[#, Matchete`NiceForm]& ]], "Print",
+ CellChangeTimes->{3.9578633715582113`*^9, 3.9578634722195683`*^9, 
+  3.957864289644705*^9, 3.95786432379445*^9},
+ CellLabel->
+  "During evaluation of \
+In[10]:=",ExpressionUUID->"72a11359-d1bf-4d5f-b064-034cf82e265f"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   RowBox[{
+    SuperscriptBox["Ye", 
+     StyleBox[
+      TemplateBox[{"i1_", "i2_"},
+       "RowDefault"],
+      FontSize->10]], "\[Rule]", 
+    RowBox[{
+     SubscriptBox["c", "\[Beta]"], 
+     SuperscriptBox[
+      SubscriptBox["y", "e"], 
+      StyleBox[
+       TemplateBox[{"i1", "i2"},
+        "RowDefault"],
+       FontSize->10]]}]}], "StandardForm"],
+  Format[#, Matchete`NiceForm]& ]], "Print",
+ CellChangeTimes->{3.9578633715582113`*^9, 3.9578634722195683`*^9, 
+  3.957864289644705*^9, 3.957864323795573*^9},
+ CellLabel->
+  "During evaluation of \
+In[10]:=",ExpressionUUID->"cab9fd39-3db8-4f54-84ae-37faa46f6e37"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   RowBox[{
+    SuperscriptBox["Ye", 
+     StyleBox[
+      TemplateBox[{"i1_", "i2_"},
+       "RowDefault"],
+      FontSize->10]], "\[Rule]", 
+    SuperscriptBox["Ye", 
+     StyleBox[
+      TemplateBox[{"i1", "i2"},
+       "RowDefault"],
+      FontSize->10]]}], "StandardForm"],
+  Format[#, Matchete`NiceForm]& ]], "Print",
+ CellChangeTimes->{3.9578633715582113`*^9, 3.9578634722195683`*^9, 
+  3.957864289644705*^9, 3.957864323796639*^9},
+ CellLabel->
+  "During evaluation of \
+In[10]:=",ExpressionUUID->"efe9e702-e6dc-4927-aafc-f721f046a047"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   RowBox[{
+    SuperscriptBox["Yu", 
+     StyleBox[
+      TemplateBox[{"i1_", "i2_"},
+       "RowDefault"],
+      FontSize->10]], "\[Rule]", 
+    RowBox[{
+     SubscriptBox["s", "\[Beta]"], 
+     SuperscriptBox[
+      SubscriptBox["y", "u"], 
+      StyleBox[
+       TemplateBox[{"i1", "i2"},
+        "RowDefault"],
+       FontSize->10]]}]}], "StandardForm"],
+  Format[#, Matchete`NiceForm]& ]], "Print",
+ CellChangeTimes->{3.9578633715582113`*^9, 3.9578634722195683`*^9, 
+  3.957864289644705*^9, 3.957864323797785*^9},
+ CellLabel->
+  "During evaluation of \
+In[10]:=",ExpressionUUID->"fb2608bf-2821-4c12-b3b9-02f3f8e34c13"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   RowBox[{
+    SuperscriptBox["Yu", 
+     StyleBox[
+      TemplateBox[{"i1_", "i2_"},
+       "RowDefault"],
+      FontSize->10]], "\[Rule]", 
+    SuperscriptBox["Yu", 
+     StyleBox[
+      TemplateBox[{"i1", "i2"},
+       "RowDefault"],
+      FontSize->10]]}], "StandardForm"],
+  Format[#, Matchete`NiceForm]& ]], "Print",
+ CellChangeTimes->{3.9578633715582113`*^9, 3.9578634722195683`*^9, 
+  3.957864289644705*^9, 3.9578643237988443`*^9},
+ CellLabel->
+  "During evaluation of \
+In[10]:=",ExpressionUUID->"86f32e7d-c982-4867-8329-497b5022dc9d"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   RowBox[{"\[Lambda]", "\[Rule]", 
+    RowBox[{
+     FractionBox["1", "4"], 
+     SuperscriptBox[
+      SubscriptBox["c", 
+       RowBox[{"2", "\[Beta]"}]], "2"], " ", 
+     FormBox[
+      StyleBox[
+       RowBox[{"(", 
+        RowBox[{
+         SuperscriptBox[
+          SubscriptBox["g", "1"], "2"], "+", 
+         SuperscriptBox[
+          SubscriptBox["g", "2"], "2"]}], ")"}],
+       SpanSymmetric->False],
+      StandardForm]}]}], "StandardForm"],
+  Format[#, Matchete`NiceForm]& ]], "Print",
+ CellChangeTimes->{3.9578633715582113`*^9, 3.9578634722195683`*^9, 
+  3.957864289644705*^9, 3.957864323800089*^9},
+ CellLabel->
+  "During evaluation of \
+In[10]:=",ExpressionUUID->"7da4417e-c4fe-4712-9992-c5bc6e9bd4f2"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   RowBox[{"\[Mu]2", "\[Rule]", "cH2"}], "StandardForm"],
+  Format[#, Matchete`NiceForm]& ]], "Print",
+ CellChangeTimes->{3.9578633715582113`*^9, 3.9578634722195683`*^9, 
+  3.957864289644705*^9, 3.957864323801309*^9},
+ CellLabel->
+  "During evaluation of \
+In[10]:=",ExpressionUUID->"fecf54da-9e10-4d27-a8bf-3b953e64b0c8"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{604.5, 761.25},
+Evaluator->"Second",
+WindowSize->{690.75, 761.25},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
 TaggingRules->{
  "WelcomeScreenSettings" -> {"FEStarting" -> False}, "TryRealOnly" -> False},
+CellContext->Notebook,
 FrontEndVersion->"14.1 for Linux x86 (64-bit) (July 16, 2024)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"8ea430de-a557-4ddd-a6b6-6364c81dfc33"
@@ -932,26 +1139,54 @@ Notebook[{
 Cell[CellGroupData[{
 Cell[580, 22, 509, 7, 157, "Title",ExpressionUUID->"f5b75410-5c00-4c1a-a73a-982416345878"],
 Cell[1092, 31, 218, 3, 29, "Input",ExpressionUUID->"0bf0660d-6f5e-4145-a688-13e6230b5cd5"],
-Cell[1313, 36, 8124, 129, 51, InheritFromParent,ExpressionUUID->"0673c409-71b0-4393-b6e8-153d5b966ac1"],
-Cell[9440, 167, 1301, 27, 79, "Print",ExpressionUUID->"224f2fdc-98f1-46c1-863c-3a7691c1b634"],
-Cell[10744, 196, 411, 8, 29, "Input",ExpressionUUID->"00ddabe2-a6ec-46d0-a342-5ac0f4a8b9b8"],
+Cell[1313, 36, 8124, 129, 51, InheritFromParent,ExpressionUUID->"364de746-e7df-41d1-a2aa-2a99664612f0"],
+Cell[9440, 167, 1127, 24, 79, "Print",ExpressionUUID->"aa0e8dc7-f2e2-49d3-8282-ef2e2bdc9485"],
+Cell[10570, 193, 411, 8, 29, "Input",ExpressionUUID->"00ddabe2-a6ec-46d0-a342-5ac0f4a8b9b8"],
 Cell[CellGroupData[{
-Cell[11180, 208, 218, 4, 29, "Input",ExpressionUUID->"a62278c7-bee2-45ef-bead-80fd43f814ce"],
-Cell[11401, 214, 683, 13, 24, "Echo",ExpressionUUID->"7d56e0a1-742b-4b4f-aa2f-51471b1469ac"]
+Cell[11006, 205, 218, 4, 29, "Input",ExpressionUUID->"a62278c7-bee2-45ef-bead-80fd43f814ce"],
+Cell[11227, 211, 683, 13, 24, "Echo",ExpressionUUID->"a398d55e-9839-4900-8448-2298f89a636d"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[12121, 232, 222, 4, 65, "Section",ExpressionUUID->"dd498b19-a681-4cab-99a2-300396abaf36"],
-Cell[12346, 238, 618, 13, 49, "Input",ExpressionUUID->"e1e7e026-d84d-4eff-b4d8-3283391c61e5"]
+Cell[11947, 229, 222, 4, 65, "Section",ExpressionUUID->"dd498b19-a681-4cab-99a2-300396abaf36"],
+Cell[12172, 235, 618, 13, 29, "Input",ExpressionUUID->"e1e7e026-d84d-4eff-b4d8-3283391c61e5"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[13001, 256, 391, 7, 102, "Section",ExpressionUUID->"53066d9e-6e63-49cd-ba27-eff437343e41"],
-Cell[13395, 265, 492, 12, 69, "Input",ExpressionUUID->"79a27bfd-17e7-436c-af5f-5ad835408887"],
-Cell[13890, 279, 338, 8, 29, "Input",ExpressionUUID->"97824fc8-1479-4c71-94d1-07cc8ac064f7"],
-Cell[14231, 289, 3093, 89, 213, "Input",ExpressionUUID->"527ba201-b3ec-4bad-8728-b6782812ad7a"],
-Cell[17327, 380, 367, 8, 29, "Input",ExpressionUUID->"1552d73e-c4b4-4f61-839d-75fb25c268b1"],
+Cell[12827, 253, 391, 7, 102, "Section",ExpressionUUID->"53066d9e-6e63-49cd-ba27-eff437343e41"],
+Cell[13221, 262, 492, 12, 49, "Input",ExpressionUUID->"79a27bfd-17e7-436c-af5f-5ad835408887"],
+Cell[13716, 276, 356, 7, 29, "Input",ExpressionUUID->"97824fc8-1479-4c71-94d1-07cc8ac064f7"],
+Cell[14075, 285, 3141, 90, 213, "Input",ExpressionUUID->"527ba201-b3ec-4bad-8728-b6782812ad7a"],
+Cell[17219, 377, 451, 10, 29, "Input",ExpressionUUID->"1552d73e-c4b4-4f61-839d-75fb25c268b1"],
 Cell[CellGroupData[{
-Cell[17719, 392, 284, 6, 29, "Input",ExpressionUUID->"b2e3c23d-e876-4590-aa95-eedc769829f5"],
-Cell[18006, 400, 15504, 507, 736, "Output",ExpressionUUID->"b36ae5d6-7d28-4971-8818-532bffaf3260"]
+Cell[17695, 391, 604, 15, 49, "Input",ExpressionUUID->"b2e3c23d-e876-4590-aa95-eedc769829f5"],
+Cell[CellGroupData[{
+Cell[18324, 410, 1149, 39, 40, "Print",ExpressionUUID->"131aaded-d315-4836-821d-8db4967101ab"],
+Cell[19476, 451, 1149, 39, 40, "Print",ExpressionUUID->"63a65bc9-db6b-4dcc-9e66-aef7e13a8ced"],
+Cell[20628, 492, 779, 24, 38, "Print",ExpressionUUID->"66fb8a7f-e757-4a4f-a124-60191d2a78de"],
+Cell[21410, 518, 407, 11, 23, "Print",ExpressionUUID->"a89e32c2-bf81-4c6a-a800-7bfa78865b6d"],
+Cell[21820, 531, 1091, 37, 40, "Print",ExpressionUUID->"b79678c9-0375-44bc-83cf-cfd7e3726459"],
+Cell[22914, 570, 1059, 36, 40, "Print",ExpressionUUID->"783e23b6-0973-4ae3-8e60-0f7ef2a0d2a3"],
+Cell[23976, 608, 835, 28, 38, "Print",ExpressionUUID->"0a232e62-639b-4f87-9cd7-7659ed5abb19"],
+Cell[24814, 638, 1092, 37, 40, "Print",ExpressionUUID->"3c502cb5-6580-49aa-8bf0-daf59dd94039"],
+Cell[25909, 677, 1063, 36, 40, "Print",ExpressionUUID->"66778839-5016-4a58-9c4b-36592915533e"],
+Cell[26975, 715, 1094, 37, 40, "Print",ExpressionUUID->"13b4fda9-a113-42d1-9a00-660ec5af5922"],
+Cell[28072, 754, 1063, 36, 40, "Print",ExpressionUUID->"d1da2f3c-2e23-4560-b467-63801fedfe05"],
+Cell[29138, 792, 840, 28, 38, "Print",ExpressionUUID->"0e84bf32-6dde-4a05-90d5-20101627b8a6"],
+Cell[29981, 822, 1154, 39, 40, "Print",ExpressionUUID->"46812c62-6885-45f2-865e-9ac302d7a931"],
+Cell[31138, 863, 398, 11, 23, "Print",ExpressionUUID->"907cd2cb-3a1d-49d9-befe-19855716f089"],
+Cell[31539, 876, 398, 11, 23, "Print",ExpressionUUID->"d8ce0b8e-e65a-4388-a571-fc5eb032328f"],
+Cell[31940, 889, 398, 11, 23, "Print",ExpressionUUID->"56244119-b201-4da6-9df0-43d7ef8e00de"],
+Cell[32341, 902, 398, 11, 23, "Print",ExpressionUUID->"920a2a5d-3843-4a92-899d-4c621d3527f2"],
+Cell[32742, 915, 398, 11, 23, "Print",ExpressionUUID->"31f08da8-16d0-49b1-a1c1-2832459a2239"],
+Cell[33143, 928, 398, 11, 23, "Print",ExpressionUUID->"8ec95623-ae2b-43d9-b79e-c24490c4a09d"],
+Cell[33544, 941, 659, 22, 24, "Print",ExpressionUUID->"6dba675a-e954-484a-8fb5-d6b1b1bd1b88"],
+Cell[34206, 965, 577, 19, 23, "Print",ExpressionUUID->"72a11359-d1bf-4d5f-b064-034cf82e265f"],
+Cell[34786, 986, 659, 22, 24, "Print",ExpressionUUID->"cab9fd39-3db8-4f54-84ae-37faa46f6e37"],
+Cell[35448, 1010, 578, 19, 23, "Print",ExpressionUUID->"efe9e702-e6dc-4927-aafc-f721f046a047"],
+Cell[36029, 1031, 659, 22, 24, "Print",ExpressionUUID->"fb2608bf-2821-4c12-b3b9-02f3f8e34c13"],
+Cell[36691, 1055, 580, 19, 23, "Print",ExpressionUUID->"86f32e7d-c982-4867-8329-497b5022dc9d"],
+Cell[37274, 1076, 754, 24, 35, "Print",ExpressionUUID->"7da4417e-c4fe-4712-9992-c5bc6e9bd4f2"],
+Cell[38031, 1102, 357, 9, 23, "Print",ExpressionUUID->"fecf54da-9e10-4d27-a8bf-3b953e64b0c8"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
