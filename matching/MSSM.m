@@ -5,8 +5,8 @@
 
 
 (* ::Subtitle:: *)
-(*Works  on  Matchete  git commit "46ec78a7":*)
-(*[ https://gitlab.com/matchete/matchete/-/commit/46ec78a79dfd73d1ef238dfcea8df37a3b8744be ]*)
+(*Works  on  Matchete  release v0.3.0*)
+(*[ https://gitlab.com/matchete/matchete/-/tree/v0.3.0 ]*)
 
 
 (* ::Chapter:: *)
