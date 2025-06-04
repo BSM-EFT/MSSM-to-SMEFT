@@ -6,5 +6,5 @@ Complete one-loop matching of the general MSSM" arXiv:2506.xxxxx. Concretely we 
 - the full matching results in the form of Mathematica and PDF files  (folder [matching-results](matching-results));
 - example Mathematica notebooks showing how to use these results (folder [examples](examples)).
 
-The matching is performed up to dimension six at a single scale $\bar\mu$, with the masses of all heavy (s)particles kept generic and non-degenerate.  
-Note that the MSSM implementation requires [https://gitlab.com/matchete/matchete/tree/v0.3.0](Matchete v0.3.0) or higher.  
+The matching is performed up to dimension six at a single scale $\bar\mu$, with the masses of all heavy states kept generic and non-degenerate.  
+*Note that the code provided here requires [Matchete v0.3.0](https://gitlab.com/matchete/matchete/tree/v0.3.0) or higher!*  
