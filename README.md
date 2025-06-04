@@ -1,5 +1,5 @@
 # MSSM-to-SMEFT
-This repository contains the supplementory material for the paper "SUSY meets SMEFT:
+This repository contains the supplementary material for the paper "SUSY meets SMEFT:
 Complete one-loop matching of the general MSSM" arXiv:2506.xxxxx. Concretely we provide:
 
 - the implementation of the MSSM in Matchete (see folder [matching](matching)); 
