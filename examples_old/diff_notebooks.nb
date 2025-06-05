@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       154,          7]
-NotebookDataLength[    887929,      19634]
-NotebookOptionsPosition[    885690,      19597]
-NotebookOutlinePosition[    886111,      19614]
-CellTagsIndexPosition[    886068,      19611]
+NotebookDataLength[    898315,      19889]
+NotebookOptionsPosition[    896076,      19852]
+NotebookOutlinePosition[    896497,      19869]
+CellTagsIndexPosition[    896454,      19866]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -115,10 +115,10 @@ Cell[BoxData[
    3.958116598301834*^9, 3.9581166385995073`*^9, 3.9581169467590513`*^9, 
    3.958117380104195*^9, 3.9581176077427397`*^9, 3.9581226193931026`*^9, 
    3.9581227135308533`*^9, 3.95812286769283*^9, 3.958123037924699*^9, 
-   3.9581231416465073`*^9},
+   3.9581231416465073`*^9, 3.958124819191886*^9},
  CellLabel->
   "During evaluation of \
-In[5]:=",ExpressionUUID->"b7523a68-2e14-4367-ae42-b3dff42feab0"],
+In[5]:=",ExpressionUUID->"71b6937d-27dd-4aa6-84f9-7191777fbf0d"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -158,8 +158,8 @@ Cell[BoxData[
          Cell[BoxData[
           FormBox[
            SubscriptBox["C", "HB"], TraditionalForm]],ExpressionUUID->
-          "650d6212-38d5-453b-b545-6b26ca1201c3"]
-        }],ExpressionUUID->"4ecafac9-2b6c-425a-a242-04ad1ac3fa17"],
+          "8bb8323b-bed3-417d-afe7-b61de3a86c72"]
+        }],ExpressionUUID->"84b31461-879e-4cfc-9ecc-66f5d02bc624"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[TextData[{
@@ -167,8 +167,8 @@ Cell[BoxData[
          Cell[BoxData[
           FormBox[
            SubscriptBox["C", "HB"], TraditionalForm]],ExpressionUUID->
-          "328482b0-7c7a-42c4-ab34-d1d62ab8c72f"]
-        }],ExpressionUUID->"e9f3def2-3031-42f2-a5ff-c05d42cb163f"],
+          "5b240279-d2ae-426d-a305-74e756fb3bab"]
+        }],ExpressionUUID->"fff53ed4-964d-4280-b032-c8c9d044219b"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -177,12 +177,12 @@ Cell[BoxData[
         FontColor->GrayLevel[0.75, 0.2]], 
        ItemBox[Cell[BoxData[
          RowBox[{"Needs", "[", "\<\"Matchete`\"\>", "]"}]],ExpressionUUID->
-         "808a2e0d-aa29-439c-8dfe-b1c9d9b8a4f3"],
+         "19523c1a-6309-48c0-a641-67e2f85bd2e7"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
          RowBox[{"Needs", "[", "\<\"Matchete`\"\>", "]"}]],ExpressionUUID->
-         "9f482ff3-b92f-4ccf-b513-ea31b12a382b"],
+         "c9043ede-9a88-4eab-a90d-4dfbb32f7b1f"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -329,7 +329,7 @@ A+xeoPtCwBLBDsBQ8DZvboOEDzD8wObnIfjo4QsARrGtpA==
                  RowBox[{"BaselinePosition", "\[Rule]", 
                    RowBox[{"Scaled", "[", "0.5`", "]"}]}]}], "]"}]& )]},
           "RowWithSeparator"]],ExpressionUUID->
-         "ae564202-03b0-40e6-ae6b-49266614eee2"],
+         "3f079886-1853-4954-b5be-2920a46dd5d3"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -472,7 +472,7 @@ A+xeoPtCwBLBDsBQ8DZvboOEDzD8wObnIfjo4QsARrGtpA==
                  RowBox[{"BaselinePosition", "\[Rule]", 
                    RowBox[{"Scaled", "[", "0.5`", "]"}]}]}], "]"}]& )]},
           "RowWithSeparator"]],ExpressionUUID->
-         "7095e111-82aa-4c74-b061-13dfb38f94e7"],
+         "e1378e4a-c950-45f8-85a9-04c041131614"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -505,7 +505,7 @@ Julie Pag\[EGrave]s, Anders Eller Thomsen, and Felix Wilsch \n",
            "https://gitlab.com/matchete/matchete", 
             "https://gitlab.com/matchete/matchete"]],
           Editable->False]],ExpressionUUID->
-         "0f3f04b2-f32e-43d1-b269-1a83ac3a2c55"],
+         "a1da0afd-016e-4075-b8b7-55a98685baeb"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -534,7 +534,7 @@ Julie Pag\[EGrave]s, Anders Eller Thomsen, and Felix Wilsch \n",
            "https://gitlab.com/matchete/matchete", 
             "https://gitlab.com/matchete/matchete"]],
           Editable->False]],ExpressionUUID->
-         "3fc2dad0-612b-4751-87aa-7a48d26e78c3"],
+         "62ffb000-7a47-48f0-9936-491857f90b5b"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -552,7 +552,7 @@ Julie Pag\[EGrave]s, Anders Eller Thomsen, and Felix Wilsch \n",
          RowBox[{
           RowBox[{"\[ScriptCapitalL]MSSM", "=", " ", 
            RowBox[{"LoadModel", "[", "\<\"MSSM\"\>", "]"}]}], ";"}]],
-         ExpressionUUID->"c7f99cd7-6778-4e75-b45b-824430a3c803"],
+         ExpressionUUID->"27fe1b28-e9b5-422c-90a7-996f89ac62b3"],
         Background->RGBColor[
          1., 0.20449276480565456`, 0.06811595600706824, 0.4],
         BaseStyle->{FontColor -> GrayLevel[0, 0.5], ScriptLevel -> 0},
@@ -621,7 +621,7 @@ Julie Pag\[EGrave]s, Anders Eller Thomsen, and Felix Wilsch \n",
             "NiceForm", 
              "->", "\<\"\\!\\(\\*SubscriptBox[\\(c\\), \
 \\(4\[Beta]\\)]\\)\"\>"}]}], "]"}], ";"}]}],ExpressionUUID->
-         "6a2b8d45-5bde-4165-859e-b436df4d9f6e"],
+         "e1526d09-12f8-4a2a-ae6e-c54e50732fec"],
         Background->RGBColor[
          0.3764665159936044, 0.5688250565023983, 0.9650000000000001, 0.4],
         BaseStyle->{ScriptLevel -> 0},
@@ -642,7 +642,7 @@ RowBox[{RowBox[{\\\"SU2L\\\", \\\"[\\\", \\\"fund\\\", \\\"]\\\"}], \
             $CellContext`SU2L[Matchete`adj], 
             $CellContext`SU2L[Matchete`fund]}],
           Editable->False]],ExpressionUUID->
-         "9e601487-5abc-4d33-b0ec-9392ffbf095a"],
+         "638e5906-65c3-4c95-9426-bc00e3c95042"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -657,7 +657,7 @@ RowBox[{RowBox[{\\\"SU2L\\\", \\\"[\\\", \\\"fund\\\", \\\"]\\\"}], \
             $CellContext`SU2L[Matchete`adj], 
             $CellContext`SU2L[Matchete`fund]}],
           Editable->False]],ExpressionUUID->
-         "5e99b10b-4252-44f6-9256-d2cb8c726d98"],
+         "6a13b45e-ead7-4f3c-a1da-2d19687c79aa"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -666,12 +666,12 @@ RowBox[{RowBox[{\\\"SU2L\\\", \\\"[\\\", \\\"fund\\\", \\\"]\\\"}], \
         FontColor->GrayLevel[0.75, 0.2]], 
        ItemBox[Cell[
         "Get MSSM matching conditions",ExpressionUUID->
-         "ed65db3e-10b2-4711-935f-ba674788f126"],
+         "dab9a417-fc5b-401e-aa93-99d81506a786"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[
         "Get MSSM matching conditions",ExpressionUUID->
-         "b11b769d-a6e1-4236-9a74-c1666c917533"],
+         "c10f49e2-1b8a-41c7-bdbf-5cff71994e5e"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -695,7 +695,7 @@ RowBox[{RowBox[{\\\"SU2L\\\", \\\"[\\\", \\\"fund\\\", \\\"]\\\"}], \
                RowBox[{"NotebookDirectory", "[", "]"}], 
                ",", "\<\"./MSSM-matching-conditions.m\"\>"}], "}"}], "]"}], 
             "]"}]}], ";"}]],ExpressionUUID->
-         "f18fe055-81b3-40b3-9f57-afb526ab53ef"],
+         "919b369d-4f5c-4b9f-8943-aa38404c6adc"],
         Background->RGBColor[
          1., 0.20449276480565456`, 0.06811595600706824, 0.4],
         BaseStyle->{FontColor -> GrayLevel[0, 0.5], ScriptLevel -> 0},
@@ -710,7 +710,7 @@ RowBox[{RowBox[{\\\"SU2L\\\", \\\"[\\\", \\\"fund\\\", \\\"]\\\"}], \
                RowBox[{"NotebookDirectory", "[", "]"}], 
                ",", "\<\"../matching-results/Mathematica/MSSM-matching-\
 conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
-         "730df32b-ed3f-4868-a12a-6d1620783256"],
+         "7ee8fac7-dc4b-4033-987b-855dc8e3d26e"],
         Background->RGBColor[
          0.3764665159936044, 0.5688250565023983, 0.9650000000000001, 0.4],
         BaseStyle->{ScriptLevel -> 0},
@@ -722,13 +722,13 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
        ItemBox[Cell[BoxData[
          RowBox[{"Matching", " ", "Condition", " ", "for", " ", 
           SubscriptBox["C", "HB"]}]],ExpressionUUID->
-         "d063a6bb-3d2c-4f58-97f3-c890ec42a689"],
+         "e81f9037-ba66-4297-95f1-9a9e003a2dbe"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
          RowBox[{"Matching", " ", "Condition", " ", "for", " ", 
           SubscriptBox["C", "HB"]}]],ExpressionUUID->
-         "e5cdd81e-2106-415f-bad8-8eb6cc07753b"],
+         "4b0b65d2-01a9-49fd-a09e-d501ed78e823"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -743,7 +743,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
              RowBox[{"cHB", ",", 
               RowBox[{"{", "}"}], ",", "0"}], "]"}], "/.", 
             "MatchingCondition"}]}], ";"}]],ExpressionUUID->
-         "b194aa2f-3844-43e5-8ba1-9e24bb59ac0c"],
+         "3fef2c40-a406-4e33-b443-121044c675f8"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -754,7 +754,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
              RowBox[{"cHB", ",", 
               RowBox[{"{", "}"}], ",", "0"}], "]"}], "/.", 
             "MatchingCondition"}]}], ";"}]],ExpressionUUID->
-         "e88d9219-8843-4830-a9fe-a3882a36e931"],
+         "07edb9e8-ae44-4903-8e2f-af2b8bd1c638"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -763,12 +763,12 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
         FontColor->GrayLevel[0.75, 0.2]], 
        ItemBox[Cell[
         "Simplify matching conditions",ExpressionUUID->
-         "da58aee3-68a2-4777-86cb-31cf8aac1317"],
+         "963bc0a4-719c-4fed-87fb-16ca9f90007a"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[
         "Simplify matching conditions",ExpressionUUID->
-         "28ccb793-82fd-4256-9bc7-63f5d167eb59"],
+         "9c1a1685-871c-4e96-9d32-4cb849ea9b16"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -780,9 +780,9 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
          Cell[BoxData[
           FormBox[
            SubscriptBox["g", "i"], TraditionalForm]],ExpressionUUID->
-          "26b2a325-9f38-47fd-a5b3-0beb858b1b54"],
+          "ebbf6057-48f3-4c03-b5b4-56706ab56a8e"],
          " are the SMEFT couplings)"
-        }],ExpressionUUID->"2fb315c2-e524-440f-aea4-b56e73d5eb11"],
+        }],ExpressionUUID->"48449224-3cb5-4c03-bfbb-3ecafa830d2d"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[TextData[{
@@ -790,9 +790,9 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
          Cell[BoxData[
           FormBox[
            SubscriptBox["g", "i"], TraditionalForm]],ExpressionUUID->
-          "dfcd21dc-5a18-4d49-8fe6-46b6361a0664"],
+          "984a4bc7-5a0f-48c0-8084-59a60012d6f2"],
          " are the SMEFT couplings)"
-        }],ExpressionUUID->"1b375dee-a1fb-4288-9184-7ff7e28b755d"],
+        }],ExpressionUUID->"5a653628-7ce6-4397-a422-aba48e401dfe"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -894,7 +894,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                   RowBox[{"\<\"\[Gamma]\"\>", "->", "\<\"\[Beta]\"\>"}]}], 
                  "]"}], "]"}], ",", 
                RowBox[{"{", "}"}], ",", "0"}], "]"}]}], "}"}]}], ";"}]}],
-         ExpressionUUID->"5932f30a-3ff7-4fa0-a219-c7b1a97c51cd"],
+         ExpressionUUID->"d8464e94-e16a-448b-a5fb-19f96d8f41de"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[{
@@ -992,7 +992,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                   RowBox[{"\<\"\[Gamma]\"\>", "->", "\<\"\[Beta]\"\>"}]}], 
                  "]"}], "]"}], ",", 
                RowBox[{"{", "}"}], ",", "0"}], "]"}]}], "}"}]}], ";"}]}],
-         ExpressionUUID->"d179f7a5-29c0-4ca7-ad2c-6efee35e0f2f"],
+         ExpressionUUID->"ef37705d-ca71-4475-855f-5e09e3f63c29"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -1014,7 +1014,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
              RowBox[{
               RowBox[{"cHB", "/.", "yukMatching"}], "/.", "gaugeMatching"}], "/.",
               "gammaMatching"}], "//", "Simplify"}]}], ";"}]],ExpressionUUID->
-         "54b8321f-adde-4f56-b2b2-49741ca5f4bc"],
+         "3753ee2a-cfb2-4ad5-a33b-a466042f4d16"],
         Background->RGBColor[
          1., 0.20449276480565456`, 0.06811595600706824, 0.4],
         BaseStyle->{FontColor -> GrayLevel[0, 0.5], ScriptLevel -> 0},
@@ -1026,7 +1026,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
             RowBox[{
              RowBox[{"cHB", "/.", "yukMatching"}], "/.", "gaugeMatching"}], "//",
              "Simplify"}]}], ";"}]],ExpressionUUID->
-         "f780064f-7945-4841-be6a-6445f091182c"],
+         "862f8716-5098-4539-b3ca-c3f62ab7f52c"],
         Background->RGBColor[
          0.3764665159936044, 0.5688250565023983, 0.9650000000000001, 0.4],
         BaseStyle->{ScriptLevel -> 0},
@@ -1037,12 +1037,12 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
         FontColor->GrayLevel[0.75, 0.2]], 
        ItemBox[Cell[
         " Replacements for Light Stops and Sbottoms:",ExpressionUUID->
-         "62e3a833-8900-4bdc-a7ec-e0353e76d33a"],
+         "9bb7822e-5012-4591-a62c-d265541810e4"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[
         " Replacements for Light Stops and Sbottoms:",ExpressionUUID->
-         "f02ea988-71c2-4084-a85d-41ec43db8cca"],
+         "1eecf739-4938-4ee5-8aef-6c614a604025"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -1140,7 +1140,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                  RowBox[{"Index", "[", 
                   RowBox[{"3", ",", "Flavor"}], "]"}]}], "]"}]}]}]}], 
             "\[IndentingNewLine]", "}"}]}], ";"}]],ExpressionUUID->
-         "3484c12e-ad30-4e29-a12d-6597c0fb9fac"],
+         "89027b46-daf6-4f69-b921-0fc58423fc31"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -1234,7 +1234,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                  RowBox[{"Index", "[", 
                   RowBox[{"3", ",", "Flavor"}], "]"}]}], "]"}]}]}]}], 
             "\[IndentingNewLine]", "}"}]}], ";"}]],ExpressionUUID->
-         "c3b86487-7564-4dd3-96db-507dda74bd4e"],
+         "c2792b9e-37e2-4019-a61a-f38fe3ee1c3b"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -1244,13 +1244,13 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
        ItemBox[Cell["\<\
 Take the decoupling limit for the 1st and 2nd generation sfermions, gauginos \
 and heavy Higgses\
-\>",ExpressionUUID->"5010b1d3-0e5b-4974-83c7-316ebcffec17"],
+\>",ExpressionUUID->"df21a1e1-f37c-4536-a4c6-d859a145bb5a"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell["\<\
 Take the decoupling limit for the 1st and 2nd generation sfermions, gauginos \
 and heavy Higgses\
-\>",ExpressionUUID->"bae3c09a-f35f-448d-9676-ef046790cd2a"],
+\>",ExpressionUUID->"9cfa6749-6de9-4120-8068-801540ab7a0a"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -1264,7 +1264,7 @@ and heavy Higgses\
             RowBox[{"(", " ", 
              RowBox[{"cHBsimp", "/.", "reps"}], ")"}], "//", 
             "EvaluateLoopFunctions"}]}], ";"}]],ExpressionUUID->
-         "af52c24a-78c1-45c3-bc1b-910f64ff5a74"],
+         "0357b537-8e25-41d7-9c3b-d7e0011e2756"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -1274,7 +1274,7 @@ and heavy Higgses\
             RowBox[{"(", " ", 
              RowBox[{"cHBsimp", "/.", "reps"}], ")"}], "//", 
             "EvaluateLoopFunctions"}]}], ";"}]],ExpressionUUID->
-         "49f2e65d-60c1-4296-bffc-0795fadebf09"],
+         "fa77c3fc-a76e-443d-a088-f311e1744088"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -1290,7 +1290,7 @@ and heavy Higgses\
               RowBox[{"{", 
                RowBox[{"M", ",", "Infinity", ",", "0"}], "}"}]}], "]"}], 
             "]"}]}], ";"}]],ExpressionUUID->
-         "15d698e9-20da-4715-9275-4504300182eb"],
+         "8f24c112-b5a5-4fa9-b061-40d956992ccc"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -1302,7 +1302,7 @@ and heavy Higgses\
               RowBox[{"{", 
                RowBox[{"M", ",", "Infinity", ",", "0"}], "}"}]}], "]"}], 
             "]"}]}], ";"}]],ExpressionUUID->
-         "de67e601-09a8-4f0a-b6c3-5e0c12762be1"],
+         "6614aa57-d876-49df-ac90-a9980e821f3b"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -1311,12 +1311,12 @@ and heavy Higgses\
         FontColor->GrayLevel[0.75, 0.2]], 
        ItemBox[Cell[
         "Simplify terms",ExpressionUUID->
-         "a3db7283-d4fa-41f2-908e-ca8615eed428"],
+         "090aa095-6669-4bcb-b45e-095591f82ff0"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[
         "Simplify terms",ExpressionUUID->
-         "ed6ec873-cc66-42c2-a4a6-6b3002906610"],
+         "782d3440-3c71-4ac6-ac70-6975ddb4cbd3"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -1448,7 +1448,7 @@ and heavy Higgses\
           RowBox[{"cHBsimp4", " ", "=", 
            RowBox[{"(", " ", 
             RowBox[{"cHBsimp3", "//.", "reps2"}], ")"}]}], ";"}]}],
-         ExpressionUUID->"fdd3a95a-d96d-4291-bd86-d7e38d582ebc"],
+         ExpressionUUID->"77082436-9568-431e-8d1d-9b42e49e9a12"],
         Background->RGBColor[
          1., 0.20449276480565456`, 0.06811595600706824, 0.4],
         BaseStyle->{FontColor -> GrayLevel[0, 0.5], ScriptLevel -> 0},
@@ -1571,7 +1571,7 @@ and heavy Higgses\
           RowBox[{"cHBsimp4", " ", "=", 
            RowBox[{"(", " ", 
             RowBox[{"cHBsimp3", "//.", "reps2"}], ")"}]}], ";"}]}],
-         ExpressionUUID->"cee5f5ce-6db0-45eb-b770-222b63ccc3aa"],
+         ExpressionUUID->"e0d549c3-82e0-49fb-bd67-f158cc93f9e7"],
         Background->RGBColor[
          0.3764665159936044, 0.5688250565023983, 0.9650000000000001, 0.4],
         BaseStyle->{ScriptLevel -> 0},
@@ -1589,7 +1589,7 @@ and heavy Higgses\
         Annotation[#, "Edited", "Tooltip"]& ], 
        ItemBox[Cell[
         "Collect terms",ExpressionUUID->
-         "faa06be2-fa05-4f41-8bb2-75ec1cc40c01"],
+         "79369e9d-cdda-45b3-b924-7bebe0742af9"],
         Background->RGBColor[
          1., 0.20449276480565456`, 0.06811595600706824, 0.4],
         BaseStyle->{FontColor -> GrayLevel[0, 0.5], ScriptLevel -> 0},
@@ -1597,7 +1597,7 @@ and heavy Higgses\
        ItemBox[Cell["\<\
 Collect terms and replace \[Gamma] by \[Beta] (which are equal at this order \
 in the EFT expansion)\
-\>",ExpressionUUID->"67d8d4ed-1cec-4677-a02b-107d292b128c"],
+\>",ExpressionUUID->"381dfbd7-4fdb-44d6-8841-332b775d43b2"],
         Background->RGBColor[
          0.3764665159936044, 0.5688250565023983, 0.9650000000000001, 0.4],
         BaseStyle->{ScriptLevel -> 0},
@@ -1618,7 +1618,7 @@ in the EFT expansion)\
                RowBox[{"g2", ",", 
                 RowBox[{"{", "}"}], ",", "0"}], "]"}], "}"}], ",", "Expand"}],
              "]"}]}], ";"}]],ExpressionUUID->
-         "ff9f710e-8355-4c56-ba1c-6816e1fead16"],
+         "31e2ac3d-1a1b-4097-a44e-9cb93002d3d0"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -1633,7 +1633,7 @@ in the EFT expansion)\
                RowBox[{"g2", ",", 
                 RowBox[{"{", "}"}], ",", "0"}], "]"}], "}"}], ",", "Expand"}],
              "]"}]}], ";"}]],ExpressionUUID->
-         "0d9a880e-f9f7-4b5d-863f-f6216c90dae5"],
+         "9bb21f77-b1bc-4d50-95e7-6c8ff9030b96"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -1692,7 +1692,7 @@ in the EFT expansion)\
                "FullSimplify"}], "]"}]}]}], ";"}], ";"}], 
         "\[IndentingNewLine]", 
          RowBox[{"cHBsimp6", "//", "NiceForm"}]}],ExpressionUUID->
-         "976f5729-326b-4d70-8ce5-1b5d831b24f2"],
+         "270a1cb7-bc16-4d62-ae80-0956c5c2d74d"],
         Background->RGBColor[
          1., 0.20449276480565456`, 0.06811595600706824, 0.4],
         BaseStyle->{FontColor -> GrayLevel[0, 0.5], ScriptLevel -> 0},
@@ -1742,7 +1742,7 @@ in the EFT expansion)\
                "FullSimplify"}], "]"}]}], "/.", "gammaMatching"}]}], ";"}], 
         "\[IndentingNewLine]", 
          RowBox[{"cHBsimp6", "//", "NiceForm"}]}],ExpressionUUID->
-         "ee2fcdb5-2c9d-460b-afdb-45aade0f6756"],
+         "372182b4-1e4f-4a5b-8d7f-f509db28a48c"],
         Background->RGBColor[
          0.3764665159936044, 0.5688250565023983, 0.9650000000000001, 0.4],
         BaseStyle->{ScriptLevel -> 0},
@@ -1947,7 +1947,7 @@ in the EFT expansion)\
                  SubsuperscriptBox["Y", "t", "2"]}]}], ")"}],
               SpanSymmetric->False],
              StandardForm]}], "StandardForm"], Matchete`NiceForm]],
-         ExpressionUUID->"057d801e-aa0e-4b04-8d19-0f4a31003cfd"],
+         ExpressionUUID->"391aee9f-d5bd-417d-ba68-1a805df4453f"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -2146,7 +2146,7 @@ in the EFT expansion)\
                  SubsuperscriptBox["Y", "t", "2"]}]}], ")"}],
               SpanSymmetric->False],
              StandardForm]}], "StandardForm"], Matchete`NiceForm]],
-         ExpressionUUID->"cc5e7cc3-553f-41bb-b30a-e190f44da906"],
+         ExpressionUUID->"3a723eea-87c9-4384-99a5-10aa4aa35ea9"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -2161,15 +2161,15 @@ for the term proportional to ",
            RowBox[{
             SubscriptBox["X", "b"], 
             SubscriptBox["Y", "b"]}], TraditionalForm]],ExpressionUUID->
-          "820afc12-670d-4da8-b11e-f9964623a964"],
+          "fbd7da7f-82fc-439b-a46c-78a07d230036"],
          ", which was not considered since the right-handed sbottom was \
 assumed to be decoupled. Furthermore, the term proportional to ",
          Cell[BoxData[
           FormBox[
            SubscriptBox["Y", "b"], TraditionalForm]],ExpressionUUID->
-          "6272c866-3a2b-4786-83ba-086254cd1e35"],
+          "d6e51017-d7c0-4174-83ce-ae14b7d75ae6"],
          " seems to have been neglected in the ref"
-        }],ExpressionUUID->"809c039d-e493-42e7-be0b-c47d8c29937b"],
+        }],ExpressionUUID->"6110e4d0-8d9c-4f09-9323-4eb99716efff"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[TextData[{
@@ -2180,15 +2180,15 @@ for the term proportional to ",
            RowBox[{
             SubscriptBox["X", "b"], 
             SubscriptBox["Y", "b"]}], TraditionalForm]],ExpressionUUID->
-          "790391a3-1982-4258-b1f1-58f2070c295a"],
+          "f5f4e194-9c25-41ba-8bb7-16315fc12d48"],
          ", which was not considered since the right-handed sbottom was \
 assumed to be decoupled. Furthermore, the term proportional to ",
          Cell[BoxData[
           FormBox[
            SubscriptBox["Y", "b"], TraditionalForm]],ExpressionUUID->
-          "608a3f07-c9a6-46e0-9ebc-d3f0470823ba"],
+          "6a00d071-912a-42cc-8dea-eb47d3de5be4"],
          " seems to have been neglected in the ref"
-        }],ExpressionUUID->"5f9d3b7d-42f4-423b-b298-96d2c6457bc7"],
+        }],ExpressionUUID->"a3bc2366-6788-4ea2-b246-86b0725b1ccf"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]}
      },
@@ -3315,7 +3315,7 @@ assumed to be decoupled. Furthermore, the term proportional to ",
       "/home/lessa/MSSM-to-SMEFT/examples_old/cHB_oneloop.nb", 
        "/home/lessa/MSSM-to-SMEFT/examples/cHB_oneloop.nb"}, 
      "AlignmentMethod" -> "CellEditDistance", "AlignmentTiming" -> 
-     0.000502|>], "SideBySide"]]], "Print",
+     0.000494|>], "SideBySide"]]], "Print",
  CellChangeTimes->{{3.957864868381864*^9, 3.957864879388083*^9}, 
    3.957867653455718*^9, 3.957867919365081*^9, 3.9578680789106483`*^9, 
    3.958107236214891*^9, 3.9581153009458027`*^9, 3.958115412374192*^9, 
@@ -3324,10 +3324,10 @@ assumed to be decoupled. Furthermore, the term proportional to ",
    3.958116598301834*^9, 3.9581166385995073`*^9, 3.9581169467590513`*^9, 
    3.958117380104195*^9, 3.9581176077427397`*^9, 3.9581226193931026`*^9, 
    3.9581227135308533`*^9, 3.95812286769283*^9, 3.958123037924699*^9, 
-   3.95812314344662*^9},
+   3.9581231416465073`*^9, 3.958124821070148*^9},
  CellLabel->
   "During evaluation of \
-In[5]:=",ExpressionUUID->"02d68c85-b271-4eb3-80b3-f5c5883bb86c"],
+In[5]:=",ExpressionUUID->"b680d4ab-4557-4491-ae91-86a24cade126"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3349,10 +3349,10 @@ Cell[BoxData[
    3.958116598301834*^9, 3.9581166385995073`*^9, 3.9581169467590513`*^9, 
    3.958117380104195*^9, 3.9581176077427397`*^9, 3.9581226193931026`*^9, 
    3.9581227135308533`*^9, 3.95812286769283*^9, 3.958123037924699*^9, 
-   3.958123143548822*^9},
+   3.9581231416465073`*^9, 3.958124821147462*^9},
  CellLabel->
   "During evaluation of \
-In[5]:=",ExpressionUUID->"1b34dd2d-16b4-4f88-8eeb-f152b1c5f4a8"],
+In[5]:=",ExpressionUUID->"551f791d-05f6-42cd-9f40-9a464b201468"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3392,8 +3392,8 @@ Cell[BoxData[
          Cell[BoxData[
           FormBox[
            SubscriptBox["C", "HG"], TraditionalForm]],ExpressionUUID->
-          "d9856edf-c451-4cce-a5c8-1ee8df83dedd"]
-        }],ExpressionUUID->"2482f218-c694-4286-b631-06fb774ef8a9"],
+          "6cb1e8b6-42a2-4025-bc8c-540bd710620a"]
+        }],ExpressionUUID->"75abc9ff-b3f4-4fbc-8c9e-8af1a0cc0515"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[TextData[{
@@ -3401,8 +3401,8 @@ Cell[BoxData[
          Cell[BoxData[
           FormBox[
            SubscriptBox["C", "HG"], TraditionalForm]],ExpressionUUID->
-          "5031e8bd-330c-4bcd-a762-bb8b15ab9bb7"]
-        }],ExpressionUUID->"6a474bd1-c055-460d-a12e-4b8e9c2fc951"],
+          "307860a6-7175-422f-8d19-73f02fd8f597"]
+        }],ExpressionUUID->"21e0a12c-1a51-4081-9bd3-7281a47805be"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -3411,12 +3411,12 @@ Cell[BoxData[
         FontColor->GrayLevel[0.75, 0.2]], 
        ItemBox[Cell[BoxData[
          RowBox[{"Needs", "[", "\<\"Matchete`\"\>", "]"}]],ExpressionUUID->
-         "37cccb11-a68a-481a-857e-d0132a7145c4"],
+         "19607ad2-90a6-4132-9094-7df5027c1174"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
          RowBox[{"Needs", "[", "\<\"Matchete`\"\>", "]"}]],ExpressionUUID->
-         "05b1e215-e113-40ce-bace-b4b8891e708e"],
+         "fdfe88e9-bdb0-4a69-a30a-7b81bb27faeb"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -3569,7 +3569,7 @@ A+xeoPtCwBLBDsBQ8DZvboOEDzD8wObnIfjo4QsARrGtpA==
                  RowBox[{"BaselinePosition", "\[Rule]", 
                    RowBox[{"Scaled", "[", "0.5`", "]"}]}]}], "]"}]& )]},
           "RowWithSeparator"]],ExpressionUUID->
-         "1c9d5320-30ae-4c2a-ab60-945dafb5154f"],
+         "921ef0b3-94f1-40c6-867c-994c730afaec"],
         Background->RGBColor[
          1., 0.20449276480565456`, 0.06811595600706824, 0.4],
         BaseStyle->{FontColor -> GrayLevel[0, 0.5], ScriptLevel -> 0},
@@ -3613,7 +3613,7 @@ Julie Pag\[EGrave]s, Anders Eller Thomsen, and Felix Wilsch \n",
            "https://gitlab.com/matchete/matchete", 
             "https://gitlab.com/matchete/matchete"]],
           Editable->False]],ExpressionUUID->
-         "cbcc7bce-62be-4150-9d97-ea669ad92e48"],
+         "530025cf-338c-4882-ad38-a52fe30b3bcb"],
         Background->RGBColor[
          1., 0.20449276480565456`, 0.06811595600706824, 0.4],
         BaseStyle->{FontColor -> GrayLevel[0, 0.5], ScriptLevel -> 0},
@@ -3636,7 +3636,7 @@ Julie Pag\[EGrave]s, Anders Eller Thomsen, and Felix Wilsch \n",
          RowBox[{
           RowBox[{"\[ScriptCapitalL]MSSM", "=", " ", 
            RowBox[{"LoadModel", "[", "\<\"MSSM\"\>", "]"}]}], ";"}]],
-         ExpressionUUID->"497ea2b1-d1ee-47dd-aa43-b1b21ac00fab"],
+         ExpressionUUID->"d0d0196a-efdd-4a01-abf0-f04fa21b9695"],
         Background->RGBColor[
          1., 0.20449276480565456`, 0.06811595600706824, 0.4],
         BaseStyle->{FontColor -> GrayLevel[0, 0.5], ScriptLevel -> 0},
@@ -3705,7 +3705,7 @@ Julie Pag\[EGrave]s, Anders Eller Thomsen, and Felix Wilsch \n",
             "NiceForm", 
              "->", "\<\"\\!\\(\\*SubscriptBox[\\(c\\), \
 \\(4\[Beta]\\)]\\)\"\>"}]}], "]"}], ";"}]}],ExpressionUUID->
-         "e5b280fa-50b1-4741-8ea6-de54590e7536"],
+         "dce86bb6-12a7-4341-a3db-10ebb9437e6f"],
         Background->RGBColor[
          0.3764665159936044, 0.5688250565023983, 0.9650000000000001, 0.4],
         BaseStyle->{ScriptLevel -> 0},
@@ -3732,7 +3732,7 @@ RowBox[{RowBox[{\\\"SU2L\\\", \\\"[\\\", \\\"fund\\\", \\\"]\\\"}], \
             $CellContext`SU2L[Matchete`adj], 
             $CellContext`SU2L[Matchete`fund]}],
           Editable->False]],ExpressionUUID->
-         "f5eb1839-63cb-4610-af6e-981799eef38c"],
+         "ddf98705-e3c3-4b0d-a863-6d03db2ae8f3"],
         Background->RGBColor[
          1., 0.20449276480565456`, 0.06811595600706824, 0.4],
         BaseStyle->{FontColor -> GrayLevel[0, 0.5], ScriptLevel -> 0},
@@ -3746,12 +3746,12 @@ RowBox[{RowBox[{\\\"SU2L\\\", \\\"[\\\", \\\"fund\\\", \\\"]\\\"}], \
         FontColor->GrayLevel[0.75, 0.2]], 
        ItemBox[Cell[
         "Get MSSM matching conditions",ExpressionUUID->
-         "77cda851-c235-4490-8f91-52a0999bd997"],
+         "3cdecc85-cb11-40a3-bfab-3b3a86b7535b"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[
         "Get MSSM matching conditions",ExpressionUUID->
-         "5deec2fa-e351-4bc4-a8f8-ca440ec3060f"],
+         "59abe377-20a9-4522-a28f-d340a7667c12"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -3768,7 +3768,7 @@ RowBox[{RowBox[{\\\"SU2L\\\", \\\"[\\\", \\\"fund\\\", \\\"]\\\"}], \
                RowBox[{"NotebookDirectory", "[", "]"}], 
                ",", "\<\"../matching-results/Mathematica/MSSM-matching-\
 conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
-         "6a95314c-6fa0-4f69-b4aa-c7373f1f0fdf"],
+         "64b0a53f-2959-4f4e-a2a4-1a08636ffe8a"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -3781,7 +3781,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                RowBox[{"NotebookDirectory", "[", "]"}], 
                ",", "\<\"../matching-results/Mathematica/MSSM-matching-\
 conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
-         "32e1679b-99dd-490b-b833-1fd14a2734b6"],
+         "e1185b92-1c9d-4d9f-b0f5-71e0ace6e908"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -3793,8 +3793,8 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
          Cell[BoxData[
           FormBox[
            SubscriptBox["C", "HG"], TraditionalForm]],ExpressionUUID->
-          "dc816daa-a694-4a68-8d2d-7d477e3f828b"]
-        }],ExpressionUUID->"a217660f-abe9-4e8c-9f0f-a909ff74bd39"],
+          "2445dde5-7ec5-4f23-8391-33d668a6f77b"]
+        }],ExpressionUUID->"7e5b0cf3-68d6-400e-b9dd-f4b3373609e9"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[TextData[{
@@ -3802,8 +3802,8 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
          Cell[BoxData[
           FormBox[
            SubscriptBox["C", "HG"], TraditionalForm]],ExpressionUUID->
-          "c8dc9b3d-f49b-453e-aea7-a779cecbe849"]
-        }],ExpressionUUID->"3e3ce0b3-1393-40c0-aff9-473dd3460c98"],
+          "c9967184-52a2-4524-ab17-45757782bf2f"]
+        }],ExpressionUUID->"aadd2426-568f-48cf-864c-a0fdccc6b9a3"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -3914,7 +3914,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                   SubsuperscriptBox["m", "Q3", "2"]]}]}], ")"}],
               SpanSymmetric->False],
              StandardForm]}], "StandardForm"], Matchete`NiceForm]],
-         ExpressionUUID->"028b6f31-a115-4e73-bb8d-68d035718171"],
+         ExpressionUUID->"e8dccce1-94bb-4f7b-afa8-03429897fb36"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -3991,7 +3991,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                   SubsuperscriptBox["m", "Q3", "2"]]}]}], ")"}],
               SpanSymmetric->False],
              StandardForm]}], "StandardForm"], Matchete`NiceForm]],
-         ExpressionUUID->"e7f37407-f5a0-4ca6-8fe2-e980dac42476"],
+         ExpressionUUID->"7b0ba62d-322c-44b1-9034-d3cab5a688f9"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -4047,7 +4047,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                    SubscriptBox["m", "tR"], "^", "2"}]}], ")"}]}], "}"}], ",",
                "Simplify"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
          RowBox[{"cHGsimp4", "//", "NiceForm"}]}],ExpressionUUID->
-         "145636cf-a86a-4388-bc7c-0870d0d2a371"],
+         "fd89f744-3a8d-4ab6-8589-74eea62efc41"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[{
@@ -4099,7 +4099,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                    SubscriptBox["m", "tR"], "^", "2"}]}], ")"}]}], "}"}], ",",
                "Simplify"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
          RowBox[{"cHGsimp4", "//", "NiceForm"}]}],ExpressionUUID->
-         "2391ec3e-fbb4-4cfd-a80b-42b2f2fbc160"],
+         "b3846192-5b7b-418f-a1d1-ef06fb18fa59"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -4192,7 +4192,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                   SubsuperscriptBox["m", "Q3", "2"]]}]}], ")"}],
               SpanSymmetric->False],
              StandardForm]}], "StandardForm"], Matchete`NiceForm]],
-         ExpressionUUID->"669394d4-1e33-4b3b-ae83-70b40404b558"],
+         ExpressionUUID->"12a9b56e-921c-4d9e-b6a3-6e47eaf3f2e5"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -4281,7 +4281,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                   SubsuperscriptBox["m", "Q3", "2"]]}]}], ")"}],
               SpanSymmetric->False],
              StandardForm]}], "StandardForm"], Matchete`NiceForm]],
-         ExpressionUUID->"f6d5614d-f9a6-4897-99d4-1ac0010fbae6"],
+         ExpressionUUID->"7a342fe8-ea33-4cff-8c09-a1a0bec4ba85"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]}
      },
@@ -4799,8 +4799,8 @@ conditions.m\""}], "}"}], "]"}], "]"}]}], ";"}]]],
      "NotebookSources" -> {
       "/home/lessa/MSSM-to-SMEFT/examples_old/cHG_oneloop.nb", 
        "/home/lessa/MSSM-to-SMEFT/examples/cHG_oneloop.nb"}, 
-     "AlignmentMethod" -> "CellEditDistance", "AlignmentTiming" -> 0.00043|>],
-    "SideBySide"]]], "Print",
+     "AlignmentMethod" -> "CellEditDistance", "AlignmentTiming" -> 
+     0.000412|>], "SideBySide"]]], "Print",
  CellChangeTimes->{{3.957864868381864*^9, 3.957864879388083*^9}, 
    3.957867653455718*^9, 3.957867919365081*^9, 3.9578680789106483`*^9, 
    3.958107236214891*^9, 3.9581153009458027`*^9, 3.958115412374192*^9, 
@@ -4809,10 +4809,10 @@ conditions.m\""}], "}"}], "]"}], "]"}]}], ";"}]]],
    3.958116598301834*^9, 3.9581166385995073`*^9, 3.9581169467590513`*^9, 
    3.958117380104195*^9, 3.9581176077427397`*^9, 3.9581226193931026`*^9, 
    3.9581227135308533`*^9, 3.95812286769283*^9, 3.958123037924699*^9, 
-   3.9581231438644*^9},
+   3.9581231416465073`*^9, 3.958124821164281*^9},
  CellLabel->
   "During evaluation of \
-In[5]:=",ExpressionUUID->"22023fb7-5926-447b-afa8-a31eef298995"],
+In[5]:=",ExpressionUUID->"38de8fbf-54db-4636-8c5f-a73ee730507e"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4834,10 +4834,10 @@ Cell[BoxData[
    3.958116598301834*^9, 3.9581166385995073`*^9, 3.9581169467590513`*^9, 
    3.958117380104195*^9, 3.9581176077427397`*^9, 3.9581226193931026`*^9, 
    3.9581227135308533`*^9, 3.95812286769283*^9, 3.958123037924699*^9, 
-   3.958123143901458*^9},
+   3.9581231416465073`*^9, 3.9581248212344933`*^9},
  CellLabel->
   "During evaluation of \
-In[5]:=",ExpressionUUID->"6fc3d78a-6299-4a6a-b74e-034a84d83f77"],
+In[5]:=",ExpressionUUID->"d611fdf3-4ded-45e0-8183-d3d130566e44"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4877,8 +4877,8 @@ Cell[BoxData[
          Cell[BoxData[
           FormBox[
            SubscriptBox["C", "HWB"], TraditionalForm]],ExpressionUUID->
-          "2204aa74-a436-44d5-8aee-319de0bf30cf"]
-        }],ExpressionUUID->"6fbac15e-c2d1-4cd3-93cd-3b9bf6b559b4"],
+          "0cea52b0-5a63-444e-bdff-5fab1e1a8979"]
+        }],ExpressionUUID->"f822a99d-7477-4720-a0b4-6588706e5b6c"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[TextData[{
@@ -4886,8 +4886,8 @@ Cell[BoxData[
          Cell[BoxData[
           FormBox[
            SubscriptBox["C", "HWB"], TraditionalForm]],ExpressionUUID->
-          "ae537de9-9c1e-4d55-b8f9-57ccf128b73f"]
-        }],ExpressionUUID->"3d95bb02-bbc6-4687-a340-5d0709f26355"],
+          "5d49ec8f-a0b7-49e9-ad1e-b877cb837fc5"]
+        }],ExpressionUUID->"9c4d3c10-e815-4c77-878f-b806f7903f42"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -4896,12 +4896,12 @@ Cell[BoxData[
         FontColor->GrayLevel[0.75, 0.2]], 
        ItemBox[Cell[BoxData[
          RowBox[{"Needs", "[", "\<\"Matchete`\"\>", "]"}]],ExpressionUUID->
-         "1c65d646-06fd-46e8-a6a1-6ee76e2ef409"],
+         "e0173f0d-f134-41b3-bbcf-1b96b02070fb"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
          RowBox[{"Needs", "[", "\<\"Matchete`\"\>", "]"}]],ExpressionUUID->
-         "3b7ac565-8d6d-4cd7-98aa-b57de8f26b46"],
+         "c8cf9fae-dd9b-4eac-a6d5-fd55bcbe09e7"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -5048,7 +5048,7 @@ A+xeoPtCwBLBDsBQ8DZvboOEDzD8wObnIfjo4QsARrGtpA==
                  RowBox[{"BaselinePosition", "\[Rule]", 
                    RowBox[{"Scaled", "[", "0.5`", "]"}]}]}], "]"}]& )]},
           "RowWithSeparator"]],ExpressionUUID->
-         "032253f6-771f-40f1-920b-fc145800504c"],
+         "cbefe78e-2206-4a66-b046-033d96766e31"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -5191,7 +5191,7 @@ A+xeoPtCwBLBDsBQ8DZvboOEDzD8wObnIfjo4QsARrGtpA==
                  RowBox[{"BaselinePosition", "\[Rule]", 
                    RowBox[{"Scaled", "[", "0.5`", "]"}]}]}], "]"}]& )]},
           "RowWithSeparator"]],ExpressionUUID->
-         "6ce62a50-4b4b-487a-8d3b-32c1214abbf1"],
+         "f1da9afd-5176-4a90-a851-acdf2a07e3ff"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -5224,7 +5224,7 @@ Julie Pag\[EGrave]s, Anders Eller Thomsen, and Felix Wilsch \n",
            "https://gitlab.com/matchete/matchete", 
             "https://gitlab.com/matchete/matchete"]],
           Editable->False]],ExpressionUUID->
-         "afb618f8-2081-4825-935b-cd3636729553"],
+         "cd363b8b-4e84-41fd-b8d1-c1ed4bb72728"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -5253,7 +5253,7 @@ Julie Pag\[EGrave]s, Anders Eller Thomsen, and Felix Wilsch \n",
            "https://gitlab.com/matchete/matchete", 
             "https://gitlab.com/matchete/matchete"]],
           Editable->False]],ExpressionUUID->
-         "9b712780-455c-4122-9f47-dd0a0e19a672"],
+         "8b03dc4e-baac-4432-8b0e-fb810f8d36b1"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -5271,7 +5271,7 @@ Julie Pag\[EGrave]s, Anders Eller Thomsen, and Felix Wilsch \n",
          RowBox[{
           RowBox[{"\[ScriptCapitalL]MSSM", "=", " ", 
            RowBox[{"LoadModel", "[", "\<\"MSSM\"\>", "]"}]}], ";"}]],
-         ExpressionUUID->"68b6dfc6-6ca1-424b-8c9c-fd5e7707d124"],
+         ExpressionUUID->"254f2c6e-ad0c-47d2-8677-b7fc3c5f9b29"],
         Background->RGBColor[
          1., 0.20449276480565456`, 0.06811595600706824, 0.4],
         BaseStyle->{FontColor -> GrayLevel[0, 0.5], ScriptLevel -> 0},
@@ -5340,7 +5340,7 @@ Julie Pag\[EGrave]s, Anders Eller Thomsen, and Felix Wilsch \n",
             "NiceForm", 
              "->", "\<\"\\!\\(\\*SubscriptBox[\\(c\\), \
 \\(4\[Beta]\\)]\\)\"\>"}]}], "]"}], ";"}]}],ExpressionUUID->
-         "f1efcf9a-bf81-487b-b8d5-616886ecf806"],
+         "563e54b5-a91d-4e85-b861-a6d23fe475f5"],
         Background->RGBColor[
          0.3764665159936044, 0.5688250565023983, 0.9650000000000001, 0.4],
         BaseStyle->{ScriptLevel -> 0},
@@ -5361,7 +5361,7 @@ RowBox[{RowBox[{\\\"SU2L\\\", \\\"[\\\", \\\"fund\\\", \\\"]\\\"}], \
             $CellContext`SU2L[Matchete`adj], 
             $CellContext`SU2L[Matchete`fund]}],
           Editable->False]],ExpressionUUID->
-         "f9b89488-61a2-4406-825c-fc3bb6ffde1e"],
+         "36986c4b-f7bc-4ce0-afab-6ecb936131c6"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -5376,7 +5376,7 @@ RowBox[{RowBox[{\\\"SU2L\\\", \\\"[\\\", \\\"fund\\\", \\\"]\\\"}], \
             $CellContext`SU2L[Matchete`adj], 
             $CellContext`SU2L[Matchete`fund]}],
           Editable->False]],ExpressionUUID->
-         "e6b71305-cab3-440f-9470-c08427a2c739"],
+         "421fa38c-8dd0-4140-a985-6a4e3b8fbfb6"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -5385,12 +5385,12 @@ RowBox[{RowBox[{\\\"SU2L\\\", \\\"[\\\", \\\"fund\\\", \\\"]\\\"}], \
         FontColor->GrayLevel[0.75, 0.2]], 
        ItemBox[Cell[
         "Get MSSM matching conditions",ExpressionUUID->
-         "25286490-e0b8-494a-b420-d9cf35111224"],
+         "ef9cd811-2356-4c87-bb6d-7f66aaef1941"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[
         "Get MSSM matching conditions",ExpressionUUID->
-         "aab463ff-2437-48d5-b9d2-9e6c3af5e486"],
+         "773c84ee-1579-41b2-8cbf-007d64bf0e8e"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -5413,7 +5413,7 @@ RowBox[{RowBox[{\\\"SU2L\\\", \\\"[\\\", \\\"fund\\\", \\\"]\\\"}], \
               RowBox[{"NotebookDirectory", "[", "]"}], 
               ",", "\<\"MSSM-matching-conditions.m\"\>"}], "}"}], "]"}], 
            "]"}], ";"}]],ExpressionUUID->
-         "5643982a-0daa-4ac8-ac74-c2f263a7e286"],
+         "49debd3a-dced-42c7-adc6-52c63ce2526c"],
         Background->RGBColor[
          1., 0.20449276480565456`, 0.06811595600706824, 0.4],
         BaseStyle->{FontColor -> GrayLevel[0, 0.5], ScriptLevel -> 0},
@@ -5428,7 +5428,7 @@ RowBox[{RowBox[{\\\"SU2L\\\", \\\"[\\\", \\\"fund\\\", \\\"]\\\"}], \
                RowBox[{"NotebookDirectory", "[", "]"}], 
                ",", "\<\"../matching-results/Mathematica/MSSM-matching-\
 conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
-         "9dacfb1e-9341-40ed-b33d-e63adc25dca8"],
+         "cc5c4983-3829-4897-ad27-1c69d1b02d77"],
         Background->RGBColor[
          0.3764665159936044, 0.5688250565023983, 0.9650000000000001, 0.4],
         BaseStyle->{ScriptLevel -> 0},
@@ -5440,13 +5440,13 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
        ItemBox[Cell[BoxData[
          RowBox[{"Matching", " ", "Condition", " ", "for", " ", 
           SubscriptBox["C", "HWB"]}]],ExpressionUUID->
-         "97c46e59-4c46-45b1-ab6b-200c6c00f620"],
+         "0092472f-9358-4828-9c73-cb30286f742b"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
          RowBox[{"Matching", " ", "Condition", " ", "for", " ", 
           SubscriptBox["C", "HWB"]}]],ExpressionUUID->
-         "76b75196-42a1-4cb8-9d3b-8065c9331e92"],
+         "415f8917-e3c9-4e17-a275-447158e9b1f6"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -5461,7 +5461,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
              RowBox[{"cHWB", ",", 
               RowBox[{"{", "}"}], ",", "0"}], "]"}], "/.", 
             "MatchingCondition"}]}], ";"}]],ExpressionUUID->
-         "ad0d77b8-9443-4d97-be03-8c524b6668cc"],
+         "b237fc7c-4dfe-44f5-982a-1426305f0ac8"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -5472,7 +5472,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
              RowBox[{"cHWB", ",", 
               RowBox[{"{", "}"}], ",", "0"}], "]"}], "/.", 
             "MatchingCondition"}]}], ";"}]],ExpressionUUID->
-         "dcd56611-8418-4461-a6f8-e149aff1df51"],
+         "fcc4a19e-8057-4d2c-8cca-c010109d22c5"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -5481,12 +5481,12 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
         FontColor->GrayLevel[0.75, 0.2]], 
        ItemBox[Cell[
         "Simplify matching conditions",ExpressionUUID->
-         "258e7399-d1cf-449e-acb3-94f34e996745"],
+         "3e8fdb60-868e-458a-ada0-0f62ebe34dfc"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[
         "Simplify matching conditions",ExpressionUUID->
-         "4f5b8983-a5b4-41ce-86d9-24e211a0f2e1"],
+         "ff5de094-903d-4410-8643-13d67a8dae36"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -5498,9 +5498,9 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
          Cell[BoxData[
           FormBox[
            SubscriptBox["g", "i"], TraditionalForm]],ExpressionUUID->
-          "2d1b633e-482b-43f9-95e3-1dee411e2b0b"],
+          "e5fcf818-f5c0-49ae-a402-1ecbcbca8328"],
          " are the SMEFT couplings)"
-        }],ExpressionUUID->"26f35587-e380-4d25-82be-19c7a8ed2746"],
+        }],ExpressionUUID->"cd1e2bf0-45f9-47a5-a1c5-0e96466ab28e"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[TextData[{
@@ -5508,9 +5508,9 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
          Cell[BoxData[
           FormBox[
            SubscriptBox["g", "i"], TraditionalForm]],ExpressionUUID->
-          "7a10bdd8-4095-4466-8f2a-a3bc52596a42"],
+          "60733aea-3a1c-4100-be8d-cc216f9e3b32"],
          " are the SMEFT couplings)"
-        }],ExpressionUUID->"6e9d5d05-24c6-4662-910c-ea557df94fec"],
+        }],ExpressionUUID->"eb80bb66-1b59-416d-8768-bdfa3bbbb80d"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -5602,7 +5602,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
               RowBox[{"Coupling", "[", 
                RowBox[{"g2", ",", 
                 RowBox[{"{", "}"}], ",", "0"}], "]"}]}]}], "}"}]}], ";"}]}],
-         ExpressionUUID->"fd057018-e5ce-4787-b715-9ca542722a4f"],
+         ExpressionUUID->"ee9a87df-861f-49a0-aa1d-ee7ddfed8b5d"],
         Background->RGBColor[
          1., 0.20449276480565456`, 0.06811595600706824, 0.4],
         BaseStyle->{FontColor -> GrayLevel[0, 0.5], ScriptLevel -> 0},
@@ -5700,7 +5700,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                   RowBox[{"\<\"\[Gamma]\"\>", "->", "\<\"\[Beta]\"\>"}]}], 
                  "]"}], "]"}], ",", 
                RowBox[{"{", "}"}], ",", "0"}], "]"}]}], "}"}]}], ";"}]}],
-         ExpressionUUID->"63fd1687-98d1-48b9-a4e6-6b0267b7a153"],
+         ExpressionUUID->"8f4726df-83fa-4a84-be6c-32ba69e82756"],
         Background->RGBColor[
          0.3764665159936044, 0.5688250565023983, 0.9650000000000001, 0.4],
         BaseStyle->{ScriptLevel -> 0},
@@ -5723,7 +5723,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
             RowBox[{
              RowBox[{"cHWB", "/.", "yukMatching"}], "/.", "gaugeMatching"}], "//",
              "Simplify"}]}], ";"}]],ExpressionUUID->
-         "4059e56b-59cb-43f1-b716-6b2c26bf8220"],
+         "88938e92-792e-49f0-a72f-e390302d59e3"],
         Background->RGBColor[
          1., 0.20449276480565456`, 0.06811595600706824, 0.4],
         BaseStyle->{FontColor -> GrayLevel[0, 0.5], ScriptLevel -> 0},
@@ -5736,7 +5736,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
              RowBox[{
               RowBox[{"cHWB", "/.", "yukMatching"}], "/.", "gaugeMatching"}], 
              "/.", "gammaMatching"}], "//", "Simplify"}]}], ";"}]],
-         ExpressionUUID->"aefb1089-03eb-4fcc-afa9-d85a66826078"],
+         ExpressionUUID->"635c080b-84d8-4c5e-8c10-a81cac4eae41"],
         Background->RGBColor[
          0.3764665159936044, 0.5688250565023983, 0.9650000000000001, 0.4],
         BaseStyle->{ScriptLevel -> 0},
@@ -5747,12 +5747,12 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
         FontColor->GrayLevel[0.75, 0.2]], 
        ItemBox[Cell[
         " Replacements for Light Stops and Sbottoms:",ExpressionUUID->
-         "54fa3786-c4eb-420b-9e86-5fd098f385d3"],
+         "d8e2c764-17de-40d7-bbfe-7941a2e216e3"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[
         " Replacements for Light Stops and Sbottoms:",ExpressionUUID->
-         "0965c437-aebd-45e2-8d8a-1ae7c3d41732"],
+         "8ac0ad1b-b68f-4f56-a685-f9ba32f455f8"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -5850,7 +5850,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                  RowBox[{"Index", "[", 
                   RowBox[{"3", ",", "Flavor"}], "]"}]}], "]"}]}]}]}], 
             "\[IndentingNewLine]", "}"}]}], ";"}]],ExpressionUUID->
-         "cd8f75f4-a476-4f70-b726-956d7a92cd62"],
+         "eb0987ea-0067-46e0-aff4-1123b9d40f88"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -5944,7 +5944,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                  RowBox[{"Index", "[", 
                   RowBox[{"3", ",", "Flavor"}], "]"}]}], "]"}]}]}]}], 
             "\[IndentingNewLine]", "}"}]}], ";"}]],ExpressionUUID->
-         "6337fec2-5d39-459e-8070-b83347f6b68d"],
+         "d575064c-2b39-43a5-a07b-b3060f1a14c5"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -5954,13 +5954,13 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
        ItemBox[Cell["\<\
 Take the decoupling limit for the 1st and 2nd generation sfermions, gauginos \
 and heavy Higgses\
-\>",ExpressionUUID->"ffc32830-bde0-4917-aae6-1239b48db2c0"],
+\>",ExpressionUUID->"cff08aa8-5815-4dca-a92e-873951d9ea1e"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell["\<\
 Take the decoupling limit for the 1st and 2nd generation sfermions, gauginos \
 and heavy Higgses\
-\>",ExpressionUUID->"6412e895-6462-4a02-8c62-6e312058cf18"],
+\>",ExpressionUUID->"98ce604e-5779-4924-9422-07587b406479"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -6042,7 +6042,7 @@ and heavy Higgses\
                 RowBox[{"Log", "[", "a_", "]"}]}], "}"}], ",", 
               "FullSimplify"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
          RowBox[{"cHWBsimp6", "//", "NiceForm"}]}],ExpressionUUID->
-         "7083119e-ce89-484f-9865-9f60fa60d894"],
+         "cf0a947a-191a-4ed3-84cc-e559d93206cc"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[{
@@ -6090,7 +6090,7 @@ and heavy Higgses\
                 RowBox[{"Log", "[", "a_", "]"}]}], "}"}], ",", 
               "FullSimplify"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
          RowBox[{"cHWBsimp6", "//", "NiceForm"}]}],ExpressionUUID->
-         "529b027f-4b62-4aff-a9da-2ad81a4cdf52"],
+         "b07eee55-98fb-493f-bf63-e47e0404af48"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -6252,7 +6252,7 @@ and heavy Higgses\
                   SubsuperscriptBox["m", "Q3", "2"]]}]}], ")"}],
               SpanSymmetric->False],
              StandardForm]}], "StandardForm"], Matchete`NiceForm]],
-         ExpressionUUID->"6b307c09-6468-4d06-9d79-fb619165e63f"],
+         ExpressionUUID->"bec0ac1b-2c4f-4896-834d-73bca73e63b6"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -6410,7 +6410,7 @@ and heavy Higgses\
                   SubsuperscriptBox["m", "Q3", "2"]]}]}], ")"}],
               SpanSymmetric->False],
              StandardForm]}], "StandardForm"], Matchete`NiceForm]],
-         ExpressionUUID->"7708bc62-d883-4a62-8bc4-fda2b5f78925"],
+         ExpressionUUID->"1db608de-8770-4ac2-a67f-f7f8edc5f26f"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -6425,15 +6425,15 @@ for the term proportional to ",
            RowBox[{
             SubscriptBox["X", "b"], 
             SubscriptBox["Y", "b"]}], TraditionalForm]],ExpressionUUID->
-          "bf3270fa-8fa2-467a-b52d-a72061ee650f"],
+          "0748dccb-dbcf-46e3-930f-ec3c7a8ed4b2"],
          ", which was not considered since the right-handed sbottom was \
 assumed to be decoupled. Furthermore, the term proportional to ",
          Cell[BoxData[
           FormBox[
            SubscriptBox["Y", "b"], TraditionalForm]],ExpressionUUID->
-          "a9ccb59e-d1e2-4b06-8876-fe34e61d678b"],
+          "51e8368d-3520-4b53-acdc-3c46372023a7"],
          " seems to have been neglected in the ref"
-        }],ExpressionUUID->"812ea182-7b1b-4672-862f-71dc5b4523f3"],
+        }],ExpressionUUID->"210f8cf3-6a53-430a-86af-8b9cf52547ce"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[TextData[{
@@ -6444,15 +6444,15 @@ for the term proportional to ",
            RowBox[{
             SubscriptBox["X", "b"], 
             SubscriptBox["Y", "b"]}], TraditionalForm]],ExpressionUUID->
-          "4f668105-9dfe-4a58-a506-649b6c43d135"],
+          "bebbe4a6-74e4-4db4-8d88-2ec4f97ea789"],
          ", which was not considered since the right-handed sbottom was \
 assumed to be decoupled. Furthermore, the term proportional to ",
          Cell[BoxData[
           FormBox[
            SubscriptBox["Y", "b"], TraditionalForm]],ExpressionUUID->
-          "92b1ce2c-f625-4dc3-8979-ff3eb7d24c2a"],
+          "bfd26079-467d-47ce-b409-d5b3412bdd08"],
          " seems to have been neglected in the ref"
-        }],ExpressionUUID->"492bb919-6936-4876-87b9-7ad03b99b43f"],
+        }],ExpressionUUID->"bce5177e-9108-4fdd-aa76-13276f6844b7"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]}
      },
@@ -7294,7 +7294,7 @@ assumed to be decoupled. Furthermore, the term proportional to ",
       "/home/lessa/MSSM-to-SMEFT/examples_old/cHWB_oneloop.nb", 
        "/home/lessa/MSSM-to-SMEFT/examples/cHWB_oneloop.nb"}, 
      "AlignmentMethod" -> "CellEditDistance", "AlignmentTiming" -> 
-     0.001164|>], "SideBySide"]]], "Print",
+     0.000496|>], "SideBySide"]]], "Print",
  CellChangeTimes->{{3.957864868381864*^9, 3.957864879388083*^9}, 
    3.957867653455718*^9, 3.957867919365081*^9, 3.9578680789106483`*^9, 
    3.958107236214891*^9, 3.9581153009458027`*^9, 3.958115412374192*^9, 
@@ -7303,10 +7303,10 @@ assumed to be decoupled. Furthermore, the term proportional to ",
    3.958116598301834*^9, 3.9581166385995073`*^9, 3.9581169467590513`*^9, 
    3.958117380104195*^9, 3.9581176077427397`*^9, 3.9581226193931026`*^9, 
    3.9581227135308533`*^9, 3.95812286769283*^9, 3.958123037924699*^9, 
-   3.9581231439160023`*^9},
+   3.9581231416465073`*^9, 3.958124821287786*^9},
  CellLabel->
   "During evaluation of \
-In[5]:=",ExpressionUUID->"011aaca1-2711-4dbd-884b-9142b8f1b5b0"],
+In[5]:=",ExpressionUUID->"296b433f-a2e8-4b68-846e-855611fb33e8"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -7328,10 +7328,10 @@ Cell[BoxData[
    3.958116598301834*^9, 3.9581166385995073`*^9, 3.9581169467590513`*^9, 
    3.958117380104195*^9, 3.9581176077427397`*^9, 3.9581226193931026`*^9, 
    3.9581227135308533`*^9, 3.95812286769283*^9, 3.958123037924699*^9, 
-   3.958123143950729*^9},
+   3.9581231416465073`*^9, 3.95812482138795*^9},
  CellLabel->
   "During evaluation of \
-In[5]:=",ExpressionUUID->"7b968ae9-35de-4a24-8b93-996e6abcfe59"],
+In[5]:=",ExpressionUUID->"ced06c17-77fc-4f54-88e0-341c17f225ca"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -7371,8 +7371,8 @@ Cell[BoxData[
          Cell[BoxData[
           FormBox[
            SubscriptBox["C", "HW"], TraditionalForm]],ExpressionUUID->
-          "550f3955-7835-46ed-98be-6e19455ee867"]
-        }],ExpressionUUID->"0d476f6e-2bca-435f-9fa7-20db52cac728"],
+          "f3a9a8f8-b5f7-4887-b728-28d21cc30dc8"]
+        }],ExpressionUUID->"7978f104-7e1c-4b21-a35c-7a45db29e68e"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[TextData[{
@@ -7380,8 +7380,8 @@ Cell[BoxData[
          Cell[BoxData[
           FormBox[
            SubscriptBox["C", "HW"], TraditionalForm]],ExpressionUUID->
-          "638aab7c-df1a-4237-b16b-4aa10bf8ef6a"]
-        }],ExpressionUUID->"e7a92f9f-6e68-43ae-9bb6-d8a701f06def"],
+          "58583c76-6262-4d6c-82cb-d8b9c38f6e5d"]
+        }],ExpressionUUID->"6427024e-f151-4869-ae0e-68a8a5017a6d"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -7390,12 +7390,12 @@ Cell[BoxData[
         FontColor->GrayLevel[0.75, 0.2]], 
        ItemBox[Cell[BoxData[
          RowBox[{"Needs", "[", "\<\"Matchete`\"\>", "]"}]],ExpressionUUID->
-         "50b3858d-238c-486a-9d00-4fc18a9db889"],
+         "f694007c-5842-4533-a417-7582941b82f9"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
          RowBox[{"Needs", "[", "\<\"Matchete`\"\>", "]"}]],ExpressionUUID->
-         "ed05263a-c278-4f8f-9bda-8bd0c6c4491f"],
+         "51b784c3-917a-4248-b0c7-99979477a2ed"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -7542,7 +7542,7 @@ A+xeoPtCwBLBDsBQ8DZvboOEDzD8wObnIfjo4QsARrGtpA==
                  RowBox[{"BaselinePosition", "\[Rule]", 
                    RowBox[{"Scaled", "[", "0.5`", "]"}]}]}], "]"}]& )]},
           "RowWithSeparator"]],ExpressionUUID->
-         "d1a0ad23-a7a1-4bc9-8def-cf4b2abb30df"],
+         "2dc47cce-f7a5-470c-bbb5-bf154bbbfc90"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -7685,7 +7685,7 @@ A+xeoPtCwBLBDsBQ8DZvboOEDzD8wObnIfjo4QsARrGtpA==
                  RowBox[{"BaselinePosition", "\[Rule]", 
                    RowBox[{"Scaled", "[", "0.5`", "]"}]}]}], "]"}]& )]},
           "RowWithSeparator"]],ExpressionUUID->
-         "4e9c5f33-29c5-4a7e-aafe-2a9c9d690b53"],
+         "65d251ab-2e27-4601-a8db-939fdacebf60"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -7718,7 +7718,7 @@ Julie Pag\[EGrave]s, Anders Eller Thomsen, and Felix Wilsch \n",
            "https://gitlab.com/matchete/matchete", 
             "https://gitlab.com/matchete/matchete"]],
           Editable->False]],ExpressionUUID->
-         "e0fc4e76-56b5-4b3f-9527-146e2df2ac8a"],
+         "b5a2188a-97a0-498b-ad69-f93510161ffe"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -7747,7 +7747,7 @@ Julie Pag\[EGrave]s, Anders Eller Thomsen, and Felix Wilsch \n",
            "https://gitlab.com/matchete/matchete", 
             "https://gitlab.com/matchete/matchete"]],
           Editable->False]],ExpressionUUID->
-         "0a4f2b35-fec3-4fa3-9c9d-6d4bedb24cf9"],
+         "f5ad0c87-bbe9-46b0-83b1-2f0d5a30ab77"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -7765,7 +7765,7 @@ Julie Pag\[EGrave]s, Anders Eller Thomsen, and Felix Wilsch \n",
          RowBox[{
           RowBox[{"\[ScriptCapitalL]MSSM", "=", " ", 
            RowBox[{"LoadModel", "[", "\<\"MSSM\"\>", "]"}]}], ";"}]],
-         ExpressionUUID->"d74ea171-60ee-465f-b65d-430f0080fa3b"],
+         ExpressionUUID->"1aa56832-1db7-4397-929f-00ad041e746e"],
         Background->RGBColor[
          1., 0.20449276480565456`, 0.06811595600706824, 0.4],
         BaseStyle->{FontColor -> GrayLevel[0, 0.5], ScriptLevel -> 0},
@@ -7834,7 +7834,7 @@ Julie Pag\[EGrave]s, Anders Eller Thomsen, and Felix Wilsch \n",
             "NiceForm", 
              "->", "\<\"\\!\\(\\*SubscriptBox[\\(c\\), \
 \\(4\[Beta]\\)]\\)\"\>"}]}], "]"}], ";"}]}],ExpressionUUID->
-         "247f24e3-2731-43e8-aabe-347b8cd2ef4d"],
+         "ea34069a-daf3-413b-97b8-d04f764f2a25"],
         Background->RGBColor[
          0.3764665159936044, 0.5688250565023983, 0.9650000000000001, 0.4],
         BaseStyle->{ScriptLevel -> 0},
@@ -7855,7 +7855,7 @@ RowBox[{RowBox[{\\\"SU2L\\\", \\\"[\\\", \\\"fund\\\", \\\"]\\\"}], \
             $CellContext`SU2L[Matchete`adj], 
             $CellContext`SU2L[Matchete`fund]}],
           Editable->False]],ExpressionUUID->
-         "db6c80ed-9990-47c5-a133-372497703de0"],
+         "96db8024-2d71-4378-9a28-daedad351d20"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -7870,7 +7870,7 @@ RowBox[{RowBox[{\\\"SU2L\\\", \\\"[\\\", \\\"fund\\\", \\\"]\\\"}], \
             $CellContext`SU2L[Matchete`adj], 
             $CellContext`SU2L[Matchete`fund]}],
           Editable->False]],ExpressionUUID->
-         "de1cff4c-5165-44fc-a278-4ddf22161625"],
+         "27942fab-e76c-4e0c-b3d5-b61d294c11cd"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -7879,12 +7879,12 @@ RowBox[{RowBox[{\\\"SU2L\\\", \\\"[\\\", \\\"fund\\\", \\\"]\\\"}], \
         FontColor->GrayLevel[0.75, 0.2]], 
        ItemBox[Cell[
         "Get MSSM matching conditions",ExpressionUUID->
-         "68ed9ee8-e87c-4936-b10d-04399097d867"],
+         "c3974638-b2f7-45b6-b0e3-d5f3f0a82865"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[
         "Get MSSM matching conditions",ExpressionUUID->
-         "4e178817-19ed-4ba1-8277-b89d5017a722"],
+         "e5c2a062-95a2-41f3-91d1-002167526130"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -7901,7 +7901,7 @@ RowBox[{RowBox[{\\\"SU2L\\\", \\\"[\\\", \\\"fund\\\", \\\"]\\\"}], \
                RowBox[{"NotebookDirectory", "[", "]"}], 
                ",", "\<\"../matching-results/Mathematica/MSSM-matching-\
 conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
-         "6d5a002b-958d-4508-be88-cae276d1c4c3"],
+         "da7a6720-30b8-449e-9c12-6428b81a3807"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -7914,7 +7914,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                RowBox[{"NotebookDirectory", "[", "]"}], 
                ",", "\<\"../matching-results/Mathematica/MSSM-matching-\
 conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
-         "ee9c7099-7739-441f-86ff-ffeb2ea7e02c"],
+         "474df49f-03d6-4236-9c7e-837d8daa8096"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -7990,7 +7990,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                 RowBox[{"Log", "[", "a_", "]"}]}], "}"}], ",", 
               "FullSimplify"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
          RowBox[{"cHWsimp6", "//", "NiceForm"}]}],ExpressionUUID->
-         "06a86395-2922-4f63-b330-80cb42960062"],
+         "e5c5a3f1-8370-42c0-8e56-da2645afe74e"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[{
@@ -8032,7 +8032,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                 RowBox[{"Log", "[", "a_", "]"}]}], "}"}], ",", 
               "FullSimplify"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
          RowBox[{"cHWsimp6", "//", "NiceForm"}]}],ExpressionUUID->
-         "ac127c2d-1df9-49c4-8ee3-e2a707f8165f"],
+         "3a437371-386d-4ff6-b6be-b78de5bee628"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -8190,7 +8190,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                   SubsuperscriptBox["m", "Q3", "2"]]}]}], ")"}],
               SpanSymmetric->False],
              StandardForm]}], "StandardForm"], Matchete`NiceForm]],
-         ExpressionUUID->"3cc75dc5-391b-46b1-9e69-9a18050c01e5"],
+         ExpressionUUID->"a0417756-beac-4588-a737-3c736dae075e"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -8344,7 +8344,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                   SubsuperscriptBox["m", "Q3", "2"]]}]}], ")"}],
               SpanSymmetric->False],
              StandardForm]}], "StandardForm"], Matchete`NiceForm]],
-         ExpressionUUID->"a7d7e36d-8ef0-40f7-b371-a3bd90d078a9"],
+         ExpressionUUID->"bcbdb2cb-5d25-455f-9183-53c332d83ca9"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -8359,15 +8359,15 @@ for the term proportional to ",
            RowBox[{
             SubscriptBox["X", "b"], 
             SubscriptBox["Y", "b"]}], TraditionalForm]],ExpressionUUID->
-          "58833ae6-6668-4a35-9a40-ed0af5ce204b"],
+          "f6ad416b-9f08-464c-97ee-30021e84005f"],
          ", which was not considered since the right-handed sbottom was \
 assumed to be decoupled. Furthermore, the term proportional to ",
          Cell[BoxData[
           FormBox[
            SubscriptBox["Y", "b"], TraditionalForm]],ExpressionUUID->
-          "804366ee-1b60-4981-bef7-291a95102845"],
+          "109b9b35-46c6-46fb-8246-3584daa4c555"],
          " seems to have been neglected in  1504.02409"
-        }],ExpressionUUID->"ef5c0ddc-f286-4167-b00f-e377ed86fd2f"],
+        }],ExpressionUUID->"81a80b76-d25d-47d5-84c9-fbd57a822f6f"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[TextData[{
@@ -8378,15 +8378,15 @@ for the term proportional to ",
            RowBox[{
             SubscriptBox["X", "b"], 
             SubscriptBox["Y", "b"]}], TraditionalForm]],ExpressionUUID->
-          "411cccef-01df-4f1d-bd16-5080e38a21ab"],
+          "b51f1447-e893-4642-a129-f1c3f81a3949"],
          ", which was not considered since the right-handed sbottom was \
 assumed to be decoupled. Furthermore, the term proportional to ",
          Cell[BoxData[
           FormBox[
            SubscriptBox["Y", "b"], TraditionalForm]],ExpressionUUID->
-          "02418bfd-711c-400b-b3dd-3f8d81008f02"],
+          "eb3a5eb7-4f64-423f-808a-650bc3b3941e"],
          " seems to have been neglected in  1504.02409"
-        }],ExpressionUUID->"cd9d634d-f4e2-4e63-a095-15bc76898041"],
+        }],ExpressionUUID->"4a5a9710-8837-4418-be0f-4ed0133188e7"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]}
      },
@@ -8891,7 +8891,7 @@ assumed to be decoupled. Furthermore, the term proportional to ",
       "/home/lessa/MSSM-to-SMEFT/examples_old/cHW_oneloop.nb", 
        "/home/lessa/MSSM-to-SMEFT/examples/cHW_oneloop.nb"}, 
      "AlignmentMethod" -> "CellEditDistance", "AlignmentTiming" -> 
-     0.000027|>], "SideBySide"]]], "Print",
+     0.000026|>], "SideBySide"]]], "Print",
  CellChangeTimes->{{3.957864868381864*^9, 3.957864879388083*^9}, 
    3.957867653455718*^9, 3.957867919365081*^9, 3.9578680789106483`*^9, 
    3.958107236214891*^9, 3.9581153009458027`*^9, 3.958115412374192*^9, 
@@ -8900,10 +8900,10 @@ assumed to be decoupled. Furthermore, the term proportional to ",
    3.958116598301834*^9, 3.9581166385995073`*^9, 3.9581169467590513`*^9, 
    3.958117380104195*^9, 3.9581176077427397`*^9, 3.9581226193931026`*^9, 
    3.9581227135308533`*^9, 3.95812286769283*^9, 3.958123037924699*^9, 
-   3.9581231439602613`*^9},
+   3.9581231416465073`*^9, 3.9581248214052553`*^9},
  CellLabel->
   "During evaluation of \
-In[5]:=",ExpressionUUID->"c8125a1e-acff-4ae1-8888-2e3d0c89f6bc"],
+In[5]:=",ExpressionUUID->"3308d359-c426-4fa7-bb97-27fe2c2c06f8"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -8925,10 +8925,10 @@ Cell[BoxData[
    3.958116598301834*^9, 3.9581166385995073`*^9, 3.9581169467590513`*^9, 
    3.958117380104195*^9, 3.9581176077427397`*^9, 3.9581226193931026`*^9, 
    3.9581227135308533`*^9, 3.95812286769283*^9, 3.958123037924699*^9, 
-   3.958123143983859*^9},
+   3.9581231416465073`*^9, 3.958124821430274*^9},
  CellLabel->
   "During evaluation of \
-In[5]:=",ExpressionUUID->"cd7653a3-e70b-45de-b027-324e53e7fcb8"],
+In[5]:=",ExpressionUUID->"e49b2ef9-f876-48ff-be0d-895f2d694ad6"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -8965,12 +8965,12 @@ Cell[BoxData[
         FontColor->GrayLevel[0.75, 0.2]], 
        ItemBox[Cell[
         "MSSM-to-SMEFT matching: quartic Higgs coupling",ExpressionUUID->
-         "8c105285-2cc3-41eb-8e76-4e11098af68f"],
+         "dc7c20a6-a1e8-483e-905d-f0cab5ee5bae"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[
         "MSSM-to-SMEFT matching: quartic Higgs coupling",ExpressionUUID->
-         "7e4f501d-27b2-4c4e-b1bd-e0f71f43d895"],
+         "3945779f-e038-48b9-ac90-2cdfc07c6668"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -8979,12 +8979,12 @@ Cell[BoxData[
         FontColor->GrayLevel[0.75, 0.2]], 
        ItemBox[Cell[BoxData[
          RowBox[{"Needs", "[", "\<\"Matchete`\"\>", "]"}]],ExpressionUUID->
-         "4d8884ca-6f93-4b78-93c5-6dd02ca0955c"],
+         "b2555398-43a7-4ca8-985e-ba849b49fd69"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
          RowBox[{"Needs", "[", "\<\"Matchete`\"\>", "]"}]],ExpressionUUID->
-         "2f02bc59-5b82-4d89-a7ad-3f69c2cd13b8"],
+         "b843eb67-47a8-4d92-8d5c-2f08ce840a53"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -9131,7 +9131,7 @@ A+xeoPtCwBLBDsBQ8DZvboOEDzD8wObnIfjo4QsARrGtpA==
                  RowBox[{"BaselinePosition", "\[Rule]", 
                    RowBox[{"Scaled", "[", "0.5`", "]"}]}]}], "]"}]& )]},
           "RowWithSeparator"]],ExpressionUUID->
-         "8663dd5c-c224-4166-a410-b9cb4b268b3d"],
+         "20dbc5b2-ec2a-4e75-afac-d619528a7bf2"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -9274,7 +9274,7 @@ A+xeoPtCwBLBDsBQ8DZvboOEDzD8wObnIfjo4QsARrGtpA==
                  RowBox[{"BaselinePosition", "\[Rule]", 
                    RowBox[{"Scaled", "[", "0.5`", "]"}]}]}], "]"}]& )]},
           "RowWithSeparator"]],ExpressionUUID->
-         "9c7fc105-7b32-4bd3-80f7-2827227ac203"],
+         "ef882efc-90ca-4ca9-87f5-b6c1dcaff2be"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -9307,7 +9307,7 @@ Julie Pag\[EGrave]s, Anders Eller Thomsen, and Felix Wilsch \n",
            "https://gitlab.com/matchete/matchete", 
             "https://gitlab.com/matchete/matchete"]],
           Editable->False]],ExpressionUUID->
-         "e52906e2-3c8c-4f2a-91de-e8a15675a8fa"],
+         "0e2b8fd3-72c7-4351-a382-eaff3cf120aa"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -9336,7 +9336,7 @@ Julie Pag\[EGrave]s, Anders Eller Thomsen, and Felix Wilsch \n",
            "https://gitlab.com/matchete/matchete", 
             "https://gitlab.com/matchete/matchete"]],
           Editable->False]],ExpressionUUID->
-         "373c73ee-46f3-4d52-9529-a8e6f422b695"],
+         "3581cb60-dc01-4733-a635-02c311531678"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -9347,14 +9347,14 @@ Julie Pag\[EGrave]s, Anders Eller Thomsen, and Felix Wilsch \n",
          RowBox[{
           RowBox[{"SetDirectory", "@", 
            RowBox[{"NotebookDirectory", "[", "]"}]}], ";"}]],ExpressionUUID->
-         "2241e4f0-46e7-49f4-8c93-16f22c4736ea"],
+         "5e02a561-471f-4bf3-a626-08e4fd3e76db"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
          RowBox[{
           RowBox[{"SetDirectory", "@", 
            RowBox[{"NotebookDirectory", "[", "]"}]}], ";"}]],ExpressionUUID->
-         "a5314183-0271-4aee-862c-94d5e78f6334"],
+         "ac4d40cb-7207-47e2-84fc-92aeaad38a01"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -9372,7 +9372,7 @@ Julie Pag\[EGrave]s, Anders Eller Thomsen, and Felix Wilsch \n",
          RowBox[{
           RowBox[{"\[ScriptCapitalL]MSSM", "=", " ", 
            RowBox[{"LoadModel", "[", "\<\"MSSM\"\>", "]"}]}], ";"}]],
-         ExpressionUUID->"4ff133d9-d7bc-4e1e-baa4-5ee97227eaae"],
+         ExpressionUUID->"84b4008d-6ce2-4364-913f-2362147ee64e"],
         Background->RGBColor[
          1., 0.20449276480565456`, 0.06811595600706824, 0.4],
         BaseStyle->{FontColor -> GrayLevel[0, 0.5], ScriptLevel -> 0},
@@ -9441,7 +9441,7 @@ Julie Pag\[EGrave]s, Anders Eller Thomsen, and Felix Wilsch \n",
             "NiceForm", 
              "->", "\<\"\\!\\(\\*SubscriptBox[\\(c\\), \
 \\(4\[Beta]\\)]\\)\"\>"}]}], "]"}], ";"}]}],ExpressionUUID->
-         "feffff48-0061-42cc-80f7-916257c849b9"],
+         "ebfc3e31-4add-450a-846e-9c43bad38090"],
         Background->RGBColor[
          0.3764665159936044, 0.5688250565023983, 0.9650000000000001, 0.4],
         BaseStyle->{ScriptLevel -> 0},
@@ -9462,7 +9462,7 @@ RowBox[{RowBox[{\\\"SU2L\\\", \\\"[\\\", \\\"fund\\\", \\\"]\\\"}], \
             $CellContext`SU2L[Matchete`adj], 
             $CellContext`SU2L[Matchete`fund]}],
           Editable->False]],ExpressionUUID->
-         "d2e455f5-b1cf-47eb-bc6b-2d23d7d7b2bf"],
+         "5a3daa8c-39ea-4998-babc-e1771b8d5546"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -9477,7 +9477,7 @@ RowBox[{RowBox[{\\\"SU2L\\\", \\\"[\\\", \\\"fund\\\", \\\"]\\\"}], \
             $CellContext`SU2L[Matchete`adj], 
             $CellContext`SU2L[Matchete`fund]}],
           Editable->False]],ExpressionUUID->
-         "51a32a00-6b23-44ca-b883-048cf449168e"],
+         "3b1afdf7-626b-46f4-9e48-27a787de7878"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -9486,12 +9486,12 @@ RowBox[{RowBox[{\\\"SU2L\\\", \\\"[\\\", \\\"fund\\\", \\\"]\\\"}], \
         FontColor->GrayLevel[0.75, 0.2]], 
        ItemBox[Cell[
         "Get MSSM matching conditions",ExpressionUUID->
-         "880a67e2-b568-4fe5-83a9-978817133727"],
+         "b5b2b6e7-ea83-42f6-b747-f362cd8589d4"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[
         "Get MSSM matching conditions",ExpressionUUID->
-         "afae91f9-8edf-4e12-b71e-f2ecbacb08b4"],
+         "149a5856-65bc-4b60-a297-ffa143f4d260"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -9508,7 +9508,7 @@ RowBox[{RowBox[{\\\"SU2L\\\", \\\"[\\\", \\\"fund\\\", \\\"]\\\"}], \
                RowBox[{"NotebookDirectory", "[", "]"}], 
                ",", "\<\"../matching-results/Mathematica/MSSM-matching-\
 conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
-         "a123ce5c-c19a-4ed1-83af-b54e06344743"],
+         "17c2d18e-402f-46ce-ab2c-d9ab9c053450"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -9521,7 +9521,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                RowBox[{"NotebookDirectory", "[", "]"}], 
                ",", "\<\"../matching-results/Mathematica/MSSM-matching-\
 conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
-         "f63d1bb3-8027-4ba5-9910-18a8c3223eae"],
+         "a8113387-6944-42fa-88b9-45aefdfa5896"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -9530,12 +9530,12 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
         FontColor->GrayLevel[0.75, 0.2]], 
        ItemBox[Cell[
         "Get the Higgs quartic coupling expression",ExpressionUUID->
-         "122ca674-5d47-4283-a33f-f6204881b048"],
+         "b83ac0f5-eccf-41f7-b039-a31d933a967a"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[
         "Get the Higgs quartic coupling expression",ExpressionUUID->
-         "1d8e005f-f480-4a1f-9508-154bf7f8a635"],
+         "57a92674-75b8-4cbc-ae14-a6d7e37661a3"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -9550,7 +9550,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
              RowBox[{"\[Lambda]", ",", 
               RowBox[{"{", "}"}], ",", "0"}], "]"}], "/.", 
             "MatchingCondition"}]}], ";"}]],ExpressionUUID->
-         "b195f5ef-9f92-4752-b35d-4cd20e2ddd9e"],
+         "efb7b853-ffaa-4c17-9f07-bef924910b41"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -9561,7 +9561,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
              RowBox[{"\[Lambda]", ",", 
               RowBox[{"{", "}"}], ",", "0"}], "]"}], "/.", 
             "MatchingCondition"}]}], ";"}]],ExpressionUUID->
-         "bf030270-36d3-4d33-9e0d-d11b46711c0f"],
+         "a09d074a-94d2-4aad-8b66-ca9364c8bf2f"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -9570,12 +9570,12 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
         FontColor->GrayLevel[0.75, 0.2]], 
        ItemBox[Cell["\<\
 Keep only the contributions from left and right-handed stops:\
-\>",ExpressionUUID->"165c625a-d42e-4c2d-b14c-6b5c3eecede8"],
+\>",ExpressionUUID->"bd40661f-0cb0-4edc-b9a6-f118dc725ba2"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell["\<\
 Keep only the contributions from left and right-handed stops:\
-\>",ExpressionUUID->"fa3d03be-cbd6-44a4-9b15-3e0cb967c8cb"],
+\>",ExpressionUUID->"59772b50-6ca0-430f-87d6-5afa088afc4c"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -9742,7 +9742,7 @@ Keep only the contributions from left and right-handed stops:\
                   RowBox[{"\<\"\[Gamma]\"\>", "->", "\<\"\[Beta]\"\>"}]}], 
                  "]"}], "]"}], ",", 
                RowBox[{"{", "}"}], ",", "0"}], "]"}]}], "}"}]}], ";"}]}],
-         ExpressionUUID->"27fcc145-10ce-47de-a516-2994f283ed17"],
+         ExpressionUUID->"59eb8b7c-3483-4990-bbdd-51044b05db95"],
         Background->RGBColor[
          1., 0.20449276480565456`, 0.06811595600706824, 0.4],
         BaseStyle->{FontColor -> GrayLevel[0, 0.5], ScriptLevel -> 0},
@@ -9847,12 +9847,7 @@ Keep only the contributions from left and right-handed stops:\
                     RowBox[{"i", ",", "Flavor"}], "]"}], ",", 
                    RowBox[{"Index", "[", 
                     RowBox[{"j", ",", "Flavor"}], "]"}]}], "}"}], ",", "0"}], 
-                "]"}]}], ",", 
-              RowBox[{
-               RowBox[{"Coupling", "[", 
-                RowBox[{"cH2", ",", 
-                 RowBox[{"{", "}"}], ",", "2"}], "]"}], "\[Rule]", "0"}]}], 
-             "}"}]}], ";"}], "\[IndentingNewLine]", 
+                "]"}]}]}], "}"}]}], ";"}], "\[IndentingNewLine]", 
           RowBox[{"(*", " ", 
            RowBox[{
            "Write", " ", "results", " ", "in", " ", "terms", " ", "of", " ", 
@@ -9900,7 +9895,7 @@ Keep only the contributions from left and right-handed stops:\
                   RowBox[{"\<\"\[Gamma]\"\>", "->", "\<\"\[Beta]\"\>"}]}], 
                  "]"}], "]"}], ",", 
                RowBox[{"{", "}"}], ",", "0"}], "]"}]}], "}"}]}], ";"}]}],
-         ExpressionUUID->"a1b01f8c-3e58-44f8-ba77-1b47516c8e1c"],
+         ExpressionUUID->"6cb64556-8e9c-4e6f-b186-72ff8f0a246b"],
         Background->RGBColor[
          0.3764665159936044, 0.5688250565023983, 0.9650000000000001, 0.4],
         BaseStyle->{ScriptLevel -> 0},
@@ -9918,7 +9913,7 @@ Keep only the contributions from left and right-handed stops:\
               RowBox[{
                RowBox[{"lH", "/.", "gaugeMatching"}], "/.", "yukMatching"}], "/.",
                "gammaMatching"}], "/.", "stopsOnly"}], "]"}]}], ";"}]],
-         ExpressionUUID->"493af087-5a59-422d-8d21-fca5051f19b7"],
+         ExpressionUUID->"097bee7d-a8aa-4240-b0a6-814a68ec5eaa"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -9930,7 +9925,7 @@ Keep only the contributions from left and right-handed stops:\
               RowBox[{
                RowBox[{"lH", "/.", "gaugeMatching"}], "/.", "yukMatching"}], "/.",
                "gammaMatching"}], "/.", "stopsOnly"}], "]"}]}], ";"}]],
-         ExpressionUUID->"0821ebbb-9501-4939-a39d-6aef6840d0de"],
+         ExpressionUUID->"885dec1e-500a-4074-a107-d6c67027a9b8"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -9939,12 +9934,12 @@ Keep only the contributions from left and right-handed stops:\
         FontColor->GrayLevel[0.75, 0.2]], 
        ItemBox[Cell[
         "Simplifications",ExpressionUUID->
-         "be2a37a3-8ce2-439b-8334-a8899c11210a"],
+         "0981d9a4-9c77-4a97-981c-699c670df287"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[
         "Simplifications",ExpressionUUID->
-         "f4a717b4-11a8-4753-9cab-776736709310"],
+         "7b6a0633-3b1e-423d-b7e4-68f76e38b990"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -10089,7 +10084,7 @@ Keep only the contributions from left and right-handed stops:\
               RowBox[{"ae", "[", 
                RowBox[{"i_", ",", "j_"}], "]"}], "\[Rule]", " ", "0"}]}], 
             "\[IndentingNewLine]", "}"}]}], ";"}]],ExpressionUUID->
-         "6771e600-417f-4105-a87b-2326c9b20800"],
+         "024f48ab-20a4-43e3-a800-43c941574fb9"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -10230,38 +10225,195 @@ Keep only the contributions from left and right-handed stops:\
               RowBox[{"ae", "[", 
                RowBox[{"i_", ",", "j_"}], "]"}], "\[Rule]", " ", "0"}]}], 
             "\[IndentingNewLine]", "}"}]}], ";"}]],ExpressionUUID->
-         "4cea6786-63c8-41b3-a796-ac9aa765b707"],
+         "bc31b19d-f2f4-4759-8341-9abb5e44c11d"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
        StyleBox["\<\"\[CenterDot]\"\>",
         StripOnInput->False,
         FontColor->GrayLevel[0.75, 0.2]], 
-       ItemBox[
-        TemplateBox[{"5"},
-         "MoreMatches",
-         DisplayFunction->(FrameBox[
-           RowBox[{"\" \[CenterEllipsis]\"", #, "\"\[CenterEllipsis] \""}], 
-           Background -> GrayLevel[0.75], 
-           BaseStyle -> {
-            "Deploy", FontColor -> GrayLevel[1], FontSize -> Smaller, 
-             ShowStringCharacters -> False}, BaselinePosition -> Baseline, 
-           ContentPadding -> False, FrameMargins -> {{0, 0}, {1, 2}}, 
-           FrameStyle -> None, RoundingRadius -> 7]& )],
-        Background->GrayLevel[0.96],
+       ItemBox[Cell[BoxData[
+         RowBox[{
+          RowBox[{"lHsimp2", "=", 
+           RowBox[{"lHsimp", "//.", "reps"}]}], ";"}]],ExpressionUUID->
+         "ae708c70-34ad-4ebb-bd1e-b9aeba55567e"],
+        BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
-       ItemBox[
-        TemplateBox[{"5"},
-         "MoreMatches",
-         DisplayFunction->(FrameBox[
-           RowBox[{"\" \[CenterEllipsis]\"", #, "\"\[CenterEllipsis] \""}], 
-           Background -> GrayLevel[0.75], 
-           BaseStyle -> {
-            "Deploy", FontColor -> GrayLevel[1], FontSize -> Smaller, 
-             ShowStringCharacters -> False}, BaselinePosition -> Baseline, 
-           ContentPadding -> False, FrameMargins -> {{0, 0}, {1, 2}}, 
-           FrameStyle -> None, RoundingRadius -> 7]& )],
-        Background->GrayLevel[0.96],
+       ItemBox[Cell[BoxData[
+         RowBox[{
+          RowBox[{"lHsimp2", "=", 
+           RowBox[{"lHsimp", "//.", "reps"}]}], ";"}]],ExpressionUUID->
+         "7c7e7a9e-f5aa-4ae4-a835-0cf3f8459c01"],
+        BaseStyle->{ScriptLevel -> 0},
+        StripOnInput->False]},
+      {
+       StyleBox["\<\"\[CenterDot]\"\>",
+        StripOnInput->False,
+        FontColor->GrayLevel[0.75, 0.2]], 
+       ItemBox[Cell[
+        "Evaluate loop functions",ExpressionUUID->
+         "87019cd9-d701-468f-adc6-bd4e92f04196"],
+        BaseStyle->{ScriptLevel -> 0},
+        StripOnInput->False], 
+       ItemBox[Cell[
+        "Evaluate loop functions",ExpressionUUID->
+         "aee55ad7-d8ad-4036-9470-6975f1afe104"],
+        BaseStyle->{ScriptLevel -> 0},
+        StripOnInput->False]},
+      {
+       StyleBox["\<\"\[CenterDot]\"\>",
+        StripOnInput->False,
+        FontColor->GrayLevel[0.75, 0.2]], 
+       ItemBox[Cell[BoxData[
+         RowBox[{
+          RowBox[{"lHsimp3", " ", "=", " ", 
+           RowBox[{"EvaluateLoopFunctions", "[", "lHsimp2", "]"}]}], ";"}]],
+         ExpressionUUID->"f5b40490-6911-4426-a283-76bfb3b8ba68"],
+        BaseStyle->{ScriptLevel -> 0},
+        StripOnInput->False], 
+       ItemBox[Cell[BoxData[
+         RowBox[{
+          RowBox[{"lHsimp3", " ", "=", " ", 
+           RowBox[{"EvaluateLoopFunctions", "[", "lHsimp2", "]"}]}], ";"}]],
+         ExpressionUUID->"9f7bbff8-bc4f-4b67-b6e4-9309ea147c86"],
+        BaseStyle->{ScriptLevel -> 0},
+        StripOnInput->False]},
+      {
+       TagBox[
+        TooltipBox[
+         StyleBox["\<\"\[FilledCircle]\"\>",
+          StripOnInput->False,
+          
+          FontColor->RGBColor[
+           0.3764665159936044, 0.5688250565023983, 0.9650000000000001]],
+         "\"Edited\"",
+         TooltipStyle->"TextStyling"],
+        Annotation[#, "Edited", "Tooltip"]& ], 
+       ItemBox[Cell[
+        "Simplify result",ExpressionUUID->
+         "f02adafb-752f-4ffd-bc13-14c1c9c27b04"],
+        Background->RGBColor[
+         1., 0.20449276480565456`, 0.06811595600706824, 0.4],
+        BaseStyle->{FontColor -> GrayLevel[0, 0.5], ScriptLevel -> 0},
+        StripOnInput->False], 
+       ItemBox[Cell["\<\
+Simplify result and neglect contribution from the Higgs mass for comparison:\
+\>",ExpressionUUID->"97c8af5c-06b1-483c-9b7c-774a3b43ddd9"],
+        Background->RGBColor[
+         0.3764665159936044, 0.5688250565023983, 0.9650000000000001, 0.4],
+        BaseStyle->{ScriptLevel -> 0},
+        StripOnInput->False]},
+      {
+       TagBox[
+        TooltipBox[
+         StyleBox["\<\"\[FilledCircle]\"\>",
+          StripOnInput->False,
+          
+          FontColor->RGBColor[
+           0.3764665159936044, 0.5688250565023983, 0.9650000000000001]],
+         "\"Edited\"",
+         TooltipStyle->"TextStyling"],
+        Annotation[#, "Edited", "Tooltip"]& ], 
+       ItemBox[Cell[BoxData[
+         RowBox[{
+          RowBox[{"simp", "=", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{
+              SubscriptBox["a", "t"], "\[Rule]", " ", 
+              RowBox[{
+               FractionBox[
+                SubscriptBox["Y", "t"], 
+                RowBox[{"s\[Beta]", "[", "]"}]], 
+               RowBox[{"(", " ", 
+                RowBox[{
+                 SubscriptBox["X", "t"], "+", 
+                 RowBox[{
+                  RowBox[{"\[Mu]t", "[", "]"}], " ", 
+                  FractionBox[
+                   RowBox[{"c\[Beta]", "[", "]"}], 
+                   RowBox[{"s\[Beta]", "[", "]"}]]}]}], ")"}]}]}], ",", 
+             RowBox[{
+              RowBox[{"Delta", "[", 
+               RowBox[{
+                RowBox[{"Index", "[", 
+                 RowBox[{"3", ",", "Flavor"}], "]"}], ",", 
+                RowBox[{"Index", "[", 
+                 RowBox[{"3", ",", "Flavor"}], "]"}]}], "]"}], "->", "1"}], 
+             ",", 
+             RowBox[{
+              RowBox[{"Coupling", "[", 
+               RowBox[{"mqt", ",", 
+                RowBox[{"{", 
+                 RowBox[{"Index", "[", 
+                  RowBox[{"3", ",", "Flavor"}], "]"}], "}"}], ",", "0"}], 
+               "]"}], "->", 
+              SubscriptBox["m", "Q3"]}], ",", 
+             RowBox[{
+              RowBox[{"Coupling", "[", 
+               RowBox[{"mut", ",", 
+                RowBox[{"{", 
+                 RowBox[{"Index", "[", 
+                  RowBox[{"3", ",", "Flavor"}], "]"}], "}"}], ",", "0"}], 
+               "]"}], "->", 
+              SubscriptBox["m", "tR"]}]}], "}"}]}], ";"}]],ExpressionUUID->
+         "9f58dac4-b298-4e5d-a268-1d016a382c46"],
+        Background->RGBColor[
+         1., 0.20449276480565456`, 0.06811595600706824, 0.4],
+        BaseStyle->{FontColor -> GrayLevel[0, 0.5], ScriptLevel -> 0},
+        StripOnInput->False], 
+       ItemBox[Cell[BoxData[
+         RowBox[{
+          RowBox[{"simp", "=", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{
+              SubscriptBox["a", "t"], "\[Rule]", " ", 
+              RowBox[{
+               FractionBox[
+                SubscriptBox["Y", "t"], 
+                RowBox[{"s\[Beta]", "[", "]"}]], 
+               RowBox[{"(", " ", 
+                RowBox[{
+                 SubscriptBox["X", "t"], "+", 
+                 RowBox[{
+                  RowBox[{"\[Mu]t", "[", "]"}], " ", 
+                  FractionBox[
+                   RowBox[{"c\[Beta]", "[", "]"}], 
+                   RowBox[{"s\[Beta]", "[", "]"}]]}]}], ")"}]}]}], ",", 
+             RowBox[{
+              RowBox[{"Delta", "[", 
+               RowBox[{
+                RowBox[{"Index", "[", 
+                 RowBox[{"3", ",", "Flavor"}], "]"}], ",", 
+                RowBox[{"Index", "[", 
+                 RowBox[{"3", ",", "Flavor"}], "]"}]}], "]"}], "->", "1"}], 
+             ",", 
+             RowBox[{
+              RowBox[{"Coupling", "[", 
+               RowBox[{"mqt", ",", 
+                RowBox[{"{", 
+                 RowBox[{"Index", "[", 
+                  RowBox[{"3", ",", "Flavor"}], "]"}], "}"}], ",", "0"}], 
+               "]"}], "->", 
+              SubscriptBox["m", "Q3"]}], ",", 
+             RowBox[{
+              RowBox[{"Coupling", "[", 
+               RowBox[{"mut", ",", 
+                RowBox[{"{", 
+                 RowBox[{"Index", "[", 
+                  RowBox[{"3", ",", "Flavor"}], "]"}], "}"}], ",", "0"}], 
+               "]"}], "->", 
+              SubscriptBox["m", "tR"]}], ",", 
+             RowBox[{
+              RowBox[{"Coupling", "[", 
+               RowBox[{"cH2", ",", 
+                RowBox[{"{", "}"}], ",", "2"}], "]"}], "\[Rule]", "0"}]}], 
+            "}"}]}], ";"}]],ExpressionUUID->
+         "63c04b39-b6dc-443c-b2d0-3c9a601e2269"],
+        Background->RGBColor[
+         0.3764665159936044, 0.5688250565023983, 0.9650000000000001, 0.4],
+        BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
        StyleBox["\<\"\[CenterDot]\"\>",
@@ -10301,7 +10453,7 @@ Keep only the contributions from left and right-handed stops:\
                 RowBox[{"Log", "[", "a_", "]"}]}], "}"}], ",", 
               "FullSimplify"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
          RowBox[{"lHsimp4", "//", "NiceForm"}]}],ExpressionUUID->
-         "9f74f778-c86c-4d65-9aa2-849ecd9e6ded"],
+         "d86192c5-9662-431b-bd0d-40a5f032b19e"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[{
@@ -10338,7 +10490,7 @@ Keep only the contributions from left and right-handed stops:\
                 RowBox[{"Log", "[", "a_", "]"}]}], "}"}], ",", 
               "FullSimplify"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
          RowBox[{"lHsimp4", "//", "NiceForm"}]}],ExpressionUUID->
-         "b5216953-d17d-41e1-ae65-acde1b4c2cf5"],
+         "4dde6857-22be-49e3-955b-129e999f83f2"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -10438,7 +10590,7 @@ Keep only the contributions from left and right-handed stops:\
                  SubsuperscriptBox["Y", "t", "4"]}]}], ")"}],
               SpanSymmetric->False],
              StandardForm]}], "StandardForm"], Matchete`NiceForm]],
-         ExpressionUUID->"64e784cc-90bd-4bae-b85e-923b455ae61a"],
+         ExpressionUUID->"fb54eae1-f655-4cfe-85b8-15858cf3bb28"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -10534,7 +10686,7 @@ Keep only the contributions from left and right-handed stops:\
                  SubsuperscriptBox["Y", "t", "4"]}]}], ")"}],
               SpanSymmetric->False],
              StandardForm]}], "StandardForm"], Matchete`NiceForm]],
-         ExpressionUUID->"7e0cb686-2e4f-4ba3-ab5a-652228757fb2"],
+         ExpressionUUID->"c7f94003-1d19-4e0f-9780-bb4499c596b8"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -10548,7 +10700,7 @@ Keep only the contributions from left and right-handed stops:\
             " ", "Eq", ".7", " ", "from", " ", "1108.6077", " ", "in", " ", 
            "the", " ", "limit", " ", "g1"}], ",", "g2", ",", 
           RowBox[{"g3", "->", " ", "0."}]}]],ExpressionUUID->
-         "898ea19d-8fcd-4f21-9d21-ce21fac79a73"],
+         "6e42ce60-b983-4550-92c0-ec7221b6d267"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -10558,7 +10710,7 @@ Keep only the contributions from left and right-handed stops:\
             " ", "Eq", ".7", " ", "from", " ", "1108.6077", " ", "in", " ", 
            "the", " ", "limit", " ", "g1"}], ",", "g2", ",", 
           RowBox[{"g3", "->", " ", "0."}]}]],ExpressionUUID->
-         "5823706b-904b-49e8-8813-bc8aba69219c"],
+         "18ec2153-a043-4dbc-97a7-da9f72f06268"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]}
      },
@@ -10776,6 +10928,7 @@ Julie Pag\[EGrave]s, Anders Eller Thomsen, and Felix Wilsch \n",
                  RowBox[{"s\[Beta]", ",", "  ", 
                    RowBox[{"EFTOrder", "->", "0"}], ",", " ", 
                    RowBox[{"SelfConjugate", "->", "True"}], ",", " ", 
+                   
                    RowBox[{
                     "NiceForm", "->", 
                     "\"\\!\\(\\*SubscriptBox[\\(s\\), \
@@ -10924,7 +11077,6 @@ conditions.m\""}], "}"}], "]"}], "]"}]}], ";"}]]],
                     RowBox[{"i_", ",", "j_"}], "]"}], "\[Rule]", " ", "0"}]}],
                      "}"}]}], ";"}], "\[IndentingNewLine]", 
                RowBox[{"(*", " ", 
-                 
                  RowBox[{
                   "Write", " ", "results", " ", "in", " ", "terms", " ", "of",
                     " ", "SM", " ", "Yukawa", " ", "couplings"}], " ", 
@@ -11131,12 +11283,7 @@ conditions.m\""}], "}"}], "]"}], "]"}]}], ";"}]]],
                     RowBox[{"i", ",", "Flavor"}], "]"}], ",", 
                     RowBox[{"Index", "[", 
                     RowBox[{"j", ",", "Flavor"}], "]"}]}], "}"}], ",", "0"}], 
-                    "]"}]}], ",", 
-                    RowBox[{
-                    RowBox[{"Coupling", "[", 
-                    RowBox[{"cH2", ",", 
-                    RowBox[{"{", "}"}], ",", "2"}], "]"}], "\[Rule]", "0"}]}],
-                     "}"}]}], ";"}], "\[IndentingNewLine]", 
+                    "]"}]}]}], "}"}]}], ";"}], "\[IndentingNewLine]", 
                RowBox[{"(*", " ", 
                  
                  RowBox[{
@@ -11337,7 +11484,115 @@ conditions.m\""}], "}"}], "]"}], "]"}]}], ";"}]]],
                     RowBox[{"ae", "[", 
                     RowBox[{"i_", ",", "j_"}], "]"}], "\[Rule]", " ", "0"}]}],
                    "\[IndentingNewLine]", "}"}]}], ";"}]]], 
-          Wolfram`DiffTools`MoreMatches[5], 
+          Cell[
+           BoxData[
+            RowBox[{
+              RowBox[{"lHsimp2", "=", 
+                RowBox[{"lHsimp", "//.", "reps"}]}], ";"}]]], 
+          Cell["Evaluate loop functions"], 
+          Cell[
+           BoxData[
+            RowBox[{
+              RowBox[{"lHsimp3", " ", "=", " ", 
+                RowBox[{"EvaluateLoopFunctions", "[", "lHsimp2", "]"}]}], 
+              ";"}]]]}}, {20 -> {
+          Cell["Simplify result"]}, 20 -> {
+          Cell[
+          "Simplify result and neglect contribution from the Higgs mass for \
+comparison:"]}}, {21 -> {
+          Cell[
+           BoxData[
+            RowBox[{
+              RowBox[{"simp", "=", 
+                RowBox[{"{", 
+                  RowBox[{
+                    RowBox[{
+                    SubscriptBox["a", "t"], "\[Rule]", " ", 
+                    RowBox[{
+                    FractionBox[
+                    SubscriptBox["Y", "t"], 
+                    RowBox[{"s\[Beta]", "[", "]"}]], 
+                    RowBox[{"(", " ", 
+                    RowBox[{
+                    SubscriptBox["X", "t"], "+", 
+                    RowBox[{
+                    RowBox[{"\[Mu]t", "[", "]"}], " ", 
+                    FractionBox[
+                    RowBox[{"c\[Beta]", "[", "]"}], 
+                    RowBox[{"s\[Beta]", "[", "]"}]]}]}], ")"}]}]}], ",", 
+                    RowBox[{
+                    RowBox[{"Delta", "[", 
+                    RowBox[{
+                    RowBox[{"Index", "[", 
+                    RowBox[{"3", ",", "Flavor"}], "]"}], ",", 
+                    RowBox[{"Index", "[", 
+                    RowBox[{"3", ",", "Flavor"}], "]"}]}], "]"}], "->", "1"}],
+                     ",", 
+                    RowBox[{
+                    RowBox[{"Coupling", "[", 
+                    RowBox[{"mqt", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"Index", "[", 
+                    RowBox[{"3", ",", "Flavor"}], "]"}], "}"}], ",", "0"}], 
+                    "]"}], "->", 
+                    SubscriptBox["m", "Q3"]}], ",", 
+                    RowBox[{
+                    RowBox[{"Coupling", "[", 
+                    RowBox[{"mut", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"Index", "[", 
+                    RowBox[{"3", ",", "Flavor"}], "]"}], "}"}], ",", "0"}], 
+                    "]"}], "->", 
+                    SubscriptBox["m", "tR"]}]}], "}"}]}], ";"}]]]}, 21 -> {
+          Cell[
+           BoxData[
+            RowBox[{
+              RowBox[{"simp", "=", 
+                RowBox[{"{", 
+                  RowBox[{
+                    RowBox[{
+                    SubscriptBox["a", "t"], "\[Rule]", " ", 
+                    RowBox[{
+                    FractionBox[
+                    SubscriptBox["Y", "t"], 
+                    RowBox[{"s\[Beta]", "[", "]"}]], 
+                    RowBox[{"(", " ", 
+                    RowBox[{
+                    SubscriptBox["X", "t"], "+", 
+                    RowBox[{
+                    RowBox[{"\[Mu]t", "[", "]"}], " ", 
+                    FractionBox[
+                    RowBox[{"c\[Beta]", "[", "]"}], 
+                    RowBox[{"s\[Beta]", "[", "]"}]]}]}], ")"}]}]}], ",", 
+                    RowBox[{
+                    RowBox[{"Delta", "[", 
+                    RowBox[{
+                    RowBox[{"Index", "[", 
+                    RowBox[{"3", ",", "Flavor"}], "]"}], ",", 
+                    RowBox[{"Index", "[", 
+                    RowBox[{"3", ",", "Flavor"}], "]"}]}], "]"}], "->", "1"}],
+                     ",", 
+                    RowBox[{
+                    RowBox[{"Coupling", "[", 
+                    RowBox[{"mqt", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"Index", "[", 
+                    RowBox[{"3", ",", "Flavor"}], "]"}], "}"}], ",", "0"}], 
+                    "]"}], "->", 
+                    SubscriptBox["m", "Q3"]}], ",", 
+                    RowBox[{
+                    RowBox[{"Coupling", "[", 
+                    RowBox[{"mut", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"Index", "[", 
+                    RowBox[{"3", ",", "Flavor"}], "]"}], "}"}], ",", "0"}], 
+                    "]"}], "->", 
+                    SubscriptBox["m", "tR"]}], ",", 
+                    RowBox[{
+                    RowBox[{"Coupling", "[", 
+                    RowBox[{"cH2", ",", 
+                    RowBox[{"{", "}"}], ",", "2"}], "]"}], "\[Rule]", "0"}]}],
+                   "}"}]}], ";"}]]]}}, {{22, 22} -> {
           Cell[
            BoxData[{
              RowBox[{
@@ -11474,8 +11729,8 @@ conditions.m\""}], "}"}], "]"}], "]"}]}], ";"}]]],
      "NotebookSources" -> {
       "/home/lessa/MSSM-to-SMEFT/examples_old/lambdaH_oneloop.nb", 
        "/home/lessa/MSSM-to-SMEFT/examples/lambdaH_oneloop.nb"}, 
-     "AlignmentMethod" -> "CellEditDistance", "AlignmentTiming" -> 0.00004|>],
-    "SideBySide"]]], "Print",
+     "AlignmentMethod" -> "CellEditDistance", "AlignmentTiming" -> 
+     0.000363|>], "SideBySide"]]], "Print",
  CellChangeTimes->{{3.957864868381864*^9, 3.957864879388083*^9}, 
    3.957867653455718*^9, 3.957867919365081*^9, 3.9578680789106483`*^9, 
    3.958107236214891*^9, 3.9581153009458027`*^9, 3.958115412374192*^9, 
@@ -11484,10 +11739,10 @@ conditions.m\""}], "}"}], "]"}], "]"}]}], ";"}]]],
    3.958116598301834*^9, 3.9581166385995073`*^9, 3.9581169467590513`*^9, 
    3.958117380104195*^9, 3.9581176077427397`*^9, 3.9581226193931026`*^9, 
    3.9581227135308533`*^9, 3.95812286769283*^9, 3.958123037924699*^9, 
-   3.958123143998109*^9},
+   3.9581231416465073`*^9, 3.9581248214461927`*^9},
  CellLabel->
   "During evaluation of \
-In[5]:=",ExpressionUUID->"cf33c204-36d4-4a9a-aeb4-37a42ae7e454"],
+In[5]:=",ExpressionUUID->"0fd09933-986a-43ef-b5e3-4cb238ca457e"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -11509,10 +11764,10 @@ Cell[BoxData[
    3.958116598301834*^9, 3.9581166385995073`*^9, 3.9581169467590513`*^9, 
    3.958117380104195*^9, 3.9581176077427397`*^9, 3.9581226193931026`*^9, 
    3.9581227135308533`*^9, 3.95812286769283*^9, 3.958123037924699*^9, 
-   3.958123144047817*^9},
+   3.9581231416465073`*^9, 3.958124821509287*^9},
  CellLabel->
   "During evaluation of \
-In[5]:=",ExpressionUUID->"8bb07b31-6e7b-4fbf-86f1-ea40adaefa14"],
+In[5]:=",ExpressionUUID->"4313b729-084c-4aab-a905-fe65af95e8a9"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -11549,12 +11804,12 @@ Cell[BoxData[
         FontColor->GrayLevel[0.75, 0.2]], 
        ItemBox[Cell[
         "MSSM-to-SMEFT matching: Stop-Bino scenario",ExpressionUUID->
-         "da08b6da-1294-47fc-a41b-94ab76af2d66"],
+         "0797e003-69c7-41b3-8511-8c0b82146b4d"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[
         "MSSM-to-SMEFT matching: Stop-Bino scenario",ExpressionUUID->
-         "bf9ee0c8-23e0-49ab-9158-2ad9d23b37d5"],
+         "1f6492c8-6b5c-4b95-8e3f-7b66918e83ee"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -11563,12 +11818,12 @@ Cell[BoxData[
         FontColor->GrayLevel[0.75, 0.2]], 
        ItemBox[Cell[
         "Load Matchete and MSSM",ExpressionUUID->
-         "5c959c53-b7ad-483a-a949-22643ba229c3"],
+         "27bb2920-9846-44fa-bfe6-d658c1bc8bae"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[
         "Load Matchete and MSSM",ExpressionUUID->
-         "b53255e5-8ee6-4200-95ff-dad6db7af490"],
+         "108fa09a-c31b-4ff9-988b-b5393c893cf1"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -11577,12 +11832,12 @@ Cell[BoxData[
         FontColor->GrayLevel[0.75, 0.2]], 
        ItemBox[Cell[BoxData[
          RowBox[{"Needs", "[", "\<\"Matchete`\"\>", "]"}]],ExpressionUUID->
-         "991f75ad-83c5-43a9-806a-680c5c84a0dd"],
+         "5a5f7a76-7877-4d65-ad06-83b27b7fd976"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
          RowBox[{"Needs", "[", "\<\"Matchete`\"\>", "]"}]],ExpressionUUID->
-         "64367711-a74b-4a63-bdf1-5da0d17e7134"],
+         "8c8bfbf0-b16a-4481-8dac-6d27ae8b62dc"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -11729,7 +11984,7 @@ A+xeoPtCwBLBDsBQ8DZvboOEDzD8wObnIfjo4QsARrGtpA==
                  RowBox[{"BaselinePosition", "\[Rule]", 
                    RowBox[{"Scaled", "[", "0.5`", "]"}]}]}], "]"}]& )]},
           "RowWithSeparator"]],ExpressionUUID->
-         "6afdbf52-5596-4da7-9735-49bca466862c"],
+         "5acb32ef-452a-4d78-976f-0800ea635feb"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -11872,7 +12127,7 @@ A+xeoPtCwBLBDsBQ8DZvboOEDzD8wObnIfjo4QsARrGtpA==
                  RowBox[{"BaselinePosition", "\[Rule]", 
                    RowBox[{"Scaled", "[", "0.5`", "]"}]}]}], "]"}]& )]},
           "RowWithSeparator"]],ExpressionUUID->
-         "90d91423-c5c5-407f-892c-0dbe539db93a"],
+         "814f9406-7b8a-480f-a280-daa4a30e2199"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -11905,7 +12160,7 @@ Julie Pag\[EGrave]s, Anders Eller Thomsen, and Felix Wilsch \n",
            "https://gitlab.com/matchete/matchete", 
             "https://gitlab.com/matchete/matchete"]],
           Editable->False]],ExpressionUUID->
-         "cbfb6c4e-1647-40a5-ac4b-cc1adee221c9"],
+         "c30cf7a5-e058-475b-95f4-9d6e9529ac2a"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -11934,7 +12189,7 @@ Julie Pag\[EGrave]s, Anders Eller Thomsen, and Felix Wilsch \n",
            "https://gitlab.com/matchete/matchete", 
             "https://gitlab.com/matchete/matchete"]],
           Editable->False]],ExpressionUUID->
-         "7e10192e-e7c7-4891-9946-3672c51b93dd"],
+         "0a403c60-9ede-4c44-b4e2-e52664005161"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -11952,7 +12207,7 @@ Julie Pag\[EGrave]s, Anders Eller Thomsen, and Felix Wilsch \n",
          RowBox[{
           RowBox[{"\[ScriptCapitalL]MSSM", "=", " ", 
            RowBox[{"LoadModel", "[", "\<\"MSSM\"\>", "]"}]}], ";"}]],
-         ExpressionUUID->"e2fb6d8c-2856-4c29-8ae1-9d31ad433c40"],
+         ExpressionUUID->"72954e80-b09a-4900-ac05-61c19352fec5"],
         Background->RGBColor[
          1., 0.20449276480565456`, 0.06811595600706824, 0.4],
         BaseStyle->{FontColor -> GrayLevel[0, 0.5], ScriptLevel -> 0},
@@ -11966,7 +12221,7 @@ Julie Pag\[EGrave]s, Anders Eller Thomsen, and Felix Wilsch \n",
               RowBox[{
                RowBox[{"NotebookDirectory", "[", "]"}], 
                ",", "\<\"../matching/MSSM\"\>"}], "}"}], "]"}], "]"}]}], 
-          ";"}]],ExpressionUUID->"680c52a9-5d51-493b-87fb-e374bb6435b5"],
+          ";"}]],ExpressionUUID->"79910953-f7a2-4aec-a46c-4782aba17451"],
         Background->RGBColor[
          0.3764665159936044, 0.5688250565023983, 0.9650000000000001, 0.4],
         BaseStyle->{ScriptLevel -> 0},
@@ -11987,7 +12242,7 @@ RowBox[{RowBox[{\\\"SU2L\\\", \\\"[\\\", \\\"fund\\\", \\\"]\\\"}], \
             $CellContext`SU2L[Matchete`adj], 
             $CellContext`SU2L[Matchete`fund]}],
           Editable->False]],ExpressionUUID->
-         "a943a0cd-c529-4554-ab07-e127c98d53e5"],
+         "e357a474-cafb-46f4-abcf-68c919096fcc"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -12002,7 +12257,7 @@ RowBox[{RowBox[{\\\"SU2L\\\", \\\"[\\\", \\\"fund\\\", \\\"]\\\"}], \
             $CellContext`SU2L[Matchete`adj], 
             $CellContext`SU2L[Matchete`fund]}],
           Editable->False]],ExpressionUUID->
-         "e222c8e9-d113-40db-b700-fac1411c16e0"],
+         "b2a19892-40ed-4734-b71e-d6d226381a42"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -12011,12 +12266,12 @@ RowBox[{RowBox[{\\\"SU2L\\\", \\\"[\\\", \\\"fund\\\", \\\"]\\\"}], \
         FontColor->GrayLevel[0.75, 0.2]], 
        ItemBox[Cell[
         "Get MSSM matching conditions",ExpressionUUID->
-         "519e2175-1b79-4b6e-81ed-70aba222421d"],
+         "0802e478-6224-4117-aaab-87151bd6365a"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[
         "Get MSSM matching conditions",ExpressionUUID->
-         "e7d59c6b-79cb-421e-a52b-b60b671b3f74"],
+         "7d9d893a-6956-4efa-a4ad-b51e4d637324"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -12034,7 +12289,7 @@ RowBox[{RowBox[{\\\"SU2L\\\", \\\"[\\\", \\\"fund\\\", \\\"]\\\"}], \
                
                ",", "\<\"../matching-results/Mathematica/MSSM-matching-\
 conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
-         "740488f5-581b-4b0b-8e7d-3a2ed59cd960"],
+         "81d6abde-3562-4f58-8232-9e91c0b19536"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -12047,7 +12302,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                RowBox[{"NotebookDirectory", "[", "]"}], 
                ",", "\<\"../matching-results/Mathematica/MSSM-matching-\
 conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
-         "05f01908-49e3-427e-bbc9-83c5d9dc629c"],
+         "166caedd-6fdf-4d98-9ab3-ee4f98878ee9"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -12085,11 +12340,11 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
         StripOnInput->False,
         FontColor->GrayLevel[0.75, 0.2]], 
        ItemBox[Cell[BoxData[
-        "0"],ExpressionUUID->"c078894d-c279-4000-943f-82f1a1b7bcf4"],
+        "0"],ExpressionUUID->"b60156d9-2843-433c-9577-b65a27a92d86"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
-        "0"],ExpressionUUID->"4856a36a-88d6-4fbd-a6d5-edaf8090cea3"],
+        "0"],ExpressionUUID->"c628ddd1-3fd7-4286-a5c9-b9a41ae6e444"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -12171,7 +12426,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
             RowBox[{"FullSimplify", "[", 
              RowBox[{"cqu1Expr", "-", "cqu1ExprB"}], "]"}],
             SpanSymmetric->False]}]}]],ExpressionUUID->
-         "ed90f91c-1f63-44da-a964-472e0686052b"],
+         "463f9e63-d884-448b-a2ea-8e16e9cc2f0c"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -12249,7 +12504,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
             RowBox[{"FullSimplify", "[", 
              RowBox[{"cqu1Expr", "-", "cqu1ExprB"}], "]"}],
             SpanSymmetric->False]}]}]],ExpressionUUID->
-         "03b823eb-acc7-47f5-95a3-b647c38baaec"],
+         "1790f9cf-87ae-461f-b943-0fe3786dc61c"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -12257,11 +12512,11 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
         StripOnInput->False,
         FontColor->GrayLevel[0.75, 0.2]], 
        ItemBox[Cell[BoxData[
-        "0"],ExpressionUUID->"3ca95fbe-cee8-4747-a241-d3a4c9e45902"],
+        "0"],ExpressionUUID->"dc3c9a3e-04f4-4c30-9f70-c1e98de8a6eb"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
-        "0"],ExpressionUUID->"432e5749-d476-46c1-be8c-2c50eada0ca4"],
+        "0"],ExpressionUUID->"4b0fc021-990e-459a-87af-49618761fab7"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]}
      },
@@ -12579,7 +12834,7 @@ conditions.m\""}], "}"}], "]"}], "]"}]}], ";"}]]],
       "/home/lessa/MSSM-to-SMEFT/examples_old/stopBino_coeffs.nb", 
        "/home/lessa/MSSM-to-SMEFT/examples/stopBino_coeffs.nb"}, 
      "AlignmentMethod" -> "CellEditDistance", "AlignmentTiming" -> 
-     0.000027|>], "SideBySide"]]], "Print",
+     0.000031|>], "SideBySide"]]], "Print",
  CellChangeTimes->{{3.957864868381864*^9, 3.957864879388083*^9}, 
    3.957867653455718*^9, 3.957867919365081*^9, 3.9578680789106483`*^9, 
    3.958107236214891*^9, 3.9581153009458027`*^9, 3.958115412374192*^9, 
@@ -12588,10 +12843,10 @@ conditions.m\""}], "}"}], "]"}], "]"}]}], ";"}]]],
    3.958116598301834*^9, 3.9581166385995073`*^9, 3.9581169467590513`*^9, 
    3.958117380104195*^9, 3.9581176077427397`*^9, 3.9581226193931026`*^9, 
    3.9581227135308533`*^9, 3.95812286769283*^9, 3.958123037924699*^9, 
-   3.958123144277177*^9},
+   3.9581231416465073`*^9, 3.95812482165959*^9},
  CellLabel->
   "During evaluation of \
-In[5]:=",ExpressionUUID->"8336689f-c01d-4a55-88d5-bcc28d3f211c"],
+In[5]:=",ExpressionUUID->"e864d863-e966-4793-94cc-e2f6d9587701"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -12613,10 +12868,10 @@ Cell[BoxData[
    3.958116598301834*^9, 3.9581166385995073`*^9, 3.9581169467590513`*^9, 
    3.958117380104195*^9, 3.9581176077427397`*^9, 3.9581226193931026`*^9, 
    3.9581227135308533`*^9, 3.95812286769283*^9, 3.958123037924699*^9, 
-   3.958123144294861*^9},
+   3.9581231416465073`*^9, 3.958124821688003*^9},
  CellLabel->
   "During evaluation of \
-In[5]:=",ExpressionUUID->"73d23e49-37e2-4d2f-b0bf-af8f310eb5c5"],
+In[5]:=",ExpressionUUID->"ecaa926a-a847-4fc5-881a-1ec74b607c46"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -12653,12 +12908,12 @@ Cell[BoxData[
         FontColor->GrayLevel[0.75, 0.2]], 
        ItemBox[Cell[
         "MSSM-to-SMEFT matching: threshold corrections",ExpressionUUID->
-         "a69c2bf4-ad96-4477-a64c-ee21be4ae1b6"],
+         "97990bd1-4ba4-41dd-a631-2e3ce9b16ebf"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[
         "MSSM-to-SMEFT matching: threshold corrections",ExpressionUUID->
-         "d47bd1c6-0ea4-403e-bbb7-366aa316a494"],
+         "a6dec1f2-f624-409e-a16c-54a34746ddd4"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -12667,12 +12922,12 @@ Cell[BoxData[
         FontColor->GrayLevel[0.75, 0.2]], 
        ItemBox[Cell[BoxData[
          RowBox[{"Needs", "[", "\<\"Matchete`\"\>", "]"}]],ExpressionUUID->
-         "dbee1e47-60b8-4ae3-9b73-d0376ea0641a"],
+         "dcdfa929-b3aa-4ba8-a6d5-0c0211174dcd"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
          RowBox[{"Needs", "[", "\<\"Matchete`\"\>", "]"}]],ExpressionUUID->
-         "9b35ad1c-14bc-42d8-bc4c-a10cb3eae706"],
+         "77a17e47-c78b-43cd-a443-c9f960f3c344"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -12819,7 +13074,7 @@ A+xeoPtCwBLBDsBQ8DZvboOEDzD8wObnIfjo4QsARrGtpA==
                  RowBox[{"BaselinePosition", "\[Rule]", 
                    RowBox[{"Scaled", "[", "0.5`", "]"}]}]}], "]"}]& )]},
           "RowWithSeparator"]],ExpressionUUID->
-         "a01001b9-8515-47bc-900e-ef986799a468"],
+         "cf8dec2b-b8d3-4f8b-bef6-6d9970b9d602"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -12962,7 +13217,7 @@ A+xeoPtCwBLBDsBQ8DZvboOEDzD8wObnIfjo4QsARrGtpA==
                  RowBox[{"BaselinePosition", "\[Rule]", 
                    RowBox[{"Scaled", "[", "0.5`", "]"}]}]}], "]"}]& )]},
           "RowWithSeparator"]],ExpressionUUID->
-         "d437971a-2756-4509-820a-4f8c6955c687"],
+         "f68ee515-bdc4-423a-93c8-da0d23780bf9"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -12995,7 +13250,7 @@ Julie Pag\[EGrave]s, Anders Eller Thomsen, and Felix Wilsch \n",
            "https://gitlab.com/matchete/matchete", 
             "https://gitlab.com/matchete/matchete"]],
           Editable->False]],ExpressionUUID->
-         "4452d4b1-9b7d-4997-b2f0-09f557b7f781"],
+         "0a5780bd-2ae4-4b77-9bd1-5278e6829a5d"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -13024,7 +13279,7 @@ Julie Pag\[EGrave]s, Anders Eller Thomsen, and Felix Wilsch \n",
            "https://gitlab.com/matchete/matchete", 
             "https://gitlab.com/matchete/matchete"]],
           Editable->False]],ExpressionUUID->
-         "a22566d5-77f1-4995-a042-515e77072270"],
+         "e03906a8-5e6c-4f3f-b31e-b0570359d0fd"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -13035,14 +13290,14 @@ Julie Pag\[EGrave]s, Anders Eller Thomsen, and Felix Wilsch \n",
          RowBox[{
           RowBox[{"SetDirectory", "@", 
            RowBox[{"NotebookDirectory", "[", "]"}]}], ";"}]],ExpressionUUID->
-         "7a231da3-c981-4ac7-8852-ee0749ea32dc"],
+         "51224946-a6db-4127-ba69-8d5dbf50b0fe"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
          RowBox[{
           RowBox[{"SetDirectory", "@", 
            RowBox[{"NotebookDirectory", "[", "]"}]}], ";"}]],ExpressionUUID->
-         "4c3a75da-b495-42c5-a6c1-c3e299217253"],
+         "fbb5bed3-80ad-4a82-9ca8-2a43cf3698e6"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -13060,7 +13315,7 @@ Julie Pag\[EGrave]s, Anders Eller Thomsen, and Felix Wilsch \n",
          RowBox[{
           RowBox[{"\[ScriptCapitalL]MSSM", "=", " ", 
            RowBox[{"LoadModel", "[", "\<\"MSSM\"\>", "]"}]}], ";"}]],
-         ExpressionUUID->"929850aa-402d-4b62-8f1b-6f389e781591"],
+         ExpressionUUID->"5f3446d4-4429-4182-94ad-f9d7230f8921"],
         Background->RGBColor[
          1., 0.20449276480565456`, 0.06811595600706824, 0.4],
         BaseStyle->{FontColor -> GrayLevel[0, 0.5], ScriptLevel -> 0},
@@ -13129,7 +13384,7 @@ Julie Pag\[EGrave]s, Anders Eller Thomsen, and Felix Wilsch \n",
             "NiceForm", 
              "->", "\<\"\\!\\(\\*SubscriptBox[\\(c\\), \
 \\(4\[Beta]\\)]\\)\"\>"}]}], "]"}], ";"}]}],ExpressionUUID->
-         "5c39bb16-c061-49d7-bd47-167dd75d88da"],
+         "c8b607ce-c00a-48ec-a34e-1e47a89307c9"],
         Background->RGBColor[
          0.3764665159936044, 0.5688250565023983, 0.9650000000000001, 0.4],
         BaseStyle->{ScriptLevel -> 0},
@@ -13150,7 +13405,7 @@ RowBox[{RowBox[{\\\"SU2L\\\", \\\"[\\\", \\\"fund\\\", \\\"]\\\"}], \
             $CellContext`SU2L[Matchete`adj], 
             $CellContext`SU2L[Matchete`fund]}],
           Editable->False]],ExpressionUUID->
-         "58cc4c84-0dc7-407f-83c3-26468a9dde43"],
+         "d61d4e0a-b318-4192-9af5-5b48fbdf19d1"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -13165,7 +13420,7 @@ RowBox[{RowBox[{\\\"SU2L\\\", \\\"[\\\", \\\"fund\\\", \\\"]\\\"}], \
             $CellContext`SU2L[Matchete`adj], 
             $CellContext`SU2L[Matchete`fund]}],
           Editable->False]],ExpressionUUID->
-         "c1a72076-30c9-40e1-98f3-193d658d2b37"],
+         "11514f61-6cf8-45ca-9553-b77d43454dbd"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -13174,12 +13429,12 @@ RowBox[{RowBox[{\\\"SU2L\\\", \\\"[\\\", \\\"fund\\\", \\\"]\\\"}], \
         FontColor->GrayLevel[0.75, 0.2]], 
        ItemBox[Cell[
         "Get MSSM matching conditions",ExpressionUUID->
-         "46271bb2-a00a-4d4d-840f-750ac5e66eae"],
+         "ea6055c9-2ac7-474a-97c0-fea2f3fbff32"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[
         "Get MSSM matching conditions",ExpressionUUID->
-         "d2c4f52c-3362-492b-8e44-c4ddf0941945"],
+         "b9b6bd5c-c75e-46d5-90d3-690b28d6d4be"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -13203,7 +13458,7 @@ RowBox[{RowBox[{\\\"SU2L\\\", \\\"[\\\", \\\"fund\\\", \\\"]\\\"}], \
                RowBox[{"NotebookDirectory", "[", "]"}], 
                ",", "\<\"../matching-results/Mathematica/MSSM-matching-\
 conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
-         "cd95e767-5891-4001-893e-0d7961ce593a"],
+         "f97ce83f-3a74-4c64-b618-6683b3435709"],
         Background->RGBColor[
          1., 0.20449276480565456`, 0.06811595600706824, 0.4],
         BaseStyle->{FontColor -> GrayLevel[0, 0.5], ScriptLevel -> 0},
@@ -13218,7 +13473,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                RowBox[{"NotebookDirectory", "[", "]"}], 
                ",", "\<\"../matching-results/Mathematica/MSSM-matching-\
 conditions_detailed_not-shifted.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],
-         ExpressionUUID->"66210df1-b8b7-4b63-983e-94e6d4db5852"],
+         ExpressionUUID->"87d7a8b4-3c58-4ca7-802d-4550b20faad2"],
         Background->RGBColor[
          0.3764665159936044, 0.5688250565023983, 0.9650000000000001, 0.4],
         BaseStyle->{ScriptLevel -> 0},
@@ -13229,12 +13484,12 @@ conditions_detailed_not-shifted.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],
         FontColor->GrayLevel[0.75, 0.2]], 
        ItemBox[Cell[
         "Convert between the rotation angles \[Gamma] and \[Beta]",
-         ExpressionUUID->"a774c54d-617f-471b-820d-6bad9ff93964"],
+         ExpressionUUID->"bb61141c-2fa1-4610-ad6c-5c5b0030126c"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[
         "Convert between the rotation angles \[Gamma] and \[Beta]",
-         ExpressionUUID->"bd145d67-b8fa-49b0-a2f6-d25af090b6d6"],
+         ExpressionUUID->"2d532c81-da86-4740-b9ca-0065db23c954"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -13327,7 +13582,7 @@ conditions_detailed_not-shifted.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],
                    RowBox[{
                     RowBox[{"m\[CapitalPhi]", "[", "]"}], "^", "2"}]]}]}], 
                 ")"}]}]}]}], "\[IndentingNewLine]", "}"}]}], ";"}]],
-         ExpressionUUID->"7ff2c903-c1e1-4424-a63d-dcb4cbde3bf4"],
+         ExpressionUUID->"eb32d9fb-8f2d-4f42-81ef-9a0bb151a06b"],
         Background->RGBColor[
          1., 0.20449276480565456`, 0.06811595600706824, 0.4],
         BaseStyle->{FontColor -> GrayLevel[0, 0.5], ScriptLevel -> 0},
@@ -13404,7 +13659,7 @@ conditions_detailed_not-shifted.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],
                    RowBox[{
                     RowBox[{"m\[CapitalPhi]", "[", "]"}], "^", "2"}]]}]}], 
                 ")"}]}]}]}], "\[IndentingNewLine]", "}"}]}], ";"}]],
-         ExpressionUUID->"9536fe40-270b-4472-ae92-9e6be9457d5e"],
+         ExpressionUUID->"64d4f3cd-57bb-4540-9068-d93d0bfdd5dc"],
         Background->RGBColor[
          0.3764665159936044, 0.5688250565023983, 0.9650000000000001, 0.4],
         BaseStyle->{ScriptLevel -> 0},
@@ -13415,12 +13670,12 @@ conditions_detailed_not-shifted.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],
         FontColor->GrayLevel[0.75, 0.2]], 
        ItemBox[Cell[
         "Get the the threshold corrections to the SM parameters",
-         ExpressionUUID->"b41f6316-f71a-43d9-9b52-dc3cf79074e7"],
+         ExpressionUUID->"7fbf38a4-7ef0-43a1-a2e0-c4bb8a1c2f1a"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[
         "Get the the threshold corrections to the SM parameters",
-         ExpressionUUID->"f3284962-ab90-47c0-92c6-a92d8a0d9fc8"],
+         ExpressionUUID->"80b3174f-c3d2-4d32-9650-db2251b9df72"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -13527,7 +13782,7 @@ conditions_detailed_not-shifted.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],
                    RowBox[{"i2", ",", "Flavor"}], "]"}]}], "}"}], ",", "0"}], 
                "]"}], "/.", "MatchingCondition"}], "/.", 
              "MatchingCondition"}], "/.", "gammaMatching1"}]}], ";"}]}],
-         ExpressionUUID->"86405131-0846-421c-8481-e4602b1590fa"],
+         ExpressionUUID->"9a9f301b-07f7-4b4f-964e-c6601cfeaad9"],
         Background->RGBColor[
          1., 0.20449276480565456`, 0.06811595600706824, 0.4],
         BaseStyle->{FontColor -> GrayLevel[0, 0.5], ScriptLevel -> 0},
@@ -13619,7 +13874,7 @@ conditions_detailed_not-shifted.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],
                    RowBox[{"i2", ",", "Flavor"}], "]"}]}], "}"}], ",", "0"}], 
                "]"}], "/.", "MatchingCondition"}], "/.", 
              "MatchingCondition"}], "/.", "gammaMatching1"}]}], ";"}]}],
-         ExpressionUUID->"6eaf20e2-7f33-46ac-8314-0547e621b115"],
+         ExpressionUUID->"5eddfe8c-e0f3-4ed5-a9e2-5db41178cdc4"],
         Background->RGBColor[
          0.3764665159936044, 0.5688250565023983, 0.9650000000000001, 0.4],
         BaseStyle->{ScriptLevel -> 0},
@@ -13630,12 +13885,12 @@ conditions_detailed_not-shifted.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],
         FontColor->GrayLevel[0.75, 0.2]], 
        ItemBox[Cell[
         "One loop corrections to gauge couplings",ExpressionUUID->
-         "27ca074b-ae44-4eb5-a5c8-5fce938fc74c"],
+         "6e3be88a-78fb-4a02-9f5f-4dcb03b6f429"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[
         "One loop corrections to gauge couplings",ExpressionUUID->
-         "e3ab0e7d-f933-4686-ac11-ca923b4d4e16"],
+         "c67fa7fc-3701-49fa-a996-fec871cebf33"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -13678,7 +13933,7 @@ conditions_detailed_not-shifted.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],
                  RowBox[{"(", 
                   RowBox[{"4", " ", "Pi"}], ")"}], "^", "2"}]}]}], "}"}]}], "//",
              "EvaluateLoopFunctions"}], "]"}], "//", "NiceForm"}]}],
-         ExpressionUUID->"674976af-d4fe-4dd5-b57f-d6fae3a4f522"],
+         ExpressionUUID->"9a721159-ed57-4561-bde0-bab60b4c24ab"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[{
@@ -13717,7 +13972,7 @@ conditions_detailed_not-shifted.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],
                  RowBox[{"(", 
                   RowBox[{"4", " ", "Pi"}], ")"}], "^", "2"}]}]}], "}"}]}], "//",
              "EvaluateLoopFunctions"}], "]"}], "//", "NiceForm"}]}],
-         ExpressionUUID->"4ea24a99-f2c6-45ca-9efe-9d5917cba43e"],
+         ExpressionUUID->"bcacff60-a268-41b6-aa7c-228fce79c357"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -13861,7 +14116,7 @@ conditions_detailed_not-shifted.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],
                    StandardForm]}]}], ")"}],
                SpanSymmetric->False],
               StandardForm]}]}], "StandardForm"], Matchete`NiceForm]],
-         ExpressionUUID->"8734bb11-3276-4506-a3c4-59da794b9b1e"],
+         ExpressionUUID->"60325180-0eb6-481e-a436-e295dc5f946f"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -14001,7 +14256,7 @@ conditions_detailed_not-shifted.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],
                    StandardForm]}]}], ")"}],
                SpanSymmetric->False],
               StandardForm]}]}], "StandardForm"], Matchete`NiceForm]],
-         ExpressionUUID->"92d42be8-0006-438e-a21f-fc343a037818"],
+         ExpressionUUID->"4f6acece-4186-42f7-8720-bc5478f1cb1a"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -14101,7 +14356,7 @@ conditions_detailed_not-shifted.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],
                    StandardForm]}]}], ")"}],
                SpanSymmetric->False],
               StandardForm]}]}], "StandardForm"], Matchete`NiceForm]],
-         ExpressionUUID->"aeebee94-e07a-4d0a-9e3a-947d01f0c060"],
+         ExpressionUUID->"aeee1c70-cd43-4025-a659-47cda84a82b9"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -14197,7 +14452,7 @@ conditions_detailed_not-shifted.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],
                    StandardForm]}]}], ")"}],
                SpanSymmetric->False],
               StandardForm]}]}], "StandardForm"], Matchete`NiceForm]],
-         ExpressionUUID->"92a9982a-84f9-4a91-891a-35de1f13d7ed"],
+         ExpressionUUID->"1a67e78e-08a7-44ae-b86b-cc38219e5788"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -14291,7 +14546,7 @@ conditions_detailed_not-shifted.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],
                    StandardForm]}]}], ")"}],
                SpanSymmetric->False],
               StandardForm]}]}], "StandardForm"], Matchete`NiceForm]],
-         ExpressionUUID->"87231b8f-2d9e-4f2a-9a25-094b7efd615d"],
+         ExpressionUUID->"0b11c4eb-c435-4605-9502-76815eec034d"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -14381,7 +14636,7 @@ conditions_detailed_not-shifted.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],
                    StandardForm]}]}], ")"}],
                SpanSymmetric->False],
               StandardForm]}]}], "StandardForm"], Matchete`NiceForm]],
-         ExpressionUUID->"e82f18b5-aed8-47a3-be48-d9a8e349d138"],
+         ExpressionUUID->"33f3485f-0f59-497b-9573-20a5b8aedebb"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -14390,12 +14645,12 @@ conditions_detailed_not-shifted.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],
         FontColor->GrayLevel[0.75, 0.2]], 
        ItemBox[Cell[
         "Tree-level corrections to SM parameters",ExpressionUUID->
-         "5c4f1e47-8625-4ac0-9fbf-a28b6b77bf98"],
+         "7406694f-c181-48ef-885e-d3c1cd6fd0a2"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[
         "Tree-level corrections to SM parameters",ExpressionUUID->
-         "3aae5fa7-bf75-4cb5-872e-531615dc1c5e"],
+         "13c3936a-c2eb-493e-8d74-72f1dbe8c8f5"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -14560,7 +14815,7 @@ conditions_detailed_not-shifted.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],
                RowBox[{"{", 
                 RowBox[{"c\[Beta]", ",", "v"}], "}"}], ",", "Simplify"}], 
               "]"}], "]"}], "//", "NiceForm"}], ",", "\<\"+one-loop\"\>"}], 
-          "]"}]}],ExpressionUUID->"2ebffa91-cb61-461e-8fc9-b72ebcdfad05"],
+          "]"}]}],ExpressionUUID->"8b6a8bd0-bded-48c1-bd7d-b3badf026cf5"],
         Background->RGBColor[
          1., 0.20449276480565456`, 0.06811595600706824, 0.4],
         BaseStyle->{FontColor -> GrayLevel[0, 0.5], ScriptLevel -> 0},
@@ -14717,7 +14972,7 @@ conditions_detailed_not-shifted.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],
                 RowBox[{"m\[CapitalPhi]", "[", "]"}]}], "}"}], ",", 
               "Simplify"}], "]"}], "//", "NiceForm"}], 
            ",", "\<\"+one-loop\"\>"}], "]"}]}],ExpressionUUID->
-         "0214f662-e5d8-418c-b387-61f0c9b22f7e"],
+         "ab42e323-4a8b-4a3d-a385-83c2a981066b"],
         Background->RGBColor[
          0.3764665159936044, 0.5688250565023983, 0.9650000000000001, 0.4],
         BaseStyle->{ScriptLevel -> 0},
@@ -14742,7 +14997,7 @@ conditions_detailed_not-shifted.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],
             Matchete`Coupling[$CellContext`mH2, {}, 2], Matchete`NiceForm], 
            "+one-loop"],
           Editable->False]],ExpressionUUID->
-         "e697cc97-cd6e-46a3-9e42-81a0d6762107"],
+         "2db5a7f6-8fc9-4ec3-90cc-08b5f7ab2ed2"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -14761,7 +15016,7 @@ conditions_detailed_not-shifted.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],
             Matchete`Coupling[$CellContext`mH2, {}, 2], Matchete`NiceForm], 
            "+one-loop"],
           Editable->False]],ExpressionUUID->
-         "526f79c6-dbc5-4d10-8397-51385bbef8a0"],
+         "57d81559-55d0-4d97-8637-d1f15af20eac"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -14827,7 +15082,7 @@ conditions_detailed_not-shifted.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],
               Matchete`Coupling[$CellContext`m\[CapitalPhi], {}, 0]^(-2)), 
             Matchete`NiceForm], "+one-loop"],
           Editable->False]],ExpressionUUID->
-         "2fffc33e-84de-47ae-84e9-d922336c49a2"],
+         "790b2854-9bf6-44e5-96d3-a3ccd19b4f53"],
         Background->RGBColor[
          1., 0.20449276480565456`, 0.06811595600706824, 0.4],
         BaseStyle->{FontColor -> GrayLevel[0, 0.5], ScriptLevel -> 0},
@@ -14889,7 +15144,7 @@ conditions_detailed_not-shifted.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],
              Matchete`Coupling[$CellContext`s2\[Beta], {}, 0]^2, 
             Matchete`NiceForm], "+one-loop"],
           Editable->False]],ExpressionUUID->
-         "adfcf984-83bf-4855-a1d0-a4eda3eaffbc"],
+         "8936b024-f5db-4fe1-ab02-2c7d51c5df5e"],
         Background->RGBColor[
          0.3764665159936044, 0.5688250565023983, 0.9650000000000001, 0.4],
         BaseStyle->{ScriptLevel -> 0},
@@ -14958,7 +15213,7 @@ $CellContext`v^2 (Matchete`Coupling[$CellContext`g1, {}, 0]^2 +
                Matchete`Index[$CellContext`i2, $CellContext`Flavor]}, 0], 
             Matchete`NiceForm], "+one-loop"],
           Editable->False]],ExpressionUUID->
-         "5f2b45a5-7bc1-4408-9e4d-24254fd51aa3"],
+         "212c3602-02bb-4e4c-b287-d0032334c2c7"],
         Background->RGBColor[
          1., 0.20449276480565456`, 0.06811595600706824, 0.4],
         BaseStyle->{FontColor -> GrayLevel[0, 0.5], ScriptLevel -> 0},
@@ -15026,7 +15281,7 @@ $CellContext`v^2 (Matchete`Coupling[$CellContext`g1, {}, 0]^2 +
                 Matchete`Index[$CellContext`i2, $CellContext`Flavor]}, 0], 
             Matchete`NiceForm], "+one-loop"],
           Editable->False]],ExpressionUUID->
-         "c2ac2c37-9bb6-439a-ad86-375c95792b8d"],
+         "b234d80c-e749-498b-8efe-36c7766ec930"],
         Background->RGBColor[
          0.3764665159936044, 0.5688250565023983, 0.9650000000000001, 0.4],
         BaseStyle->{ScriptLevel -> 0},
@@ -15094,7 +15349,7 @@ $CellContext`v^2 (Matchete`Coupling[$CellContext`g1, {}, 0]^2 +
                Matchete`Index[$CellContext`i2, $CellContext`Flavor]}, 0], 
             Matchete`NiceForm], "+one-loop"],
           Editable->False]],ExpressionUUID->
-         "54de8327-046f-46e2-b8c4-0900b2a9c957"],
+         "34d3f57e-8367-423e-91a4-b27d580dfaa2"],
         Background->RGBColor[
          1., 0.20449276480565456`, 0.06811595600706824, 0.4],
         BaseStyle->{FontColor -> GrayLevel[0, 0.5], ScriptLevel -> 0},
@@ -15167,7 +15422,7 @@ $CellContext`v^2 (Matchete`Coupling[$CellContext`g1, {}, 0]^2 +
                Matchete`Index[$CellContext`i2, $CellContext`Flavor]}, 0], 
             Matchete`NiceForm], "+one-loop"],
           Editable->False]],ExpressionUUID->
-         "06407c95-a190-447d-8cab-e7d218c34ee3"],
+         "64d1772a-7b00-4226-905c-6284a234068a"],
         Background->RGBColor[
          1., 0.20449276480565456`, 0.06811595600706824, 0.4],
         BaseStyle->{FontColor -> GrayLevel[0, 0.5], ScriptLevel -> 0},
@@ -15235,7 +15490,7 @@ $CellContext`v^2 (Matchete`Coupling[$CellContext`g1, {}, 0]^2 +
                 Matchete`Index[$CellContext`i2, $CellContext`Flavor]}, 0], 
             Matchete`NiceForm], "+one-loop"],
           Editable->False]],ExpressionUUID->
-         "edaadf44-3f4c-4d47-8394-c2d0ef054581"],
+         "4a1eb4af-3216-4a27-8828-1adfe98aff5a"],
         Background->RGBColor[
          0.3764665159936044, 0.5688250565023983, 0.9650000000000001, 0.4],
         BaseStyle->{ScriptLevel -> 0},
@@ -15317,7 +15572,7 @@ $CellContext`v^2 (Matchete`Coupling[$CellContext`g1, {}, 0]^2 +
                 Matchete`Index[$CellContext`i2, $CellContext`Flavor]}, 0], 
             Matchete`NiceForm], "+one-loop"],
           Editable->False]],ExpressionUUID->
-         "8594b474-1eb1-413b-8925-62386066d299"],
+         "cb3db823-d44d-45a4-904d-1b816a7fc18e"],
         Background->RGBColor[
          0.16499999999999998`, 0.764, 0.5780000000000001, 0.4],
         BaseStyle->{ScriptLevel -> 0},
@@ -17059,7 +17314,7 @@ $CellContext`v^2 (Matchete`Coupling[$CellContext`g1, {}, 0]^2 +
      "NotebookSources" -> {
       "/home/lessa/MSSM-to-SMEFT/examples_old/threshold.nb", 
        "/home/lessa/MSSM-to-SMEFT/examples/threshold.nb"}, "AlignmentMethod" -> 
-     "CellEditDistance", "AlignmentTiming" -> 0.001234|>], 
+     "CellEditDistance", "AlignmentTiming" -> 0.001235|>], 
    "SideBySide"]]], "Print",
  CellChangeTimes->{{3.957864868381864*^9, 3.957864879388083*^9}, 
    3.957867653455718*^9, 3.957867919365081*^9, 3.9578680789106483`*^9, 
@@ -17069,10 +17324,10 @@ $CellContext`v^2 (Matchete`Coupling[$CellContext`g1, {}, 0]^2 +
    3.958116598301834*^9, 3.9581166385995073`*^9, 3.9581169467590513`*^9, 
    3.958117380104195*^9, 3.9581176077427397`*^9, 3.9581226193931026`*^9, 
    3.9581227135308533`*^9, 3.95812286769283*^9, 3.958123037924699*^9, 
-   3.9581231443350353`*^9},
+   3.9581231416465073`*^9, 3.9581248217925997`*^9},
  CellLabel->
   "During evaluation of \
-In[5]:=",ExpressionUUID->"b6ac6bb2-5d21-4bbd-88e1-c0072c77ea36"],
+In[5]:=",ExpressionUUID->"d24e4d39-8f6f-4656-a0c7-9d641ac8de40"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -17094,10 +17349,10 @@ Cell[BoxData[
    3.958116598301834*^9, 3.9581166385995073`*^9, 3.9581169467590513`*^9, 
    3.958117380104195*^9, 3.9581176077427397`*^9, 3.9581226193931026`*^9, 
    3.9581227135308533`*^9, 3.95812286769283*^9, 3.958123037924699*^9, 
-   3.95812314440775*^9},
+   3.9581231416465073`*^9, 3.958124821864456*^9},
  CellLabel->
   "During evaluation of \
-In[5]:=",ExpressionUUID->"8dc684bc-bbe2-499b-83ce-f89393efd851"],
+In[5]:=",ExpressionUUID->"2b264a2b-eb1b-4007-9665-2ea08bb71e7b"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -17134,12 +17389,12 @@ Cell[BoxData[
         FontColor->GrayLevel[0.75, 0.2]], 
        ItemBox[Cell[
         "MSSM-to-SMEFT matching: threshold corrections",ExpressionUUID->
-         "4348ee60-f27c-4804-a113-46e7743f1f2f"],
+         "da1a291a-7fd4-47d0-940a-2cfa30ceadce"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[
         "MSSM-to-SMEFT matching: threshold corrections",ExpressionUUID->
-         "d85ffba4-62fe-4f0f-aa2a-7699bfc2cfe5"],
+         "0bbd28cc-5388-4be8-bbae-c314558285e9"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -17148,12 +17403,12 @@ Cell[BoxData[
         FontColor->GrayLevel[0.75, 0.2]], 
        ItemBox[Cell[BoxData[
          RowBox[{"Needs", "[", "\<\"Matchete`\"\>", "]"}]],ExpressionUUID->
-         "5f99bf4f-80ac-423d-a837-3a07306947a3"],
+         "29f125e1-ea6f-47d6-a7a1-54fd97679339"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
          RowBox[{"Needs", "[", "\<\"Matchete`\"\>", "]"}]],ExpressionUUID->
-         "c58a0e2b-b744-4b61-9c10-227ee2598819"],
+         "e8e9e5e9-524e-4f1e-a568-da5d6cf23f53"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -17300,7 +17555,7 @@ A+xeoPtCwBLBDsBQ8DZvboOEDzD8wObnIfjo4QsARrGtpA==
                  RowBox[{"BaselinePosition", "\[Rule]", 
                    RowBox[{"Scaled", "[", "0.5`", "]"}]}]}], "]"}]& )]},
           "RowWithSeparator"]],ExpressionUUID->
-         "615d1cfc-969e-41f6-9e0e-20dd742af6b6"],
+         "daf1969a-0d6a-4e7a-b35d-cdbdd3e46ca9"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -17443,7 +17698,7 @@ A+xeoPtCwBLBDsBQ8DZvboOEDzD8wObnIfjo4QsARrGtpA==
                  RowBox[{"BaselinePosition", "\[Rule]", 
                    RowBox[{"Scaled", "[", "0.5`", "]"}]}]}], "]"}]& )]},
           "RowWithSeparator"]],ExpressionUUID->
-         "c4de800f-356e-4ffb-9303-01f38ee38a69"],
+         "add290ef-0ec4-4e1e-9ce8-9a5d6a96416f"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -17476,7 +17731,7 @@ Julie Pag\[EGrave]s, Anders Eller Thomsen, and Felix Wilsch \n",
            "https://gitlab.com/matchete/matchete", 
             "https://gitlab.com/matchete/matchete"]],
           Editable->False]],ExpressionUUID->
-         "64d2b2e2-5e75-4fb8-beb4-967893d023fc"],
+         "bc355e0b-8522-4381-b2cc-fa77a18e5374"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -17505,7 +17760,7 @@ Julie Pag\[EGrave]s, Anders Eller Thomsen, and Felix Wilsch \n",
            "https://gitlab.com/matchete/matchete", 
             "https://gitlab.com/matchete/matchete"]],
           Editable->False]],ExpressionUUID->
-         "49bf9b60-4b5d-4c02-9729-75c73f929301"],
+         "9a44a2ca-f7d6-4ce4-9358-f246165293f1"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -17516,14 +17771,14 @@ Julie Pag\[EGrave]s, Anders Eller Thomsen, and Felix Wilsch \n",
          RowBox[{
           RowBox[{"SetDirectory", "@", 
            RowBox[{"NotebookDirectory", "[", "]"}]}], ";"}]],ExpressionUUID->
-         "7653d3b0-f9f0-4495-afbc-6a61f8e87cff"],
+         "2d998652-9ef8-4f67-959f-36c030f957aa"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
          RowBox[{
           RowBox[{"SetDirectory", "@", 
            RowBox[{"NotebookDirectory", "[", "]"}]}], ";"}]],ExpressionUUID->
-         "15e703e8-7495-4cdb-ae19-5969dac2a37b"],
+         "f17bf790-30fc-42be-a83c-dfe44a12ff1b"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -17541,7 +17796,7 @@ Julie Pag\[EGrave]s, Anders Eller Thomsen, and Felix Wilsch \n",
          RowBox[{
           RowBox[{"\[ScriptCapitalL]MSSM", "=", " ", 
            RowBox[{"LoadModel", "[", "\<\"MSSM\"\>", "]"}]}], ";"}]],
-         ExpressionUUID->"3854538a-e577-4845-acab-d43c71c76e6c"],
+         ExpressionUUID->"e4933291-bbfe-48b6-a49d-bd8594b664a7"],
         Background->RGBColor[
          1., 0.20449276480565456`, 0.06811595600706824, 0.4],
         BaseStyle->{FontColor -> GrayLevel[0, 0.5], ScriptLevel -> 0},
@@ -17610,7 +17865,7 @@ Julie Pag\[EGrave]s, Anders Eller Thomsen, and Felix Wilsch \n",
             "NiceForm", 
              "->", "\<\"\\!\\(\\*SubscriptBox[\\(c\\), \
 \\(4\[Beta]\\)]\\)\"\>"}]}], "]"}], ";"}]}],ExpressionUUID->
-         "5e6fa2ec-e257-4bf1-b1b0-e045cce1a722"],
+         "4a36eeb6-3827-4fb6-8de3-bdd115934a83"],
         Background->RGBColor[
          0.3764665159936044, 0.5688250565023983, 0.9650000000000001, 0.4],
         BaseStyle->{ScriptLevel -> 0},
@@ -17631,7 +17886,7 @@ RowBox[{RowBox[{\\\"SU2L\\\", \\\"[\\\", \\\"fund\\\", \\\"]\\\"}], \
             $CellContext`SU2L[Matchete`adj], 
             $CellContext`SU2L[Matchete`fund]}],
           Editable->False]],ExpressionUUID->
-         "f2221e93-718a-4eeb-bd7b-b986ab1a3d58"],
+         "c65a9644-4e8e-463c-a420-e403a0927875"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -17646,7 +17901,7 @@ RowBox[{RowBox[{\\\"SU2L\\\", \\\"[\\\", \\\"fund\\\", \\\"]\\\"}], \
             $CellContext`SU2L[Matchete`adj], 
             $CellContext`SU2L[Matchete`fund]}],
           Editable->False]],ExpressionUUID->
-         "f0b51200-179b-47b6-8711-049f38113c77"],
+         "399b162b-d376-424c-ac78-03ccf8a16ce1"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -17655,12 +17910,12 @@ RowBox[{RowBox[{\\\"SU2L\\\", \\\"[\\\", \\\"fund\\\", \\\"]\\\"}], \
         FontColor->GrayLevel[0.75, 0.2]], 
        ItemBox[Cell[
         "Get MSSM matching conditions",ExpressionUUID->
-         "b795c831-e117-43b0-aba8-c2308134c9ba"],
+         "aff6ee23-3d5a-4000-8894-8bdcc6fb96a4"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[
         "Get MSSM matching conditions",ExpressionUUID->
-         "fbbd1e9f-5131-4602-8acd-522e06315d48"],
+         "2a40a109-d984-4492-95b8-d4edd8b8c2d9"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -17677,7 +17932,7 @@ RowBox[{RowBox[{\\\"SU2L\\\", \\\"[\\\", \\\"fund\\\", \\\"]\\\"}], \
                RowBox[{"NotebookDirectory", "[", "]"}], 
                ",", "\<\"../matching-results/Mathematica/MSSM-matching-\
 conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
-         "d4eb91f8-e256-453e-ba9b-d32682a2b0cb"],
+         "526125da-95e1-4032-9dca-bd384980dd28"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -17690,7 +17945,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                RowBox[{"NotebookDirectory", "[", "]"}], 
                ",", "\<\"../matching-results/Mathematica/MSSM-matching-\
 conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
-         "2726aa8a-2c51-4c08-b77b-480b49a59435"],
+         "c627ee47-2f67-4c60-bfc8-ea3c7fcd41b9"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -17762,7 +18017,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                SpanSymmetric->False],
               StandardForm]}]}], "StandardForm"],
           Format[#, Matchete`NiceForm]& ]],ExpressionUUID->
-         "8eba48bb-f1bf-4124-b189-89acf007dbc9"],
+         "8a2e6fda-afea-47a7-9c6d-fa11a9ee1a43"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -17800,7 +18055,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                SpanSymmetric->False],
               StandardForm]}]}], "StandardForm"],
           Format[#, Matchete`NiceForm]& ]],ExpressionUUID->
-         "c7c13228-8698-4ad0-b1c6-75c992765f1d"],
+         "bca7e295-2eeb-4d7c-959e-79255511344c"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -17842,7 +18097,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                SpanSymmetric->False],
               StandardForm]}]}], "StandardForm"],
           Format[#, Matchete`NiceForm]& ]],ExpressionUUID->
-         "6e92de39-7b0a-4fe8-a011-6cd617e66113"],
+         "9e7f63c4-3fa7-457e-94f0-2564e1ef0477"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -17880,7 +18135,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                SpanSymmetric->False],
               StandardForm]}]}], "StandardForm"],
           Format[#, Matchete`NiceForm]& ]],ExpressionUUID->
-         "6a1a9df2-5da9-4263-85d8-438fe31f8f49"],
+         "5ab6bf9e-111d-4fa9-946b-53d5ad9c22cc"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -17908,7 +18163,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                  SubscriptBox["g", "2"], "2"]}], ")"}], "2"]}]}], 
            "StandardForm"],
           Format[#, Matchete`NiceForm]& ]],ExpressionUUID->
-         "52f3a1d4-9d2d-4773-81b5-8f270e0fdb5d"],
+         "f8e4c3c7-47bd-4aa4-ac2e-d9b6ccfbc418"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -17932,7 +18187,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                  SubscriptBox["g", "2"], "2"]}], ")"}], "2"]}]}], 
            "StandardForm"],
           Format[#, Matchete`NiceForm]& ]],ExpressionUUID->
-         "84e1638a-cd86-4579-811c-a5bd7221644f"],
+         "935c897a-cf0d-47dc-87da-956459915d9b"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -17952,7 +18207,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
             RowBox[{"-", 
              SubsuperscriptBox["m", "H", "2"]}]}], "StandardForm"],
           Format[#, Matchete`NiceForm]& ]],ExpressionUUID->
-         "df17b95d-1252-4cd5-8547-18503dafa891"],
+         "493dc31e-221d-4ac8-9087-46d3fd196ea5"],
         Background->RGBColor[
          1., 0.20449276480565456`, 0.06811595600706824, 0.4],
         BaseStyle->{FontColor -> GrayLevel[0, 0.5], ScriptLevel -> 0},
@@ -17997,7 +18252,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                 "RowDefault"],
                FontSize->10]]}]}], "StandardForm"],
           Format[#, Matchete`NiceForm]& ]],ExpressionUUID->
-         "9e61f2a9-b56d-4c85-9f18-8f37a962f803"],
+         "c1ea9689-5d7d-4512-812a-64763096407d"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -18033,7 +18288,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                 "RowDefault"],
                FontSize->10]]}]}], "StandardForm"],
           Format[#, Matchete`NiceForm]& ]],ExpressionUUID->
-         "8ac0a504-b751-4e71-ba83-f688d4ccae7d"],
+         "07ac5027-3419-4155-a7a0-f7412bbed417"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -18072,7 +18327,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                 "RowDefault"],
                FontSize->10]]}]}], "StandardForm"],
           Format[#, Matchete`NiceForm]& ]],ExpressionUUID->
-         "40bdae3b-f4c2-4444-8dbe-d7a6d66599bf"],
+         "48a8271b-b1af-4774-bc0c-febfd00eee9b"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -18107,7 +18362,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                 "RowDefault"],
                FontSize->10]]}]}], "StandardForm"],
           Format[#, Matchete`NiceForm]& ]],ExpressionUUID->
-         "4db5c105-5cff-426a-b758-974533d44d71"],
+         "06385e59-d5f1-444d-a4cf-5e9979788f38"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -18138,7 +18393,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                 "RowDefault"],
                FontSize->10]]}]}], "StandardForm"],
           Format[#, Matchete`NiceForm]& ]],ExpressionUUID->
-         "a24f820c-7cff-4899-9c58-b9f48c1c19d5"],
+         "41ec8f99-6669-4222-98cb-e455cb945b89"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -18165,7 +18420,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                 "RowDefault"],
                FontSize->10]]}]}], "StandardForm"],
           Format[#, Matchete`NiceForm]& ]],ExpressionUUID->
-         "96fa5f99-5df3-4ba1-96e7-39379bb3125a"],
+         "f40ce0c9-9eec-48bd-89a1-1c6076e1591f"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -18234,7 +18489,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                 "RowDefault"],
                FontSize->10]]}]}], "StandardForm"],
           Format[#, Matchete`NiceForm]& ]],ExpressionUUID->
-         "25ad03ab-6360-4453-b6e3-6cf4ea2c523b"],
+         "79112c5c-4881-4187-814d-fcb46ca9447c"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -18269,7 +18524,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                 "RowDefault"],
                FontSize->10]]}]}], "StandardForm"],
           Format[#, Matchete`NiceForm]& ]],ExpressionUUID->
-         "f83130c6-e864-498c-85d9-f6ad2207f1f2"],
+         "e0ad691d-d596-4472-a844-68d49f1ff256"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -18300,7 +18555,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                 "RowDefault"],
                FontSize->10]]}]}], "StandardForm"],
           Format[#, Matchete`NiceForm]& ]],ExpressionUUID->
-         "adce60ec-541d-44b5-8d89-10f77923c66e"],
+         "8ec92d55-92d9-4137-8ae8-c47d7383829b"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -18327,7 +18582,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                 "RowDefault"],
                FontSize->10]]}]}], "StandardForm"],
           Format[#, Matchete`NiceForm]& ]],ExpressionUUID->
-         "b50f4484-81e4-41df-ba1d-f73ee613d2c7"],
+         "d7a2c2c9-97ec-48c9-8f1b-89a0bc409482"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -18369,7 +18624,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                SpanSymmetric->False],
               StandardForm]}]}], "StandardForm"],
           Format[#, Matchete`NiceForm]& ]],ExpressionUUID->
-         "418eed10-64e5-4ba2-898c-ad68c7bef6a0"],
+         "3f63526e-56f3-4d7b-9ba5-c9127e5ba772"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -18407,7 +18662,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                SpanSymmetric->False],
               StandardForm]}]}], "StandardForm"],
           Format[#, Matchete`NiceForm]& ]],ExpressionUUID->
-         "d54db70b-990b-4a84-a7aa-f59ade398f18"],
+         "d9d2fd85-eba0-406d-8f75-3ae6425711e9"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -18427,7 +18682,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
             SubscriptBox["g", "1"], "\[Rule]", 
             SubscriptBox["g", "1"]}], "StandardForm"],
           Format[#, Matchete`NiceForm]& ]],ExpressionUUID->
-         "f7a1d474-4af5-46eb-8086-865abdcc8d34"],
+         "626ac294-f1f5-4cd9-b39e-bb95aa79ab1f"],
         Background->RGBColor[
          1., 0.20449276480565456`, 0.06811595600706824, 0.4],
         BaseStyle->{FontColor -> GrayLevel[0, 0.5], ScriptLevel -> 0},
@@ -18446,7 +18701,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
             SubscriptBox["g", "1"], "\[Rule]", 
             SubscriptBox["g", "1"]}], "StandardForm"],
           Format[#, Matchete`NiceForm]& ]],ExpressionUUID->
-         "3b1522b2-5484-4622-86c3-3f31759b8c4b"],
+         "a5bb1e84-7b28-4fd4-b80a-8eb05f486033"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -18456,7 +18711,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
             SubscriptBox["g", "1"], "\[Rule]", 
             SubscriptBox["g", "1"]}], "StandardForm"],
           Format[#, Matchete`NiceForm]& ]],ExpressionUUID->
-         "eeafc89e-aefc-4be4-b3be-3e622d980098"],
+         "02fac08c-30c0-4e92-a264-25d20ca2119b"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -18470,7 +18725,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
             SubscriptBox["g", "2"], "\[Rule]", 
             SubscriptBox["g", "2"]}], "StandardForm"],
           Format[#, Matchete`NiceForm]& ]],ExpressionUUID->
-         "19e955aa-491b-4c44-ab8f-291bac0cf64f"],
+         "fff7bb04-70bd-4738-91ad-01c15d1568d1"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -18480,7 +18735,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
             SubscriptBox["g", "2"], "\[Rule]", 
             SubscriptBox["g", "2"]}], "StandardForm"],
           Format[#, Matchete`NiceForm]& ]],ExpressionUUID->
-         "65afbb2c-3e35-4ea6-b129-814664f53f98"],
+         "218adefa-0b99-4e93-b960-aa02fc4647f1"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -18500,7 +18755,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
             SubscriptBox["g", "2"], "\[Rule]", 
             SubscriptBox["g", "2"]}], "StandardForm"],
           Format[#, Matchete`NiceForm]& ]],ExpressionUUID->
-         "2a8a4072-38da-44cf-97c1-6cf94ae856d4"],
+         "47691401-55c1-4428-b801-1f4bb64c1275"],
         Background->RGBColor[
          1., 0.20449276480565456`, 0.06811595600706824, 0.4],
         BaseStyle->{FontColor -> GrayLevel[0, 0.5], ScriptLevel -> 0},
@@ -18525,7 +18780,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
             SubscriptBox["g", "3"], "\[Rule]", 
             SubscriptBox["g", "3"]}], "StandardForm"],
           Format[#, Matchete`NiceForm]& ]],ExpressionUUID->
-         "d585b4c7-8329-4b2d-bee5-d2cc8a92e050"],
+         "e20f3171-fb41-4571-8ea0-f08579d4b95f"],
         Background->RGBColor[
          1., 0.20449276480565456`, 0.06811595600706824, 0.4],
         BaseStyle->{FontColor -> GrayLevel[0, 0.5], ScriptLevel -> 0},
@@ -18544,7 +18799,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
             SubscriptBox["g", "3"], "\[Rule]", 
             SubscriptBox["g", "3"]}], "StandardForm"],
           Format[#, Matchete`NiceForm]& ]],ExpressionUUID->
-         "db194061-366a-4ff5-8df5-11b5b91cd4a1"],
+         "2ef46b02-171f-4245-8cc6-8f218c13ff12"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -18554,7 +18809,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
             SubscriptBox["g", "3"], "\[Rule]", 
             SubscriptBox["g", "3"]}], "StandardForm"],
           Format[#, Matchete`NiceForm]& ]],ExpressionUUID->
-         "3e8f1c12-7233-40ae-9404-6cd2d0f083ee"],
+         "8a2f4c5f-0153-4ac3-9351-7e91169ed935"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -18567,7 +18822,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
            RowBox[{"MH2", "\[Rule]", 
             RowBox[{"-", "cH2"}]}], "StandardForm"],
           Format[#, Matchete`NiceForm]& ]],ExpressionUUID->
-         "c9080591-1f5d-4c27-8468-f5df413dd045"],
+         "4a2e9641-bda1-4ffb-b74b-8ecd7e9daafe"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -18576,7 +18831,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
            RowBox[{"MH2", "\[Rule]", 
             RowBox[{"-", "cH2"}]}], "StandardForm"],
           Format[#, Matchete`NiceForm]& ]],ExpressionUUID->
-         "10fbf579-e087-485e-bdb0-145063a9cd4a"],
+         "efe42e34-5173-453f-9932-69a1d83cd204"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -18607,7 +18862,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                 "RowDefault"],
                FontSize->10]]}]}], "StandardForm"],
           Format[#, Matchete`NiceForm]& ]],ExpressionUUID->
-         "e07f9566-cb6a-4aa4-a612-fc17cdf04ebb"],
+         "8027fd86-512c-48bb-bbf9-04a022e7d03d"],
         Background->RGBColor[
          1., 0.20449276480565456`, 0.06811595600706824, 0.4],
         BaseStyle->{FontColor -> GrayLevel[0, 0.5], ScriptLevel -> 0},
@@ -18634,7 +18889,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                "RowDefault"],
               FontSize->10]]}], "StandardForm"],
           Format[#, Matchete`NiceForm]& ]],ExpressionUUID->
-         "4dad5e01-50be-4f19-97e7-a809fe6ce5b7"],
+         "4e30ba02-add7-46d2-9443-ca81e67066e9"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -18652,7 +18907,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                "RowDefault"],
               FontSize->10]]}], "StandardForm"],
           Format[#, Matchete`NiceForm]& ]],ExpressionUUID->
-         "3438896b-1580-42f4-a9f2-3d5f5563f840"],
+         "a909ce13-1366-476d-9ec6-e8ce879ffb61"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -18683,7 +18938,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                 "RowDefault"],
                FontSize->10]]}]}], "StandardForm"],
           Format[#, Matchete`NiceForm]& ]],ExpressionUUID->
-         "d3c28f66-1a39-4cd5-bf5f-debdea1dde05"],
+         "a5997c5d-230d-46a9-baff-f3211644869d"],
         Background->RGBColor[
          1., 0.20449276480565456`, 0.06811595600706824, 0.4],
         BaseStyle->{FontColor -> GrayLevel[0, 0.5], ScriptLevel -> 0},
@@ -18710,7 +18965,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                "RowDefault"],
               FontSize->10]]}], "StandardForm"],
           Format[#, Matchete`NiceForm]& ]],ExpressionUUID->
-         "e1cb6f6e-95f7-4c36-851c-05269e2f6a78"],
+         "9b463c04-a251-43b2-b306-65ef6d23cbeb"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -18728,7 +18983,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                "RowDefault"],
               FontSize->10]]}], "StandardForm"],
           Format[#, Matchete`NiceForm]& ]],ExpressionUUID->
-         "cd1cabdc-01b0-460e-8235-3ce2e82e3120"],
+         "05e0797e-e32e-4b63-841b-1245af9db6df"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -18759,7 +19014,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                 "RowDefault"],
                FontSize->10]]}]}], "StandardForm"],
           Format[#, Matchete`NiceForm]& ]],ExpressionUUID->
-         "be64abe7-cf3c-4f43-b5b9-6fe801f83d65"],
+         "85d1ceef-05c9-44f5-9009-b7cb49563ca4"],
         Background->RGBColor[
          1., 0.20449276480565456`, 0.06811595600706824, 0.4],
         BaseStyle->{FontColor -> GrayLevel[0, 0.5], ScriptLevel -> 0},
@@ -18786,7 +19041,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                "RowDefault"],
               FontSize->10]]}], "StandardForm"],
           Format[#, Matchete`NiceForm]& ]],ExpressionUUID->
-         "2241a325-1ec5-438d-9ee2-0c28ba24e8ff"],
+         "7378b96f-c94a-4a19-87ff-4862c77e76cd"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -18804,7 +19059,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                "RowDefault"],
               FontSize->10]]}], "StandardForm"],
           Format[#, Matchete`NiceForm]& ]],ExpressionUUID->
-         "74091b57-4d5b-417d-ad22-8142911ce82c"],
+         "e87bb2aa-5bd7-4a82-b2ca-4459d2a76974"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]},
       {
@@ -18831,7 +19086,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                SpanSymmetric->False],
               StandardForm]}]}], "StandardForm"],
           Format[#, Matchete`NiceForm]& ]],ExpressionUUID->
-         "498e0b3e-d6a1-426b-a83b-8cf1f7c7c92d"],
+         "bffc41b5-c014-42a3-ad3a-24d707c60b4a"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False], 
        ItemBox[Cell[BoxData[
@@ -18854,7 +19109,7 @@ conditions.m\"\>"}], "}"}], "]"}], "]"}]}], ";"}]],ExpressionUUID->
                SpanSymmetric->False],
               StandardForm]}]}], "StandardForm"],
           Format[#, Matchete`NiceForm]& ]],ExpressionUUID->
-         "bb22ca1e-e57c-4544-b4c1-ac8d7640c7b4"],
+         "4d0ceb65-3426-4292-8045-e430445f0e65"],
         BaseStyle->{ScriptLevel -> 0},
         StripOnInput->False]}
      },
@@ -19578,7 +19833,7 @@ conditions.m\""}], "}"}], "]"}], "]"}]}], ";"}]]],
      "NotebookSources" -> {
       "/home/lessa/MSSM-to-SMEFT/examples_old/tree_level.nb", 
        "/home/lessa/MSSM-to-SMEFT/examples/tree_level.nb"}, "AlignmentMethod" -> 
-     "CellEditDistance", "AlignmentTiming" -> 0.000065|>], 
+     "CellEditDistance", "AlignmentTiming" -> 0.000068|>], 
    "SideBySide"]]], "Print",
  CellChangeTimes->{{3.957864868381864*^9, 3.957864879388083*^9}, 
    3.957867653455718*^9, 3.957867919365081*^9, 3.9578680789106483`*^9, 
@@ -19588,10 +19843,10 @@ conditions.m\""}], "}"}], "]"}], "]"}]}], ";"}]]],
    3.958116598301834*^9, 3.9581166385995073`*^9, 3.9581169467590513`*^9, 
    3.958117380104195*^9, 3.9581176077427397`*^9, 3.9581226193931026`*^9, 
    3.9581227135308533`*^9, 3.95812286769283*^9, 3.958123037924699*^9, 
-   3.958123144421473*^9},
+   3.9581231416465073`*^9, 3.958124821893918*^9},
  CellLabel->
   "During evaluation of \
-In[5]:=",ExpressionUUID->"55e739fb-ab8f-4250-9732-e72da45303a2"]
+In[5]:=",ExpressionUUID->"4bcc667e-e8bd-46a7-a4e3-802893f3e370"]
 }, Open  ]]
 }, Open  ]]
 },
@@ -19618,22 +19873,22 @@ Cell[1127, 35, 773, 21, 49, "Input",ExpressionUUID->"b4010331-c631-4bf5-b665-5da
 Cell[CellGroupData[{
 Cell[1925, 60, 1406, 33, 135, "Input",ExpressionUUID->"bef2eee0-4f3b-4270-b7cb-f834992de49e"],
 Cell[CellGroupData[{
-Cell[3356, 97, 1172, 23, 23, "Print",ExpressionUUID->"b7523a68-2e14-4367-ae42-b3dff42feab0"],
-Cell[4531, 122, 144079, 3207, 1670, "Print",ExpressionUUID->"02d68c85-b271-4eb3-80b3-f5c5883bb86c"],
-Cell[148613, 3331, 1170, 23, 23, "Print",ExpressionUUID->"1b34dd2d-16b4-4f88-8eeb-f152b1c5f4a8"],
-Cell[149786, 3356, 66217, 1458, 659, "Print",ExpressionUUID->"22023fb7-5926-447b-afa8-a31eef298995"],
-Cell[216006, 4816, 1174, 23, 23, "Print",ExpressionUUID->"6fc3d78a-6299-4a6a-b74e-034a84d83f77"],
-Cell[217183, 4841, 113213, 2467, 1293, "Print",ExpressionUUID->"011aaca1-2711-4dbd-884b-9142b8f1b5b0"],
-Cell[330399, 7310, 1170, 23, 23, "Print",ExpressionUUID->"7b968ae9-35de-4a24-8b93-996e6abcfe59"],
-Cell[331572, 7335, 75391, 1570, 765, "Print",ExpressionUUID->"c8125a1e-acff-4ae1-8888-2e3d0c89f6bc"],
-Cell[406966, 8907, 1186, 23, 23, "Print",ExpressionUUID->"cd7653a3-e70b-45de-b027-324e53e7fcb8"],
-Cell[408155, 8932, 117807, 2557, 1298, "Print",ExpressionUUID->"cf33c204-36d4-4a9a-aeb4-37a42ae7e454"],
-Cell[525965, 11491, 1186, 23, 23, "Print",ExpressionUUID->"8bb07b31-6e7b-4fbf-86f1-ea40adaefa14"],
-Cell[527154, 11516, 54670, 1077, 470, "Print",ExpressionUUID->"8336689f-c01d-4a55-88d5-bcc28d3f211c"],
-Cell[581827, 12595, 1162, 23, 23, "Print",ExpressionUUID->"73d23e49-37e2-4d2f-b0bf-af8f310eb5c5"],
-Cell[582992, 12620, 195763, 4454, 1629, "Print",ExpressionUUID->"b6ac6bb2-5d21-4bbd-88e1-c0072c77ea36"],
-Cell[778758, 17076, 1165, 23, 23, "Print",ExpressionUUID->"8dc684bc-bbe2-499b-83ce-f89393efd851"],
-Cell[779926, 17101, 105736, 2492, 1087, "Print",ExpressionUUID->"55e739fb-ab8f-4250-9732-e72da45303a2"]
+Cell[3356, 97, 1194, 23, 23, "Print",ExpressionUUID->"71b6937d-27dd-4aa6-84f9-7191777fbf0d"],
+Cell[4553, 122, 144104, 3207, 1670, "Print",ExpressionUUID->"b680d4ab-4557-4491-ae91-86a24cade126"],
+Cell[148660, 3331, 1194, 23, 23, "Print",ExpressionUUID->"551f791d-05f6-42cd-9f40-9a464b201468"],
+Cell[149857, 3356, 66246, 1458, 659, "Print",ExpressionUUID->"38de8fbf-54db-4636-8c5f-a73ee730507e"],
+Cell[216106, 4816, 1200, 23, 23, "Print",ExpressionUUID->"d611fdf3-4ded-45e0-8183-d3d130566e44"],
+Cell[217309, 4841, 113235, 2467, 1293, "Print",ExpressionUUID->"296b433f-a2e8-4b68-846e-855611fb33e8"],
+Cell[330547, 7310, 1193, 23, 23, "Print",ExpressionUUID->"ced06c17-77fc-4f54-88e0-341c17f225ca"],
+Cell[331743, 7335, 75415, 1570, 765, "Print",ExpressionUUID->"3308d359-c426-4fa7-bb97-27fe2c2c06f8"],
+Cell[407161, 8907, 1210, 23, 23, "Print",ExpressionUUID->"e49b2ef9-f876-48ff-be0d-895f2d694ad6"],
+Cell[408374, 8932, 127830, 2812, 1432, "Print",ExpressionUUID->"0fd09933-986a-43ef-b5e3-4cb238ca457e"],
+Cell[536207, 11746, 1210, 23, 23, "Print",ExpressionUUID->"4313b729-084c-4aab-a905-fe65af95e8a9"],
+Cell[537420, 11771, 54693, 1077, 470, "Print",ExpressionUUID->"e864d863-e966-4793-94cc-e2f6d9587701"],
+Cell[592116, 12850, 1186, 23, 23, "Print",ExpressionUUID->"ecaa926a-a847-4fc5-881a-1ec74b607c46"],
+Cell[593305, 12875, 195787, 4454, 1629, "Print",ExpressionUUID->"d24e4d39-8f6f-4656-a0c7-9d641ac8de40"],
+Cell[789095, 17331, 1190, 23, 23, "Print",ExpressionUUID->"2b264a2b-eb1b-4007-9665-2ea08bb71e7b"],
+Cell[790288, 17356, 105760, 2492, 1087, "Print",ExpressionUUID->"4bcc667e-e8bd-46a7-a4e3-802893f3e370"]
 }, Open  ]]
 }, Open  ]]
 }
