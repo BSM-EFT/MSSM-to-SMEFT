@@ -1,4 +1,7 @@
 # MSSM-to-SMEFT
+
+[![DOI](https://zenodo.org/badge/946582313.svg)](https://doi.org/10.5281/zenodo.15602469)
+
 This repository contains the supplementary material for the paper "SUSY meets SMEFT: Complete one-loop matching of the general MSSM" by Sabine Kraml, Andre Lessa, Suraj Prakash and Felix Wilsch. 
 Concretely we provide:
 
