@@ -4081,14 +4081,10 @@ Bar[Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]]*
   Field[H, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
   (-1/8*(Coupling[c2\[Gamma], {}, 0]^2*(Coupling[g1, {}, 0]^2 + 
       Coupling[g2, {}, 0]^2)) + 
-   hbar*((-12*Coupling[g1, {}, 0]^2*Coupling[g2, {}, 0]^2*
-        (1 + Coupling[c2\[Gamma], {}, 0]^2*(Coupling[c\[Gamma], {}, 0]^2 + 
-           Coupling[s\[Gamma], {}, 0]^2)) - 3*Coupling[g1, {}, 0]^4*
-        (2 + Coupling[c2\[Gamma], {}, 0]^2*(Coupling[c\[Gamma], {}, 0]^2 + 
-           Coupling[s\[Gamma], {}, 0]^2)) - Coupling[g2, {}, 0]^4*
-        (18 + Coupling[c2\[Gamma], {}, 0]^2*
-          (-4 + 9*Coupling[c\[Gamma], {}, 0]^2 + 9*Coupling[s\[Gamma], {}, 0]^
-             2)))/48 + 
+   hbar*(-1/16*(Coupling[c2\[Gamma], {}, 0]^2*(Coupling[g1, {}, 0]^4 + 
+        4*Coupling[g1, {}, 0]^2*Coupling[g2, {}, 0]^2 + 
+        3*Coupling[g2, {}, 0]^4)*(Coupling[c\[Gamma], {}, 0]^2 + 
+        Coupling[s\[Gamma], {}, 0]^2)) + 
      ((Coupling[g2, {}, 0]^4*(9 - 6*Coupling[c4\[Gamma], {}, 0] + 
            5*Coupling[c4\[Gamma], {}, 0]^2 - 160*Coupling[c\[Gamma], {}, 0]^
              4 + 4*Coupling[s2\[Gamma], {}, 0]^4 + 
@@ -11584,17 +11580,12 @@ Bar[Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]]*
         Coupling[\[Mu]t, {}, 0])*LF[{Coupling[mqt, {Index[d$$1, Flavor]}, 0], 
         Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mqt, 
          {Index[d$$5, Flavor]}, 0], Coupling[mut, {Index[d$$6, Flavor]}, 0]}, 
-       {1, 1, 1, 1, 0}] + (((Coupling[g1, {}, 0]^2 + Coupling[g2, {}, 0]^2)*
-         Coupling[s4\[Gamma], {}, 0]^2*(-16*Coupling[g2, {}, 0]^4 + 
-          15*Coupling[c2\[Gamma], {}, 0]^2*(Coupling[g1, {}, 0]^2 + 
-             Coupling[g2, {}, 0]^2)^2 + 9*Coupling[c\[Gamma], {}, 0]^2*
-           (Coupling[g1, {}, 0]^4 + 4*Coupling[g1, {}, 0]^2*
-             Coupling[g2, {}, 0]^2 + 3*Coupling[g2, {}, 0]^4) + 
-          9*Coupling[g1, {}, 0]^4*Coupling[s\[Gamma], {}, 0]^2 + 
-          36*Coupling[g1, {}, 0]^2*Coupling[g2, {}, 0]^2*
-           Coupling[s\[Gamma], {}, 0]^2 + 27*Coupling[g2, {}, 0]^4*
-           Coupling[s\[Gamma], {}, 0]^2))/768 - 
-       (Coupling[c2\[Gamma], {}, 0]*Coupling[g1, {}, 0]^4*
+       {1, 1, 1, 1, 0}] + (((Coupling[g1, {}, 0]^2 + Coupling[g2, {}, 0]^2)^2*
+         Coupling[s4\[Gamma], {}, 0]^2*(5*Coupling[c2\[Gamma], {}, 0]^2*
+           (Coupling[g1, {}, 0]^2 + Coupling[g2, {}, 0]^2) + 
+          3*(Coupling[g1, {}, 0]^2 + 3*Coupling[g2, {}, 0]^2)*
+           (Coupling[c\[Gamma], {}, 0]^2 + Coupling[s\[Gamma], {}, 0]^2)))/
+        256 - (Coupling[c2\[Gamma], {}, 0]*Coupling[g1, {}, 0]^4*
          (Coupling[g1, {}, 0]^2 + Coupling[g2, {}, 0]^2)*
          Coupling[s2\[Gamma], {}, 0]*Coupling[s4\[Gamma], {}, 0]*
          FlavorSum[Index[d$$1, Flavor]]*
@@ -13641,9 +13632,9 @@ Bar[Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]]*
      Coupling[c\[Gamma], {}, 0]) + 
    hbar*(-1/144*(Coupling[c\[Gamma], {}, 0]*
        (Bar[Coupling[yd, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
-         (-96*Coupling[g3, {}, 0]^2 + 27*Coupling[g2, {}, 0]^2*
-           (3 + 2*Coupling[c\[Gamma], {}, 0]^2 + 2*Coupling[s\[Gamma], {}, 0]^
-              2) + Coupling[g1, {}, 0]^2*(31 + 18*Coupling[c\[Gamma], {}, 0]^
+         (96*Coupling[g3, {}, 0]^2 + 27*Coupling[g2, {}, 0]^2*
+           (1 + 2*Coupling[c\[Gamma], {}, 0]^2 + 2*Coupling[s\[Gamma], {}, 0]^
+              2) + Coupling[g1, {}, 0]^2*(5 + 18*Coupling[c\[Gamma], {}, 0]^
               2 + 18*Coupling[s\[Gamma], {}, 0]^2)) + 
         18*(3*Bar[Coupling[yd, {Index[d$$1, Flavor], Index[d$$3, Flavor]}, 
              0]]*Bar[Coupling[yd, {Index[d$$4, Flavor], Index[d$$2, Flavor]}, 
@@ -14657,7 +14648,7 @@ Bar[Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]]*
      Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
  Bar[Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Bar[Field[H, Scalar, {Index[d$$2, SU2L[fund]]}, {}]]*
-  Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
+  Field[H, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
   ((Bar[Coupling[yd, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
      (Coupling[g1, {}, 0]^2 + Coupling[g2, {}, 0]^2)*
      Coupling[s4\[Gamma], {}, 0]*Coupling[s\[Gamma], {}, 0])/
@@ -20192,23 +20183,21 @@ Bar[Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]]*
           (54*Coupling[c\[Gamma], {}, 0]^2*(Coupling[g1, {}, 0]^4 + 
              4*Coupling[g1, {}, 0]^2*Coupling[g2, {}, 0]^2 + 
              3*Coupling[g2, {}, 0]^4)*Coupling[s4\[Gamma], {}, 0]*
-            Coupling[s\[Gamma], {}, 0] + Coupling[s4\[Gamma], {}, 0]*
-            Coupling[s\[Gamma], {}, 0]*(-96*Coupling[g2, {}, 0]^2*
-              Coupling[g3, {}, 0]^2 + 3*Coupling[g2, {}, 0]^4*
-              (-5 + 54*Coupling[s\[Gamma], {}, 0]^2) + Coupling[g1, {}, 0]^4*
-              (31 + 54*Coupling[s\[Gamma], {}, 0]^2) + 
-             8*Coupling[g1, {}, 0]^2*(-12*Coupling[g3, {}, 0]^2 + 
-               Coupling[g2, {}, 0]^2*(14 + 27*Coupling[s\[Gamma], {}, 0]^
-                   2))) + 9*Coupling[c\[Gamma], {}, 0]*
-            (Coupling[g1, {}, 0]^2 + Coupling[g2, {}, 0]^2)*
-            (5*Coupling[g1, {}, 0]^2*Coupling[s4\[Gamma], {}, 0]^2 + 
-             5*Coupling[g2, {}, 0]^2*Coupling[s4\[Gamma], {}, 0]^2 - 
-             48*Bar[Coupling[yd, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 
-                0]]*Coupling[c2\[Gamma], {}, 0]^2*Coupling[s\[Gamma], {}, 
-                0]^2*Coupling[yd, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 
-               0]) + 3456*Bar[Coupling[yd, {Index[d$$3, Flavor], Index[d$$4, 
-                Flavor]}, 0]]*Bar[Coupling[yd, {Index[d$$5, Flavor], Index[
-                d$$6, Flavor]}, 0]]*Coupling[c\[Gamma], {}, 0]^3*
+            Coupling[s\[Gamma], {}, 0] + (Coupling[g1, {}, 0]^2 + 
+             Coupling[g2, {}, 0]^2)*Coupling[s4\[Gamma], {}, 0]*
+            Coupling[s\[Gamma], {}, 0]*(96*Coupling[g3, {}, 0]^2 + 
+             27*Coupling[g2, {}, 0]^2*(1 + 6*Coupling[s\[Gamma], {}, 0]^2) + 
+             Coupling[g1, {}, 0]^2*(5 + 54*Coupling[s\[Gamma], {}, 0]^2)) + 
+           9*Coupling[c\[Gamma], {}, 0]*(Coupling[g1, {}, 0]^2 + 
+             Coupling[g2, {}, 0]^2)*(5*Coupling[g1, {}, 0]^2*
+              Coupling[s4\[Gamma], {}, 0]^2 + 5*Coupling[g2, {}, 0]^2*
+              Coupling[s4\[Gamma], {}, 0]^2 - 48*Bar[Coupling[yd, 
+                {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 0]]*
+              Coupling[c2\[Gamma], {}, 0]^2*Coupling[s\[Gamma], {}, 0]^2*
+              Coupling[yd, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 0]) + 
+           3456*Bar[Coupling[yd, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 
+              0]]*Bar[Coupling[yd, {Index[d$$5, Flavor], Index[d$$6, 
+                Flavor]}, 0]]*Coupling[c\[Gamma], {}, 0]^3*
             Coupling[s\[Gamma], {}, 0]^2*Coupling[yd, {Index[d$$3, Flavor], 
               Index[d$$6, Flavor]}, 0]*Coupling[yd, {Index[d$$5, Flavor], 
               Index[d$$4, Flavor]}, 0]) + 
@@ -22361,7 +22350,7 @@ Bar[Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]]*
         Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}]))*
   Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
    DiracProduct[Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
  hbar*(((-1/18*I)*Bar[Coupling[yd, {Index[d$$3, Flavor], 
         Index[d$$2, Flavor]}, 0]]*Coupling[s\[Gamma], {}, 0]^2*
      (Coupling[g1, {}, 0]^2*Coupling[yd, {Index[d$$3, Flavor], 
@@ -25345,9 +25334,9 @@ Bar[Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]]*
      Coupling[c\[Gamma], {}, 0]) + 
    hbar*(-1/16*(Coupling[c\[Gamma], {}, 0]*
        (Bar[Coupling[ye, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
-         (Coupling[g1, {}, 0]^2*(-1 + 2*Coupling[c\[Gamma], {}, 0]^2 + 
-            2*Coupling[s\[Gamma], {}, 0]^2) + 3*Coupling[g2, {}, 0]^2*
-           (3 + 2*Coupling[c\[Gamma], {}, 0]^2 + 2*Coupling[s\[Gamma], {}, 0]^
+         (3*Coupling[g2, {}, 0]^2*(1 + 2*Coupling[c\[Gamma], {}, 0]^2 + 
+            2*Coupling[s\[Gamma], {}, 0]^2) + Coupling[g1, {}, 0]^2*
+           (5 + 2*Coupling[c\[Gamma], {}, 0]^2 + 2*Coupling[s\[Gamma], {}, 0]^
               2)) + 6*Bar[Coupling[ye, {Index[d$$1, Flavor], 
             Index[d$$3, Flavor]}, 0]]*Bar[Coupling[ye, {Index[d$$4, Flavor], 
             Index[d$$2, Flavor]}, 0]]*(1 + Coupling[s\[Gamma], {}, 0]^2)*
@@ -26187,7 +26176,7 @@ Bar[Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]]*
    Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
  Bar[Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Bar[Field[H, Scalar, {Index[d$$2, SU2L[fund]]}, {}]]*
-  Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
+  Field[H, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
   ((Bar[Coupling[ye, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
      (Coupling[g1, {}, 0]^2 + Coupling[g2, {}, 0]^2)*
      Coupling[s4\[Gamma], {}, 0]*Coupling[s\[Gamma], {}, 0])/
@@ -30873,7 +30862,7 @@ Bar[Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]]*
        LF[{Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mdt, 
           {Index[d$$4, Flavor]}, 0], Coupling[mdt, {Index[d$$6, Flavor]}, 0], 
          Coupling[mqt, {Index[d$$5, Flavor]}, 0]}, {3, 1, 1, 1, -1}])/2 + 
-     ((6*Bar[Coupling[ye, {Index[d$$1, Flavor], Index[d$$3, Flavor]}, 0]]*
+     ((2*Bar[Coupling[ye, {Index[d$$1, Flavor], Index[d$$3, Flavor]}, 0]]*
           Bar[Coupling[ye, {Index[d$$4, Flavor], Index[d$$2, Flavor]}, 0]]*
           Coupling[s\[Gamma], {}, 0]*(Coupling[g1, {}, 0]^2*
             Coupling[s4\[Gamma], {}, 0]*(3 - 10*Coupling[c\[Gamma], {}, 0]^
@@ -30888,27 +30877,27 @@ Bar[Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]]*
               Index[d$$6, Flavor]}, 0]*Coupling[ye, {Index[d$$5, Flavor], 
               Index[d$$3, Flavor]}, 0]) + 
          Bar[Coupling[ye, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
-          (18*Coupling[c\[Gamma], {}, 0]^2*(Coupling[g1, {}, 0]^4 + 
+          (6*Coupling[c\[Gamma], {}, 0]^2*(Coupling[g1, {}, 0]^4 + 
              4*Coupling[g1, {}, 0]^2*Coupling[g2, {}, 0]^2 + 
              3*Coupling[g2, {}, 0]^4)*Coupling[s4\[Gamma], {}, 0]*
-            Coupling[s\[Gamma], {}, 0] + Coupling[s4\[Gamma], {}, 0]*
-            Coupling[s\[Gamma], {}, 0]*(24*Coupling[g1, {}, 0]^2*
-              Coupling[g2, {}, 0]^2*(1 + 3*Coupling[s\[Gamma], {}, 0]^2) + 
-             3*Coupling[g1, {}, 0]^4*(-1 + 6*Coupling[s\[Gamma], {}, 0]^2) + 
-             Coupling[g2, {}, 0]^4*(-5 + 54*Coupling[s\[Gamma], {}, 0]^2)) + 
-           3*Coupling[c\[Gamma], {}, 0]*(Coupling[g1, {}, 0]^2 + 
+            Coupling[s\[Gamma], {}, 0] + (Coupling[g1, {}, 0]^2 + 
+             Coupling[g2, {}, 0]^2)*Coupling[s4\[Gamma], {}, 0]*
+            Coupling[s\[Gamma], {}, 0]*(3*Coupling[g2, {}, 0]^2*
+              (1 + 6*Coupling[s\[Gamma], {}, 0]^2) + Coupling[g1, {}, 0]^2*
+              (5 + 6*Coupling[s\[Gamma], {}, 0]^2)) + 
+           Coupling[c\[Gamma], {}, 0]*(Coupling[g1, {}, 0]^2 + 
              Coupling[g2, {}, 0]^2)*(5*Coupling[g1, {}, 0]^2*
               Coupling[s4\[Gamma], {}, 0]^2 + 5*Coupling[g2, {}, 0]^2*
               Coupling[s4\[Gamma], {}, 0]^2 - 16*Bar[Coupling[ye, 
                 {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 0]]*
               Coupling[c2\[Gamma], {}, 0]^2*Coupling[s\[Gamma], {}, 0]^2*
               Coupling[ye, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 0]) + 
-           384*Bar[Coupling[ye, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 
+           128*Bar[Coupling[ye, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 
               0]]*Bar[Coupling[ye, {Index[d$$5, Flavor], Index[d$$6, 
                 Flavor]}, 0]]*Coupling[c\[Gamma], {}, 0]^3*
             Coupling[s\[Gamma], {}, 0]^2*Coupling[ye, {Index[d$$3, Flavor], 
               Index[d$$6, Flavor]}, 0]*Coupling[ye, {Index[d$$5, Flavor], 
-              Index[d$$4, Flavor]}, 0]))/384 - 
+              Index[d$$4, Flavor]}, 0]))/128 - 
        (Bar[Coupling[ye, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
          Coupling[c2\[Gamma], {}, 0]*Coupling[g1, {}, 0]^4*
          Coupling[s2\[Gamma], {}, 0]*Coupling[s\[Gamma], {}, 0]*
@@ -32459,7 +32448,7 @@ Bar[Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]]*
           {Index[d$$1, Flavor]}, 0], Coupling[mlt, {Index[d$$4, Flavor]}, 0], 
          Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])/2))*
   Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]]**DiracProduct[Proj[-1]]**
-   Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+   Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
  hbar*(((I/6)*Bar[Coupling[ye, {Index[d$$3, Flavor], Index[d$$2, Flavor]}, 
        0]]*Coupling[s\[Gamma], {}, 0]^2*
      (Coupling[g1, {}, 0]^2*Coupling[ye, {Index[d$$3, Flavor], 
@@ -34123,12 +34112,12 @@ Bar[Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]]*
  Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   (-(Coupling[c\[Gamma], {}, 0]*Coupling[ye, {Index[d$$2, Flavor], 
        Index[d$$1, Flavor]}, 0]) + 
-   hbar*(-1/16*(Coupling[c\[Gamma], {}, 0]*
-       (Coupling[g1, {}, 0]^2*(-1 + 2*Coupling[c\[Gamma], {}, 0]^2 + 
-          2*Coupling[s\[Gamma], {}, 0]^2)*Coupling[ye, {Index[d$$2, Flavor], 
-           Index[d$$1, Flavor]}, 0] + 3*Coupling[g2, {}, 0]^2*
-         (3 + 2*Coupling[c\[Gamma], {}, 0]^2 + 2*Coupling[s\[Gamma], {}, 0]^
+   hbar*(-1/16*(Coupling[c\[Gamma], {}, 0]*(3*Coupling[g2, {}, 0]^2*
+         (1 + 2*Coupling[c\[Gamma], {}, 0]^2 + 2*Coupling[s\[Gamma], {}, 0]^
             2)*Coupling[ye, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0] + 
+        Coupling[g1, {}, 0]^2*(5 + 2*Coupling[c\[Gamma], {}, 0]^2 + 
+          2*Coupling[s\[Gamma], {}, 0]^2)*Coupling[ye, {Index[d$$2, Flavor], 
+           Index[d$$1, Flavor]}, 0] + 
         6*Bar[Coupling[ye, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 0]]*
          (1 + Coupling[s\[Gamma], {}, 0]^2)*Coupling[ye, 
           {Index[d$$2, Flavor], Index[d$$4, Flavor]}, 0]*
@@ -36107,9 +36096,9 @@ Bar[Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]]*
          Coupling[mdt, {Index[d$$3, Flavor]}, 0]}, {3, 1, 1, -1}])/3 + 
      ((Coupling[s\[Gamma], {}, 0]^2*
          (Bar[Coupling[yd, {Index[d$$2, Flavor], Index[d$$3, Flavor]}, 0]]*
-           (38*Coupling[g1, {}, 0]^2*Coupling[ye, {Index[d$$4, Flavor], Index[
-                d$$1, Flavor]}, 0] + 3*(54*Coupling[g2, {}, 0]^2*Coupling[ye, 
-                {Index[d$$4, Flavor], Index[d$$1, Flavor]}, 0] - 
+           (52*Coupling[g1, {}, 0]^2*Coupling[ye, {Index[d$$4, Flavor], Index[
+                d$$1, Flavor]}, 0] + 3*(36*Coupling[g2, {}, 0]^2*Coupling[ye, 
+                {Index[d$$4, Flavor], Index[d$$1, Flavor]}, 0] + 
               16*Coupling[g3, {}, 0]^2*Coupling[ye, {Index[d$$4, Flavor], 
                  Index[d$$1, Flavor]}, 0] - 36*Bar[Coupling[yd, 
                  {Index[d$$5, Flavor], Index[d$$6, Flavor]}, 0]]*Coupling[
@@ -37744,8 +37733,8 @@ Bar[Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]]*
          Coupling[mlt, {Index[d$$4, Flavor]}, 0]}, {2, 2, 1, -1}])/8 + 
      (-1/144*(Coupling[s\[Gamma], {}, 0]^2*
          (9*Bar[Coupling[ye, {Index[d$$2, Flavor], Index[d$$3, Flavor]}, 0]]*
-           (26*Coupling[g1, {}, 0]^2*Coupling[ye, {Index[d$$4, Flavor], Index[
-                d$$1, Flavor]}, 0] + 18*Coupling[g2, {}, 0]^2*
+           (32*Coupling[g1, {}, 0]^2*Coupling[ye, {Index[d$$4, Flavor], Index[
+                d$$1, Flavor]}, 0] + 12*Coupling[g2, {}, 0]^2*
              Coupling[ye, {Index[d$$4, Flavor], Index[d$$1, Flavor]}, 0] + 
             Bar[Coupling[ye, {Index[d$$5, Flavor], Index[d$$6, Flavor]}, 0]]*
              (3*(1 + Coupling[s\[Gamma], {}, 0]^2)*Coupling[ye, 
@@ -42842,7 +42831,7 @@ Bar[Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]]*
        LF[{Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mdt, 
           {Index[d$$4, Flavor]}, 0], Coupling[mdt, {Index[d$$6, Flavor]}, 0], 
          Coupling[mqt, {Index[d$$5, Flavor]}, 0]}, {3, 1, 1, 1, -1}])/2 + 
-     ((6*Coupling[c\[Gamma], {}, 0]^2*(Coupling[g1, {}, 0]^2 + 
+     ((2*Coupling[c\[Gamma], {}, 0]^2*(Coupling[g1, {}, 0]^2 + 
            Coupling[g2, {}, 0]^2)*Coupling[s4\[Gamma], {}, 0]*
           Coupling[s\[Gamma], {}, 0]*(3*Coupling[g1, {}, 0]^2*
             Coupling[ye, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0] + 
@@ -42851,23 +42840,17 @@ Bar[Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]]*
                 Flavor], Index[d$$4, Flavor]}, 0]]*Coupling[ye, 
              {Index[d$$2, Flavor], Index[d$$4, Flavor]}, 0]*
             Coupling[ye, {Index[d$$3, Flavor], Index[d$$1, Flavor]}, 0]) + 
-         Coupling[s4\[Gamma], {}, 0]*Coupling[s\[Gamma], {}, 0]*
-          (3*Coupling[g1, {}, 0]^4*(-1 + 6*Coupling[s\[Gamma], {}, 0]^2)*
+         (Coupling[g1, {}, 0]^2 + Coupling[g2, {}, 0]^2)*Coupling[s4\[Gamma], 
+           {}, 0]*Coupling[s\[Gamma], {}, 0]*(3*Coupling[g2, {}, 0]^2*
+            (1 + 6*Coupling[s\[Gamma], {}, 0]^2)*Coupling[ye, 
+             {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0] + 
+           Coupling[g1, {}, 0]^2*(5 + 6*Coupling[s\[Gamma], {}, 0]^2)*
             Coupling[ye, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0] + 
-           Coupling[g2, {}, 0]^4*(-5 + 54*Coupling[s\[Gamma], {}, 0]^2)*
-            Coupling[ye, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0] + 
-           18*Bar[Coupling[ye, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 
-              0]]*Coupling[g2, {}, 0]^2*(1 + Coupling[s\[Gamma], {}, 0]^2)*
-            Coupling[ye, {Index[d$$2, Flavor], Index[d$$4, Flavor]}, 0]*
-            Coupling[ye, {Index[d$$3, Flavor], Index[d$$1, Flavor]}, 0] + 
-           6*Coupling[g1, {}, 0]^2*(4*Coupling[g2, {}, 0]^2*
-              (1 + 3*Coupling[s\[Gamma], {}, 0]^2)*Coupling[ye, {
-                Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0] + 
-             3*Bar[Coupling[ye, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 
-                0]]*(1 + Coupling[s\[Gamma], {}, 0]^2)*Coupling[ye, {
-                Index[d$$2, Flavor], Index[d$$4, Flavor]}, 0]*
-              Coupling[ye, {Index[d$$3, Flavor], Index[d$$1, Flavor]}, 0])) + 
-         3*Coupling[c\[Gamma], {}, 0]*(Coupling[g1, {}, 0]^2 + 
+           6*Bar[Coupling[ye, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 0]]*
+            (1 + Coupling[s\[Gamma], {}, 0]^2)*Coupling[ye, 
+             {Index[d$$2, Flavor], Index[d$$4, Flavor]}, 0]*
+            Coupling[ye, {Index[d$$3, Flavor], Index[d$$1, Flavor]}, 0]) + 
+         Coupling[c\[Gamma], {}, 0]*(Coupling[g1, {}, 0]^2 + 
            Coupling[g2, {}, 0]^2)*Coupling[ye, {Index[d$$2, Flavor], 
             Index[d$$1, Flavor]}, 0]*(5*Coupling[g1, {}, 0]^2*
             Coupling[s4\[Gamma], {}, 0]^2 + 5*Coupling[g2, {}, 0]^2*
@@ -42875,7 +42858,7 @@ Bar[Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]]*
            16*Bar[Coupling[ye, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 
               0]]*Coupling[c2\[Gamma], {}, 0]^2*Coupling[s\[Gamma], {}, 0]^2*
             Coupling[ye, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 0]) - 
-         96*Bar[Coupling[ye, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 0]]*
+         32*Bar[Coupling[ye, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 0]]*
           Bar[Coupling[ye, {Index[d$$5, Flavor], Index[d$$6, Flavor]}, 0]]*
           Coupling[c\[Gamma], {}, 0]^3*Coupling[s\[Gamma], {}, 0]^2*
           Coupling[ye, {Index[d$$3, Flavor], Index[d$$6, Flavor]}, 0]*
@@ -42883,7 +42866,7 @@ Bar[Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]]*
             Coupling[ye, {Index[d$$5, Flavor], Index[d$$1, Flavor]}, 0] - 
            4*Coupling[ye, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0]*
             Coupling[ye, {Index[d$$5, Flavor], Index[d$$4, Flavor]}, 0]))/
-        384 - (Coupling[c2\[Gamma], {}, 0]*Coupling[g1, {}, 0]^4*
+        128 - (Coupling[c2\[Gamma], {}, 0]*Coupling[g1, {}, 0]^4*
          Coupling[s2\[Gamma], {}, 0]*Coupling[s\[Gamma], {}, 0]*
          Coupling[ye, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0]*
          FlavorSum[Index[d$$3, Flavor]]*
@@ -46278,15 +46261,14 @@ Bar[Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]]*
  Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   (-(Coupling[c\[Gamma], {}, 0]*Coupling[yd, {Index[d$$2, Flavor], 
        Index[d$$1, Flavor]}, 0]) + 
-   hbar*(-1/144*(Coupling[c\[Gamma], {}, 0]*(-96*Coupling[g3, {}, 0]^2*
+   hbar*(-1/144*(Coupling[c\[Gamma], {}, 0]*(96*Coupling[g3, {}, 0]^2*
          Coupling[yd, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0] + 
-        27*Coupling[g2, {}, 0]^2*(3 + 2*Coupling[c\[Gamma], {}, 0]^2 + 
+        27*Coupling[g2, {}, 0]^2*(1 + 2*Coupling[c\[Gamma], {}, 0]^2 + 
           2*Coupling[s\[Gamma], {}, 0]^2)*Coupling[yd, {Index[d$$2, Flavor], 
            Index[d$$1, Flavor]}, 0] + Coupling[g1, {}, 0]^2*
-         (31 + 18*Coupling[c\[Gamma], {}, 0]^2 + 
-          18*Coupling[s\[Gamma], {}, 0]^2)*Coupling[yd, {Index[d$$2, Flavor], 
-           Index[d$$1, Flavor]}, 0] + 18*Coupling[yd, {Index[d$$3, Flavor], 
-           Index[d$$1, Flavor]}, 0]*
+         (5 + 18*Coupling[c\[Gamma], {}, 0]^2 + 18*Coupling[s\[Gamma], {}, 0]^
+            2)*Coupling[yd, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0] + 
+        18*Coupling[yd, {Index[d$$3, Flavor], Index[d$$1, Flavor]}, 0]*
          (3*Bar[Coupling[yd, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 0]]*
            (1 + Coupling[s\[Gamma], {}, 0]^2)*Coupling[yd, 
             {Index[d$$2, Flavor], Index[d$$4, Flavor]}, 0] + 
@@ -48952,9 +48934,9 @@ Bar[Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]]*
             {Index[d$$4, Flavor], Index[d$$1, Flavor]}, 0]*
            Coupling[ye, {Index[d$$6, Flavor], Index[d$$5, Flavor]}, 0] + 
           Bar[Coupling[ye, {Index[d$$2, Flavor], Index[d$$3, Flavor]}, 0]]*
-           (38*Coupling[g1, {}, 0]^2*Coupling[yd, {Index[d$$4, Flavor], Index[
-                d$$1, Flavor]}, 0] + 3*(54*Coupling[g2, {}, 0]^2*Coupling[yd, 
-                {Index[d$$4, Flavor], Index[d$$1, Flavor]}, 0] - 
+           (52*Coupling[g1, {}, 0]^2*Coupling[yd, {Index[d$$4, Flavor], Index[
+                d$$1, Flavor]}, 0] + 3*(36*Coupling[g2, {}, 0]^2*Coupling[yd, 
+                {Index[d$$4, Flavor], Index[d$$1, Flavor]}, 0] + 
               16*Coupling[g3, {}, 0]^2*Coupling[yd, {Index[d$$4, Flavor], 
                  Index[d$$1, Flavor]}, 0] + 9*Bar[Coupling[yd, 
                  {Index[d$$5, Flavor], Index[d$$6, Flavor]}, 0]]*Coupling[yd, 
@@ -50237,14 +50219,11 @@ Bar[Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]]*
          Coupling[mut, {Index[d$$2, Flavor]}, 0], Coupling[mqt, 
           {Index[d$$4, Flavor]}, 0]}, {2, 2, 1, -1}])/3 + 
      (-1/72*(Coupling[c\[Gamma], {}, 0]*Coupling[s\[Gamma], {}, 0]*
-         (-40*Coupling[g1, {}, 0]^2*Coupling[ye, {Index[d$$3, Flavor], 
+         (-14*Coupling[g1, {}, 0]^2*Coupling[ye, {Index[d$$3, Flavor], 
              Index[d$$1, Flavor]}, 0]*Coupling[yu, {Index[d$$4, Flavor], 
-             Index[d$$2, Flavor]}, 0] + 54*Coupling[g2, {}, 0]^2*
+             Index[d$$2, Flavor]}, 0] + 48*Coupling[g3, {}, 0]^2*
            Coupling[ye, {Index[d$$3, Flavor], Index[d$$1, Flavor]}, 0]*
-           Coupling[yu, {Index[d$$4, Flavor], Index[d$$2, Flavor]}, 0] - 
-          48*Coupling[g3, {}, 0]^2*Coupling[ye, {Index[d$$3, Flavor], 
-             Index[d$$1, Flavor]}, 0]*Coupling[yu, {Index[d$$4, Flavor], 
-             Index[d$$2, Flavor]}, 0] + 
+           Coupling[yu, {Index[d$$4, Flavor], Index[d$$2, Flavor]}, 0] + 
           9*Bar[Coupling[ye, {Index[d$$5, Flavor], Index[d$$6, Flavor]}, 0]]*
            (3*(1 + Coupling[s\[Gamma], {}, 0]^2)*Coupling[ye, 
               {Index[d$$3, Flavor], Index[d$$6, Flavor]}, 0]*
@@ -56704,7 +56683,20 @@ Bar[Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]]*
           0], Coupling[mdt, {Index[d$$6, Flavor]}, 0], 
          Coupling[mqt, {Index[d$$5, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
         {2, 1, 1, 1, -1}])/4 + 
-     ((18*Coupling[c\[Gamma], {}, 0]^2*(Coupling[g1, {}, 0]^2 + 
+     (((Coupling[g1, {}, 0]^2 + Coupling[g2, {}, 0]^2)*Coupling[s4\[Gamma], 
+           {}, 0]*Coupling[s\[Gamma], {}, 0]*(96*Coupling[g3, {}, 0]^2*
+            Coupling[yd, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0] + 
+           27*Coupling[g2, {}, 0]^2*(1 + 6*Coupling[s\[Gamma], {}, 0]^2)*
+            Coupling[yd, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0] + 
+           Coupling[g1, {}, 0]^2*(5 + 54*Coupling[s\[Gamma], {}, 0]^2)*
+            Coupling[yd, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0] + 
+           18*Coupling[yd, {Index[d$$3, Flavor], Index[d$$1, Flavor]}, 0]*
+            (3*Bar[Coupling[yd, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 
+                0]]*(1 + Coupling[s\[Gamma], {}, 0]^2)*Coupling[yd, {
+                Index[d$$2, Flavor], Index[d$$4, Flavor]}, 0] + 
+             Bar[Coupling[yu, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 0]]*
+              Coupling[yu, {Index[d$$2, Flavor], Index[d$$4, Flavor]}, 0])) + 
+         18*Coupling[c\[Gamma], {}, 0]^2*(Coupling[g1, {}, 0]^2 + 
            Coupling[g2, {}, 0]^2)*Coupling[s4\[Gamma], {}, 0]*
           Coupling[s\[Gamma], {}, 0]*(3*Coupling[g1, {}, 0]^2*
             Coupling[yd, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0] + 
@@ -56715,53 +56707,28 @@ Bar[Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]]*
               Coupling[yd, {Index[d$$2, Flavor], Index[d$$4, Flavor]}, 0] + 
              3*Bar[Coupling[yu, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 
                 0]]*Coupling[yu, {Index[d$$2, Flavor], Index[d$$4, Flavor]}, 
-               0])) + Coupling[s4\[Gamma], {}, 0]*Coupling[s\[Gamma], {}, 0]*
-          (Coupling[g1, {}, 0]^4*(31 + 54*Coupling[s\[Gamma], {}, 0]^2)*
-            Coupling[yd, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0] + 
-           3*Coupling[g2, {}, 0]^2*(-32*Coupling[g3, {}, 0]^2*
-              Coupling[yd, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0] + 
-             Coupling[g2, {}, 0]^2*(-5 + 54*Coupling[s\[Gamma], {}, 0]^2)*
-              Coupling[yd, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0] + 
-             6*Coupling[yd, {Index[d$$3, Flavor], Index[d$$1, Flavor]}, 0]*
-              (3*Bar[Coupling[yd, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 
-                  0]]*(1 + Coupling[s\[Gamma], {}, 0]^2)*Coupling[yd, 
-                 {Index[d$$2, Flavor], Index[d$$4, Flavor]}, 0] + 
-               Bar[Coupling[yu, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 
-                  0]]*Coupling[yu, {Index[d$$2, Flavor], Index[d$$4, 
-                   Flavor]}, 0])) + 2*Coupling[g1, {}, 0]^2*
-            (-48*Coupling[g3, {}, 0]^2*Coupling[yd, {Index[d$$2, Flavor], 
-                Index[d$$1, Flavor]}, 0] + 4*Coupling[g2, {}, 0]^2*
-              (14 + 27*Coupling[s\[Gamma], {}, 0]^2)*Coupling[yd, {
-                Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0] + 
-             9*Coupling[yd, {Index[d$$3, Flavor], Index[d$$1, Flavor]}, 0]*
-              (3*Bar[Coupling[yd, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 
-                  0]]*(1 + Coupling[s\[Gamma], {}, 0]^2)*Coupling[yd, 
-                 {Index[d$$2, Flavor], Index[d$$4, Flavor]}, 0] + 
-               Bar[Coupling[yu, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 
-                  0]]*Coupling[yu, {Index[d$$2, Flavor], Index[d$$4, 
-                   Flavor]}, 0]))) + 
-         96*Bar[Coupling[yd, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 0]]*
-          Bar[Coupling[yu, {Index[d$$5, Flavor], Index[d$$6, Flavor]}, 0]]*
-          Coupling[c\[Gamma], {}, 0]^5*Coupling[yd, {Index[d$$2, Flavor], 
-            Index[d$$4, Flavor]}, 0]*Coupling[yd, {Index[d$$5, Flavor], 
-            Index[d$$1, Flavor]}, 0]*Coupling[yu, {Index[d$$3, Flavor], 
-            Index[d$$6, Flavor]}, 0] + 9*Coupling[c\[Gamma], {}, 0]*
-          (5*Coupling[g1, {}, 0]^4*Coupling[s4\[Gamma], {}, 0]^2*
-            Coupling[yd, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0] + 
-           5*Coupling[g2, {}, 0]^4*Coupling[s4\[Gamma], {}, 0]^2*
-            Coupling[yd, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0] - 
-           8*Coupling[c2\[Gamma], {}, 0]^2*Coupling[g2, {}, 0]^2*
-            Coupling[s\[Gamma], {}, 0]^2*(6*Bar[Coupling[yd, 
-                {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 0]]*
-              Coupling[yd, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0]*
-              Coupling[yd, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 0] + 
-             Bar[Coupling[yu, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 0]]*
-              Coupling[yd, {Index[d$$3, Flavor], Index[d$$1, Flavor]}, 0]*
-              Coupling[yu, {Index[d$$2, Flavor], Index[d$$4, Flavor]}, 0]) + 
-           2*Coupling[g1, {}, 0]^2*(5*Coupling[g2, {}, 0]^2*
-              Coupling[s4\[Gamma], {}, 0]^2*Coupling[yd, {Index[d$$2, 
-                 Flavor], Index[d$$1, Flavor]}, 0] - 4*Coupling[c2\[Gamma], 
-                {}, 0]^2*Coupling[s\[Gamma], {}, 0]^2*
+               0])) + 96*Bar[Coupling[yd, {Index[d$$3, Flavor], 
+             Index[d$$4, Flavor]}, 0]]*Bar[Coupling[yu, {Index[d$$5, Flavor], 
+             Index[d$$6, Flavor]}, 0]]*Coupling[c\[Gamma], {}, 0]^5*
+          Coupling[yd, {Index[d$$2, Flavor], Index[d$$4, Flavor]}, 0]*
+          Coupling[yd, {Index[d$$5, Flavor], Index[d$$1, Flavor]}, 0]*
+          Coupling[yu, {Index[d$$3, Flavor], Index[d$$6, Flavor]}, 0] + 
+         9*Coupling[c\[Gamma], {}, 0]*(5*Coupling[g1, {}, 0]^4*
+            Coupling[s4\[Gamma], {}, 0]^2*Coupling[yd, {Index[d$$2, Flavor], 
+              Index[d$$1, Flavor]}, 0] + 5*Coupling[g2, {}, 0]^4*
+            Coupling[s4\[Gamma], {}, 0]^2*Coupling[yd, {Index[d$$2, Flavor], 
+              Index[d$$1, Flavor]}, 0] - 8*Coupling[c2\[Gamma], {}, 0]^2*
+            Coupling[g2, {}, 0]^2*Coupling[s\[Gamma], {}, 0]^2*
+            (6*Bar[Coupling[yd, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 
+                0]]*Coupling[yd, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 
+               0]*Coupling[yd, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 
+               0] + Bar[Coupling[yu, {Index[d$$3, Flavor], Index[d$$4, 
+                  Flavor]}, 0]]*Coupling[yd, {Index[d$$3, Flavor], 
+                Index[d$$1, Flavor]}, 0]*Coupling[yu, {Index[d$$2, Flavor], 
+                Index[d$$4, Flavor]}, 0]) + 2*Coupling[g1, {}, 0]^2*
+            (5*Coupling[g2, {}, 0]^2*Coupling[s4\[Gamma], {}, 0]^2*
+              Coupling[yd, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0] - 
+             4*Coupling[c2\[Gamma], {}, 0]^2*Coupling[s\[Gamma], {}, 0]^2*
               (6*Bar[Coupling[yd, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 
                   0]]*Coupling[yd, {Index[d$$2, Flavor], Index[d$$1, 
                    Flavor]}, 0]*Coupling[yd, {Index[d$$3, Flavor], 
@@ -58736,12 +58703,12 @@ Bar[Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]]*
   CG[eps[SU2L], {Index[d$$2, SU2L[fund]], Index[d$$1, SU2L[fund]]}]*
   (-(Coupling[s\[Gamma], {}, 0]*Coupling[yu, {Index[d$$2, Flavor], 
        Index[d$$1, Flavor]}, 0]) + 
-   hbar*(-1/144*(Coupling[s\[Gamma], {}, 0]*(-96*Coupling[g3, {}, 0]^2*
+   hbar*(-1/144*(Coupling[s\[Gamma], {}, 0]*(96*Coupling[g3, {}, 0]^2*
          Coupling[yu, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0] + 
-        27*Coupling[g2, {}, 0]^2*(3 + 2*Coupling[c\[Gamma], {}, 0]^2 + 
+        27*Coupling[g2, {}, 0]^2*(1 + 2*Coupling[c\[Gamma], {}, 0]^2 + 
           2*Coupling[s\[Gamma], {}, 0]^2)*Coupling[yu, {Index[d$$2, Flavor], 
            Index[d$$1, Flavor]}, 0] + Coupling[g1, {}, 0]^2*
-         (19 + 18*Coupling[c\[Gamma], {}, 0]^2 + 
+         (17 + 18*Coupling[c\[Gamma], {}, 0]^2 + 
           18*Coupling[s\[Gamma], {}, 0]^2)*Coupling[yu, {Index[d$$2, Flavor], 
            Index[d$$1, Flavor]}, 0] + 
         18*(Bar[Coupling[yd, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 0]]*
@@ -64541,8 +64508,8 @@ Bar[Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]]*
      Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}] + 
  Bar[Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Bar[Field[H, Scalar, {Index[d$$2, SU2L[fund]]}, {}]]*
-  CG[eps[SU2L], {Index[d$$3, SU2L[fund]], Index[d$$2, SU2L[fund]]}]*
-  Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
+  CG[eps[SU2L], {Index[d$$3, SU2L[fund]], Index[d$$1, SU2L[fund]]}]*
+  Field[H, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
   (-1/8*(Coupling[c\[Gamma], {}, 0]*(Coupling[g1, {}, 0]^2 + 
        Coupling[g2, {}, 0]^2)*Coupling[s4\[Gamma], {}, 0]*
       Coupling[yu, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0])/
@@ -69851,6 +69818,21 @@ Bar[Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]]*
             Coupling[yu, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0] + 
            Bar[Coupling[yu, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 0]]*
             Coupling[yu, {Index[d$$2, Flavor], Index[d$$4, Flavor]}, 0]*
+            Coupling[yu, {Index[d$$3, Flavor], Index[d$$1, Flavor]}, 0]) - 
+         Coupling[c\[Gamma], {}, 0]*(Coupling[g1, {}, 0]^2 + 
+           Coupling[g2, {}, 0]^2)*Coupling[s4\[Gamma], {}, 0]*
+          (96*Coupling[g3, {}, 0]^2*Coupling[yu, {Index[d$$2, Flavor], 
+              Index[d$$1, Flavor]}, 0] + 27*Coupling[g2, {}, 0]^2*
+            (1 + 6*Coupling[s\[Gamma], {}, 0]^2)*Coupling[yu, 
+             {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0] + 
+           Coupling[g1, {}, 0]^2*(17 + 54*Coupling[s\[Gamma], {}, 0]^2)*
+            Coupling[yu, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0] + 
+           18*(Bar[Coupling[yd, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 
+                0]]*(1 + 3*Coupling[s\[Gamma], {}, 0]^2)*Coupling[yd, {
+                Index[d$$2, Flavor], Index[d$$4, Flavor]}, 0] + 
+             Bar[Coupling[yu, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 0]]*
+              (3 - 10*Coupling[s\[Gamma], {}, 0]^2)*Coupling[yu, {
+                Index[d$$2, Flavor], Index[d$$4, Flavor]}, 0])*
             Coupling[yu, {Index[d$$3, Flavor], Index[d$$1, Flavor]}, 0]) + 
          3*Coupling[s\[Gamma], {}, 0]*(15*Coupling[g1, {}, 0]^4*
             Coupling[s4\[Gamma], {}, 0]^2*Coupling[yu, {Index[d$$2, Flavor], 
@@ -69865,31 +69847,6 @@ Bar[Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]]*
             Coupling[yd, {Index[d$$5, Flavor], Index[d$$4, Flavor]}, 0]*
             Coupling[yu, {Index[d$$2, Flavor], Index[d$$6, Flavor]}, 0]*
             Coupling[yu, {Index[d$$3, Flavor], Index[d$$1, Flavor]}, 0]) - 
-         Coupling[c\[Gamma], {}, 0]*Coupling[s4\[Gamma], {}, 0]*
-          (Coupling[g1, {}, 0]^4*(19 + 54*Coupling[s\[Gamma], {}, 0]^2)*
-            Coupling[yu, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0] + 
-           3*Coupling[g2, {}, 0]^2*(-32*Coupling[g3, {}, 0]^2*
-              Coupling[yu, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0] + 
-             Coupling[g2, {}, 0]^2*(-5 + 54*Coupling[s\[Gamma], {}, 0]^2)*
-              Coupling[yu, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0] + 
-             6*(Bar[Coupling[yd, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 
-                  0]]*(1 + 3*Coupling[s\[Gamma], {}, 0]^2)*Coupling[yd, 
-                 {Index[d$$2, Flavor], Index[d$$4, Flavor]}, 0] + 
-               Bar[Coupling[yu, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 
-                  0]]*(3 - 10*Coupling[s\[Gamma], {}, 0]^2)*Coupling[yu, 
-                 {Index[d$$2, Flavor], Index[d$$4, Flavor]}, 0])*
-              Coupling[yu, {Index[d$$3, Flavor], Index[d$$1, Flavor]}, 0]) + 
-           2*Coupling[g1, {}, 0]^2*(-48*Coupling[g3, {}, 0]^2*
-              Coupling[yu, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0] + 
-             2*Coupling[g2, {}, 0]^2*(25 + 54*Coupling[s\[Gamma], {}, 0]^2)*
-              Coupling[yu, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0] + 
-             9*(Bar[Coupling[yd, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 
-                  0]]*(1 + 3*Coupling[s\[Gamma], {}, 0]^2)*Coupling[yd, 
-                 {Index[d$$2, Flavor], Index[d$$4, Flavor]}, 0] + 
-               Bar[Coupling[yu, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 
-                  0]]*(3 - 10*Coupling[s\[Gamma], {}, 0]^2)*Coupling[yu, 
-                 {Index[d$$2, Flavor], Index[d$$4, Flavor]}, 0])*
-              Coupling[yu, {Index[d$$3, Flavor], Index[d$$1, Flavor]}, 0])) - 
          72*Coupling[c\[Gamma], {}, 0]^2*Coupling[s\[Gamma], {}, 0]*
           (Bar[Coupling[yd, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 0]]*
             (Coupling[c2\[Gamma], {}, 0]^2*(Coupling[g1, {}, 0]^2 + 
@@ -72989,10 +72946,10 @@ Bar[Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]]*
           0], Coupling[m3, {}, 0], Coupling[mdt, {Index[d$$1, Flavor]}, 0]}, 
         {3, 1, 1, -1}])/3 + 
      ((-(Bar[Coupling[yd, {Index[d$$2, Flavor], Index[d$$3, Flavor]}, 0]]*
-           Coupling[s\[Gamma], {}, 0]^2*(34*Coupling[g1, {}, 0]^2*
+           Coupling[s\[Gamma], {}, 0]^2*(8*Coupling[g1, {}, 0]^2*
              Coupling[yd, {Index[d$$4, Flavor], Index[d$$1, Flavor]}, 0] + 
-            3*(54*Coupling[g2, {}, 0]^2*Coupling[yd, {Index[d$$4, Flavor], 
-                 Index[d$$1, Flavor]}, 0] - 56*Coupling[g3, {}, 0]^2*Coupling[
+            3*(36*Coupling[g2, {}, 0]^2*Coupling[yd, {Index[d$$4, Flavor], 
+                 Index[d$$1, Flavor]}, 0] + 8*Coupling[g3, {}, 0]^2*Coupling[
                 yd, {Index[d$$4, Flavor], Index[d$$1, Flavor]}, 0] + 
               9*Bar[Coupling[yd, {Index[d$$5, Flavor], Index[d$$6, Flavor]}, 
                  0]]*Coupling[yd, {Index[d$$4, Flavor], Index[d$$6, Flavor]}, 
@@ -75047,44 +75004,41 @@ Bar[Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]]*
        LF[{Coupling[mqt, {Index[d$$5, Flavor]}, 0], Coupling[mdt, 
           {Index[d$$6, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
         {3, 1, 1, -1}])/2 + 
-     (-1/72*(Coupling[c\[Gamma], {}, 0]*Coupling[s\[Gamma], {}, 0]*
-         (20*Coupling[g1, {}, 0]^2*Coupling[yd, {Index[d$$3, Flavor], 
+     (-1/24*(Coupling[c\[Gamma], {}, 0]*Coupling[s\[Gamma], {}, 0]*
+         (2*Coupling[g1, {}, 0]^2*Coupling[yd, {Index[d$$3, Flavor], 
              Index[d$$1, Flavor]}, 0]*Coupling[yu, {Index[d$$4, Flavor], 
-             Index[d$$2, Flavor]}, 0] - 24*Coupling[g3, {}, 0]^2*
-           (6*Coupling[yd, {Index[d$$4, Flavor], Index[d$$1, Flavor]}, 0]*
+             Index[d$$2, Flavor]}, 0] + Coupling[g3, {}, 0]^2*
+           (-48*Coupling[yd, {Index[d$$4, Flavor], Index[d$$1, Flavor]}, 0]*
              Coupling[yu, {Index[d$$3, Flavor], Index[d$$2, Flavor]}, 0] + 
-            5*Coupling[yd, {Index[d$$3, Flavor], Index[d$$1, Flavor]}, 0]*
+            24*Coupling[yd, {Index[d$$3, Flavor], Index[d$$1, Flavor]}, 0]*
              Coupling[yu, {Index[d$$4, Flavor], Index[d$$2, Flavor]}, 0]) + 
-          9*(6*Coupling[g2, {}, 0]^2*Coupling[yd, {Index[d$$3, Flavor], Index[
-                d$$1, Flavor]}, 0]*Coupling[yu, {Index[d$$4, Flavor], Index[
-                d$$2, Flavor]}, 0] + Bar[Coupling[yd, {Index[d$$5, Flavor], 
-                Index[d$$6, Flavor]}, 0]]*(3*(1 + Coupling[s\[Gamma], {}, 0]^
-                 2)*Coupling[yd, {Index[d$$3, Flavor], Index[d$$6, Flavor]}, 
-                0]*Coupling[yd, {Index[d$$5, Flavor], Index[d$$1, Flavor]}, 
-                0]*Coupling[yu, {Index[d$$4, Flavor], Index[d$$2, Flavor]}, 
-                0] + Coupling[yd, {Index[d$$3, Flavor], Index[d$$1, Flavor]}, 
-                0]*((1 + 2*Coupling[c\[Gamma], {}, 0]^2)*Coupling[yd, 
-                  {Index[d$$4, Flavor], Index[d$$6, Flavor]}, 0]*Coupling[yu, 
-                  {Index[d$$5, Flavor], Index[d$$2, Flavor]}, 0] + 
-                Coupling[s\[Gamma], {}, 0]^2*(12*Coupling[yd, {Index[d$$5, 
-                      Flavor], Index[d$$6, Flavor]}, 0]*Coupling[yu, 
-                    {Index[d$$4, Flavor], Index[d$$2, Flavor]}, 0] + 
-                  5*Coupling[yd, {Index[d$$4, Flavor], Index[d$$6, Flavor]}, 
-                    0]*Coupling[yu, {Index[d$$5, Flavor], Index[d$$2, 
-                      Flavor]}, 0]))) + Bar[Coupling[yu, {Index[d$$5, 
-                 Flavor], Index[d$$6, Flavor]}, 0]]*
-             ((1 + 5*Coupling[c\[Gamma], {}, 0]^2 + 2*Coupling[s\[Gamma], {}, 
-                   0]^2)*Coupling[yd, {Index[d$$5, Flavor], Index[d$$1, 
-                  Flavor]}, 0]*Coupling[yu, {Index[d$$3, Flavor], 
-                 Index[d$$6, Flavor]}, 0]*Coupling[yu, {Index[d$$4, Flavor], 
-                 Index[d$$2, Flavor]}, 0] + 3*Coupling[yd, 
-                {Index[d$$3, Flavor], Index[d$$1, Flavor]}, 0]*(
-                (1 + Coupling[c\[Gamma], {}, 0]^2)*Coupling[yu, 
-                  {Index[d$$4, Flavor], Index[d$$6, Flavor]}, 0]*Coupling[yu, 
-                  {Index[d$$5, Flavor], Index[d$$2, Flavor]}, 0] + 
-                4*Coupling[c\[Gamma], {}, 0]^2*Coupling[yu, {Index[d$$4, 
-                    Flavor], Index[d$$2, Flavor]}, 0]*Coupling[yu, 
-                  {Index[d$$5, Flavor], Index[d$$6, Flavor]}, 0]))))) + 
+          3*Bar[Coupling[yd, {Index[d$$5, Flavor], Index[d$$6, Flavor]}, 0]]*
+           (3*(1 + Coupling[s\[Gamma], {}, 0]^2)*Coupling[yd, 
+              {Index[d$$3, Flavor], Index[d$$6, Flavor]}, 0]*
+             Coupling[yd, {Index[d$$5, Flavor], Index[d$$1, Flavor]}, 0]*
+             Coupling[yu, {Index[d$$4, Flavor], Index[d$$2, Flavor]}, 0] + 
+            Coupling[yd, {Index[d$$3, Flavor], Index[d$$1, Flavor]}, 0]*
+             ((1 + 2*Coupling[c\[Gamma], {}, 0]^2)*Coupling[yd, 
+                {Index[d$$4, Flavor], Index[d$$6, Flavor]}, 0]*Coupling[yu, 
+                {Index[d$$5, Flavor], Index[d$$2, Flavor]}, 0] + 
+              Coupling[s\[Gamma], {}, 0]^2*(12*Coupling[yd, {Index[d$$5, 
+                    Flavor], Index[d$$6, Flavor]}, 0]*Coupling[yu, 
+                  {Index[d$$4, Flavor], Index[d$$2, Flavor]}, 0] + 
+                5*Coupling[yd, {Index[d$$4, Flavor], Index[d$$6, Flavor]}, 0]*
+                 Coupling[yu, {Index[d$$5, Flavor], Index[d$$2, Flavor]}, 
+                  0]))) + 3*Bar[Coupling[yu, {Index[d$$5, Flavor], 
+              Index[d$$6, Flavor]}, 0]]*((1 + 5*Coupling[c\[Gamma], {}, 0]^
+                2 + 2*Coupling[s\[Gamma], {}, 0]^2)*Coupling[yd, 
+              {Index[d$$5, Flavor], Index[d$$1, Flavor]}, 0]*
+             Coupling[yu, {Index[d$$3, Flavor], Index[d$$6, Flavor]}, 0]*
+             Coupling[yu, {Index[d$$4, Flavor], Index[d$$2, Flavor]}, 0] + 
+            3*Coupling[yd, {Index[d$$3, Flavor], Index[d$$1, Flavor]}, 0]*
+             ((1 + Coupling[c\[Gamma], {}, 0]^2)*Coupling[yu, 
+                {Index[d$$4, Flavor], Index[d$$6, Flavor]}, 0]*Coupling[yu, 
+                {Index[d$$5, Flavor], Index[d$$2, Flavor]}, 0] + 
+              4*Coupling[c\[Gamma], {}, 0]^2*Coupling[yu, {Index[d$$4, 
+                  Flavor], Index[d$$2, Flavor]}, 0]*Coupling[yu, 
+                {Index[d$$5, Flavor], Index[d$$6, Flavor]}, 0])))) + 
        (Coupling[c\[Gamma], {}, 0]*Coupling[s\[Gamma], {}, 0]*
          (-2*Coupling[g1, {}, 0]^2*Coupling[yd, {Index[d$$3, Flavor], 
              Index[d$$1, Flavor]}, 0]*Coupling[yu, {Index[d$$4, Flavor], 
@@ -76675,9 +76629,9 @@ Bar[Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]]*
      Coupling[s\[Gamma], {}, 0]) + 
    hbar*(-1/144*(Coupling[s\[Gamma], {}, 0]*
        (Bar[Coupling[yu, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
-         (-96*Coupling[g3, {}, 0]^2 + 27*Coupling[g2, {}, 0]^2*
-           (3 + 2*Coupling[c\[Gamma], {}, 0]^2 + 2*Coupling[s\[Gamma], {}, 0]^
-              2) + Coupling[g1, {}, 0]^2*(19 + 18*Coupling[c\[Gamma], {}, 0]^
+         (96*Coupling[g3, {}, 0]^2 + 27*Coupling[g2, {}, 0]^2*
+           (1 + 2*Coupling[c\[Gamma], {}, 0]^2 + 2*Coupling[s\[Gamma], {}, 0]^
+              2) + Coupling[g1, {}, 0]^2*(17 + 18*Coupling[c\[Gamma], {}, 0]^
               2 + 18*Coupling[s\[Gamma], {}, 0]^2)) + 
         18*Bar[Coupling[yu, {Index[d$$4, Flavor], Index[d$$2, Flavor]}, 0]]*
          (Bar[Coupling[yd, {Index[d$$1, Flavor], Index[d$$3, Flavor]}, 0]]*
@@ -83063,21 +83017,20 @@ Bar[Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]]*
              3*Coupling[g2, {}, 0]^4)*Coupling[s4\[Gamma], {}, 0] - 
            45*(Coupling[g1, {}, 0]^2 + Coupling[g2, {}, 0]^2)^2*
             Coupling[s4\[Gamma], {}, 0]^2*Coupling[s\[Gamma], {}, 0] + 
-           Coupling[c\[Gamma], {}, 0]*Coupling[s4\[Gamma], {}, 0]*
-            (-96*Coupling[g2, {}, 0]^2*Coupling[g3, {}, 0]^2 + 
-             3*Coupling[g2, {}, 0]^4*(-5 + 54*Coupling[s\[Gamma], {}, 0]^2) + 
-             Coupling[g1, {}, 0]^4*(19 + 54*Coupling[s\[Gamma], {}, 0]^2) + 
-             4*Coupling[g1, {}, 0]^2*(-24*Coupling[g3, {}, 0]^2 + 
-               Coupling[g2, {}, 0]^2*(25 + 54*Coupling[s\[Gamma], {}, 0]^
-                   2))) + 432*Bar[Coupling[yu, {Index[d$$3, Flavor], Index[
-                d$$4, Flavor]}, 0]]*Coupling[c\[Gamma], {}, 0]^2*
-            Coupling[s\[Gamma], {}, 0]*(Coupling[c2\[Gamma], {}, 0]^2*
-              (Coupling[g1, {}, 0]^2 + Coupling[g2, {}, 0]^2)*
-              Coupling[yu, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 0] - 
-             8*Bar[Coupling[yu, {Index[d$$5, Flavor], Index[d$$6, Flavor]}, 
-                0]]*Coupling[s\[Gamma], {}, 0]^2*Coupling[yu, {Index[d$$3, 
-                 Flavor], Index[d$$6, Flavor]}, 0]*Coupling[yu, {
-                Index[d$$5, Flavor], Index[d$$4, Flavor]}, 0])))/1152 + 
+           Coupling[c\[Gamma], {}, 0]*(Coupling[g1, {}, 0]^2 + 
+             Coupling[g2, {}, 0]^2)*Coupling[s4\[Gamma], {}, 0]*
+            (96*Coupling[g3, {}, 0]^2 + 27*Coupling[g2, {}, 0]^2*
+              (1 + 6*Coupling[s\[Gamma], {}, 0]^2) + Coupling[g1, {}, 0]^2*
+              (17 + 54*Coupling[s\[Gamma], {}, 0]^2)) + 
+           432*Bar[Coupling[yu, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 
+              0]]*Coupling[c\[Gamma], {}, 0]^2*Coupling[s\[Gamma], {}, 0]*
+            (Coupling[c2\[Gamma], {}, 0]^2*(Coupling[g1, {}, 0]^2 + 
+               Coupling[g2, {}, 0]^2)*Coupling[yu, {Index[d$$3, Flavor], 
+                Index[d$$4, Flavor]}, 0] - 8*Bar[Coupling[yu, 
+                {Index[d$$5, Flavor], Index[d$$6, Flavor]}, 0]]*
+              Coupling[s\[Gamma], {}, 0]^2*Coupling[yu, {Index[d$$3, Flavor], 
+                Index[d$$6, Flavor]}, 0]*Coupling[yu, {Index[d$$5, Flavor], 
+                Index[d$$4, Flavor]}, 0])))/1152 + 
        (Bar[Coupling[yu, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
          Coupling[c2\[Gamma], {}, 0]*Coupling[c\[Gamma], {}, 0]*
          Coupling[g1, {}, 0]^4*Coupling[s2\[Gamma], {}, 0]*
@@ -88590,21 +88543,21 @@ Bar[Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]]*
             {Index[d$$6, Flavor], Index[d$$5, Flavor]}, 0] + 
           Bar[Coupling[ye, {Index[d$$1, Flavor], Index[d$$3, Flavor]}, 0]]*
            (Bar[Coupling[yu, {Index[d$$2, Flavor], Index[d$$4, Flavor]}, 0]]*
-             (-40*Coupling[g1, {}, 0]^2 + 6*(9*Coupling[g2, {}, 0]^2 - 
-                8*Coupling[g3, {}, 0]^2 + 6*Bar[Coupling[ye, {Index[d$$5, 
-                     Flavor], Index[d$$6, Flavor]}, 0]]*Coupling[s\[Gamma], 
-                   {}, 0]^2*Coupling[ye, {Index[d$$5, Flavor], Index[d$$6, 
-                    Flavor]}, 0] + 18*Bar[Coupling[yu, {Index[d$$5, Flavor], 
-                    Index[d$$6, Flavor]}, 0]]*Coupling[c\[Gamma], {}, 0]^2*
-                 Coupling[yu, {Index[d$$5, Flavor], Index[d$$6, Flavor]}, 
-                  0])) + 9*Bar[Coupling[yu, {Index[d$$6, Flavor], 
-                Index[d$$4, Flavor]}, 0]]*(Bar[Coupling[yd, {Index[d$$2, 
-                   Flavor], Index[d$$5, Flavor]}, 0]]*(1 + 
-                2*Coupling[c\[Gamma], {}, 0]^2 + Coupling[s\[Gamma], {}, 0]^
-                 2)*Coupling[yd, {Index[d$$6, Flavor], Index[d$$5, Flavor]}, 
-                0] + 3*Bar[Coupling[yu, {Index[d$$2, Flavor], Index[d$$5, 
-                   Flavor]}, 0]]*(1 + Coupling[c\[Gamma], {}, 0]^2)*Coupling[
-                yu, {Index[d$$6, Flavor], Index[d$$5, Flavor]}, 0])))) + 
+             (-14*Coupling[g1, {}, 0]^2 + 12*(4*Coupling[g3, {}, 0]^2 + 
+                3*Bar[Coupling[ye, {Index[d$$5, Flavor], Index[d$$6, 
+                     Flavor]}, 0]]*Coupling[s\[Gamma], {}, 0]^2*Coupling[ye, 
+                  {Index[d$$5, Flavor], Index[d$$6, Flavor]}, 0] + 
+                9*Bar[Coupling[yu, {Index[d$$5, Flavor], Index[d$$6, 
+                     Flavor]}, 0]]*Coupling[c\[Gamma], {}, 0]^2*Coupling[yu, 
+                  {Index[d$$5, Flavor], Index[d$$6, Flavor]}, 0])) + 
+            9*Bar[Coupling[yu, {Index[d$$6, Flavor], Index[d$$4, Flavor]}, 
+               0]]*(Bar[Coupling[yd, {Index[d$$2, Flavor], Index[d$$5, 
+                   Flavor]}, 0]]*(1 + 2*Coupling[c\[Gamma], {}, 0]^2 + 
+                Coupling[s\[Gamma], {}, 0]^2)*Coupling[yd, 
+                {Index[d$$6, Flavor], Index[d$$5, Flavor]}, 0] + 
+              3*Bar[Coupling[yu, {Index[d$$2, Flavor], Index[d$$5, Flavor]}, 
+                 0]]*(1 + Coupling[c\[Gamma], {}, 0]^2)*Coupling[yu, 
+                {Index[d$$6, Flavor], Index[d$$5, Flavor]}, 0])))) + 
        (Coupling[c\[Gamma], {}, 0]*Coupling[s\[Gamma], {}, 0]*
          (3*Bar[Coupling[ye, {Index[d$$1, Flavor], Index[d$$5, Flavor]}, 0]]*
            Bar[Coupling[ye, {Index[d$$6, Flavor], Index[d$$3, Flavor]}, 0]]*
@@ -91151,31 +91104,30 @@ Bar[Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]]*
          Coupling[c\[Gamma], {}, 0]*Coupling[\[Mu]t, {}, 0])*
        LF[{Coupling[mqt, {Index[d$$2, Flavor]}, 0], Coupling[m3, {}, 0], 
          Coupling[mut, {Index[d$$4, Flavor]}, 0]}, {3, 1, 1, -1}])/3 + 
-     (-1/72*(Coupling[c\[Gamma], {}, 0]*Coupling[s\[Gamma], {}, 0]*
-         (9*(-16*Bar[Coupling[yd, {Index[d$$2, Flavor], Index[d$$3, Flavor]}, 
-               0]]*Bar[Coupling[yu, {Index[d$$1, Flavor], Index[d$$4, 
-                 Flavor]}, 0]]*Coupling[g3, {}, 0]^2 + 
-            Bar[Coupling[yu, {Index[d$$2, Flavor], Index[d$$4, Flavor]}, 0]]*
-             (3*Bar[Coupling[yd, {Index[d$$1, Flavor], Index[d$$5, Flavor]}, 
-                 0]]*Bar[Coupling[yd, {Index[d$$6, Flavor], Index[d$$3, 
-                   Flavor]}, 0]]*(1 + Coupling[s\[Gamma], {}, 0]^2)*Coupling[
-                yd, {Index[d$$6, Flavor], Index[d$$5, Flavor]}, 0] + 
-              Bar[Coupling[yd, {Index[d$$5, Flavor], Index[d$$3, Flavor]}, 
-                 0]]*Bar[Coupling[yu, {Index[d$$1, Flavor], Index[d$$6, 
-                   Flavor]}, 0]]*(1 + 5*Coupling[c\[Gamma], {}, 0]^2 + 
-                2*Coupling[s\[Gamma], {}, 0]^2)*Coupling[yu, 
-                {Index[d$$5, Flavor], Index[d$$6, Flavor]}, 0])) + 
-          Bar[Coupling[yd, {Index[d$$1, Flavor], Index[d$$3, Flavor]}, 0]]*
+     (-1/24*(Coupling[c\[Gamma], {}, 0]*Coupling[s\[Gamma], {}, 0]*
+         (-48*Bar[Coupling[yd, {Index[d$$2, Flavor], Index[d$$3, Flavor]}, 
+             0]]*Bar[Coupling[yu, {Index[d$$1, Flavor], Index[d$$4, Flavor]}, 
+             0]]*Coupling[g3, {}, 0]^2 + 
+          3*Bar[Coupling[yu, {Index[d$$2, Flavor], Index[d$$4, Flavor]}, 0]]*
+           (3*Bar[Coupling[yd, {Index[d$$1, Flavor], Index[d$$5, Flavor]}, 
+               0]]*Bar[Coupling[yd, {Index[d$$6, Flavor], Index[d$$3, 
+                 Flavor]}, 0]]*(1 + Coupling[s\[Gamma], {}, 0]^2)*
+             Coupling[yd, {Index[d$$6, Flavor], Index[d$$5, Flavor]}, 0] + 
+            Bar[Coupling[yd, {Index[d$$5, Flavor], Index[d$$3, Flavor]}, 0]]*
+             Bar[Coupling[yu, {Index[d$$1, Flavor], Index[d$$6, Flavor]}, 0]]*
+             (1 + 5*Coupling[c\[Gamma], {}, 0]^2 + 2*Coupling[s\[Gamma], {}, 
+                 0]^2)*Coupling[yu, {Index[d$$5, Flavor], Index[d$$6, 
+                Flavor]}, 0]) + Bar[Coupling[yd, {Index[d$$1, Flavor], 
+              Index[d$$3, Flavor]}, 0]]*
            (2*Bar[Coupling[yu, {Index[d$$2, Flavor], Index[d$$4, Flavor]}, 
-               0]]*(10*Coupling[g1, {}, 0]^2 + 27*Coupling[g2, {}, 0]^2 - 
-              60*Coupling[g3, {}, 0]^2 + 54*Bar[Coupling[yd, 
-                 {Index[d$$5, Flavor], Index[d$$6, Flavor]}, 0]]*Coupling[
-                 s\[Gamma], {}, 0]^2*Coupling[yd, {Index[d$$5, Flavor], 
-                 Index[d$$6, Flavor]}, 0] + 54*Bar[Coupling[yu, 
-                 {Index[d$$5, Flavor], Index[d$$6, Flavor]}, 0]]*Coupling[
-                 c\[Gamma], {}, 0]^2*Coupling[yu, {Index[d$$5, Flavor], 
-                 Index[d$$6, Flavor]}, 0]) + 
-            9*Bar[Coupling[yu, {Index[d$$6, Flavor], Index[d$$4, Flavor]}, 
+               0]]*(Coupling[g1, {}, 0]^2 + 6*(2*Coupling[g3, {}, 0]^2 + 
+                3*Bar[Coupling[yd, {Index[d$$5, Flavor], Index[d$$6, 
+                     Flavor]}, 0]]*Coupling[s\[Gamma], {}, 0]^2*Coupling[yd, 
+                  {Index[d$$5, Flavor], Index[d$$6, Flavor]}, 0] + 
+                3*Bar[Coupling[yu, {Index[d$$5, Flavor], Index[d$$6, 
+                     Flavor]}, 0]]*Coupling[c\[Gamma], {}, 0]^2*Coupling[yu, 
+                  {Index[d$$5, Flavor], Index[d$$6, Flavor]}, 0])) + 
+            3*Bar[Coupling[yu, {Index[d$$6, Flavor], Index[d$$4, Flavor]}, 
                0]]*(Bar[Coupling[yd, {Index[d$$2, Flavor], Index[d$$5, 
                    Flavor]}, 0]]*(1 + 2*Coupling[c\[Gamma], {}, 0]^2 + 
                 5*Coupling[s\[Gamma], {}, 0]^2)*Coupling[yd, 
@@ -93010,10 +92962,10 @@ Bar[Field[H, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]]*
           0], Coupling[\[Mu]t, {}, 0], Coupling[mqt, {Index[d$$6, Flavor]}, 
           0]}, {2, 2, 1, -1}])/8 + 
      ((-(Bar[Coupling[yu, {Index[d$$1, Flavor], Index[d$$4, Flavor]}, 0]]*
-           Coupling[c\[Gamma], {}, 0]^2*(94*Coupling[g1, {}, 0]^2*
+           Coupling[c\[Gamma], {}, 0]^2*(92*Coupling[g1, {}, 0]^2*
              Coupling[yu, {Index[d$$3, Flavor], Index[d$$2, Flavor]}, 0] + 
-            3*(54*Coupling[g2, {}, 0]^2*Coupling[yu, {Index[d$$3, Flavor], 
-                 Index[d$$2, Flavor]}, 0] - 56*Coupling[g3, {}, 0]^2*Coupling[
+            3*(36*Coupling[g2, {}, 0]^2*Coupling[yu, {Index[d$$3, Flavor], 
+                 Index[d$$2, Flavor]}, 0] + 8*Coupling[g3, {}, 0]^2*Coupling[
                 yu, {Index[d$$3, Flavor], Index[d$$2, Flavor]}, 0] + 
               3*Bar[Coupling[yd, {Index[d$$5, Flavor], Index[d$$6, Flavor]}, 
                  0]]*Coupling[yd, {Index[d$$3, Flavor], Index[d$$6, Flavor]}, 
