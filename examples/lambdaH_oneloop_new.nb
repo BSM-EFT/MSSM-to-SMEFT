@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     70438,       1894]
-NotebookOptionsPosition[     66792,       1825]
-NotebookOutlinePosition[     67282,       1843]
-CellTagsIndexPosition[     67239,       1840]
+NotebookDataLength[     96177,       2490]
+NotebookOptionsPosition[     92080,       2413]
+NotebookOutlinePosition[     92570,       2431]
+CellTagsIndexPosition[     92527,       2428]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -162,8 +162,8 @@ A+xeoPtCwBLBDsBQ8DZvboOEDzD8wObnIfjo4QsARrGtpA==
  GeneratedCell->True,
  CellAutoOverwrite->True,
  CellChangeTimes->{
-  3.968748729507578*^9},ExpressionUUID->"31eb00a9-f84f-449b-8858-\
-eb527641e839"],
+  3.969103773299336*^9},ExpressionUUID->"3b7581a5-67e5-4ddd-91c1-\
+8a8d5e985ac2"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -191,10 +191,11 @@ Julie Pag\[EGrave]s, Anders Eller Thomsen, and Felix Wilsch \\n\"\>",
   3.95810616252562*^9, 3.958116004940959*^9, 3.958116886577115*^9, 
   3.9581169269877977`*^9, 3.9581182338891687`*^9, 3.9581222651336727`*^9, 
   3.958124735794937*^9, 3.9581247767108793`*^9, 3.96874849969028*^9, 
-  3.9687487295696173`*^9},
+  3.9687487295696173`*^9, 3.968832003220962*^9, 3.9688490557485447`*^9, 
+  3.969103773361422*^9},
  CellLabel->
   "During evaluation of \
-In[1]:=",ExpressionUUID->"8162fd7d-eab7-474d-a7d3-3c1ab1c02d7b"],
+In[1]:=",ExpressionUUID->"a4829025-947d-4fd5-9df3-f3bf8a966b46"],
 
 Cell[BoxData[
  RowBox[{
@@ -288,8 +289,8 @@ indices \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"SU2L\\\", \\\"[\\\", \
     $CellContext`SU2L[Matchete`fund]}],
   Editable->False]], "Echo",
  CellChangeTimes->{
-  3.968748732137602*^9},ExpressionUUID->"78629a56-e0cb-48b4-95f8-\
-a3bea1cc4643"]
+  3.9691037752552137`*^9},ExpressionUUID->"2f94f66c-3c42-4814-aa36-\
+51d5afa0fd7d"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -308,14 +309,15 @@ Cell[BoxData[
      RowBox[{"{", 
       RowBox[{
        RowBox[{"NotebookDirectory", "[", "]"}], 
-       ",", "\"\<../matching-results/Mathematica/MSSM-matching-conditions.m\>\
-\""}], "}"}], "]"}], "]"}]}], ";"}]], "Input",
+       ",", "\"\<../matching-results-new/Mathematica/MSSM-matching-conditions.\
+m\>\""}], "}"}], "]"}], "]"}]}], ";"}]], "Input",
  CellChangeTimes->{{3.950254488772336*^9, 3.950254495660864*^9}, {
    3.950255644258277*^9, 3.950255646738119*^9}, {3.9502606083107224`*^9, 
    3.950260609893952*^9}, {3.9502608559832163`*^9, 3.9502608592883787`*^9}, 
    3.950885424001943*^9, {3.954477714445257*^9, 3.95447771562834*^9}, 
    3.957867499124271*^9, 3.958021422474666*^9, {3.958115960710548*^9, 
-   3.958115962015657*^9}},
+   3.958115962015657*^9}, {3.9688490441463537`*^9, 3.968849044631617*^9}, {
+   3.968849105774707*^9, 3.968849105958783*^9}},
  CellLabel->"In[10]:=",ExpressionUUID->"e1e7e026-d84d-4eff-b4d8-3283391c61e5"]
 }, Open  ]],
 
@@ -326,17 +328,30 @@ Cell["Get the Higgs quartic coupling expression", "Section",
   3.954480924444165*^9}},ExpressionUUID->"53066d9e-6e63-49cd-ba27-\
 eff437343e41"],
 
-Cell[BoxData[
+Cell[BoxData[{
  RowBox[{
   RowBox[{"lH", "=", 
    RowBox[{
     RowBox[{"Coupling", "[", 
      RowBox[{"\[Lambda]", ",", 
       RowBox[{"{", "}"}], ",", "0"}], "]"}], "/.", "MatchingCondition"}]}], 
-  ";"}]], "Input",
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"lH", " ", "=", " ", 
+    RowBox[{"lH", "-", 
+     RowBox[{"(", 
+      RowBox[{"lH", "/.", 
+       RowBox[{"{", 
+        RowBox[{"hbar", "->", "0"}], "}"}]}], ")"}]}]}], ";"}], " ", 
+  RowBox[{"(*", " ", 
+   RowBox[{
+    RowBox[{"keep", " ", "only", " ", "the", " ", "1"}], "-", 
+    RowBox[{"loop", " ", "result"}]}], "*)"}]}]}], "Input",
  CellChangeTimes->{{3.954480931885548*^9, 3.954480933677864*^9}, 
    3.954481066958165*^9, 3.954481263902693*^9, {3.95448150354781*^9, 
-   3.954481507692832*^9}, 3.954481690735003*^9},
+   3.954481507692832*^9}, 3.954481690735003*^9, {3.968850612580305*^9, 
+   3.968850636745151*^9}},
  CellLabel->"In[11]:=",ExpressionUUID->"ea726f2e-a401-479d-b77a-7330090b07ef"]
 }, Open  ]],
 
@@ -496,8 +511,8 @@ Cell[BoxData[{
    3.9581168645723743`*^9}, {3.9581169112847652`*^9, 
    3.9581169114670973`*^9}, {3.958122243391993*^9, 3.958122247580912*^9}, {
    3.9581246786192617`*^9, 3.958124695064768*^9}, {3.968748687404833*^9, 
-   3.968748692323905*^9}},
- CellLabel->"In[12]:=",ExpressionUUID->"19b575ea-d805-4498-8303-3189eeb04caa"],
+   3.968748692323905*^9}, 3.968849835533022*^9, 3.9688498660831203`*^9},
+ CellLabel->"In[13]:=",ExpressionUUID->"19b575ea-d805-4498-8303-3189eeb04caa"],
 
 Cell[BoxData[
  RowBox[{
@@ -679,6 +694,86 @@ Cell[BoxData[
 
 Cell[CellGroupData[{
 
+Cell["Get loop functions and identify the terms with mixed loops", \
+"Subsection",
+ CellChangeTimes->{{3.968839113006531*^9, 3.968839127236588*^9}, 
+   3.968839225813665*^9},ExpressionUUID->"8f00277c-e2dc-41f1-93d6-\
+60a911a91b62"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"loopFuncs", " ", "=", " ", 
+   RowBox[{"DeleteDuplicates", "[", 
+    RowBox[{"Flatten", "[", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Cases", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{"List", "@@", 
+            RowBox[{"Expand", "[", "lHsimp2", "]"}]}], ")"}], "[", 
+          RowBox[{"[", "i", "]"}], "]"}], ",", 
+         RowBox[{"LF", "[", "a__", "]"}]}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"i", ",", "1", ",", 
+         RowBox[{"Length", "[", 
+          RowBox[{"(", 
+           RowBox[{"List", "@@", 
+            RowBox[{"Expand", "[", "lHsimp2", "]"}]}], ")"}], "]"}]}], 
+        "}"}]}], "]"}], "]"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"loopFuncsMix", "=", 
+   RowBox[{"Join", "[", 
+    RowBox[{
+     RowBox[{"Cases", "[", 
+      RowBox[{"loopFuncs", ",", 
+       RowBox[{"LF", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"a_", ",", "b_"}], "}"}], ",", "c_"}], "]"}]}], "]"}], ",", 
+     
+     RowBox[{"Cases", "[", 
+      RowBox[{"loopFuncs", ",", 
+       RowBox[{"LF", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"a_", ",", "b_", ",", "c_"}], "}"}], ",", "d_"}], "]"}]}], 
+      "]"}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"removeMix", " ", "=", 
+   RowBox[{"Flatten", "[", " ", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"loopFuncsMix", "[", 
+        RowBox[{"[", "i", "]"}], "]"}], "->", "0"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"i", ",", "1", ",", 
+        RowBox[{"Length", "[", "loopFuncsMix", "]"}]}], "}"}]}], "]"}], 
+    "]"}]}], ";"}]}], "Input",
+ CellChangeTimes->{{3.968839134747196*^9, 3.968839186224307*^9}, {
+  3.968849417658187*^9, 3.9688494307764*^9}},
+ CellLabel->"In[20]:=",ExpressionUUID->"ee413b37-cc96-4b90-8dea-adc02f1f17ab"],
+
+Cell[CellGroupData[{
+
+Cell["Remove mixed loop functions", "Subsubsection",
+ CellChangeTimes->{{3.968839228680325*^9, 
+  3.968839241854892*^9}},ExpressionUUID->"4b225ea4-faf4-4e18-8377-\
+ee1d8b26f684"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"lHsimp2b", "=", 
+   RowBox[{"lHsimp2", "/.", "removeMix"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.9688392566311493`*^9, 3.9688392641591253`*^9}},
+ CellLabel->"In[23]:=",ExpressionUUID->"515df079-1faf-41ee-af96-941b1cffb636"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
 Cell["Evaluate loop functions", "Subsection",
  CellChangeTimes->{{3.9544818190586643`*^9, 
   3.9544818262365723`*^9}},ExpressionUUID->"efff48c8-6d57-4398-99e5-\
@@ -687,10 +782,11 @@ e933e36ab787"],
 Cell[BoxData[
  RowBox[{
   RowBox[{"lHsimp3", " ", "=", " ", 
-   RowBox[{"EvaluateLoopFunctions", "[", "lHsimp2", "]"}]}], ";"}]], "Input",
+   RowBox[{"EvaluateLoopFunctions", "[", "lHsimp2b", "]"}]}], ";"}]], "Input",\
+
  CellChangeTimes->{{3.954481844444433*^9, 3.954481853949061*^9}, 
-   3.954481887564665*^9},
- CellLabel->"In[20]:=",ExpressionUUID->"f8007914-f634-49df-8b8c-faa7c9e9b1cd"]
+   3.954481887564665*^9, 3.968839282466833*^9},
+ CellLabel->"In[24]:=",ExpressionUUID->"f8007914-f634-49df-8b8c-faa7c9e9b1cd"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -744,49 +840,49 @@ Cell[BoxData[
           RowBox[{"3", ",", "Flavor"}], "]"}], "}"}], ",", "0"}], "]"}], "->", 
       SubscriptBox["m", "tR"]}], ",", 
      RowBox[{
-      RowBox[{"Coupling", "[", 
-       RowBox[{"cH2", ",", 
-        RowBox[{"{", "}"}], ",", "2"}], "]"}], "\[Rule]", "0"}]}], "}"}]}], 
+      RowBox[{
+       RowBox[{"s\[Beta]", "[", "]"}], "^", "2"}], "->", 
+      RowBox[{"1", "-", 
+       RowBox[{
+        RowBox[{"c\[Beta]", "[", "]"}], "^", "2"}]}]}]}], "}"}]}], 
   ";"}]], "Input",
  CellChangeTimes->{{3.954482020016199*^9, 3.9544820563654747`*^9}, {
   3.958124722668373*^9, 3.9581247231449947`*^9}, {3.958124753167468*^9, 
-  3.958124757584613*^9}},
- CellLabel->"In[21]:=",ExpressionUUID->"f5607fde-8a14-4b77-9810-51ffa32efa4a"],
+  3.958124757584613*^9}, {3.96884952306844*^9, 3.968849540654666*^9}, {
+  3.9688499133846273`*^9, 3.96884991442227*^9}, {3.9688502286345367`*^9, 
+  3.968850236896549*^9}, {3.9688503097676487`*^9, 3.968850427518502*^9}, {
+  3.968852429918708*^9, 3.968852430137527*^9}},
+ CellLabel->"In[25]:=",ExpressionUUID->"f5607fde-8a14-4b77-9810-51ffa32efa4a"],
 
 Cell[BoxData[
  RowBox[{
   RowBox[{"lHsimp4", "=", 
-   RowBox[{
-    FractionBox["1", 
-     RowBox[{
-      RowBox[{"(", 
-       RowBox[{"4", " ", "Pi"}], ")"}], "^", "2"}]], 
-    RowBox[{"Collect", "[", 
+   RowBox[{"Collect", "[", 
+    RowBox[{
      RowBox[{
       RowBox[{
        RowBox[{
-        RowBox[{
-         RowBox[{"(", 
-          RowBox[{"4", " ", "Pi"}], ")"}], "^", "2"}], " ", "lHsimp3"}], "/.",
-        "simp"}], ",", 
-      RowBox[{"{", 
+        RowBox[{"(", 
+         RowBox[{"4", " ", "Pi"}], ")"}], "^", "2"}], " ", "lHsimp3"}], "/.", 
+      "simp"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
        RowBox[{
         RowBox[{
-         RowBox[{
-          SubscriptBox["X", "t"], "^", "4"}], 
-         RowBox[{
-          SubscriptBox["Y", "t"], "^", "4"}]}], ",", 
+         SubscriptBox["X", "t"], "^", "4"}], 
         RowBox[{
-         RowBox[{
-          SubscriptBox["X", "t"], "^", "2"}], 
-         RowBox[{
-          SubscriptBox["Y", "t"], "^", "4"}]}], ",", 
+         SubscriptBox["Y", "t"], "^", "4"}]}], ",", 
+       RowBox[{
         RowBox[{
-         SubscriptBox["Y", "t"], "^", "4"}], ",", 
-        RowBox[{"Log", "[", "a_", "]"}], ",", 
-        RowBox[{"g1", "[", "]"}], ",", 
-        RowBox[{"g2", "[", "]"}], ",", 
-        RowBox[{"g3", "[", "]"}]}], "}"}], ",", "Simplify"}], "]"}]}]}], 
+         SubscriptBox["X", "t"], "^", "2"}], 
+        RowBox[{
+         SubscriptBox["Y", "t"], "^", "4"}]}], ",", 
+       RowBox[{
+        SubscriptBox["Y", "t"], "^", "4"}], ",", 
+       RowBox[{"Log", "[", "a_", "]"}], ",", 
+       RowBox[{"g1", "[", "]"}], ",", 
+       RowBox[{"g2", "[", "]"}], ",", 
+       RowBox[{"g3", "[", "]"}]}], "}"}], ",", "Simplify"}], "]"}]}], 
   ";"}]], "Input",
  CellChangeTimes->{{3.950720597445694*^9, 3.9507206599142313`*^9}, {
    3.950772089866499*^9, 3.95077211307974*^9}, {3.9508557556813793`*^9, 
@@ -794,9 +890,8 @@ Cell[BoxData[
    3.954481867543339*^9, 3.954481895452572*^9}, {3.954481974416005*^9, 
    3.9544819821255836`*^9}, {3.9544820261926613`*^9, 3.95448205911675*^9}, {
    3.954482110192877*^9, 3.954482121468856*^9}, {3.9687517008137417`*^9, 
-   3.968751759669918*^9}, 
-   3.9687589041438923`*^9},ExpressionUUID->"f0e97e03-1193-41f2-9e7b-\
-35536c71f2f3"],
+   3.968751759669918*^9}, 3.9687589041438923`*^9, 3.968849489820621*^9},
+ CellLabel->"In[26]:=",ExpressionUUID->"f0e97e03-1193-41f2-9e7b-35536c71f2f3"],
 
 Cell[CellGroupData[{
 
@@ -816,8 +911,7 @@ Cell[TextData[{
      RowBox[{
       RowBox[{"M2", "^", "2"}], "/", 
       RowBox[{"\[Mu]bar", "^", "2"}]}], "]"}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "207daea6-ea22-4572-9fd2-af2f311f3b6c"],
+  ExpressionUUID->"207daea6-ea22-4572-9fd2-af2f311f3b6c"],
  " from Eq. 13 in 1407.4081)"
 }], "Subsubsection",
  CellChangeTimes->{{3.968758905645162*^9, 
@@ -883,7 +977,7 @@ Cell[BoxData[
  CellChangeTimes->{{3.968757948460743*^9, 3.968758028470112*^9}, {
   3.9687580694401913`*^9, 3.96875810658228*^9}, {3.968758471023862*^9, 
   3.968758488416881*^9}},
- CellLabel->"In[77]:=",ExpressionUUID->"2db55f83-61e3-465b-83eb-3e2a913617e9"],
+ CellLabel->"In[27]:=",ExpressionUUID->"2db55f83-61e3-465b-83eb-3e2a913617e9"],
 
 Cell[CellGroupData[{
 
@@ -909,914 +1003,1408 @@ Cell[BoxData[
   3.968758586341189*^9, 3.968758639930292*^9}, {3.9687586773448763`*^9, 
   3.9687586830734453`*^9}, {3.9687587415514402`*^9, 3.968758752000983*^9}, {
   3.9687590495929127`*^9, 3.9687590689727287`*^9}},
- CellLabel->"In[90]:=",ExpressionUUID->"ca1b7579-6669-438d-ba7c-b976e15981bf"],
+ CellLabel->"In[28]:=",ExpressionUUID->"ca1b7579-6669-438d-ba7c-b976e15981bf"],
 
 Cell[BoxData[
  FormBox[
   StyleBox[
    RowBox[{
-    RowBox[{
-     FractionBox["1", "192"], 
-     FractionBox["1", 
-      SuperscriptBox["\[Pi]", "2"]], 
-     SuperscriptBox[
-      SubscriptBox["g", "2"], "4"], 
-     FractionBox["1", 
-      SuperscriptBox[
-       SubscriptBox["m", "\[CapitalPhi]"], "2"]], " ", 
-     FormBox[
-      StyleBox[
-       RowBox[{"(", 
-        RowBox[{
-         RowBox[{
-          SuperscriptBox[
-           SubscriptBox["m", "2"], "6"], 
-          SuperscriptBox[
-           SubscriptBox["m", "\[CapitalPhi]"], "2"], " ", 
-          FormBox[
-           StyleBox[
-            RowBox[{"(", 
-             RowBox[{"-", 
-              RowBox[{"5", 
-               SuperscriptBox[
-                SubscriptBox["c", 
-                 RowBox[{"2", "\[Beta]"}]], "2"]}], "+", 
-              RowBox[{"6", " ", 
-               FormBox[
-                StyleBox[
-                 RowBox[{"(", 
-                  RowBox[{
-                   RowBox[{"2", 
-                    SuperscriptBox[
-                    SubscriptBox["c", "\[Beta]"], "2"]}], "+", 
-                   RowBox[{"3", 
-                    SuperscriptBox[
-                    SubscriptBox["c", "\[Beta]"], "4"]}], "+", 
-                   RowBox[{"5", 
-                    SuperscriptBox[
-                    SubscriptBox["s", "\[Beta]"], "4"]}]}], ")"}],
-                 SpanSymmetric->False],
-                StandardForm]}]}], ")"}],
-            SpanSymmetric->False],
-           StandardForm]}], "+", 
-         RowBox[{"18", 
-          SubscriptBox["s", 
-           RowBox[{"4", "\[Beta]"}]], 
-          OverscriptBox["\[Mu]", "~"], 
-          SuperscriptBox[
-           SubscriptBox["m", "2"], "7"], " ", 
-          FormBox[
-           StyleBox[
-            RowBox[{"(", 
-             RowBox[{
-              RowBox[{"-", "1"}], "+", 
-              RowBox[{"2", 
-               SuperscriptBox[
-                SubscriptBox["c", "\[Beta]"], "2"]}]}], ")"}],
-            SpanSymmetric->False],
-           StandardForm]}], "+", 
-         RowBox[{"3", 
-          SuperscriptBox[
-           SubscriptBox["m", "2"], "4"], 
-          SuperscriptBox[
-           SubscriptBox["m", "\[CapitalPhi]"], "2"], 
-          SuperscriptBox[
-           OverscriptBox["\[Mu]", "~"], "2"], " ", 
-          FormBox[
-           StyleBox[
-            RowBox[{"(", 
-             RowBox[{
-              RowBox[{"5", 
-               SuperscriptBox[
-                SubscriptBox["c", 
-                 RowBox[{"2", "\[Beta]"}]], "2"]}], "-", 
-              RowBox[{"76", 
-               SuperscriptBox[
-                SubscriptBox["c", "\[Beta]"], "2"]}], "+", 
-              RowBox[{"42", 
-               SuperscriptBox[
-                SubscriptBox["c", "\[Beta]"], "4"]}], "-", 
-              RowBox[{"34", 
-               SuperscriptBox[
-                SubscriptBox["s", "\[Beta]"], "4"]}]}], ")"}],
-            SpanSymmetric->False],
-           StandardForm]}], "-", 
-         RowBox[{"36", 
-          SuperscriptBox[
-           SubscriptBox["m", "2"], "3"], 
-          SuperscriptBox[
-           OverscriptBox["\[Mu]", "~"], "3"], " ", 
-          FormBox[
-           StyleBox[
-            RowBox[{"(", 
-             RowBox[{
-              RowBox[{
-               SubscriptBox["s", 
-                RowBox[{"4", "\[Beta]"}]], 
-               SuperscriptBox[
-                SubscriptBox["m", "2"], "2"], " ", 
-               FormBox[
-                StyleBox[
-                 RowBox[{"(", 
-                  RowBox[{
-                   RowBox[{"-", "1"}], "+", 
-                   RowBox[{"2", 
-                    SuperscriptBox[
-                    SubscriptBox["c", "\[Beta]"], "2"]}]}], ")"}],
-                 SpanSymmetric->False],
-                StandardForm]}], "-", 
-              RowBox[{
-               SubscriptBox["s", "\[Beta]"], 
-               SubscriptBox["c", "\[Beta]"], 
-               SuperscriptBox[
-                SubscriptBox["m", "\[CapitalPhi]"], "2"], " ", 
-               FormBox[
-                StyleBox[
-                 RowBox[{"(", 
-                  RowBox[{
-                   RowBox[{"-", "8"}], "+", 
-                   SuperscriptBox[
-                    SubscriptBox["c", 
-                    RowBox[{"2", "\[Beta]"}]], "2"]}], ")"}],
-                 SpanSymmetric->False],
-                StandardForm]}]}], ")"}],
-            SpanSymmetric->False],
-           StandardForm]}], "+", 
-         RowBox[{"12", 
-          SuperscriptBox[
-           SubscriptBox["m", "2"], "2"], 
-          SuperscriptBox[
-           SubscriptBox["m", "\[CapitalPhi]"], "2"], 
-          SuperscriptBox[
-           OverscriptBox["\[Mu]", "~"], "4"], " ", 
-          FormBox[
-           StyleBox[
-            RowBox[{"(", 
-             RowBox[{
-              SuperscriptBox[
-               SubscriptBox["c", 
-                RowBox[{"2", "\[Beta]"}]], "2"], "+", 
-              RowBox[{"18", " ", 
-               FormBox[
-                StyleBox[
-                 RowBox[{"(", 
-                  RowBox[{"-", 
-                   SuperscriptBox[
-                    SubscriptBox["c", "\[Beta]"], "2"], "+", 
-                   SuperscriptBox[
-                    SubscriptBox["c", "\[Beta]"], "4"]}], ")"}],
-                 SpanSymmetric->False],
-                StandardForm]}]}], ")"}],
-            SpanSymmetric->False],
-           StandardForm]}], "+", 
-         RowBox[{"18", 
-          SubscriptBox["s", 
-           RowBox[{"4", "\[Beta]"}]], 
-          SuperscriptBox[
-           SubscriptBox["m", "2"], "3"], 
-          SuperscriptBox[
-           OverscriptBox["\[Mu]", "~"], "5"], " ", 
-          FormBox[
-           StyleBox[
-            RowBox[{"(", 
-             RowBox[{
-              RowBox[{"-", "1"}], "+", 
-              RowBox[{"2", 
-               SuperscriptBox[
-                SubscriptBox["c", "\[Beta]"], "2"]}]}], ")"}],
-            SpanSymmetric->False],
-           StandardForm]}], "-", 
-         RowBox[{"4", 
-          SuperscriptBox[
-           SubscriptBox["m", "\[CapitalPhi]"], "2"], 
-          SuperscriptBox[
-           OverscriptBox["\[Mu]", "~"], "6"], 
-          SuperscriptBox[
-           SubscriptBox["c", 
-            RowBox[{"2", "\[Beta]"}]], "2"]}]}], ")"}],
-       SpanSymmetric->False],
-      StandardForm], 
-     FractionBox["1", 
-      SuperscriptBox[
-       RowBox[{"(", 
-        RowBox[{
-         SuperscriptBox[
-          SubscriptBox["m", "2"], "2"], "-", 
-         SuperscriptBox[
-          OverscriptBox["\[Mu]", "~"], "2"]}], ")"}], "3"]]}], "+", 
-    RowBox[{
-     FractionBox["1", "64"], 
-     FractionBox["1", 
-      SuperscriptBox["\[Pi]", "2"]], 
-     SuperscriptBox[
-      SubscriptBox["g", "1"], "2"], 
-     SuperscriptBox[
-      SubscriptBox["g", "2"], "2"], 
-     SuperscriptBox[
-      SubscriptBox["m", "2"], "3"], 
-     FractionBox["1", 
-      SuperscriptBox[
-       SubscriptBox["m", "\[CapitalPhi]"], "2"]], " ", 
-     FormBox[
-      StyleBox[
-       RowBox[{"(", 
-        RowBox[{
-         RowBox[{"2", " ", 
-          FormBox[
-           StyleBox[
-            RowBox[{"(", 
-             RowBox[{
-              SuperscriptBox[
-               SubscriptBox["m", "2"], "2"], "-", 
-              SuperscriptBox[
-               OverscriptBox["\[Mu]", "~"], "2"]}], ")"}],
-            SpanSymmetric->False],
-           StandardForm], " ", 
-          FormBox[
-           StyleBox[
-            RowBox[{"(", 
-             RowBox[{
-              RowBox[{"2", 
-               SuperscriptBox[
-                SubscriptBox["m", "2"], "2"], 
-               SuperscriptBox[
-                SubscriptBox["m", "\[CapitalPhi]"], "2"]}], "+", 
-              RowBox[{
-               SubscriptBox["m", "2"], 
-               OverscriptBox["\[Mu]", "~"], " ", 
-               FormBox[
-                StyleBox[
-                 RowBox[{"(", 
-                  RowBox[{"-", 
-                   RowBox[{"3", 
-                    SubscriptBox["m", "2"], 
-                    SubscriptBox["s", 
-                    RowBox[{"4", "\[Beta]"}]], " ", 
-                    FormBox[
-                    StyleBox[
-                    RowBox[{"(", 
-                    RowBox[{
-                    RowBox[{"-", "1"}], "+", 
-                    RowBox[{"2", 
-                    SuperscriptBox[
-                    SubscriptBox["c", "\[Beta]"], "2"]}]}], ")"}],
-                    SpanSymmetric->False],
-                    StandardForm], " ", 
-                    FormBox[
-                    StyleBox[
-                    RowBox[{"(", 
-                    RowBox[{
-                    SubscriptBox["m", "1"], "-", 
-                    SubscriptBox["m", "2"]}], ")"}],
-                    SpanSymmetric->False],
-                    StandardForm]}], "+", 
-                   RowBox[{"8", 
-                    SubscriptBox["s", "\[Beta]"], 
-                    SubscriptBox["c", "\[Beta]"], 
-                    SuperscriptBox[
-                    SubscriptBox["m", "\[CapitalPhi]"], "2"]}]}], ")"}],
-                 SpanSymmetric->False],
-                StandardForm]}], "-", 
-              RowBox[{"8", 
-               SuperscriptBox[
-                SubscriptBox["m", "\[CapitalPhi]"], "2"], 
-               SuperscriptBox[
-                OverscriptBox["\[Mu]", "~"], "2"], 
-               SuperscriptBox[
-                SubscriptBox["c", "\[Beta]"], "2"], " ", 
-               FormBox[
-                StyleBox[
-                 RowBox[{"(", 
-                  RowBox[{
-                   RowBox[{"-", "1"}], "+", 
-                   SuperscriptBox[
-                    SubscriptBox["c", "\[Beta]"], "2"]}], ")"}],
-                 SpanSymmetric->False],
-                StandardForm]}], "+", 
-              RowBox[{"3", 
-               SubscriptBox["s", 
-                RowBox[{"4", "\[Beta]"}]], 
-               SuperscriptBox[
-                OverscriptBox["\[Mu]", "~"], "3"], " ", 
-               FormBox[
-                StyleBox[
-                 RowBox[{"(", 
-                  RowBox[{
-                   RowBox[{"-", "1"}], "+", 
-                   RowBox[{"2", 
-                    SuperscriptBox[
-                    SubscriptBox["c", "\[Beta]"], "2"]}]}], ")"}],
-                 SpanSymmetric->False],
-                StandardForm], " ", 
-               FormBox[
-                StyleBox[
-                 RowBox[{"(", 
-                  RowBox[{
-                   SubscriptBox["m", "1"], "-", 
-                   SubscriptBox["m", "2"]}], ")"}],
-                 SpanSymmetric->False],
-                StandardForm]}]}], ")"}],
-            SpanSymmetric->False],
-           StandardForm]}], "+", 
-         RowBox[{"3", 
-          SuperscriptBox[
-           SubscriptBox["m", "\[CapitalPhi]"], "2"], 
-          SuperscriptBox[
-           SubscriptBox["c", 
-            RowBox[{"2", "\[Beta]"}]], "2"], " ", 
-          FormBox[
-           StyleBox[
-            RowBox[{"(", 
-             RowBox[{
-              SubscriptBox["m", "1"], "-", 
-              SubscriptBox["m", "2"]}], ")"}],
-            SpanSymmetric->False],
-           StandardForm], " ", 
-          FormBox[
-           StyleBox[
-            RowBox[{"(", 
-             RowBox[{
-              SuperscriptBox[
-               SubscriptBox["m", "2"], "3"], "-", 
-              RowBox[{"3", 
-               SubscriptBox["m", "2"], 
-               SuperscriptBox[
-                OverscriptBox["\[Mu]", "~"], "2"]}], "-", 
-              RowBox[{"4", 
-               SubscriptBox["s", "\[Beta]"], 
-               SubscriptBox["c", "\[Beta]"], 
-               SuperscriptBox[
-                OverscriptBox["\[Mu]", "~"], "3"]}]}], ")"}],
-            SpanSymmetric->False],
-           StandardForm]}]}], ")"}],
-       SpanSymmetric->False],
-      StandardForm], 
-     FractionBox["1", 
-      RowBox[{"-", 
-       SubscriptBox["m", "1"], "+", 
-       SubscriptBox["m", "2"]}]], 
-     FractionBox["1", 
-      SuperscriptBox[
-       RowBox[{"(", 
-        RowBox[{
-         SuperscriptBox[
-          SubscriptBox["m", "2"], "2"], "-", 
-         SuperscriptBox[
-          OverscriptBox["\[Mu]", "~"], "2"]}], ")"}], "3"]]}]}], 
-   "StandardForm"], Matchete`NiceForm]], "Output",
+    FractionBox["1", "3"], 
+    SuperscriptBox[
+     SubscriptBox["g", "2"], "4"], 
+    SuperscriptBox[
+     SubscriptBox["c", 
+      RowBox[{"2", "\[Beta]"}]], "2"]}], "StandardForm"], 
+  Matchete`NiceForm]], "Output",
  CellChangeTimes->{{3.968758592978065*^9, 3.968758640274755*^9}, {
-  3.968758679422152*^9, 3.968758685939149*^9}, {3.968758742299152*^9, 
-  3.968758760981358*^9}, {3.9687590617970037`*^9, 3.96875907057559*^9}},
+   3.968758679422152*^9, 3.968758685939149*^9}, {3.968758742299152*^9, 
+   3.968758760981358*^9}, {3.9687590617970037`*^9, 3.96875907057559*^9}, 
+   3.968832070754854*^9, 3.968839533220489*^9, 3.9688490628308496`*^9, 
+   3.9688491728980722`*^9, {3.9688494735163307`*^9, 3.9688494950887747`*^9}, 
+   3.968849972416686*^9, 3.968850243551196*^9, {3.9688503204566174`*^9, 
+   3.968850346807352*^9}, 3.96885043211615*^9, 3.968850667258646*^9, 
+   3.968852433978362*^9, 3.969103807699106*^9},
  CellLabel->
-  "Out[90]//NiceForm=",ExpressionUUID->"78952cfb-ef5c-412f-a695-b7a28e28e26a"]
+  "Out[28]//NiceForm=",ExpressionUUID->"360c45e6-eaab-4363-be0b-2afe4012493f"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[BoxData[{
+Cell[BoxData[
  RowBox[{
-  RowBox[{"zeroCoeff", "=", 
-   RowBox[{
-    RowBox[{
-     RowBox[{"m\[CapitalPhi]", "[", "]"}], "^", 
-     RowBox[{"(", "2", ")"}]}], 
-    RowBox[{
-     RowBox[{"m2", "[", "]"}], "^", 
-     RowBox[{"(", 
-      RowBox[{"-", "3"}], ")"}]}], 
-    RowBox[{"(", 
+  RowBox[{
+   RowBox[{"List", "@@", 
+    RowBox[{"Collect", "[", " ", 
      RowBox[{
-      RowBox[{"m2", "[", "]"}], "-", 
-      RowBox[{"m1", "[", "]"}]}], ")"}], 
-    RowBox[{
-     RowBox[{"(", 
-      RowBox[{
-       RowBox[{
-        RowBox[{"m2", "[", "]"}], "^", "2"}], "-", 
-       RowBox[{
-        RowBox[{"\[Mu]t", "[", "]"}], "^", "2"}]}], ")"}], "^", "3"}], 
-    RowBox[{"FullSimplify", "[", 
-     RowBox[{"Coefficient", "[", 
-      RowBox[{"logm2", ",", 
-       RowBox[{
+      RowBox[{"lHsimp4", "//.", 
+       RowBox[{"{", 
         RowBox[{
-         RowBox[{"g1", "[", "]"}], "^", "2"}], " ", 
-        RowBox[{
-         RowBox[{"g2", "[", "]"}], "^", "2"}]}]}], "]"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"zeroCoeffb", "=", 
-   RowBox[{"Simplify", "[", 
-    RowBox[{"(", 
-     RowBox[{"zeroCoeff", "//.", 
+         RowBox[{
+          RowBox[{"c4\[Beta]", "[", "]"}], "->", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"2", " ", 
+             RowBox[{
+              RowBox[{"c2\[Beta]", "[", "]"}], "^", "2"}]}], "-", "1"}], 
+           ")"}]}], ",", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"s4\[Beta]", "[", "]"}], "^", "2"}], "->", 
+          RowBox[{"1", "-", 
+           RowBox[{
+            RowBox[{"c4\[Beta]", "[", "]"}], "^", "2"}]}]}]}], "}"}]}], ",", 
       RowBox[{"{", 
        RowBox[{
         RowBox[{
          RowBox[{
-          RowBox[{"s\[Beta]", "[", "]"}], "^", "2"}], "->", 
-         RowBox[{"1", "-", 
-          RowBox[{
-           RowBox[{"c\[Beta]", "[", "]"}], "^", "2"}]}]}], ",", 
+          SubscriptBox["X", "t"], "^", "4"}], 
+         RowBox[{
+          SubscriptBox["Y", "t"], "^", "4"}]}], ",", 
         RowBox[{
-         RowBox[{"s4\[Beta]", "[", "]"}], "->", 
-         RowBox[{"2", " ", 
-          RowBox[{"s2\[Beta]", "[", "]"}], " ", 
-          RowBox[{"c2\[Beta]", "[", "]"}]}]}], ",", 
+         RowBox[{
+          SubscriptBox["X", "t"], "^", "2"}], 
+         RowBox[{
+          SubscriptBox["Y", "t"], "^", "4"}]}], ",", 
         RowBox[{
-         RowBox[{"s2\[Beta]", "[", "]"}], "->", 
-         RowBox[{"2", " ", 
-          RowBox[{"s\[Beta]", "[", "]"}], 
-          RowBox[{"c\[Beta]", "[", "]"}]}]}]}], "}"}]}], ")"}], "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
- RowBox[{"zeroCoeffb", "//", "NiceForm"}]}], "Input",
- CellChangeTimes->{{3.968759084563747*^9, 3.968759420637746*^9}},
- CellLabel->
-  "In[125]:=",ExpressionUUID->"ecdff7c9-3003-4482-9fa4-2077cd812c60"],
+         SubscriptBox["Y", "t"], "^", "4"}], ",", 
+        RowBox[{"Log", "[", "a_", "]"}], ",", 
+        RowBox[{"g1", "[", "]"}], ",", 
+        RowBox[{"g2", "[", "]"}], ",", 
+        RowBox[{"g3", "[", "]"}]}], "}"}], ",", "Simplify"}], "]"}]}], "//", 
+   "TableForm"}], "//", "NiceForm"}]], "Input",
+ CellChangeTimes->{{3.968852061245783*^9, 3.9688521095072203`*^9}, {
+   3.968852243047735*^9, 3.968852250760869*^9}, 3.968852484768477*^9},
+ CellLabel->"In[29]:=",ExpressionUUID->"3f6dbd2b-7b24-42d6-a65a-cb1b4dc0176a"],
 
 Cell[BoxData[
  FormBox[
-  StyleBox[
-   RowBox[{
-    FractionBox["1", "64"], 
-    FractionBox["1", 
-     SuperscriptBox["\[Pi]", "2"]], " ", 
-    FormBox[
-     StyleBox[
-      RowBox[{"(", 
-       RowBox[{
-        RowBox[{"3", 
+  TagBox[
+   TagBox[GridBox[{
+      {
+       StyleBox[
+        RowBox[{
+         FractionBox["1", "3"], 
          SuperscriptBox[
-          SubscriptBox["m", "\[CapitalPhi]"], "2"], 
+          SubscriptBox["g", "2"], "4"], 
          SuperscriptBox[
           SubscriptBox["c", 
-           RowBox[{"2", "\[Beta]"}]], "2"], " ", 
+           RowBox[{"2", "\[Beta]"}]], "2"], 
          FormBox[
-          StyleBox[
-           RowBox[{"(", 
-            RowBox[{
-             SubscriptBox["m", "1"], "-", 
-             SubscriptBox["m", "2"]}], ")"}],
-           SpanSymmetric->False],
-          StandardForm], " ", 
-         FormBox[
-          StyleBox[
-           RowBox[{"(", 
-            RowBox[{
+          RowBox[{"Log", "[", 
+           FractionBox[
+            SuperscriptBox[
+             OverscriptBox["\[Mu]", 
+              StyleBox["_",
+               FontWeight->Bold]], "2"], 
+            SuperscriptBox[
+             SubscriptBox["m", "2"], "2"]], "]"}],
+          StandardForm]}], "StandardForm"]},
+      {
+       StyleBox[
+        RowBox[{" ", 
+         RowBox[{
+          FormBox[
+           StyleBox[
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{
+               FractionBox["1", "4"], 
+               SubscriptBox["s", 
+                RowBox[{"2", "\[Beta]"}]], 
+               SubscriptBox["s", 
+                RowBox[{"4", "\[Beta]"}]], 
+               SuperscriptBox[
+                SubscriptBox["g", "1"], "2"], 
+               SuperscriptBox[
+                SubscriptBox["g", "2"], "2"], 
+               FractionBox["1", 
+                SuperscriptBox[
+                 SubscriptBox["m", "\[CapitalPhi]"], "4"]], 
+               SuperscriptBox[
+                RowBox[{"(", 
+                 SuperscriptBox[
+                  SubscriptBox["m", 
+                   OverscriptBox["d", "~"]], 
+                  StyleBox["3",
+                   FontSize->10]], ")"}], "2"], " ", 
+               FormBox[
+                StyleBox[
+                 RowBox[{"(", 
+                  RowBox[{"cH2", "-", 
+                   SuperscriptBox[
+                    SubscriptBox["m", "\[CapitalPhi]"], "2"]}], ")"}],
+                 SpanSymmetric->False],
+                StandardForm]}], "+", 
+              RowBox[{
+               SuperscriptBox[
+                SubscriptBox["g", "1"], "4"], " ", 
+               FormBox[
+                StyleBox[
+                 RowBox[{"(", 
+                  RowBox[{"-", 
+                   RowBox[{
+                    FractionBox["1", "18"], 
+                    SuperscriptBox[
+                    SubscriptBox["c", 
+                    RowBox[{"2", "\[Beta]"}]], "2"]}], "+", 
+                   RowBox[{
+                    FractionBox["1", "4"], 
+                    SubscriptBox["s", 
+                    RowBox[{"2", "\[Beta]"}]], 
+                    SubscriptBox["s", 
+                    RowBox[{"4", "\[Beta]"}]], 
+                    FractionBox["1", 
+                    SuperscriptBox[
+                    SubscriptBox["m", "\[CapitalPhi]"], "4"]], 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    SuperscriptBox[
+                    SubscriptBox["m", 
+                    OverscriptBox["d", "~"]], 
+                    StyleBox["3",
+                    FontSize->10]], ")"}], "2"], " ", 
+                    FormBox[
+                    StyleBox[
+                    RowBox[{"(", 
+                    RowBox[{"cH2", "-", 
+                    SuperscriptBox[
+                    SubscriptBox["m", "\[CapitalPhi]"], "2"]}], ")"}],
+                    SpanSymmetric->False],
+                    StandardForm]}]}], ")"}],
+                 SpanSymmetric->False],
+                StandardForm]}]}], ")"}],
+            SpanSymmetric->False],
+           StandardForm], 
+          FormBox[
+           RowBox[{"Log", "[", 
+            FractionBox[
              SuperscriptBox[
-              SubscriptBox["m", "2"], "3"], "-", 
-             RowBox[{"3", 
-              SubscriptBox["m", "2"], 
-              SuperscriptBox[
-               OverscriptBox["\[Mu]", "~"], "2"]}], "-", 
-             RowBox[{"4", 
-              SubscriptBox["s", "\[Beta]"], 
-              SubscriptBox["c", "\[Beta]"], 
-              SuperscriptBox[
-               OverscriptBox["\[Mu]", "~"], "3"]}]}], ")"}],
-           SpanSymmetric->False],
-          StandardForm]}], "+", 
-        RowBox[{"2", " ", 
+              OverscriptBox["\[Mu]", 
+               StyleBox["_",
+                FontWeight->Bold]], "2"], 
+             SuperscriptBox[
+              RowBox[{"(", 
+               SuperscriptBox[
+                SubscriptBox["m", 
+                 OverscriptBox["d", "~"]], 
+                StyleBox["3",
+                 FontSize->10]], ")"}], "2"]], "]"}],
+           StandardForm]}]}], "StandardForm"]},
+      {
+       StyleBox[
+        RowBox[{" ", 
+         RowBox[{
+          FormBox[
+           StyleBox[
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{
+               FractionBox["1", "4"], 
+               SubscriptBox["s", 
+                RowBox[{"2", "\[Beta]"}]], 
+               SubscriptBox["s", 
+                RowBox[{"4", "\[Beta]"}]], 
+               SuperscriptBox[
+                SubscriptBox["g", "1"], "2"], 
+               SuperscriptBox[
+                SubscriptBox["g", "2"], "2"], 
+               FractionBox["1", 
+                SuperscriptBox[
+                 SubscriptBox["m", "\[CapitalPhi]"], "4"]], 
+               SuperscriptBox[
+                RowBox[{"(", 
+                 SuperscriptBox[
+                  SubscriptBox["m", 
+                   OverscriptBox["e", "~"]], 
+                  StyleBox["3",
+                   FontSize->10]], ")"}], "2"], " ", 
+               FormBox[
+                StyleBox[
+                 RowBox[{"(", 
+                  RowBox[{"cH2", "-", 
+                   SuperscriptBox[
+                    SubscriptBox["m", "\[CapitalPhi]"], "2"]}], ")"}],
+                 SpanSymmetric->False],
+                StandardForm]}], "+", 
+              RowBox[{
+               SuperscriptBox[
+                SubscriptBox["g", "1"], "4"], " ", 
+               FormBox[
+                StyleBox[
+                 RowBox[{"(", 
+                  RowBox[{"-", 
+                   RowBox[{
+                    FractionBox["1", "6"], 
+                    SuperscriptBox[
+                    SubscriptBox["c", 
+                    RowBox[{"2", "\[Beta]"}]], "2"]}], "+", 
+                   RowBox[{
+                    FractionBox["1", "4"], 
+                    SubscriptBox["s", 
+                    RowBox[{"2", "\[Beta]"}]], 
+                    SubscriptBox["s", 
+                    RowBox[{"4", "\[Beta]"}]], 
+                    FractionBox["1", 
+                    SuperscriptBox[
+                    SubscriptBox["m", "\[CapitalPhi]"], "4"]], 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    SuperscriptBox[
+                    SubscriptBox["m", 
+                    OverscriptBox["e", "~"]], 
+                    StyleBox["3",
+                    FontSize->10]], ")"}], "2"], " ", 
+                    FormBox[
+                    StyleBox[
+                    RowBox[{"(", 
+                    RowBox[{"cH2", "-", 
+                    SuperscriptBox[
+                    SubscriptBox["m", "\[CapitalPhi]"], "2"]}], ")"}],
+                    SpanSymmetric->False],
+                    StandardForm]}]}], ")"}],
+                 SpanSymmetric->False],
+                StandardForm]}]}], ")"}],
+            SpanSymmetric->False],
+           StandardForm], 
+          FormBox[
+           RowBox[{"Log", "[", 
+            FractionBox[
+             SuperscriptBox[
+              OverscriptBox["\[Mu]", 
+               StyleBox["_",
+                FontWeight->Bold]], "2"], 
+             SuperscriptBox[
+              RowBox[{"(", 
+               SuperscriptBox[
+                SubscriptBox["m", 
+                 OverscriptBox["e", "~"]], 
+                StyleBox["3",
+                 FontSize->10]], ")"}], "2"]], "]"}],
+           StandardForm]}]}], "StandardForm"]},
+      {
+       StyleBox[
+        RowBox[{" ", 
+         RowBox[{
+          FormBox[
+           StyleBox[
+            RowBox[{"(", 
+             RowBox[{"-", 
+              RowBox[{
+               FractionBox["1", "12"], 
+               SuperscriptBox[
+                SubscriptBox["g", "2"], "4"], 
+               SuperscriptBox[
+                SubscriptBox["c", 
+                 RowBox[{"2", "\[Beta]"}]], "2"]}], "+", 
+              RowBox[{
+               FractionBox["1", "4"], 
+               SubscriptBox["s", 
+                RowBox[{"2", "\[Beta]"}]], 
+               SubscriptBox["s", 
+                RowBox[{"4", "\[Beta]"}]], 
+               SuperscriptBox[
+                SubscriptBox["g", "1"], "2"], 
+               SuperscriptBox[
+                SubscriptBox["g", "2"], "2"], 
+               FractionBox["1", 
+                SuperscriptBox[
+                 SubscriptBox["m", "\[CapitalPhi]"], "4"]], 
+               SuperscriptBox[
+                RowBox[{"(", 
+                 SuperscriptBox[
+                  SubscriptBox["m", 
+                   OverscriptBox["l", "~"]], 
+                  StyleBox["3",
+                   FontSize->10]], ")"}], "2"], " ", 
+               FormBox[
+                StyleBox[
+                 RowBox[{"(", 
+                  RowBox[{"-", "cH2", "+", 
+                   SuperscriptBox[
+                    SubscriptBox["m", "\[CapitalPhi]"], "2"]}], ")"}],
+                 SpanSymmetric->False],
+                StandardForm]}], "+", 
+              RowBox[{
+               SuperscriptBox[
+                SubscriptBox["g", "1"], "4"], " ", 
+               FormBox[
+                StyleBox[
+                 RowBox[{"(", 
+                  RowBox[{"-", 
+                   RowBox[{
+                    FractionBox["1", "12"], 
+                    SuperscriptBox[
+                    SubscriptBox["c", 
+                    RowBox[{"2", "\[Beta]"}]], "2"]}], "+", 
+                   RowBox[{
+                    FractionBox["1", "4"], 
+                    SubscriptBox["s", 
+                    RowBox[{"2", "\[Beta]"}]], 
+                    SubscriptBox["s", 
+                    RowBox[{"4", "\[Beta]"}]], 
+                    FractionBox["1", 
+                    SuperscriptBox[
+                    SubscriptBox["m", "\[CapitalPhi]"], "4"]], 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    SuperscriptBox[
+                    SubscriptBox["m", 
+                    OverscriptBox["l", "~"]], 
+                    StyleBox["3",
+                    FontSize->10]], ")"}], "2"], " ", 
+                    FormBox[
+                    StyleBox[
+                    RowBox[{"(", 
+                    RowBox[{"-", "cH2", "+", 
+                    SuperscriptBox[
+                    SubscriptBox["m", "\[CapitalPhi]"], "2"]}], ")"}],
+                    SpanSymmetric->False],
+                    StandardForm]}]}], ")"}],
+                 SpanSymmetric->False],
+                StandardForm]}]}], ")"}],
+            SpanSymmetric->False],
+           StandardForm], 
+          FormBox[
+           RowBox[{"Log", "[", 
+            FractionBox[
+             SuperscriptBox[
+              OverscriptBox["\[Mu]", 
+               StyleBox["_",
+                FontWeight->Bold]], "2"], 
+             SuperscriptBox[
+              RowBox[{"(", 
+               SuperscriptBox[
+                SubscriptBox["m", 
+                 OverscriptBox["l", "~"]], 
+                StyleBox["3",
+                 FontSize->10]], ")"}], "2"]], "]"}],
+           StandardForm]}]}], "StandardForm"]},
+      {
+       StyleBox[
+        RowBox[{" ", 
+         RowBox[{
+          FormBox[
+           StyleBox[
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{
+               FractionBox["1", "8"], 
+               SuperscriptBox[
+                SubscriptBox["g", "1"], "2"], 
+               SuperscriptBox[
+                SubscriptBox["g", "2"], "2"], " ", 
+               FormBox[
+                StyleBox[
+                 RowBox[{"(", 
+                  RowBox[{
+                   RowBox[{"-", "1"}], "+", 
+                   RowBox[{
+                    SuperscriptBox[
+                    SubscriptBox["c", 
+                    RowBox[{"2", "\[Beta]"}]], "4"], " ", 
+                    FormBox[
+                    StyleBox[
+                    RowBox[{"(", 
+                    RowBox[{"19", "-", 
+                    RowBox[{"24", "cH2", 
+                    FractionBox["1", 
+                    SuperscriptBox[
+                    SubscriptBox["m", "\[CapitalPhi]"], "2"]]}]}], ")"}],
+                    SpanSymmetric->False],
+                    StandardForm]}], "+", 
+                   RowBox[{
+                    SuperscriptBox[
+                    SubscriptBox["c", 
+                    RowBox[{"2", "\[Beta]"}]], "2"], " ", 
+                    FormBox[
+                    StyleBox[
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"-", "18"}], "+", 
+                    RowBox[{"24", "cH2", 
+                    FractionBox["1", 
+                    SuperscriptBox[
+                    SubscriptBox["m", "\[CapitalPhi]"], "2"]]}]}], ")"}],
+                    SpanSymmetric->False],
+                    StandardForm]}], "-", 
+                   SuperscriptBox[
+                    SubscriptBox["s", 
+                    RowBox[{"2", "\[Beta]"}]], "4"]}], ")"}],
+                 SpanSymmetric->False],
+                StandardForm]}], "+", 
+              RowBox[{
+               FractionBox["1", "48"], 
+               SuperscriptBox[
+                SubscriptBox["g", "1"], "4"], 
+               FractionBox["1", 
+                SuperscriptBox[
+                 SubscriptBox["m", "\[CapitalPhi]"], "2"]], " ", 
+               FormBox[
+                StyleBox[
+                 RowBox[{"(", 
+                  RowBox[{
+                   RowBox[{
+                    SuperscriptBox[
+                    SubscriptBox["c", 
+                    RowBox[{"2", "\[Beta]"}]], "2"], " ", 
+                    FormBox[
+                    StyleBox[
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"72", "cH2"}], "-", 
+                    RowBox[{"58", 
+                    SuperscriptBox[
+                    SubscriptBox["m", "\[CapitalPhi]"], "2"]}]}], ")"}],
+                    SpanSymmetric->False],
+                    StandardForm]}], "+", 
+                   RowBox[{
+                    SuperscriptBox[
+                    SubscriptBox["c", 
+                    RowBox[{"2", "\[Beta]"}]], "4"], " ", 
+                    FormBox[
+                    StyleBox[
+                    RowBox[{"(", 
+                    RowBox[{"-", 
+                    RowBox[{"72", "cH2"}], "+", 
+                    RowBox[{"57", 
+                    SuperscriptBox[
+                    SubscriptBox["m", "\[CapitalPhi]"], "2"]}]}], ")"}],
+                    SpanSymmetric->False],
+                    StandardForm]}], "-", 
+                   RowBox[{"3", 
+                    SuperscriptBox[
+                    SubscriptBox["m", "\[CapitalPhi]"], "2"], " ", 
+                    FormBox[
+                    StyleBox[
+                    RowBox[{"(", 
+                    RowBox[{"1", "+", 
+                    SuperscriptBox[
+                    SubscriptBox["s", 
+                    RowBox[{"2", "\[Beta]"}]], "4"]}], ")"}],
+                    SpanSymmetric->False],
+                    StandardForm]}]}], ")"}],
+                 SpanSymmetric->False],
+                StandardForm]}], "+", 
+              RowBox[{
+               FractionBox["1", "48"], 
+               SuperscriptBox[
+                SubscriptBox["g", "2"], "4"], 
+               FractionBox["1", 
+                SuperscriptBox[
+                 SubscriptBox["m", "\[CapitalPhi]"], "2"]], " ", 
+               FormBox[
+                StyleBox[
+                 RowBox[{"(", 
+                  RowBox[{
+                   RowBox[{
+                    SuperscriptBox[
+                    SubscriptBox["c", 
+                    RowBox[{"2", "\[Beta]"}]], "2"], " ", 
+                    FormBox[
+                    StyleBox[
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"72", "cH2"}], "-", 
+                    RowBox[{"46", 
+                    SuperscriptBox[
+                    SubscriptBox["m", "\[CapitalPhi]"], "2"]}]}], ")"}],
+                    SpanSymmetric->False],
+                    StandardForm]}], "+", 
+                   RowBox[{
+                    SuperscriptBox[
+                    SubscriptBox["c", 
+                    RowBox[{"2", "\[Beta]"}]], "4"], " ", 
+                    FormBox[
+                    StyleBox[
+                    RowBox[{"(", 
+                    RowBox[{"-", 
+                    RowBox[{"72", "cH2"}], "+", 
+                    RowBox[{"57", 
+                    SuperscriptBox[
+                    SubscriptBox["m", "\[CapitalPhi]"], "2"]}]}], ")"}],
+                    SpanSymmetric->False],
+                    StandardForm]}], "-", 
+                   RowBox[{"3", 
+                    SuperscriptBox[
+                    SubscriptBox["m", "\[CapitalPhi]"], "2"], " ", 
+                    FormBox[
+                    StyleBox[
+                    RowBox[{"(", 
+                    RowBox[{"5", "+", 
+                    SuperscriptBox[
+                    SubscriptBox["s", 
+                    RowBox[{"2", "\[Beta]"}]], "4"]}], ")"}],
+                    SpanSymmetric->False],
+                    StandardForm]}]}], ")"}],
+                 SpanSymmetric->False],
+                StandardForm]}]}], ")"}],
+            SpanSymmetric->False],
+           StandardForm], 
+          FormBox[
+           RowBox[{"Log", "[", 
+            FractionBox[
+             SuperscriptBox[
+              OverscriptBox["\[Mu]", 
+               StyleBox["_",
+                FontWeight->Bold]], "2"], 
+             SuperscriptBox[
+              SubscriptBox["m", "\[CapitalPhi]"], "2"]], "]"}],
+           StandardForm]}]}], "StandardForm"]},
+      {
+       StyleBox[
+        RowBox[{" ", 
+         RowBox[{
+          FormBox[
+           StyleBox[
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{
+               FractionBox["1", "6"], 
+               SuperscriptBox[
+                SubscriptBox["g", "1"], "4"], 
+               SuperscriptBox[
+                SubscriptBox["c", 
+                 RowBox[{"2", "\[Beta]"}]], "2"]}], "+", 
+              RowBox[{
+               FractionBox["1", "6"], 
+               SuperscriptBox[
+                SubscriptBox["g", "2"], "4"], 
+               SuperscriptBox[
+                SubscriptBox["c", 
+                 RowBox[{"2", "\[Beta]"}]], "2"]}]}], ")"}],
+            SpanSymmetric->False],
+           StandardForm], 
+          FormBox[
+           RowBox[{"Log", "[", 
+            FractionBox[
+             SuperscriptBox[
+              OverscriptBox["\[Mu]", 
+               StyleBox["_",
+                FontWeight->Bold]], "2"], 
+             SuperscriptBox[
+              OverscriptBox["\[Mu]", "~"], "2"]], "]"}],
+           StandardForm]}]}], "StandardForm"]},
+      {
+       StyleBox[
+        RowBox[{
+         FractionBox["1", "240"], 
+         SuperscriptBox[
+          SubscriptBox["g", "2"], "4"], " ", 
          FormBox[
           StyleBox[
            RowBox[{"(", 
-            RowBox[{
-             SuperscriptBox[
-              SubscriptBox["m", "2"], "2"], "-", 
-             SuperscriptBox[
-              OverscriptBox["\[Mu]", "~"], "2"]}], ")"}],
-           SpanSymmetric->False],
-          StandardForm], " ", 
-         FormBox[
-          StyleBox[
-           RowBox[{"(", 
-            RowBox[{
-             RowBox[{"2", 
+            RowBox[{"180", "+", 
+             RowBox[{
               SuperscriptBox[
-               SubscriptBox["m", "2"], "2"], 
+               SubscriptBox["c", 
+                RowBox[{"2", "\[Beta]"}]], "4"], " ", 
+              FormBox[
+               StyleBox[
+                RowBox[{"(", 
+                 RowBox[{"360", "-", 
+                  RowBox[{"415", "cH2", 
+                   FractionBox["1", 
+                    SuperscriptBox[
+                    SubscriptBox["m", "\[CapitalPhi]"], "2"]]}]}], ")"}],
+                SpanSymmetric->False],
+               StandardForm]}], "+", 
+             RowBox[{"10", 
               SuperscriptBox[
-               SubscriptBox["m", "\[CapitalPhi]"], "2"]}], "+", 
-             RowBox[{"4", 
-              SubscriptBox["m", "2"], 
-              SubscriptBox["s", "\[Beta]"], 
-              OverscriptBox["\[Mu]", "~"], 
-              SubscriptBox["c", "\[Beta]"], " ", 
+               SubscriptBox["c", 
+                RowBox[{"2", "\[Beta]"}]], "2"], " ", 
+              FormBox[
+               StyleBox[
+                RowBox[{"(", 
+                 RowBox[{
+                  RowBox[{"-", "39"}], "+", 
+                  RowBox[{"cH2", " ", 
+                   FormBox[
+                    StyleBox[
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"2", 
+                    FractionBox["1", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    SuperscriptBox[
+                    SubscriptBox["m", 
+                    OverscriptBox["l", "~"]], 
+                    StyleBox["3",
+                    FontSize->10]], ")"}], "2"]]}], "+", 
+                    RowBox[{"43", 
+                    FractionBox["1", 
+                    SuperscriptBox[
+                    SubscriptBox["m", "\[CapitalPhi]"], "2"]]}], "+", 
+                    RowBox[{"6", 
+                    FractionBox["1", 
+                    SubsuperscriptBox["m", "Q3", "2"]]}]}], ")"}],
+                    SpanSymmetric->False],
+                    StandardForm]}]}], ")"}],
+                SpanSymmetric->False],
+               StandardForm]}], "+", 
+             RowBox[{"cH2", " ", 
               FormBox[
                StyleBox[
                 RowBox[{"(", 
                  RowBox[{"-", 
-                  RowBox[{"3", 
-                   SubscriptBox["m", "2"], 
-                   SubscriptBox["c", 
-                    RowBox[{"2", "\[Beta]"}]], " ", 
-                   FormBox[
-                    StyleBox[
-                    RowBox[{"(", 
-                    RowBox[{
-                    RowBox[{"-", "1"}], "+", 
-                    RowBox[{"2", 
+                  RowBox[{"64", 
+                   FractionBox["1", 
                     SuperscriptBox[
-                    SubscriptBox["c", "\[Beta]"], "2"]}]}], ")"}],
-                    SpanSymmetric->False],
-                    StandardForm], " ", 
-                   FormBox[
+                    SubscriptBox["m", "2"], "2"]]}], "-", 
+                  RowBox[{"4", 
+                   FractionBox["1", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    SuperscriptBox[
+                    SubscriptBox["m", 
+                    OverscriptBox["l", "~"]], 
+                    StyleBox["3",
+                    FontSize->10]], ")"}], "2"]]}], "+", 
+                  FractionBox["1", 
+                   SuperscriptBox[
+                    SubscriptBox["m", "\[CapitalPhi]"], "2"]], "+", 
+                  RowBox[{"5", 
+                   FractionBox["1", 
+                    SuperscriptBox[
+                    SubscriptBox["m", "\[CapitalPhi]"], "2"]], 
+                   SuperscriptBox[
+                    SubscriptBox["s", 
+                    RowBox[{"2", "\[Beta]"}]], "4"]}], "-", 
+                  RowBox[{"32", 
+                   FractionBox["1", 
+                    SuperscriptBox[
+                    OverscriptBox["\[Mu]", "~"], "2"]]}], "-", 
+                  RowBox[{"12", 
+                   FractionBox["1", 
+                    SubsuperscriptBox["m", "Q3", "2"]]}]}], ")"}],
+                SpanSymmetric->False],
+               StandardForm]}]}], ")"}],
+           SpanSymmetric->False],
+          StandardForm]}], "StandardForm"]},
+      {
+       StyleBox[
+        RowBox[{" ", 
+         RowBox[{
+          FormBox[
+           StyleBox[
+            RowBox[{"(", 
+             RowBox[{"-", 
+              RowBox[{
+               FractionBox["1", "4"], 
+               SuperscriptBox[
+                SubscriptBox["g", "2"], "4"], 
+               SuperscriptBox[
+                SubscriptBox["c", 
+                 RowBox[{"2", "\[Beta]"}]], "2"]}], "+", 
+              RowBox[{
+               FractionBox["1", "4"], 
+               SubscriptBox["s", 
+                RowBox[{"2", "\[Beta]"}]], 
+               SubscriptBox["s", 
+                RowBox[{"4", "\[Beta]"}]], 
+               SuperscriptBox[
+                SubscriptBox["g", "1"], "2"], 
+               SuperscriptBox[
+                SubscriptBox["g", "2"], "2"], 
+               FractionBox["1", 
+                SuperscriptBox[
+                 SubscriptBox["m", "\[CapitalPhi]"], "4"]], " ", 
+               FormBox[
+                StyleBox[
+                 RowBox[{"(", 
+                  RowBox[{"cH2", "-", 
+                   SuperscriptBox[
+                    SubscriptBox["m", "\[CapitalPhi]"], "2"]}], ")"}],
+                 SpanSymmetric->False],
+                StandardForm], 
+               SubsuperscriptBox["m", "Q3", "2"]}], "+", 
+              RowBox[{
+               SuperscriptBox[
+                SubscriptBox["g", "1"], "4"], " ", 
+               FormBox[
+                StyleBox[
+                 RowBox[{"(", 
+                  RowBox[{"-", 
+                   RowBox[{
+                    FractionBox["1", "36"], 
+                    SuperscriptBox[
+                    SubscriptBox["c", 
+                    RowBox[{"2", "\[Beta]"}]], "2"]}], "+", 
+                   RowBox[{
+                    FractionBox["1", "4"], 
+                    SubscriptBox["s", 
+                    RowBox[{"2", "\[Beta]"}]], 
+                    SubscriptBox["s", 
+                    RowBox[{"4", "\[Beta]"}]], 
+                    FractionBox["1", 
+                    SuperscriptBox[
+                    SubscriptBox["m", "\[CapitalPhi]"], "4"]], " ", 
+                    FormBox[
                     StyleBox[
                     RowBox[{"(", 
-                    RowBox[{
-                    SubscriptBox["m", "1"], "-", 
-                    SubscriptBox["m", "2"]}], ")"}],
+                    RowBox[{"cH2", "-", 
+                    SuperscriptBox[
+                    SubscriptBox["m", "\[CapitalPhi]"], "2"]}], ")"}],
                     SpanSymmetric->False],
-                    StandardForm]}], "+", 
+                    StandardForm], 
+                    SubsuperscriptBox["m", "Q3", "2"]}]}], ")"}],
+                 SpanSymmetric->False],
+                StandardForm]}]}], ")"}],
+            SpanSymmetric->False],
+           StandardForm], 
+          FormBox[
+           RowBox[{"Log", "[", 
+            FractionBox[
+             SuperscriptBox[
+              OverscriptBox["\[Mu]", 
+               StyleBox["_",
+                FontWeight->Bold]], "2"], 
+             SubsuperscriptBox["m", "Q3", "2"]], "]"}],
+           StandardForm]}]}], "StandardForm"]},
+      {
+       StyleBox[
+        RowBox[{" ", 
+         RowBox[{
+          FormBox[
+           StyleBox[
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{
+               FractionBox["1", "2"], 
+               SubscriptBox["s", 
+                RowBox[{"2", "\[Beta]"}]], 
+               SubscriptBox["s", 
+                RowBox[{"4", "\[Beta]"}]], 
+               SuperscriptBox[
+                SubscriptBox["g", "1"], "2"], 
+               SuperscriptBox[
+                SubscriptBox["g", "2"], "2"], 
+               FractionBox["1", 
+                SuperscriptBox[
+                 SubscriptBox["m", "\[CapitalPhi]"], "4"]], " ", 
+               FormBox[
+                StyleBox[
+                 RowBox[{"(", 
+                  RowBox[{"-", "cH2", "+", 
+                   SuperscriptBox[
+                    SubscriptBox["m", "\[CapitalPhi]"], "2"]}], ")"}],
+                 SpanSymmetric->False],
+                StandardForm], 
+               SubsuperscriptBox["m", "tR", "2"]}], "+", 
+              RowBox[{
+               SuperscriptBox[
+                SubscriptBox["g", "1"], "4"], " ", 
+               FormBox[
+                StyleBox[
+                 RowBox[{"(", 
+                  RowBox[{"-", 
+                   RowBox[{
+                    FractionBox["2", "9"], 
+                    SuperscriptBox[
+                    SubscriptBox["c", 
+                    RowBox[{"2", "\[Beta]"}]], "2"]}], "+", 
+                   RowBox[{
+                    FractionBox["1", "2"], 
+                    SubscriptBox["s", 
+                    RowBox[{"2", "\[Beta]"}]], 
+                    SubscriptBox["s", 
+                    RowBox[{"4", "\[Beta]"}]], 
+                    FractionBox["1", 
+                    SuperscriptBox[
+                    SubscriptBox["m", "\[CapitalPhi]"], "4"]], " ", 
+                    FormBox[
+                    StyleBox[
+                    RowBox[{"(", 
+                    RowBox[{"-", "cH2", "+", 
+                    SuperscriptBox[
+                    SubscriptBox["m", "\[CapitalPhi]"], "2"]}], ")"}],
+                    SpanSymmetric->False],
+                    StandardForm], 
+                    SubsuperscriptBox["m", "tR", "2"]}]}], ")"}],
+                 SpanSymmetric->False],
+                StandardForm]}]}], ")"}],
+            SpanSymmetric->False],
+           StandardForm], 
+          FormBox[
+           RowBox[{"Log", "[", 
+            FractionBox[
+             SuperscriptBox[
+              OverscriptBox["\[Mu]", 
+               StyleBox["_",
+                FontWeight->Bold]], "2"], 
+             SubsuperscriptBox["m", "tR", "2"]], "]"}],
+           StandardForm]}]}], "StandardForm"]},
+      {
+       StyleBox[
+        RowBox[{
+         FractionBox["1", "24"], 
+         SuperscriptBox[
+          SubscriptBox["g", "1"], "2"], 
+         SuperscriptBox[
+          SubscriptBox["g", "2"], "2"], " ", 
+         FormBox[
+          StyleBox[
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"12", " ", 
+              FormBox[
+               StyleBox[
+                RowBox[{"(", 
+                 RowBox[{"1", "-", 
+                  RowBox[{"5", 
+                   SuperscriptBox[
+                    SubscriptBox["c", 
+                    RowBox[{"2", "\[Beta]"}]], "2"]}], "+", 
+                  RowBox[{"6", 
+                   SuperscriptBox[
+                    SubscriptBox["c", 
+                    RowBox[{"2", "\[Beta]"}]], "4"]}]}], ")"}],
+                SpanSymmetric->False],
+               StandardForm]}], "-", 
+             RowBox[{"6", 
+              SubscriptBox["s", 
+               RowBox[{"2", "\[Beta]"}]], 
+              SubscriptBox["s", 
+               RowBox[{"4", "\[Beta]"}]], 
+              FractionBox["1", 
+               SuperscriptBox[
+                SubscriptBox["m", "\[CapitalPhi]"], "2"]], " ", 
+              FormBox[
+               StyleBox[
+                RowBox[{"(", 
+                 RowBox[{
+                  SuperscriptBox[
+                   RowBox[{"(", 
+                    SuperscriptBox[
+                    SubscriptBox["m", 
+                    OverscriptBox["d", "~"]], 
+                    StyleBox["3",
+                    FontSize->10]], ")"}], "2"], "+", 
+                  SuperscriptBox[
+                   RowBox[{"(", 
+                    SuperscriptBox[
+                    SubscriptBox["m", 
+                    OverscriptBox["e", "~"]], 
+                    StyleBox["3",
+                    FontSize->10]], ")"}], "2"], "-", 
+                  SuperscriptBox[
+                   RowBox[{"(", 
+                    SuperscriptBox[
+                    SubscriptBox["m", 
+                    OverscriptBox["l", "~"]], 
+                    StyleBox["3",
+                    FontSize->10]], ")"}], "2"], "+", 
+                  SubsuperscriptBox["m", "Q3", "2"], "-", 
                   RowBox[{"2", 
+                   SubsuperscriptBox["m", "tR", "2"]}]}], ")"}],
+                SpanSymmetric->False],
+               StandardForm]}], "+", 
+             RowBox[{"cH2", 
+              FractionBox["1", 
+               SuperscriptBox[
+                SubscriptBox["m", "\[CapitalPhi]"], "4"]], " ", 
+              FormBox[
+               StyleBox[
+                RowBox[{"(", 
+                 RowBox[{
+                  RowBox[{
                    SuperscriptBox[
                     SubscriptBox["m", "\[CapitalPhi]"], "2"], " ", 
                    FormBox[
                     StyleBox[
                     RowBox[{"(", 
                     RowBox[{
+                    RowBox[{"-", "1"}], "+", 
+                    RowBox[{"84", 
                     SuperscriptBox[
-                    SubscriptBox["c", "\[Beta]"], "2"], "+", 
+                    SubscriptBox["c", 
+                    RowBox[{"2", "\[Beta]"}]], "2"]}], "-", 
+                    RowBox[{"83", 
                     SuperscriptBox[
-                    SubscriptBox["s", "\[Beta]"], "2"]}], ")"}],
+                    SubscriptBox["c", 
+                    RowBox[{"2", "\[Beta]"}]], "4"]}], "+", 
+                    SuperscriptBox[
+                    SubscriptBox["s", 
+                    RowBox[{"2", "\[Beta]"}]], "4"]}], ")"}],
+                    SpanSymmetric->False],
+                    StandardForm]}], "+", 
+                  RowBox[{"6", 
+                   SubscriptBox["s", 
+                    RowBox[{"2", "\[Beta]"}]], 
+                   SubscriptBox["s", 
+                    RowBox[{"4", "\[Beta]"}]], " ", 
+                   FormBox[
+                    StyleBox[
+                    RowBox[{"(", 
+                    RowBox[{
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    SuperscriptBox[
+                    SubscriptBox["m", 
+                    OverscriptBox["d", "~"]], 
+                    StyleBox["3",
+                    FontSize->10]], ")"}], "2"], "+", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    SuperscriptBox[
+                    SubscriptBox["m", 
+                    OverscriptBox["e", "~"]], 
+                    StyleBox["3",
+                    FontSize->10]], ")"}], "2"], "-", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    SuperscriptBox[
+                    SubscriptBox["m", 
+                    OverscriptBox["l", "~"]], 
+                    StyleBox["3",
+                    FontSize->10]], ")"}], "2"], "+", 
+                    SubsuperscriptBox["m", "Q3", "2"], "-", 
+                    RowBox[{"2", 
+                    SubsuperscriptBox["m", "tR", "2"]}]}], ")"}],
                     SpanSymmetric->False],
                     StandardForm]}]}], ")"}],
                 SpanSymmetric->False],
+               StandardForm]}]}], ")"}],
+           SpanSymmetric->False],
+          StandardForm]}], "StandardForm"]},
+      {
+       StyleBox[
+        RowBox[{
+         FractionBox["1", "144"], 
+         SuperscriptBox[
+          SubscriptBox["g", "1"], "4"], 
+         FractionBox["1", 
+          SuperscriptBox[
+           SubscriptBox["m", "\[CapitalPhi]"], "4"]], " ", 
+         FormBox[
+          StyleBox[
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{
+              SuperscriptBox[
+               SubscriptBox["m", "\[CapitalPhi]"], "4"], " ", 
+              FormBox[
+               StyleBox[
+                RowBox[{"(", 
+                 RowBox[{"36", "-", 
+                  RowBox[{"278", 
+                   SuperscriptBox[
+                    SubscriptBox["c", 
+                    RowBox[{"2", "\[Beta]"}]], "2"]}], "+", 
+                  RowBox[{"216", 
+                   SuperscriptBox[
+                    SubscriptBox["c", 
+                    RowBox[{"2", "\[Beta]"}]], "4"]}]}], ")"}],
+                SpanSymmetric->False],
                StandardForm]}], "-", 
-             RowBox[{"8", 
+             RowBox[{"36", 
+              SubscriptBox["s", 
+               RowBox[{"2", "\[Beta]"}]], 
+              SubscriptBox["s", 
+               RowBox[{"4", "\[Beta]"}]], 
               SuperscriptBox[
-               SubscriptBox["m", "\[CapitalPhi]"], "2"], 
-              SuperscriptBox[
-               OverscriptBox["\[Mu]", "~"], "2"], 
-              SuperscriptBox[
-               SubscriptBox["c", "\[Beta]"], "2"], " ", 
+               SubscriptBox["m", "\[CapitalPhi]"], "2"], " ", 
               FormBox[
                StyleBox[
                 RowBox[{"(", 
                  RowBox[{
-                  RowBox[{"-", "1"}], "+", 
                   SuperscriptBox[
-                   SubscriptBox["c", "\[Beta]"], "2"]}], ")"}],
+                   RowBox[{"(", 
+                    SuperscriptBox[
+                    SubscriptBox["m", 
+                    OverscriptBox["d", "~"]], 
+                    StyleBox["3",
+                    FontSize->10]], ")"}], "2"], "+", 
+                  SuperscriptBox[
+                   RowBox[{"(", 
+                    SuperscriptBox[
+                    SubscriptBox["m", 
+                    OverscriptBox["e", "~"]], 
+                    StyleBox["3",
+                    FontSize->10]], ")"}], "2"], "-", 
+                  SuperscriptBox[
+                   RowBox[{"(", 
+                    SuperscriptBox[
+                    SubscriptBox["m", 
+                    OverscriptBox["l", "~"]], 
+                    StyleBox["3",
+                    FontSize->10]], ")"}], "2"], "+", 
+                  SubsuperscriptBox["m", "Q3", "2"], "-", 
+                  RowBox[{"2", 
+                   SubsuperscriptBox["m", "tR", "2"]}]}], ")"}],
                 SpanSymmetric->False],
                StandardForm]}], "+", 
-             RowBox[{"12", 
-              SubscriptBox["s", "\[Beta]"], 
-              SubscriptBox["c", 
-               RowBox[{"2", "\[Beta]"}]], 
-              SubscriptBox["c", "\[Beta]"], 
-              SuperscriptBox[
-               OverscriptBox["\[Mu]", "~"], "3"], " ", 
+             RowBox[{"cH2", " ", 
               FormBox[
                StyleBox[
                 RowBox[{"(", 
                  RowBox[{
-                  RowBox[{"-", "1"}], "+", 
-                  RowBox[{"2", 
+                  RowBox[{"3", 
                    SuperscriptBox[
-                    SubscriptBox["c", "\[Beta]"], "2"]}]}], ")"}],
-                SpanSymmetric->False],
-               StandardForm], " ", 
-              FormBox[
-               StyleBox[
-                RowBox[{"(", 
-                 RowBox[{
-                  SubscriptBox["m", "1"], "-", 
-                  SubscriptBox["m", "2"]}], ")"}],
+                    SubscriptBox["m", "\[CapitalPhi]"], "2"], " ", 
+                   FormBox[
+                    StyleBox[
+                    RowBox[{"(", 
+                    RowBox[{"1", "+", 
+                    RowBox[{"82", 
+                    SuperscriptBox[
+                    SubscriptBox["c", 
+                    RowBox[{"2", "\[Beta]"}]], "2"]}], "-", 
+                    RowBox[{"83", 
+                    SuperscriptBox[
+                    SubscriptBox["c", 
+                    RowBox[{"2", "\[Beta]"}]], "4"]}], "+", 
+                    SuperscriptBox[
+                    SubscriptBox["s", 
+                    RowBox[{"2", "\[Beta]"}]], "4"]}], ")"}],
+                    SpanSymmetric->False],
+                    StandardForm]}], "+", 
+                  RowBox[{"36", 
+                   SubscriptBox["s", 
+                    RowBox[{"2", "\[Beta]"}]], 
+                   SubscriptBox["s", 
+                    RowBox[{"4", "\[Beta]"}]], " ", 
+                   FormBox[
+                    StyleBox[
+                    RowBox[{"(", 
+                    RowBox[{
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    SuperscriptBox[
+                    SubscriptBox["m", 
+                    OverscriptBox["d", "~"]], 
+                    StyleBox["3",
+                    FontSize->10]], ")"}], "2"], "+", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    SuperscriptBox[
+                    SubscriptBox["m", 
+                    OverscriptBox["e", "~"]], 
+                    StyleBox["3",
+                    FontSize->10]], ")"}], "2"], "-", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    SuperscriptBox[
+                    SubscriptBox["m", 
+                    OverscriptBox["l", "~"]], 
+                    StyleBox["3",
+                    FontSize->10]], ")"}], "2"], "+", 
+                    SubsuperscriptBox["m", "Q3", "2"], "-", 
+                    RowBox[{"2", 
+                    SubsuperscriptBox["m", "tR", "2"]}]}], ")"}],
+                    SpanSymmetric->False],
+                    StandardForm]}]}], ")"}],
                 SpanSymmetric->False],
                StandardForm]}]}], ")"}],
            SpanSymmetric->False],
-          StandardForm]}]}], ")"}],
-      SpanSymmetric->False],
-     StandardForm]}], "StandardForm"], Matchete`NiceForm]], "Output",
- CellChangeTimes->{{3.9687591000767612`*^9, 3.968759119508451*^9}, {
-  3.968759152455224*^9, 3.968759177325738*^9}, {3.968759251579814*^9, 
-  3.9687592963706627`*^9}, {3.968759345246189*^9, 3.968759445762124*^9}},
+          StandardForm]}], "StandardForm"]},
+      {
+       StyleBox[
+        RowBox[{" ", 
+         RowBox[{
+          FormBox[
+           StyleBox[
+            RowBox[{"(", " ", 
+             RowBox[{
+              RowBox[{
+               FormBox[
+                StyleBox[
+                 RowBox[{"(", 
+                  RowBox[{
+                   RowBox[{
+                    SuperscriptBox[
+                    SubscriptBox["g", "1"], "2"], " ", 
+                    FormBox[
+                    StyleBox[
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{
+                    FractionBox["1", "2"], 
+                    SubscriptBox["c", 
+                    RowBox[{"2", "\[Beta]"}]]}], "+", 
+                    RowBox[{
+                    FractionBox["3", "4"], 
+                    SubscriptBox["s", 
+                    RowBox[{"2", "\[Beta]"}]], 
+                    SubscriptBox["s", 
+                    RowBox[{"4", "\[Beta]"}]], 
+                    FractionBox["1", 
+                    SuperscriptBox[
+                    SubscriptBox["m", "\[CapitalPhi]"], "4"]], 
+                    FractionBox["1", 
+                    SuperscriptBox[
+                    SubscriptBox["s", "\[Beta]"], "2"]], " ", 
+                    FormBox[
+                    StyleBox[
+                    RowBox[{"(", 
+                    RowBox[{"cH2", "-", 
+                    SuperscriptBox[
+                    SubscriptBox["m", "\[CapitalPhi]"], "2"]}], ")"}],
+                    SpanSymmetric->False],
+                    StandardForm], 
+                    SubsuperscriptBox["m", "Q3", "2"]}]}], ")"}],
+                    SpanSymmetric->False],
+                    StandardForm]}], "+", 
+                   RowBox[{
+                    FractionBox["3", "4"], 
+                    SuperscriptBox[
+                    SubscriptBox["g", "2"], "2"], " ", 
+                    FormBox[
+                    StyleBox[
+                    RowBox[{"(", 
+                    RowBox[{"-", 
+                    RowBox[{"2", 
+                    SubscriptBox["c", 
+                    RowBox[{"2", "\[Beta]"}]]}], "+", 
+                    RowBox[{
+                    SubscriptBox["s", 
+                    RowBox[{"2", "\[Beta]"}]], 
+                    SubscriptBox["s", 
+                    RowBox[{"4", "\[Beta]"}]], 
+                    FractionBox["1", 
+                    SuperscriptBox[
+                    SubscriptBox["m", "\[CapitalPhi]"], "4"]], 
+                    FractionBox["1", 
+                    SuperscriptBox[
+                    SubscriptBox["s", "\[Beta]"], "2"]], " ", 
+                    FormBox[
+                    StyleBox[
+                    RowBox[{"(", 
+                    RowBox[{"cH2", "-", 
+                    SuperscriptBox[
+                    SubscriptBox["m", "\[CapitalPhi]"], "2"]}], ")"}],
+                    SpanSymmetric->False],
+                    StandardForm], 
+                    SubsuperscriptBox["m", "Q3", "2"]}]}], ")"}],
+                    SpanSymmetric->False],
+                    StandardForm]}]}], ")"}],
+                 SpanSymmetric->False],
+                StandardForm], 
+               FormBox[
+                RowBox[{"Log", "[", 
+                 FractionBox[
+                  SuperscriptBox[
+                   OverscriptBox["\[Mu]", 
+                    StyleBox["_",
+                    FontWeight->Bold]], "2"], 
+                  SubsuperscriptBox["m", "Q3", "2"]], "]"}],
+                StandardForm]}], "+", 
+              RowBox[{
+               FractionBox["3", "4"], 
+               SubscriptBox["s", 
+                RowBox[{"2", "\[Beta]"}]], 
+               SubscriptBox["s", 
+                RowBox[{"4", "\[Beta]"}]], 
+               SuperscriptBox[
+                SubscriptBox["g", "1"], "2"], 
+               FractionBox["1", 
+                SuperscriptBox[
+                 SubscriptBox["m", "\[CapitalPhi]"], "4"]], 
+               FractionBox["1", 
+                SuperscriptBox[
+                 SubscriptBox["s", "\[Beta]"], "2"]], " ", 
+               FormBox[
+                StyleBox[
+                 RowBox[{"(", 
+                  RowBox[{"cH2", "-", 
+                   SuperscriptBox[
+                    SubscriptBox["m", "\[CapitalPhi]"], "2"]}], ")"}],
+                 SpanSymmetric->False],
+                StandardForm], " ", 
+               FormBox[
+                StyleBox[
+                 RowBox[{"(", 
+                  RowBox[{
+                   SubsuperscriptBox["m", "Q3", "2"], "+", 
+                   SubsuperscriptBox["m", "tR", "2"]}], ")"}],
+                 SpanSymmetric->False],
+                StandardForm]}], "+", 
+              RowBox[{
+               SuperscriptBox[
+                SubscriptBox["g", "2"], "2"], " ", 
+               FormBox[
+                StyleBox[
+                 RowBox[{"(", 
+                  RowBox[{
+                   RowBox[{
+                    SubscriptBox["c", 
+                    RowBox[{"2", "\[Beta]"}]], "cH2", 
+                    FractionBox["1", 
+                    SubsuperscriptBox["m", "Q3", "2"]]}], "+", 
+                   RowBox[{
+                    FractionBox["3", "4"], 
+                    SubscriptBox["s", 
+                    RowBox[{"2", "\[Beta]"}]], 
+                    SubscriptBox["s", 
+                    RowBox[{"4", "\[Beta]"}]], 
+                    FractionBox["1", 
+                    SuperscriptBox[
+                    SubscriptBox["m", "\[CapitalPhi]"], "4"]], 
+                    FractionBox["1", 
+                    SuperscriptBox[
+                    SubscriptBox["s", "\[Beta]"], "2"]], " ", 
+                    FormBox[
+                    StyleBox[
+                    RowBox[{"(", 
+                    RowBox[{"cH2", "-", 
+                    SuperscriptBox[
+                    SubscriptBox["m", "\[CapitalPhi]"], "2"]}], ")"}],
+                    SpanSymmetric->False],
+                    StandardForm], " ", 
+                    FormBox[
+                    StyleBox[
+                    RowBox[{"(", 
+                    RowBox[{
+                    SubsuperscriptBox["m", "Q3", "2"], "+", 
+                    SubsuperscriptBox["m", "tR", "2"]}], ")"}],
+                    SpanSymmetric->False],
+                    StandardForm]}]}], ")"}],
+                 SpanSymmetric->False],
+                StandardForm]}], "+", " ", 
+              RowBox[{
+               FormBox[
+                StyleBox[
+                 RowBox[{"(", 
+                  RowBox[{
+                   RowBox[{
+                    FractionBox["3", "4"], 
+                    SubscriptBox["s", 
+                    RowBox[{"2", "\[Beta]"}]], 
+                    SubscriptBox["s", 
+                    RowBox[{"4", "\[Beta]"}]], 
+                    SuperscriptBox[
+                    SubscriptBox["g", "2"], "2"], 
+                    FractionBox["1", 
+                    SuperscriptBox[
+                    SubscriptBox["m", "\[CapitalPhi]"], "4"]], 
+                    FractionBox["1", 
+                    SuperscriptBox[
+                    SubscriptBox["s", "\[Beta]"], "2"]], " ", 
+                    FormBox[
+                    StyleBox[
+                    RowBox[{"(", 
+                    RowBox[{"cH2", "-", 
+                    SuperscriptBox[
+                    SubscriptBox["m", "\[CapitalPhi]"], "2"]}], ")"}],
+                    SpanSymmetric->False],
+                    StandardForm], 
+                    SubsuperscriptBox["m", "tR", "2"]}], "+", 
+                   RowBox[{
+                    SuperscriptBox[
+                    SubscriptBox["g", "1"], "2"], " ", 
+                    FormBox[
+                    StyleBox[
+                    RowBox[{"(", 
+                    RowBox[{"-", 
+                    RowBox[{"2", 
+                    SubscriptBox["c", 
+                    RowBox[{"2", "\[Beta]"}]]}], "+", 
+                    RowBox[{
+                    FractionBox["3", "4"], 
+                    SubscriptBox["s", 
+                    RowBox[{"2", "\[Beta]"}]], 
+                    SubscriptBox["s", 
+                    RowBox[{"4", "\[Beta]"}]], 
+                    FractionBox["1", 
+                    SuperscriptBox[
+                    SubscriptBox["m", "\[CapitalPhi]"], "4"]], 
+                    FractionBox["1", 
+                    SuperscriptBox[
+                    SubscriptBox["s", "\[Beta]"], "2"]], " ", 
+                    FormBox[
+                    StyleBox[
+                    RowBox[{"(", 
+                    RowBox[{"cH2", "-", 
+                    SuperscriptBox[
+                    SubscriptBox["m", "\[CapitalPhi]"], "2"]}], ")"}],
+                    SpanSymmetric->False],
+                    StandardForm], 
+                    SubsuperscriptBox["m", "tR", "2"]}]}], ")"}],
+                    SpanSymmetric->False],
+                    StandardForm]}]}], ")"}],
+                 SpanSymmetric->False],
+                StandardForm], 
+               FormBox[
+                RowBox[{"Log", "[", 
+                 FractionBox[
+                  SuperscriptBox[
+                   OverscriptBox["\[Mu]", 
+                    StyleBox["_",
+                    FontWeight->Bold]], "2"], 
+                  SubsuperscriptBox["m", "tR", "2"]], "]"}],
+                StandardForm]}]}], ")"}],
+            SpanSymmetric->False],
+           StandardForm], 
+          SubsuperscriptBox["Y", "t", "2"]}]}], "StandardForm"]},
+      {
+       StyleBox[
+        RowBox[{" ", 
+         RowBox[{
+          FormBox[
+           StyleBox[
+            RowBox[{"(", 
+             RowBox[{"-", 
+              RowBox[{"3", 
+               FormBox[
+                RowBox[{"Log", "[", 
+                 FractionBox[
+                  SuperscriptBox[
+                   OverscriptBox["\[Mu]", 
+                    StyleBox["_",
+                    FontWeight->Bold]], "2"], 
+                  SubsuperscriptBox["m", "Q3", "2"]], "]"}],
+                StandardForm]}], "-", 
+              RowBox[{"3", 
+               FormBox[
+                RowBox[{"Log", "[", 
+                 FractionBox[
+                  SuperscriptBox[
+                   OverscriptBox["\[Mu]", 
+                    StyleBox["_",
+                    FontWeight->Bold]], "2"], 
+                  SubsuperscriptBox["m", "tR", "2"]], "]"}],
+                StandardForm]}], "+", 
+              RowBox[{"cH2", 
+               FractionBox["1", 
+                SubsuperscriptBox["m", "Q3", "2"]]}]}], ")"}],
+            SpanSymmetric->False],
+           StandardForm], 
+          SubsuperscriptBox["Y", "t", "4"]}]}], "StandardForm"]}
+     },
+     GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+     GridBoxSpacings->{"Columns" -> {
+         Offset[0.27999999999999997`], {
+          Offset[0.5599999999999999]}, 
+         Offset[0.27999999999999997`]}, "Rows" -> {
+         Offset[0.2], {
+          Offset[0.4]}, 
+         Offset[0.2]}}],
+    Column],
+   Function[BoxForm`e$, 
+    TableForm[BoxForm`e$]]], Matchete`NiceForm]], "Output",
+ CellChangeTimes->{
+  3.968852078287035*^9, 3.9688521102601137`*^9, {3.9688522456072206`*^9, 
+   3.968852251154592*^9}, 3.9688524354302073`*^9, 3.968852485519066*^9, 
+   3.969103808054461*^9},
  CellLabel->
-  "Out[127]//NiceForm=",ExpressionUUID->"c5228eb2-fd0e-46a1-9032-\
-afdaf0c80107"]
+  "Out[29]//NiceForm=",ExpressionUUID->"d4338ba9-a16b-47bd-b27e-844e311bc64e"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{
-  RowBox[{"Collect", "[", 
-   RowBox[{"zeroCoeffb", ",", 
-    RowBox[{"{", 
-     RowBox[{
-      RowBox[{"m1", "[", "]"}], ",", 
-      RowBox[{"m2", "[", "]"}], ",", 
-      RowBox[{"m\[CapitalPhi]", "[", "]"}]}], "}"}], ",", "Simplify"}], "]"}],
-   "//", "NiceForm"}]], "Input",
- CellChangeTimes->{{3.9687594471552*^9, 3.968759464908057*^9}},
- CellLabel->
-  "In[128]:=",ExpressionUUID->"5baf8d71-2506-43e9-b177-9b8de94e60a7"],
+  FractionBox["24", "100"], 
+  RowBox[{
+   RowBox[{"(", 
+    FractionBox["5", "3"], ")"}], "^", "2"}]}]], "Input",
+ CellChangeTimes->{{3.968852355964653*^9, 3.968852362892344*^9}},
+ CellLabel->"In[30]:=",ExpressionUUID->"f8828418-81d5-415a-973d-eb4680c600eb"],
 
 Cell[BoxData[
- FormBox[
-  StyleBox[
-   RowBox[{
-    RowBox[{
-     FractionBox["1", "64"], 
-     FractionBox["1", 
-      SuperscriptBox["\[Pi]", "2"]], 
-     SuperscriptBox[
-      SubscriptBox["m", "2"], "4"], 
-     SuperscriptBox[
-      SubscriptBox["m", "\[CapitalPhi]"], "2"], " ", 
-     FormBox[
-      StyleBox[
-       RowBox[{"(", 
-        RowBox[{"4", "-", 
-         RowBox[{"3", 
-          SuperscriptBox[
-           SubscriptBox["c", 
-            RowBox[{"2", "\[Beta]"}]], "2"]}]}], ")"}],
-       SpanSymmetric->False],
-      StandardForm]}], "+", 
-    RowBox[{
-     FractionBox["3", "8"], 
-     FractionBox["1", 
-      SuperscriptBox["\[Pi]", "2"]], 
-     SubscriptBox["s", "\[Beta]"], 
-     OverscriptBox["\[Mu]", "~"], 
-     SubscriptBox["c", 
-      RowBox[{"2", "\[Beta]"}]], 
-     SubscriptBox["c", "\[Beta]"], 
-     SuperscriptBox[
-      SubscriptBox["m", "2"], "5"], " ", 
-     FormBox[
-      StyleBox[
-       RowBox[{"(", 
-        RowBox[{
-         RowBox[{"-", "1"}], "+", 
-         RowBox[{"2", 
-          SuperscriptBox[
-           SubscriptBox["c", "\[Beta]"], "2"]}]}], ")"}],
-       SpanSymmetric->False],
-      StandardForm]}], "+", 
-    RowBox[{
-     FractionBox["1", "64"], 
-     FractionBox["1", 
-      SuperscriptBox["\[Pi]", "2"]], 
-     SuperscriptBox[
-      SubscriptBox["m", "2"], "2"], 
-     SuperscriptBox[
-      SubscriptBox["m", "\[CapitalPhi]"], "2"], 
-     SuperscriptBox[
-      OverscriptBox["\[Mu]", "~"], "2"], " ", 
-     FormBox[
-      StyleBox[
-       RowBox[{"(", 
-        RowBox[{
-         RowBox[{"9", 
-          SuperscriptBox[
-           SubscriptBox["c", 
-            RowBox[{"2", "\[Beta]"}]], "2"]}], "-", 
-         RowBox[{"4", 
-          SuperscriptBox[
-           RowBox[{"(", 
-            RowBox[{"1", "-", 
-             RowBox[{"2", 
-              SuperscriptBox[
-               SubscriptBox["c", "\[Beta]"], "2"]}]}], ")"}], "2"]}]}], ")"}],
-       
-       SpanSymmetric->False],
-      StandardForm]}], "+", 
-    RowBox[{
-     FractionBox["1", "4"], 
-     FractionBox["1", 
-      SuperscriptBox["\[Pi]", "2"]], 
-     SuperscriptBox[
-      SubscriptBox["m", "\[CapitalPhi]"], "2"], 
-     SuperscriptBox[
-      OverscriptBox["\[Mu]", "~"], "4"], 
-     SuperscriptBox[
-      SubscriptBox["c", "\[Beta]"], "2"], " ", 
-     FormBox[
-      StyleBox[
-       RowBox[{"(", 
-        RowBox[{
-         RowBox[{"-", "1"}], "+", 
-         SuperscriptBox[
-          SubscriptBox["c", "\[Beta]"], "2"]}], ")"}],
-       SpanSymmetric->False],
-      StandardForm]}], "+", 
-    RowBox[{
-     SuperscriptBox[
-      SubscriptBox["m", "2"], "3"], " ", 
-     FormBox[
-      StyleBox[
-       RowBox[{"(", 
-        RowBox[{
-         RowBox[{
-          FractionBox["1", "4"], 
-          FractionBox["1", 
-           SuperscriptBox["\[Pi]", "2"]], 
-          SubscriptBox["s", "\[Beta]"], 
-          OverscriptBox["\[Mu]", "~"], 
-          SubscriptBox["c", "\[Beta]"], 
-          SuperscriptBox[
-           SubscriptBox["m", "\[CapitalPhi]"], "2"], " ", 
-          FormBox[
-           StyleBox[
-            RowBox[{"(", 
-             RowBox[{
-              SuperscriptBox[
-               SubscriptBox["c", "\[Beta]"], "2"], "+", 
-              SuperscriptBox[
-               SubscriptBox["s", "\[Beta]"], "2"]}], ")"}],
-            SpanSymmetric->False],
-           StandardForm]}], "-", 
-         RowBox[{
-          FractionBox["3", "4"], 
-          FractionBox["1", 
-           SuperscriptBox["\[Pi]", "2"]], 
-          SubscriptBox["s", "\[Beta]"], 
-          SubscriptBox["c", 
-           RowBox[{"2", "\[Beta]"}]], 
-          SubscriptBox["c", "\[Beta]"], 
-          SuperscriptBox[
-           OverscriptBox["\[Mu]", "~"], "3"], " ", 
-          FormBox[
-           StyleBox[
-            RowBox[{"(", 
-             RowBox[{
-              RowBox[{"-", "1"}], "+", 
-              RowBox[{"2", 
-               SuperscriptBox[
-                SubscriptBox["c", "\[Beta]"], "2"]}]}], ")"}],
-            SpanSymmetric->False],
-           StandardForm]}]}], ")"}],
-       SpanSymmetric->False],
-      StandardForm]}], "+", 
-    RowBox[{
-     SubscriptBox["m", "1"], " ", 
-     FormBox[
-      StyleBox[
-       RowBox[{"(", 
-        RowBox[{
-         RowBox[{
-          FractionBox["3", "64"], 
-          FractionBox["1", 
-           SuperscriptBox["\[Pi]", "2"]], 
-          SuperscriptBox[
-           SubscriptBox["m", "2"], "3"], 
-          SuperscriptBox[
-           SubscriptBox["m", "\[CapitalPhi]"], "2"], 
-          SuperscriptBox[
-           SubscriptBox["c", 
-            RowBox[{"2", "\[Beta]"}]], "2"]}], "-", 
-         RowBox[{
-          FractionBox["3", "8"], 
-          FractionBox["1", 
-           SuperscriptBox["\[Pi]", "2"]], 
-          SubscriptBox["s", "\[Beta]"], 
-          OverscriptBox["\[Mu]", "~"], 
-          SubscriptBox["c", 
-           RowBox[{"2", "\[Beta]"}]], 
-          SubscriptBox["c", "\[Beta]"], 
-          SuperscriptBox[
-           SubscriptBox["m", "2"], "4"], " ", 
-          FormBox[
-           StyleBox[
-            RowBox[{"(", 
-             RowBox[{
-              RowBox[{"-", "1"}], "+", 
-              RowBox[{"2", 
-               SuperscriptBox[
-                SubscriptBox["c", "\[Beta]"], "2"]}]}], ")"}],
-            SpanSymmetric->False],
-           StandardForm]}], "-", 
-         RowBox[{
-          FractionBox["9", "64"], 
-          FractionBox["1", 
-           SuperscriptBox["\[Pi]", "2"]], 
-          SubscriptBox["m", "2"], 
-          SuperscriptBox[
-           SubscriptBox["m", "\[CapitalPhi]"], "2"], 
-          SuperscriptBox[
-           OverscriptBox["\[Mu]", "~"], "2"], 
-          SuperscriptBox[
-           SubscriptBox["c", 
-            RowBox[{"2", "\[Beta]"}]], "2"]}], "+", 
-         RowBox[{
-          FractionBox["3", "4"], 
-          FractionBox["1", 
-           SuperscriptBox["\[Pi]", "2"]], 
-          SubscriptBox["s", "\[Beta]"], 
-          SubscriptBox["c", 
-           RowBox[{"2", "\[Beta]"}]], 
-          SubscriptBox["c", "\[Beta]"], 
-          SuperscriptBox[
-           SubscriptBox["m", "2"], "2"], 
-          SuperscriptBox[
-           OverscriptBox["\[Mu]", "~"], "3"], " ", 
-          FormBox[
-           StyleBox[
-            RowBox[{"(", 
-             RowBox[{
-              RowBox[{"-", "1"}], "+", 
-              RowBox[{"2", 
-               SuperscriptBox[
-                SubscriptBox["c", "\[Beta]"], "2"]}]}], ")"}],
-            SpanSymmetric->False],
-           StandardForm]}], "-", 
-         RowBox[{
-          FractionBox["3", "16"], 
-          FractionBox["1", 
-           SuperscriptBox["\[Pi]", "2"]], 
-          SubscriptBox["s", "\[Beta]"], 
-          SubscriptBox["c", "\[Beta]"], 
-          SuperscriptBox[
-           SubscriptBox["m", "\[CapitalPhi]"], "2"], 
-          SuperscriptBox[
-           OverscriptBox["\[Mu]", "~"], "3"], 
-          SuperscriptBox[
-           SubscriptBox["c", 
-            RowBox[{"2", "\[Beta]"}]], "2"]}], "-", 
-         RowBox[{
-          FractionBox["3", "8"], 
-          FractionBox["1", 
-           SuperscriptBox["\[Pi]", "2"]], 
-          SubscriptBox["s", "\[Beta]"], 
-          SubscriptBox["c", 
-           RowBox[{"2", "\[Beta]"}]], 
-          SubscriptBox["c", "\[Beta]"], 
-          SuperscriptBox[
-           OverscriptBox["\[Mu]", "~"], "5"], " ", 
-          FormBox[
-           StyleBox[
-            RowBox[{"(", 
-             RowBox[{
-              RowBox[{"-", "1"}], "+", 
-              RowBox[{"2", 
-               SuperscriptBox[
-                SubscriptBox["c", "\[Beta]"], "2"]}]}], ")"}],
-            SpanSymmetric->False],
-           StandardForm]}]}], ")"}],
-       SpanSymmetric->False],
-      StandardForm]}], "+", 
-    RowBox[{
-     SubscriptBox["m", "2"], " ", 
-     FormBox[
-      StyleBox[
-       RowBox[{"(", 
-        RowBox[{
-         RowBox[{
-          FractionBox["1", "16"], 
-          FractionBox["1", 
-           SuperscriptBox["\[Pi]", "2"]], 
-          SubscriptBox["s", "\[Beta]"], 
-          SubscriptBox["c", "\[Beta]"], 
-          SuperscriptBox[
-           SubscriptBox["m", "\[CapitalPhi]"], "2"], 
-          SuperscriptBox[
-           OverscriptBox["\[Mu]", "~"], "3"], " ", 
-          FormBox[
-           StyleBox[
-            RowBox[{"(", 
-             RowBox[{
-              RowBox[{"3", 
-               SuperscriptBox[
-                SubscriptBox["c", 
-                 RowBox[{"2", "\[Beta]"}]], "2"]}], "-", 
-              RowBox[{"4", " ", 
-               FormBox[
-                StyleBox[
-                 RowBox[{"(", 
-                  RowBox[{
-                   SuperscriptBox[
-                    SubscriptBox["c", "\[Beta]"], "2"], "+", 
-                   SuperscriptBox[
-                    SubscriptBox["s", "\[Beta]"], "2"]}], ")"}],
-                 SpanSymmetric->False],
-                StandardForm]}]}], ")"}],
-            SpanSymmetric->False],
-           StandardForm]}], "+", 
-         RowBox[{
-          FractionBox["3", "8"], 
-          FractionBox["1", 
-           SuperscriptBox["\[Pi]", "2"]], 
-          SubscriptBox["s", "\[Beta]"], 
-          SubscriptBox["c", 
-           RowBox[{"2", "\[Beta]"}]], 
-          SubscriptBox["c", "\[Beta]"], 
-          SuperscriptBox[
-           OverscriptBox["\[Mu]", "~"], "5"], " ", 
-          FormBox[
-           StyleBox[
-            RowBox[{"(", 
-             RowBox[{
-              RowBox[{"-", "1"}], "+", 
-              RowBox[{"2", 
-               SuperscriptBox[
-                SubscriptBox["c", "\[Beta]"], "2"]}]}], ")"}],
-            SpanSymmetric->False],
-           StandardForm]}]}], ")"}],
-       SpanSymmetric->False],
-      StandardForm]}]}], "StandardForm"], Matchete`NiceForm]], "Output",
- CellChangeTimes->{3.968759465280019*^9},
- CellLabel->
-  "Out[128]//NiceForm=",ExpressionUUID->"49074dcd-68e5-4a89-8b5b-\
-4bcceb0f5d2f"]
+ FractionBox["2", "3"]], "Output",
+ CellChangeTimes->{3.968852363294405*^9, 3.969103808100316*^9},
+ CellLabel->"Out[30]=",ExpressionUUID->"3f03bb9b-2113-4419-9efa-0ec522dd9ae9"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -1845,52 +2433,60 @@ Notebook[{
 Cell[CellGroupData[{
 Cell[580, 22, 462, 7, 96, "Title",ExpressionUUID->"f5b75410-5c00-4c1a-a73a-982416345878"],
 Cell[1045, 31, 218, 3, 29, "Input",ExpressionUUID->"0bf0660d-6f5e-4145-a688-13e6230b5cd5"],
-Cell[1266, 36, 8124, 129, 51, InheritFromParent,ExpressionUUID->"31eb00a9-f84f-449b-8858-eb527641e839"],
-Cell[9393, 167, 1461, 29, 60, "Print",ExpressionUUID->"8162fd7d-eab7-474d-a7d3-3c1ab1c02d7b"],
-Cell[10857, 198, 411, 8, 29, "Input",ExpressionUUID->"00ddabe2-a6ec-46d0-a342-5ac0f4a8b9b8"],
+Cell[1266, 36, 8124, 129, 51, InheritFromParent,ExpressionUUID->"3b7581a5-67e5-4ddd-91c1-8a8d5e985ac2"],
+Cell[9393, 167, 1532, 30, 60, "Print",ExpressionUUID->"a4829025-947d-4fd5-9df3-f3bf8a966b46"],
+Cell[10928, 199, 411, 8, 29, "Input",ExpressionUUID->"00ddabe2-a6ec-46d0-a342-5ac0f4a8b9b8"],
 Cell[CellGroupData[{
-Cell[11293, 210, 2396, 66, 162, "Input",ExpressionUUID->"a62278c7-bee2-45ef-bead-80fd43f814ce"],
-Cell[13692, 278, 683, 13, 24, "Echo",ExpressionUUID->"78629a56-e0cb-48b4-95f8-a3bea1cc4643"]
+Cell[11364, 211, 2396, 66, 162, "Input",ExpressionUUID->"a62278c7-bee2-45ef-bead-80fd43f814ce"],
+Cell[13763, 279, 685, 13, 24, "Echo",ExpressionUUID->"2f94f66c-3c42-4814-aa36-51d5afa0fd7d"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[14412, 296, 222, 4, 65, "Section",ExpressionUUID->"dd498b19-a681-4cab-99a2-300396abaf36"],
-Cell[14637, 302, 793, 16, 29, "Input",ExpressionUUID->"e1e7e026-d84d-4eff-b4d8-3283391c61e5"]
+Cell[14485, 297, 222, 4, 65, "Section",ExpressionUUID->"dd498b19-a681-4cab-99a2-300396abaf36"],
+Cell[14710, 303, 895, 17, 29, "Input",ExpressionUUID->"e1e7e026-d84d-4eff-b4d8-3283391c61e5"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[15467, 323, 186, 3, 65, "Section",ExpressionUUID->"53066d9e-6e63-49cd-ba27-eff437343e41"],
-Cell[15656, 328, 479, 11, 29, "Input",ExpressionUUID->"ea726f2e-a401-479d-b77a-7330090b07ef"]
+Cell[15642, 325, 186, 3, 65, "Section",ExpressionUUID->"53066d9e-6e63-49cd-ba27-eff437343e41"],
+Cell[15831, 330, 916, 24, 49, "Input",ExpressionUUID->"ea726f2e-a401-479d-b77a-7330090b07ef"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[16172, 344, 214, 5, 65, "Section",ExpressionUUID->"8e610ebe-bbac-484a-8b42-eead525eb7d8"],
-Cell[16389, 351, 5747, 148, 178, "Input",ExpressionUUID->"19b575ea-d805-4498-8303-3189eeb04caa"],
-Cell[22139, 501, 612, 13, 29, "Input",ExpressionUUID->"1c5f7971-511b-4f8c-9843-289d1c4a12ad"],
+Cell[16784, 359, 214, 5, 65, "Section",ExpressionUUID->"8e610ebe-bbac-484a-8b42-eead525eb7d8"],
+Cell[17001, 366, 5793, 148, 178, "Input",ExpressionUUID->"19b575ea-d805-4498-8303-3189eeb04caa"],
+Cell[22797, 516, 612, 13, 29, "Input",ExpressionUUID->"1c5f7971-511b-4f8c-9843-289d1c4a12ad"],
 Cell[CellGroupData[{
-Cell[22776, 518, 165, 3, 53, "Subsection",ExpressionUUID->"249f5254-3f5e-48e7-8c83-b7a9d6d0962f"],
-Cell[22944, 523, 5396, 145, 217, "Input",ExpressionUUID->"216e07f7-729d-4a87-844c-0599ef37163a"],
-Cell[28343, 670, 280, 6, 29, "Input",ExpressionUUID->"5b8a0820-6dec-4f14-bf28-3a6bc5f1cbc8"]
+Cell[23434, 533, 165, 3, 53, "Subsection",ExpressionUUID->"249f5254-3f5e-48e7-8c83-b7a9d6d0962f"],
+Cell[23602, 538, 5396, 145, 217, "Input",ExpressionUUID->"216e07f7-729d-4a87-844c-0599ef37163a"],
+Cell[29001, 685, 280, 6, 29, "Input",ExpressionUUID->"5b8a0820-6dec-4f14-bf28-3a6bc5f1cbc8"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[28660, 681, 175, 3, 53, "Subsection",ExpressionUUID->"efff48c8-6d57-4398-99e5-e933e36ab787"],
-Cell[28838, 686, 309, 6, 29, "Input",ExpressionUUID->"f8007914-f634-49df-8b8c-faa7c9e9b1cd"]
+Cell[29318, 696, 231, 4, 53, "Subsection",ExpressionUUID->"8f00277c-e2dc-41f1-93d6-60a911a91b62"],
+Cell[29552, 702, 1895, 54, 71, "Input",ExpressionUUID->"ee413b37-cc96-4b90-8dea-adc02f1f17ab"],
+Cell[CellGroupData[{
+Cell[31472, 760, 178, 3, 43, "Subsubsection",ExpressionUUID->"4b225ea4-faf4-4e18-8377-ee1d8b26f684"],
+Cell[31653, 765, 262, 5, 29, "Input",ExpressionUUID->"515df079-1faf-41ee-af96-941b1cffb636"]
+}, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[29184, 697, 281, 6, 53, "Subsection",ExpressionUUID->"53cf87b2-25da-4fb9-9cf7-a2b8ef11a392"],
-Cell[29468, 705, 1684, 48, 75, "Input",ExpressionUUID->"f5607fde-8a14-4b77-9810-51ffa32efa4a"],
-Cell[31155, 755, 1570, 43, 50, "Input",ExpressionUUID->"f0e97e03-1193-41f2-9e7b-35536c71f2f3"],
-Cell[CellGroupData[{
-Cell[32750, 802, 727, 22, 72, "Subsubsection",ExpressionUUID->"98b770b4-c596-4acd-a92a-ef389b0dd923"],
-Cell[33480, 826, 2146, 59, 86, "Input",ExpressionUUID->"2db55f83-61e3-465b-83eb-3e2a913617e9"],
-Cell[CellGroupData[{
-Cell[35651, 889, 881, 22, 29, "Input",ExpressionUUID->"ca1b7579-6669-438d-ba7c-b976e15981bf"],
-Cell[36535, 913, 12377, 357, 176, "Output",ExpressionUUID->"78952cfb-ef5c-412f-a695-b7a28e28e26a"]
+Cell[31964, 776, 175, 3, 53, "Subsection",ExpressionUUID->"efff48c8-6d57-4398-99e5-e933e36ab787"],
+Cell[32142, 781, 334, 7, 29, "Input",ExpressionUUID->"f8007914-f634-49df-8b8c-faa7c9e9b1cd"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[48949, 1275, 1888, 57, 71, "Input",ExpressionUUID->"ecdff7c9-3003-4482-9fa4-2077cd812c60"],
-Cell[50840, 1334, 5666, 158, 108, "Output",ExpressionUUID->"c5228eb2-fd0e-46a1-9032-afdaf0c80107"]
+Cell[32513, 793, 281, 6, 53, "Subsection",ExpressionUUID->"53cf87b2-25da-4fb9-9cf7-a2b8ef11a392"],
+Cell[32797, 801, 1972, 53, 75, "Input",ExpressionUUID->"f5607fde-8a14-4b77-9810-51ffa32efa4a"],
+Cell[34772, 856, 1460, 37, 30, "Input",ExpressionUUID->"f0e97e03-1193-41f2-9e7b-35536c71f2f3"],
+Cell[CellGroupData[{
+Cell[36257, 897, 696, 21, 72, "Subsubsection",ExpressionUUID->"98b770b4-c596-4acd-a92a-ef389b0dd923"],
+Cell[36956, 920, 2146, 59, 86, "Input",ExpressionUUID->"2db55f83-61e3-465b-83eb-3e2a913617e9"],
+Cell[CellGroupData[{
+Cell[39127, 983, 881, 22, 29, "Input",ExpressionUUID->"ca1b7579-6669-438d-ba7c-b976e15981bf"],
+Cell[40011, 1007, 913, 20, 60, "Output",ExpressionUUID->"360c45e6-eaab-4363-be0b-2afe4012493f"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[56543, 1497, 448, 12, 29, "Input",ExpressionUUID->"5baf8d71-2506-43e9-b177-9b8de94e60a7"],
-Cell[56994, 1511, 9734, 307, 172, "Output",ExpressionUUID->"49074dcd-68e5-4a89-8b5b-4bcceb0f5d2f"]
+Cell[40961, 1032, 1555, 44, 30, "Input",ExpressionUUID->"3f6dbd2b-7b24-42d6-a65a-cb1b4dc0176a"],
+Cell[42519, 1078, 48983, 1311, 469, "Output",ExpressionUUID->"d4338ba9-a16b-47bd-b27e-844e311bc64e"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[91539, 2394, 283, 7, 42, "Input",ExpressionUUID->"f8828418-81d5-415a-973d-eb4680c600eb"],
+Cell[91825, 2403, 191, 3, 65, "Output",ExpressionUUID->"3f03bb9b-2113-4419-9efa-0ec522dd9ae9"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
