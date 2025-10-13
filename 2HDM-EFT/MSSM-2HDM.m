@@ -170,7 +170,7 @@ DefineField[Bt, Fermion,
 ];
 
 
-(* ::Subsection::Closed:: *)
+(* ::Subsection:: *)
 (*Higgs sector (2HDM type-II)*)
 
 
@@ -181,27 +181,34 @@ DefineField[Bt, Fermion,
 DefineField[Hu, Scalar,
 	Indices  -> {SU2L[fund]},
 	Charges  -> {U1Y[1/2]},
-	Mass     -> {Light, mHu},
+	Mass     -> 0,
 	NiceForm -> {"\!\(\*SubscriptBox[\(H\), \(u\)]\)","\!\(\*SubscriptBox[OverscriptBox[\(m\), \(^\)], SubscriptBox[\(H\), \(u\)]]\)"}
 ];
 
 DefineField[Hd, Scalar,
 	Indices  -> {SU2L[fund]},
 	Charges  -> {U1Y[-1/2]},
-	Mass     -> {Light, mHd},
+	Mass     -> 0,
 	NiceForm -> {"\!\(\*SubscriptBox[\(H\), \(d\)]\)","\!\(\*SubscriptBox[OverscriptBox[\(m\), \(^\)], SubscriptBox[\(H\), \(d\)]]\)"}
 ];
 
 
 (* ::Text:: *)
-(*Conjugate of Hd defined for convenience and deleted eventually.*)
+(*Higgs fields matching 2HDM definitions *)
 
 
-(*DefineField[Hdc, Scalar,
-	Indices -> {SU2L[fund]},
-	Charges -> {U1Y[1/2]},
-	Mass    -> Heavy
-];*)
+DefineField[\[Phi]1, Scalar, 
+	Indices-> {SU2L[fund]}, 
+	Charges-> {U1Y[1/2]}, 
+	Mass-> 0,
+	NiceForm-> "\!\(\*SubscriptBox[\(\[Phi]\), \(1\)]\)"
+];
+DefineField[\[Phi]2, Scalar, 
+	Indices-> {SU2L[fund]}, 
+	Charges-> {U1Y[1/2]}, 
+	Mass-> 0,
+	NiceForm-> "\!\(\*SubscriptBox[\(\[Phi]\), \(2\)]\)"
+];
 
 
 (* ::Text:: *)
@@ -316,12 +323,25 @@ DefineCoupling[\[Mu]t,
 
 DefineCoupling[b,
 	EFTOrder      -> 2,
-	SelfConjugate -> False
+	SelfConjugate -> False(*True*)
 ];
 
 
-(* ::Subsection::Closed:: *)
+(* ::Subsection:: *)
 (*Higgs masses*)
+
+
+DefineCoupling[mHu2, 
+	EFTOrder      -> 2,
+	SelfConjugate -> True,
+	NiceForm      -> "\!\(\*SubscriptBox[OverscriptBox[\(m\), \(^\)], SubscriptBox[\(H\), \(u\)]]\)"
+];
+
+DefineCoupling[mHd2, 
+	EFTOrder      -> 2,
+	SelfConjugate -> True,
+	NiceForm      -> "\!\(\*SubscriptBox[OverscriptBox[\(m\), \(^\)], SubscriptBox[\(H\), \(d\)]]\)"
+];
 
 
 (*DefineCoupling[mH2, 
@@ -382,7 +402,7 @@ DefineCoupling[t2\[Beta], EFTOrder->0, SelfConjugate->True, NiceForm->"\!\(\*Sub
 (*Lagrangian in MSSM basis*)
 
 
-(* ::Subsection::Closed:: *)
+(* ::Subsection:: *)
 (*Free Lagrangian*)
 
 
@@ -393,7 +413,7 @@ MSSM`FreeLagrangianMSSM[] := FreeLag[
 	qt  , ut , dt , lt , et ,
 	Hu  , Hd ,
 	Hut , Hdt
-]
+] - mHu2[] Bar@Hu[i]Hu[i] - mHd2[] Bar@Hd[i]Hd[i]
 
 
 (* ::Subsection::Closed:: *)
@@ -486,7 +506,7 @@ MSSM`GaugeLagrangianMSSM[] := Module[
 ]
 
 
-(* ::Subsection:: *)
+(* ::Subsection::Closed:: *)
 (*Superpotential (& F-terms)*)
 
 
@@ -591,6 +611,28 @@ MSSM`SoftSUSYbreakingMSSM[] := Module[
 
 (* ::Text:: *)
 (*With soft-SUSY mass basis we refer to the mass eigenstate basis after soft SUSY breaking, but before EWSB.*)
+
+
+MSSM`To2HDMHiggsFields[L_] := Module[
+	{
+		Lag = L,
+		To2HDM, ToHiggsDoubletMassBasis,
+		mLight, mHeavy, mLightHeavy, mHeavyLight,
+		\[CurlyEpsilon],
+		j
+	}
+	,
+	(* define anti-symmetric SUSubscript[(2), L] tensor *)
+	\[CurlyEpsilon][i_,j_] := CG[eps@SU2L, {i,j}];
+	
+	(* rule to rotate from Hd to Hdc to obtain the usual 2HDM Lagrangian *)
+	To2HDM = {
+		Field[Hu, Scalar, {Index[i_,SU2L[fund]]}, devs_] :> CD[devs,\[Phi]1[i]],
+		Field[Hd, Scalar, {Index[i_,SU2L[fund]]}, devs_] :> RelabelIndices[-\[CurlyEpsilon][i,j]CD[devs,Bar@\[Phi]2[j]], Unique->True]
+	};
+	
+	RelabelIndices@ Contract@ ContractCGs[Lag /. To2HDM]
+]
 
 
 (* ::Subsection::Closed:: *)
@@ -849,9 +891,9 @@ MSSM`TrigSimplifiy[expr_] := expr/.{
 
 MSSM`RemoveTMPdef[L_] := (
 	(* remove all fields defined intermediately *)
-	(*RemoveField[Hu];
+	RemoveField[Hu];
 	RemoveField[Hd];
-	RemoveField[Hdc];
+	(*RemoveField[Hdc];
 	RemoveField[Hut];
 	RemoveField[Hdt];*)
 	(*RemoveCoupling[mHu];
@@ -912,6 +954,9 @@ Module[{\[ScriptCapitalL]free, \[ScriptCapitalL]gauge, \[ScriptCapitalL]SuperPot
 	(*\[ScriptCapitalL]MSSM = MSSM`ToSoftSUSYMassBasis[\[ScriptCapitalL]MSSM];*)
 	(* (b): unbroken-phase Higgs basis *)
 	(*\[ScriptCapitalL]MSSM = MSSM`ToUnbrokenPhaseHiggsBasis[\[ScriptCapitalL]MSSM];*)
+	
+	(* convert Higgs fields to 2HDM conventions *)
+	\[ScriptCapitalL]MSSM = MSSM`To2HDMHiggsFields[\[ScriptCapitalL]MSSM];
 
 	(* rotate to Higgsino mass basis *)
 	\[ScriptCapitalL]MSSM = MSSM`ToHiggsinoMassBasis[\[ScriptCapitalL]MSSM];

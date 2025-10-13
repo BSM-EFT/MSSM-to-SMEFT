@@ -97,9 +97,6 @@ DefineField[\[Phi]2, Scalar,
 ];
 
 
-SubsuperscriptBox[a,b,c]//DisplayForm
-
-
 (* ::Section:: *)
 (*Couplings*)
 
@@ -149,7 +146,7 @@ DefineCoupling[m22,
 	NiceForm-> "\!\(\*TemplateBox[{\"m\", \"2\", \"2\"},\n\"Subsuperscript\"]\)"
 ];
 DefineCoupling[m122, 
-	SelfConjugate-> False, 
+	SelfConjugate-> False(*True*), 
 	EFTOrder-> 2,
 	NiceForm-> "\!\(\*TemplateBox[{\"m\", \"12\", \"2\"},\n\"Subsuperscript\"]\)"
 ];
@@ -192,7 +189,7 @@ DefineCoupling[\[Lambda]6,
 DefineCoupling[\[Lambda]7, 
 	SelfConjugate-> False, 
 	EFTOrder-> 0,
-	NiceForm-> "\!\(\*SubscriptBox[\(\[Lambda]\), \(6\)]\)"
+	NiceForm-> "\!\(\*SubscriptBox[\(\[Lambda]\), \(7\)]\)"
 ];
 
 
@@ -203,21 +200,23 @@ DefineCoupling[\[Lambda]7,
 Module[{p,r,s,i,j,\[Alpha],\[Beta],YukawaL,HiggsPotential},
 	
 	YukawaL =  Y1u[p,r] Bar@q[\[Alpha],i,p]**u[\[Alpha],r] CG[eps[SU2L],{i,j}]Bar@\[Phi]1[j] + 
-		Y1d[p,r] Bar@q[\[Alpha],i,p]**d[\[Alpha],r]\[Phi]1[i] + 
-		Y1e[p,r] Bar@l[i,p]**e[r]\[Phi]1[i] +
-		Y2u[p,r] Bar@q[\[Alpha],i,p]**u[\[Alpha],r] CG[eps[SU2L],{i,j}]Bar@\[Phi]2[j] + 
-		Y2d[p,r] Bar@q[\[Alpha],i,p]**d[\[Alpha],r]\[Phi]2[i] + 
-		Y2e[p,r] Bar@l[i,p]**e[r]\[Phi]2[i];
+			Y1d[p,r] Bar@q[\[Alpha],i,p]**d[\[Alpha],r]\[Phi]1[i] + 
+			Y1e[p,r] Bar@l[i,p]**e[r]\[Phi]1[i] +
+			Y2u[p,r] Bar@q[\[Alpha],i,p]**u[\[Alpha],r] CG[eps[SU2L],{i,j}]Bar@\[Phi]2[j] + 
+			Y2d[p,r] Bar@q[\[Alpha],i,p]**d[\[Alpha],r]\[Phi]2[i] + 
+			Y2e[p,r] Bar@l[i,p]**e[r]\[Phi]2[i];
 		
 	HiggsPotential = m12[]Bar@\[Phi]1[i]\[Phi]1[i] + 
 		m22[]Bar@\[Phi]2[i]\[Phi]2[i] + 
-		PlusHc[m122[]Bar@\[Phi]1[i]\[Phi]2[i]] +
+		PlusHc[
+			m122[]Bar@\[Phi]1[i]\[Phi]2[i]
+		] +
 		\[Lambda]1[]/2 (Bar@\[Phi]1[i]\[Phi]1[i])(Bar@\[Phi]1[j]\[Phi]1[j]) +
 		\[Lambda]2[]/2 (Bar@\[Phi]2[i]\[Phi]2[i])(Bar@\[Phi]2[j]\[Phi]2[j]) +
 		\[Lambda]3[] (Bar@\[Phi]1[i]\[Phi]1[i])(Bar@\[Phi]2[j]\[Phi]2[j]) +
 		\[Lambda]4[] (Bar@\[Phi]1[i]\[Phi]2[i])(Bar@\[Phi]2[j]\[Phi]1[j]) +
 		PlusHc[
-			\[Lambda]5[]/2 (Bar@\[Phi]1[i]\[Phi]1[i])(Bar@\[Phi]1[j]\[Phi]1[j]) +
+			\[Lambda]5[]/2 (Bar@\[Phi]1[i]\[Phi]2[i])(Bar@\[Phi]1[j]\[Phi]2[j]) +
 			\[Lambda]6[] (Bar@\[Phi]1[i]\[Phi]1[i])(Bar@\[Phi]1[j]\[Phi]2[j]) +
 			\[Lambda]7[] (Bar@\[Phi]2[i]\[Phi]2[i])(Bar@\[Phi]1[j]\[Phi]2[j])
 		];
