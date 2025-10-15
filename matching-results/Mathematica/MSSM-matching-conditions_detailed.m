@@ -105524,13 +105524,6 @@
       Index[i3, Flavor]]*LF[{Coupling[m3, {}, 0], Coupling[mqt, 
         {Index[i3, Flavor]}, 0], Coupling[mqt, {Index[i4, Flavor]}, 0]}, 
       {2, 1, 1, 0}])/24 + 
-   (hbar*Bar[Coupling[cHqd, {Index[i2, Flavor], Index[d$$1, Flavor]}, 0]]*
-     Bar[Coupling[cHqd, {Index[i4, Flavor], Index[d$$2, Flavor]}, 0]]*
-     Coupling[cHqd, {Index[i1, Flavor], Index[d$$1, Flavor]}, 0]*
-     Coupling[cHqd, {Index[i3, Flavor], Index[d$$2, Flavor]}, 0]*
-     LF[{Coupling[\[Mu]t, {}, 0], Coupling[mdt, {Index[d$$1, Flavor]}, 0], 
-       Coupling[mdt, {Index[d$$2, Flavor]}, 0]}, {2, 1, 1, -1}])/
-    (16*Coupling[c\[Gamma], {}, 0]^4) + 
    (hbar*Bar[Coupling[cHqd, {Index[i4, Flavor], Index[d$$1, Flavor]}, 0]]*
      Bar[Coupling[cHqu, {Index[i2, Flavor], Index[d$$2, Flavor]}, 0]]*
      Coupling[cHqd, {Index[i3, Flavor], Index[d$$1, Flavor]}, 0]*
@@ -105547,12 +105540,19 @@
        Coupling[mdt, {Index[d$$1, Flavor]}, 0], Coupling[mut, 
         {Index[d$$2, Flavor]}, 0]}, {2, 1, 1, 0}])/
     (8*Coupling[c\[Gamma], {}, 0]^2*Coupling[s\[Gamma], {}, 0]^2) + 
+   (hbar*Bar[Coupling[cHqd, {Index[i2, Flavor], Index[d$$1, Flavor]}, 0]]*
+     Bar[Coupling[cHqd, {Index[i4, Flavor], Index[d$$2, Flavor]}, 0]]*
+     Coupling[cHqd, {Index[i1, Flavor], Index[d$$1, Flavor]}, 0]*
+     Coupling[cHqd, {Index[i3, Flavor], Index[d$$2, Flavor]}, 0]*
+     LF[{Coupling[\[Mu]t, {}, 0], Coupling[mdt, {Index[d$$2, Flavor]}, 0], 
+       Coupling[mdt, {Index[d$$1, Flavor]}, 0]}, {2, 1, 1, -1}])/
+    (16*Coupling[c\[Gamma], {}, 0]^4) + 
    (hbar*Bar[Coupling[cHqu, {Index[i2, Flavor], Index[d$$1, Flavor]}, 0]]*
      Bar[Coupling[cHqu, {Index[i4, Flavor], Index[d$$2, Flavor]}, 0]]*
      Coupling[cHqu, {Index[i1, Flavor], Index[d$$1, Flavor]}, 0]*
      Coupling[cHqu, {Index[i3, Flavor], Index[d$$2, Flavor]}, 0]*
-     LF[{Coupling[\[Mu]t, {}, 0], Coupling[mut, {Index[d$$1, Flavor]}, 0], 
-       Coupling[mut, {Index[d$$2, Flavor]}, 0]}, {2, 1, 1, -1}])/
+     LF[{Coupling[\[Mu]t, {}, 0], Coupling[mut, {Index[d$$2, Flavor]}, 0], 
+       Coupling[mut, {Index[d$$1, Flavor]}, 0]}, {2, 1, 1, -1}])/
     (16*Coupling[s\[Gamma], {}, 0]^4) + 
    (hbar*Coupling[cB2, {}, 0]^2*Coupling[cG2, {}, 0]^2*
      Delta[Index[i1, Flavor], Index[i4, Flavor]]*Delta[Index[i2, Flavor], 
@@ -106618,14 +106618,7 @@
      Delta[Index[i1, Flavor], Index[i4, Flavor]]*Delta[Index[i2, Flavor], 
       Index[i3, Flavor]]*LF[{Coupling[m3, {}, 0], Coupling[mqt, 
         {Index[i3, Flavor]}, 0], Coupling[mqt, {Index[i4, Flavor]}, 0]}, 
-      {2, 1, 1, 0}])/24 + 
-   (hbar*Bar[Coupling[cHqd, {Index[i2, Flavor], Index[d$$1, Flavor]}, 0]]*
-     Bar[Coupling[cHqd, {Index[i4, Flavor], Index[d$$2, Flavor]}, 0]]*
-     Coupling[cHqd, {Index[i1, Flavor], Index[d$$1, Flavor]}, 0]*
-     Coupling[cHqd, {Index[i3, Flavor], Index[d$$2, Flavor]}, 0]*
-     LF[{Coupling[\[Mu]t, {}, 0], Coupling[mdt, {Index[d$$1, Flavor]}, 0], 
-       Coupling[mdt, {Index[d$$2, Flavor]}, 0]}, {2, 1, 1, -1}])/
-    (16*Coupling[c\[Gamma], {}, 0]^4) - 
+      {2, 1, 1, 0}])/24 - 
    (hbar*Bar[Coupling[cHqd, {Index[i4, Flavor], Index[d$$1, Flavor]}, 0]]*
      Bar[Coupling[cHqu, {Index[i2, Flavor], Index[d$$2, Flavor]}, 0]]*
      Coupling[cHqd, {Index[i3, Flavor], Index[d$$1, Flavor]}, 0]*
@@ -106642,12 +106635,19 @@
        Coupling[mdt, {Index[d$$1, Flavor]}, 0], Coupling[mut, 
         {Index[d$$2, Flavor]}, 0]}, {2, 1, 1, 0}])/
     (8*Coupling[c\[Gamma], {}, 0]^2*Coupling[s\[Gamma], {}, 0]^2) + 
+   (hbar*Bar[Coupling[cHqd, {Index[i2, Flavor], Index[d$$1, Flavor]}, 0]]*
+     Bar[Coupling[cHqd, {Index[i4, Flavor], Index[d$$2, Flavor]}, 0]]*
+     Coupling[cHqd, {Index[i1, Flavor], Index[d$$1, Flavor]}, 0]*
+     Coupling[cHqd, {Index[i3, Flavor], Index[d$$2, Flavor]}, 0]*
+     LF[{Coupling[\[Mu]t, {}, 0], Coupling[mdt, {Index[d$$2, Flavor]}, 0], 
+       Coupling[mdt, {Index[d$$1, Flavor]}, 0]}, {2, 1, 1, -1}])/
+    (16*Coupling[c\[Gamma], {}, 0]^4) + 
    (hbar*Bar[Coupling[cHqu, {Index[i2, Flavor], Index[d$$1, Flavor]}, 0]]*
      Bar[Coupling[cHqu, {Index[i4, Flavor], Index[d$$2, Flavor]}, 0]]*
      Coupling[cHqu, {Index[i1, Flavor], Index[d$$1, Flavor]}, 0]*
      Coupling[cHqu, {Index[i3, Flavor], Index[d$$2, Flavor]}, 0]*
-     LF[{Coupling[\[Mu]t, {}, 0], Coupling[mut, {Index[d$$1, Flavor]}, 0], 
-       Coupling[mut, {Index[d$$2, Flavor]}, 0]}, {2, 1, 1, -1}])/
+     LF[{Coupling[\[Mu]t, {}, 0], Coupling[mut, {Index[d$$2, Flavor]}, 0], 
+       Coupling[mut, {Index[d$$1, Flavor]}, 0]}, {2, 1, 1, -1}])/
     (16*Coupling[s\[Gamma], {}, 0]^4) + 
    (hbar*Coupling[cB2, {}, 0]^2*Coupling[cW2, {}, 0]^2*
      Delta[Index[i1, Flavor], Index[i2, Flavor]]*Delta[Index[i3, Flavor], 

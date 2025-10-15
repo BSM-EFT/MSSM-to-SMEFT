@@ -976,5 +976,5 @@ Module[{\[ScriptCapitalL]free, \[ScriptCapitalL]gauge, \[ScriptCapitalL]SuperPot
 	(* delete internal simplification identities for operators containing superpartners *)
 	Matchete`PackageScope`ResetOperatorAssociations[];
 
-	\[ScriptCapitalL]MSSM
+	DR2MS[\[ScriptCapitalL]MSSM]
 ]

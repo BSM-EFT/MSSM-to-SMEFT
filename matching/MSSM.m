@@ -586,7 +586,7 @@ MSSM`SoftSUSYbreakingMSSM[] := Module[
 (*With soft-SUSY mass basis we refer to the mass eigenstate basis after soft SUSY breaking, but before EWSB.*)
 
 
-(* ::Subsection::Closed:: *)
+(* ::Subsection:: *)
 (*Rotation to mass basis for the Higgs doublets [default]*)
 
 
@@ -618,7 +618,7 @@ MSSM`ToSoftSUSYMassBasis[L_] := Module[
 
 	Lag = CollectOperators[
 		TrigReduce/@Lag,
-		Matchete`Simplifications`PackagePrivate`NormalForm->False
+		Matchete`PackageScope`NormalForm->False
 	];
 	
 	(* * * * * * * * * * *)
@@ -627,21 +627,21 @@ MSSM`ToSoftSUSYMassBasis[L_] := Module[
 	(* light mass *)
 	mLight = CollectOperators[
 		SelectOperatorClass[Lag,{Bar@H,H},0],
-		Matchete`Simplifications`PackagePrivate`NormalForm->False
+		Matchete`PackageScope`NormalForm->False
 	]/._Matchete`PackageScope`Operator->1;
 	(*heavy mass*)
 	mHeavy = CollectOperators[
 		SelectOperatorClass[Lag,{Bar@\[CapitalPhi],\[CapitalPhi]},0],
-		Matchete`Simplifications`PackagePrivate`NormalForm->False
+		Matchete`PackageScope`NormalForm->False
 	]/._Matchete`PackageScope`Operator->1;
 	(*mixed mass*)
 	mLightHeavy = CollectOperators[
 		HcSimplify@SelectOperatorClass[Lag,{Bar@\[CapitalPhi],H},0]/.HcTerms->Identity,
-		Matchete`Simplifications`PackagePrivate`NormalForm->False
+		Matchete`PackageScope`NormalForm->False
 	]/._Matchete`PackageScope`Operator->1;
 	mHeavyLight = CollectOperators[
 		HcSimplify@SelectOperatorClass[Lag,{Bar@\[CapitalPhi],H},0]/.HcTerms->Bar,
-		Matchete`Simplifications`PackagePrivate`NormalForm->False
+		Matchete`PackageScope`NormalForm->False
 	]/._Matchete`PackageScope`Operator->1;
 	
 	(* redefine all the Higgs masses *)
@@ -657,7 +657,7 @@ MSSM`ToSoftSUSYMassBasis[L_] := Module[
 ]
 
 
-(* ::Subsection::Closed:: *)
+(* ::Subsection:: *)
 (*Rotation to Higgs basis [ALTERNATIVE : not default]*)
 
 
@@ -689,28 +689,28 @@ MSSM`ToUnbrokenPhaseHiggsBasis[L_] := Module[
 	
 	Lag = CollectOperators[
 		TrigReduce/@Lag,
-		Matchete`Simplifications`PackagePrivate`NormalForm->False
+		Matchete`PackageScope`NormalForm->False
 	];
 	
 	(* extract current masses *)
 	(* light mass *)
 	mLight = CollectOperators[
 		SelectOperatorClass[Lag,{Bar@H,H},0],
-		Matchete`Simplifications`PackagePrivate`NormalForm->False
+		Matchete`PackageScope`NormalForm->False
 	]/._Matchete`PackageScope`Operator->1;
 	(*heavy mass*)
 	mHeavy = CollectOperators[
 		SelectOperatorClass[Lag,{Bar@\[CapitalPhi],\[CapitalPhi]},0],
-		Matchete`Simplifications`PackagePrivate`NormalForm->False
+		Matchete`PackageScope`NormalForm->False
 	]/._Matchete`PackageScope`Operator->1;
 	(*mixed mass*)
 	mLightHeavy = CollectOperators[
 		HcSimplify@SelectOperatorClass[Lag,{Bar@\[CapitalPhi],H},0]/.HcTerms->Identity,
-		Matchete`Simplifications`PackagePrivate`NormalForm->False
+		Matchete`PackageScope`NormalForm->False
 	]/._Matchete`PackageScope`Operator->1;
 	mHeavyLight = CollectOperators[
 		HcSimplify@SelectOperatorClass[Lag,{Bar@\[CapitalPhi],H},0]/.HcTerms->Bar,
-		Matchete`Simplifications`PackagePrivate`NormalForm->False
+		Matchete`PackageScope`NormalForm->False
 	]/._Matchete`PackageScope`Operator->1;
 	
 	(* redefine all the Higgs masses *)
@@ -923,6 +923,7 @@ Module[{\[ScriptCapitalL]free, \[ScriptCapitalL]gauge, \[ScriptCapitalL]SuperPot
 
 	(* delete internal simplification identities for operators containing superpartners *)
 	Matchete`PackageScope`ResetOperatorAssociations[];
-
-	\[ScriptCapitalL]MSSM
+	
+	(* convert DRbar Lagrangian to an MSbar Lagrangian *)
+	DR2MS[\[ScriptCapitalL]MSSM]
 ]
