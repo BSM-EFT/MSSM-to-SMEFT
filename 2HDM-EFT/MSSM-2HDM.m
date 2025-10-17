@@ -5,8 +5,12 @@
 
 
 (* ::Subtitle:: *)
-(*Works  on  Matchete  release v0.3.0*)
-(*[ https://gitlab.com/matchete/matchete/-/tree/v0.3.0 ]*)
+(*Works  on  Matchete  release v0.3.2*)
+(*[ https://gitlab.com/matchete/matchete/-/tree/v0.3.2 ]*)
+
+
+(* checks the Matchete version for compatibility *)
+Matchete`PackageScope`CheckVersionCompatibility["0.3.2"];
 
 
 (* ::Chapter:: *)

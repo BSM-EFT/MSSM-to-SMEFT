@@ -8,7 +8,11 @@ Concretely we provide:
 
 - the implementation of the MSSM in Matchete (see folder [matching](matching)); 
 - the full matching results in the form of Mathematica and PDF files  (folder [matching-results](matching-results));
-- example Mathematica notebooks showing how to use these results (folder [examples](examples)).
+- example Mathematica notebooks showing how to use these results (folder [examples](examples));
+- setup for matching the MSSM onto the 2 Higgs doublet model EFT (see folder [2HDM-EFT](2HDM-EFT)), which contains:
+    * the Matchete implementation of the MSSM with two light Higg;
+    * the Matchete implementation of a [2HDM-EFT basis](https://arxiv.org/abs/2405.20511);
+    * full matching results for this scenario in the form of Mathematica and PDF files.
 
 The matching is performed up to dimension six at a single scale $\bar\mu$, with the masses of all BSM states kept generic and non-degenerate.  
-*Note that the code provided here requires [Matchete v0.3.0](https://gitlab.com/matchete/matchete/tree/v0.3.0) or higher!*  
+*Note that the code provided here requires [Matchete v0.3.2](https://gitlab.com/matchete/matchete/tree/v0.3.2) or higher!*  

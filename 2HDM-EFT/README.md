@@ -1,9 +1,11 @@
-# MSSM-to-SMEFT matching
-This directory contains three files which allow the one-loop matching of the MSSM onto the Warsaw basis:
+# MSSM to 2HDM-EFT matching
+This directory contains four files which allow the one-loop matching of the MSSM onto the 2 Higgs Doublet Model (2HDM) EFT:
 
-- the Matchte model file containing all model defintions (`MSSM.m`);
-- two Mathematics notebooks for performing the matching and mapping onto the Warsaw basis: the notebook `MSSM-matching.nb` provides a compact code for the matching, whereas `MSSM-matching-detailed.nb` offers a more detailed step-by-step discussion of the indiviual matching parts.
+- the Matchte model file containing all model defintions of the MSSM with twoo light Higgs (`MSSM-2HDM.m`);
+- the Matchte model file for the 2HDM (`2HDM.m`);
+- the Matchte model file for the EFT extension of the 2HDM provided in \[[2405.20511](https://arxiv.org/abs/2405.20511)\] (`2HDMEFT.m`);
+- a Mathematica notebook for performing the matching and mapping onto the 2HDM-EFT basis (`MSSM-2HDM-matching.nb`).
 
-The matching results obtained with these files can be found in the directory [../matching-results/Mathematica](../matching-results/Mathematica).
+The matching results obtained with these files can be found in the directory [matching-results/](matching-results/).
 
-*Notice that these files have been created for Matchete v0.3.0 and are not compatible with earlier versions of the program.*
+*Notice that these files have been created for Matchete v0.3.2 and are not compatible with earlier versions of the program.*
