@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    288584,       4696]
-NotebookOptionsPosition[    285948,       4648]
-NotebookOutlinePosition[    286515,       4666]
-CellTagsIndexPosition[    286472,       4663]
+NotebookDataLength[    288541,       4696]
+NotebookOptionsPosition[    285905,       4648]
+NotebookOutlinePosition[    286472,       4666]
+CellTagsIndexPosition[    286429,       4663]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -4635,10 +4635,10 @@ Cell[BoxData[{
    RowBox[{"FileNameJoin", "[", 
     RowBox[{"{", 
      RowBox[{
-      RowBox[{"NotebookDirectory", "[", "]"}], ",", "\"\<PDF\>\"", ",", 
-      "\"\<_loop-function_definition.pdf\>\""}], "}"}], "]"}], ",", 
-   RowBox[{"%", "//", "TableForm"}]}], "]"}]}], "Input",
- CellLabel->"In[14]:=",ExpressionUUID->"e57dacb8-27d3-4df5-83a5-eb6054d9832f"],
+      RowBox[{"NotebookDirectory", "[", "]"}], ",", 
+      "\"\<loop-function_definition.pdf\>\""}], "}"}], "]"}], ",", 
+   RowBox[{"%", "//", "TableForm"}]}], "]"}]}], "Input",ExpressionUUID->\
+"e57dacb8-27d3-4df5-83a5-eb6054d9832f"],
 
 Cell[BoxData["\<\"/Users/fwilsch/Repositories/MSSM-to-SMEFT/matching-results/\
 PDF/_loop-function_definition.pdf\"\>"], "Output",
@@ -4694,8 +4694,8 @@ Cell[20802, 497, 263902, 4109, 2584, "Output",ExpressionUUID->"e7caf9a8-0efe-48b
 Cell[CellGroupData[{
 Cell[284753, 4612, 165, 3, 95, "Section",ExpressionUUID->"d81fedf9-069c-417a-bb94-58e11dfa51af"],
 Cell[CellGroupData[{
-Cell[284943, 4619, 766, 21, 109, "Input",ExpressionUUID->"e57dacb8-27d3-4df5-83a5-eb6054d9832f"],
-Cell[285712, 4642, 208, 2, 45, "Output",ExpressionUUID->"a71a85e9-acb8-46e2-9fd3-28a50b8a5947"]
+Cell[284943, 4619, 723, 21, 109, "Input",ExpressionUUID->"e57dacb8-27d3-4df5-83a5-eb6054d9832f"],
+Cell[285669, 4642, 208, 2, 45, "Output",ExpressionUUID->"a71a85e9-acb8-46e2-9fd3-28a50b8a5947"]
 }, Open  ]]
 }, Open  ]]
 }

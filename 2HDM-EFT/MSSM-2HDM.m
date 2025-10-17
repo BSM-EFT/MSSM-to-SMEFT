@@ -9,8 +9,15 @@
 (*[ https://gitlab.com/matchete/matchete/-/tree/v0.3.2 ]*)
 
 
-(* checks the Matchete version for compatibility *)
+(* ::Text:: *)
+(*Check the Matchete version for compatibility*)
+
+
 Matchete`PackageScope`CheckVersionCompatibility["0.3.2"];
+
+
+General::invalidverion="Your Matchete version is not compatible with this model file, which requires v0.3.2. You can update the code using CheckForUpdate[].";
+If[!Matchete`PackageScope`Defined[Matchete`DR2MS],Message[General::invalidverion]];
 
 
 (* ::Chapter:: *)

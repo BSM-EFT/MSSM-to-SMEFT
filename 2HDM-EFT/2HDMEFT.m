@@ -4,6 +4,16 @@
 (*2HDMEFT model file*)
 
 
+(* ::Text:: *)
+(*If you use this model file, please cite: *)
+(*"SUSY meets SMEFT: Complete one-loop matching of the general MSSM",*)
+(*Sabine Kraml, Andre Lessa, Suraj Prakash, and Felix Wilsch [2506.05201]*)
+
+
+(* ::Text:: *)
+(*For using this EFT basis in combination with MapEffectiveCouplings Matchete v0.3.2 or newer is required.*)
+
+
 ParentModel["2HDM"]
 
 

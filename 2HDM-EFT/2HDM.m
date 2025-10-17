@@ -4,6 +4,12 @@
 (*2HDM model file*)
 
 
+(* ::Text:: *)
+(*If you use this model file, please cite: *)
+(*"SUSY meets SMEFT: Complete one-loop matching of the general MSSM",*)
+(*Sabine Kraml, Andre Lessa, Suraj Prakash, and Felix Wilsch [2506.05201]*)
+
+
 (* ::Section:: *)
 (*Gauge groups and flavors*)
 

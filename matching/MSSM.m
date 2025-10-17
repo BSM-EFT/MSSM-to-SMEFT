@@ -9,8 +9,21 @@
 (*[ https://gitlab.com/matchete/matchete/-/tree/v0.3.2 ]*)
 
 
-(* checks the Matchete version for compatibility *)
+(* ::Text:: *)
+(*If you use this model file, please cite: *)
+(*"SUSY meets SMEFT: Complete one-loop matching of the general MSSM",*)
+(*Sabine Kraml, Andre Lessa, Suraj Prakash, and Felix Wilsch [2506.05201]*)
+
+
+(* ::Text:: *)
+(*Check the Matchete version for compatibility*)
+
+
 Matchete`PackageScope`CheckVersionCompatibility["0.3.2"];
+
+
+General::invalidverion="Your Matchete version is not compatible with this model file, which requires v0.3.2. You can update the code using CheckForUpdate[].";
+If[!Matchete`PackageScope`Defined[Matchete`DR2MS],Message[General::invalidverion]];
 
 
 (* ::Chapter:: *)

@@ -6,4 +6,4 @@ This directory contains three files which allow the one-loop matching of the MSS
 
 The matching results obtained with these files can be found in the directory [../matching-results/Mathematica](../matching-results/Mathematica).
 
-*Notice that these files have been created for Matchete v0.3.0 and are not compatible with earlier versions of the program.*
+*Notice that these files have been created for Matchete v0.3.2 and are not compatible with earlier versions of the program.*
