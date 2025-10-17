@@ -5,9 +5,25 @@
 
 
 (* ::Text:: *)
-(*If you use this model file, please cite: *)
+(*This file provides the Lagrangian of the 2 Higgs doublet model (2HDMs).*)
+
+
+(* ::Text:: *)
+(*Author: Felix Wilsch*)
+(*E-Mail: felix.wilsch@physik.rwth-aachen.de*)
+(*Date (created): 17.10.2025*)
+
+
+(* ::Text:: *)
+(*Change log (current version v1):*)
+(* - v1: initial release.*)
+
+
+(* ::Text:: *)
+(*If you use this Matchete model file implementation, please also cite: *)
 (*"SUSY meets SMEFT: Complete one-loop matching of the general MSSM",*)
-(*Sabine Kraml, Andre Lessa, Suraj Prakash, and Felix Wilsch [2506.05201]*)
+(*Sabine Kraml, Andre Lessa, Suraj Prakash, and Felix Wilsch,*)
+(*[arXiv:2506.05201].*)
 
 
 (* ::Section:: *)

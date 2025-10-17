@@ -4,15 +4,34 @@
 (*MSSM model file*)
 
 
-(* ::Subtitle:: *)
-(*Works  on  Matchete  release v0.3.2*)
-(*[ https://gitlab.com/matchete/matchete/-/tree/v0.3.2 ]*)
+(* ::Text:: *)
+(*This file provides the a Matchete model file for the Minimal Supersymmetric Standard Model (MSSM), either in the mass basis before electroweak symmetry breaking or in the Higgs basis.*)
+(*The Lagrangian is implemented in the MS-bar scheme, including the finite SUSY-restoring counterterms that originate from the scheme transformation from DR-bar to MS-bar.*)
 
 
 (* ::Text:: *)
-(*If you use this model file, please cite: *)
+(*Author: Felix Wilsch*)
+(*E-Mail: felix.wilsch@physik.rwth-aachen.de*)
+(*Date (created): June 05, 2025*)
+(*Date (last modified): October 17, 2025*)
+
+
+(* ::Text:: *)
+(*Change log (current version v2):*)
+(* - v2: added DR-MS scheme change counterterms and auxiliary information.*)
+(* - v1: initial release.*)
+
+
+(* ::Text:: *)
+(*If you use this Matchete model file implementation, please also cite: *)
 (*"SUSY meets SMEFT: Complete one-loop matching of the general MSSM",*)
-(*Sabine Kraml, Andre Lessa, Suraj Prakash, and Felix Wilsch [2506.05201]*)
+(*Sabine Kraml, Andre Lessa, Suraj Prakash, and Felix Wilsch,*)
+(*[arXiv:2506.05201].*)
+
+
+(* ::Subtitle:: *)
+(*Works  on  Matchete  release v0.3.2*)
+(*[ https://gitlab.com/matchete/matchete/-/tree/v0.3.2 ]*)
 
 
 (* ::Text:: *)

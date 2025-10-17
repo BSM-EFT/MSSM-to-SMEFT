@@ -5,13 +5,37 @@
 
 
 (* ::Text:: *)
-(*If you use this model file, please cite: *)
-(*"SUSY meets SMEFT: Complete one-loop matching of the general MSSM",*)
-(*Sabine Kraml, Andre Lessa, Suraj Prakash, and Felix Wilsch [2506.05201]*)
+(*This file provides the a dimensions six EFT basis for 2 Higgs doublet models (2HDMs).*)
 
 
 (* ::Text:: *)
-(*For using this EFT basis in combination with MapEffectiveCouplings Matchete v0.3.2 or newer is required.*)
+(*Notice: For using this EFT basis in combination with MapEffectiveCouplings Matchete v0.3.2 or newer is required!*)
+
+
+(* ::Text:: *)
+(*Author: Felix Wilsch*)
+(*E-Mail: felix.wilsch@physik.rwth-aachen.de*)
+(*Date (created): 17.10.2025*)
+
+
+(* ::Text:: *)
+(*Change log (current version v1):*)
+(* - v1: initial release.*)
+
+
+(* ::Text:: *)
+(*This operator basis was first derived in: *)
+(*"Two-Higgs Doublet Model Effective Field Theory", *)
+(*Radovan Dermisek and Keith Hermanek, *)
+(*Phys.Rev.D 110 (2024) 3, 035026, *)
+(*[arXiv:2405.20511].*)
+
+
+(* ::Text:: *)
+(*If you use this Matchete model file implementation, please also cite: *)
+(*"SUSY meets SMEFT: Complete one-loop matching of the general MSSM",*)
+(*Sabine Kraml, Andre Lessa, Suraj Prakash, and Felix Wilsch,*)
+(*[arXiv:2506.05201].*)
 
 
 ParentModel["2HDM"]
@@ -43,7 +67,7 @@ DefineCoupling[c\[Nu]\[Nu]\[Phi]12,
 (* is the last symmetry really absent? *)
 
 
-(* ::Subsection:: *)
+(* ::Subsection::Closed:: *)
 (*d=6*)
 
 
@@ -318,32 +342,6 @@ Module[
 		+ PlusHc[c\[Phi]ud11[p,r] I Bar@\[Epsilon]SU2L[i,j] \[Phi]1[i] CD[\[Nu],\[Phi]1[j]] Bar@u[\[Alpha],p]**\[Gamma][\[Nu]]**d[\[Alpha],r]]
 		+ PlusHc[c\[Phi]ud22[p,r] I Bar@\[Epsilon]SU2L[i,j] \[Phi]2[i] CD[\[Nu],\[Phi]2[j]] Bar@u[\[Alpha],p]**\[Gamma][\[Nu]]**d[\[Alpha],r]]
 		+ PlusHc[c\[Phi]ud12[p,r] Bar@\[Epsilon]SU2L[i,j] HermitianCD[\[Nu],\[Phi]2[i],\[Phi]1[j]] Bar@u[\[Alpha],p]**\[Gamma][\[Nu]]**d[\[Alpha],r]];
-	
-	(* modified version below *)
-	(*Lag6\[Psi]2\[Phi]2D = c\[Phi]e11[p,r] HermitianCD[\[Nu], Bar@\[Phi]1[i], \[Phi]1[i]] Bar@e[p]**\[Gamma][\[Nu]]**e[r]
-		+ c\[Phi]e22[p,r] HermitianCD[\[Nu], Bar@\[Phi]2[i],\[Phi]2[i]] Bar@e[p]**\[Gamma][\[Nu]]**e[r]
-		+ PlusHc[c\[Phi]e12[p,r]  Bar@\[Phi]1[i]CD[\[Nu],\[Phi]2[i]] Bar@e[p]**\[Gamma][\[Nu]]**e[r]]
-		+ c\[Phi]l111[p,r] HermitianCD[\[Nu], Bar@\[Phi]1[i],\[Phi]1[i]] Bar@l[j,p]**\[Gamma][\[Nu]]**l[j,r]
-		+ c\[Phi]l221[p,r] HermitianCD[\[Nu], Bar@\[Phi]2[i],\[Phi]2[i]] Bar@l[j,p]**\[Gamma][\[Nu]]**l[j,r]
-		+ PlusHc[c\[Phi]l121[p,r] Bar@\[Phi]1[i]CD[\[Nu],\[Phi]2[i]] Bar@l[j,p]**\[Gamma][\[Nu]]**l[j,r]]
-		+ c\[Phi]l113[p,r] HermitianCD[\[Nu],Bar@\[Phi]1[i],\[Tau]SU2L[J,i,j] \[Phi]1[j]] \[Tau]SU2L[J,k,m] Bar@l[k,p]**\[Gamma][\[Nu]]**l[m,r]
-		+ c\[Phi]l223[p,r] HermitianCD[\[Nu],Bar@\[Phi]2[i],\[Tau]SU2L[J,i,j] \[Phi]2[j]] \[Tau]SU2L[J,k,m] Bar@l[k,p]**\[Gamma][\[Nu]]**l[m,r]
-		+ PlusHc[c\[Phi]l123[p,r] Bar@\[Phi]1[i]\[Tau]SU2L[J,i,j] CD[\[Nu],\[Phi]2[j]] \[Tau]SU2L[J,k,m] Bar@l[k,p]**\[Gamma][\[Nu]]**l[m,r]]
-		+ c\[Phi]d11[p,r] HermitianCD[\[Nu],Bar@\[Phi]1[i],\[Phi]1[i]] Bar@d[\[Alpha],p]**\[Gamma][\[Nu]]**d[\[Alpha],r]
-		+ c\[Phi]d22[p,r] HermitianCD[\[Nu],Bar@\[Phi]2[i],\[Phi]2[i]] Bar@d[\[Alpha],p]**\[Gamma][\[Nu]]**d[\[Alpha],r]
-		+ PlusHc[c\[Phi]d12[p,r] Bar@\[Phi]1[i]CD[\[Nu],\[Phi]2[i]] Bar@d[\[Alpha],p]**\[Gamma][\[Nu]]**d[\[Alpha],r]]
-		+ c\[Phi]u11[p,r] HermitianCD[\[Nu],Bar@\[Phi]1[i],\[Phi]1[i]] Bar@u[\[Alpha],p]**\[Gamma][\[Nu]]**u[\[Alpha],r]
-		+ c\[Phi]u22[p,r] HermitianCD[\[Nu],Bar@\[Phi]2[i],\[Phi]2[i]] Bar@u[\[Alpha],p]**\[Gamma][\[Nu]]**u[\[Alpha],r]
-		+ PlusHc[c\[Phi]u12[p,r] Bar@\[Phi]1[i]CD[\[Nu],\[Phi]2[i]] Bar@u[\[Alpha],p]**\[Gamma][\[Nu]]**u[\[Alpha],r]]
-		+ c\[Phi]q111[p,r] HermitianCD[\[Nu],Bar@\[Phi]1[i],\[Phi]1[i]] Bar@q[\[Alpha],j,p]**\[Gamma][\[Nu]]**q[\[Alpha],j,r]
-		+ c\[Phi]q221[p,r] HermitianCD[\[Nu],Bar@\[Phi]2[i],\[Phi]2[i]] Bar@q[\[Alpha],j,p]**\[Gamma][\[Nu]]**q[\[Alpha],j,r]
-		+ PlusHc[c\[Phi]q121[p,r] Bar@\[Phi]1[i]CD[\[Nu],\[Phi]2[i]] Bar@q[\[Alpha],j,p]**\[Gamma][\[Nu]]**q[\[Alpha],j,r]]
-		+ c\[Phi]q113[p,r] HermitianCD[\[Nu],Bar@\[Phi]1[i],\[Tau]SU2L[J,i,j] \[Phi]1[j]] \[Tau]SU2L[J,k,m] Bar@q[\[Alpha],k,p]**\[Gamma][\[Nu]]**q[\[Alpha],m,r]
-		+ c\[Phi]q223[p,r] HermitianCD[\[Nu],Bar@\[Phi]2[i],\[Tau]SU2L[J,i,j] \[Phi]2[j]] \[Tau]SU2L[J,k,m] Bar@q[\[Alpha],k,p]**\[Gamma][\[Nu]]**q[\[Alpha],m,r]
-		+ PlusHc[c\[Phi]q123[p,r] HermitianCD[\[Nu],Bar@\[Phi]1[i],\[Tau]SU2L[J,i,j] \[Phi]2[j]] \[Tau]SU2L[J,k,m] Bar@q[\[Alpha],k,p]**\[Gamma][\[Nu]]**q[\[Alpha],m,r]]
-		+ PlusHc[c\[Phi]ud11[p,r] I Bar@\[Epsilon]SU2L[i,j] \[Phi]1[i] CD[\[Nu],\[Phi]1[j]] Bar@u[\[Alpha],p]**\[Gamma][\[Nu]]**d[\[Alpha],r]]
-		+ PlusHc[c\[Phi]ud22[p,r] I Bar@\[Epsilon]SU2L[i,j] \[Phi]2[i] CD[\[Nu],\[Phi]2[j]] Bar@u[\[Alpha],p]**\[Gamma][\[Nu]]**d[\[Alpha],r]]
-		+ PlusHc[c\[Phi]ud12[p,r] Bar@\[Epsilon]SU2L[i,j] \[Phi]2[i]CD[\[Nu],\[Phi]1[j]] Bar@u[\[Alpha],p]**\[Gamma][\[Nu]]**d[\[Alpha],r]];*)
 		
 	Lag6X3 = cG[] fSU3c[A,C,D] FS[G, \[Nu], \[Rho], A] FS[G, \[Rho], \[Theta], C] FS[G, \[Theta], \[Nu], D]/gs[]^3
 		+ 1/2 cGt[] LCTensor[\[Nu],\[Rho],\[Eta],\[Kappa]]fSU3c[A,C,D] FS[G, \[Eta], \[Kappa], A] FS[G, \[Rho], \[Theta], C] FS[G, \[Theta], \[Nu], D]/gs[]^3
@@ -388,29 +386,7 @@ Module[
 		- PlusHc[c\[Phi]D2121[]HermitianCD[\[Nu],Bar@\[Phi]2[i],\[Phi]1[i]]HermitianCD[\[Nu],Bar@\[Phi]2[j],\[Phi]1[j]]]
 		- c\[Phi]D2112[]HermitianCD[\[Nu],Bar@\[Phi]2[i],\[Phi]1[i]]HermitianCD[\[Nu],Bar@\[Phi]1[j],\[Phi]2[j]]
 		- PlusHc[c\[Phi]D2111[]HermitianCD[\[Nu],Bar@\[Phi]2[i],\[Phi]1[i]]HermitianCD[\[Nu],Bar@\[Phi]1[j],\[Phi]1[j]]]
-		- PlusHc[c\[Phi]D2122[]HermitianCD[\[Nu],Bar@\[Phi]2[i],\[Phi]1[i]]HermitianCD[\[Nu],Bar@\[Phi]2[j],\[Phi]2[j]]];
-		
-		
-	(*Lag6\[Phi]4D2 = c\[Phi]PD1111[] Bar@\[Phi]1[i]\[Phi]1[i]CD[{\[Nu]},Bar@\[Phi]1[j]]CD[{\[Nu]},\[Phi]1[j]]
-		+ c\[Phi]D1111[]CD[{\[Nu]},Bar@\[Phi]1[i]]\[Phi]1[i]Bar@\[Phi]1[j]CD[{\[Nu]},\[Phi]1[j]]
-		
-		+ c\[Phi]PD2222[] Bar@\[Phi]2[i]\[Phi]2[i]CD[{\[Nu]},Bar@\[Phi]2[j]]CD[{\[Nu]},\[Phi]2[j]]
-		+ c\[Phi]D2222[]CD[{\[Nu]},Bar@\[Phi]2[i]]\[Phi]2[i]Bar@\[Phi]2[j]CD[{\[Nu]},\[Phi]2[j]]
-		
-		+ c\[Phi]PD1122[] CD[{\[Nu]},Bar@\[Phi]1[i]]CD[{\[Nu]},\[Phi]1[i]]Bar@\[Phi]2[j]\[Phi]2[j]
-		+ c\[Phi]D1122[](Bar@\[Phi]1[i]CD[{\[Nu]},\[Phi]1[i]]CD[{\[Nu]},Bar@\[Phi]2[j]]\[Phi]2[j] + CD[{\[Nu]},Bar@\[Phi]1[i]]\[Phi]1[i]Bar@\[Phi]2[j]CD[{\[Nu]},\[Phi]2[j]])
-		+ c\[Phi]PD2112[] (CD[{\[Nu]},Bar@\[Phi]2[i]]\[Phi]1[i]Bar@\[Phi]1[j]CD[{\[Nu]},\[Phi]2[j]])
-		+ c\[Phi]D2112[](CD[{\[Nu]},Bar@\[Phi]2[i]]\[Phi]1[i]CD[{\[Nu]},Bar@\[Phi]1[j]]\[Phi]2[j] + Bar@\[Phi]2[i]CD[{\[Nu]},\[Phi]1[i]]Bar@\[Phi]1[j]CD[{\[Nu]},\[Phi]2[j]])
-		
-		+ PlusHc[c\[Phi]PD2121[] CD[{\[Nu]},Bar@\[Phi]2[i]]\[Phi]1[i]Bar@\[Phi]2[j]CD[{\[Nu]},\[Phi]1[j]]]
-		+ PlusHc[c\[Phi]D2121[]CD[{\[Nu]},Bar@\[Phi]2[i]]\[Phi]1[i]CD[{\[Nu]},Bar@\[Phi]2[j]]\[Phi]1[j]]
-		
-		+ PlusHc[c\[Phi]PD2111[] CD[{\[Nu]},Bar@\[Phi]2[i]]\[Phi]1[i]CD[{\[Nu]},Bar@\[Phi]1[j]]\[Phi]1[j]]
-		+ PlusHc[c\[Phi]D2111[]CD[{\[Nu]},Bar@\[Phi]2[i]]CD[{\[Nu]},\[Phi]1[i]]Bar@\[Phi]1[j]\[Phi]1[j]]
-		
-		+ PlusHc[c\[Phi]PD2122[] Bar@\[Phi]2[i]CD[{\[Nu]},\[Phi]1[i]]Bar@\[Phi]2[j]CD[{\[Nu]},\[Phi]2[j]]]
-		+ PlusHc[c\[Phi]D2122[]Bar@\[Phi]2[i]\[Phi]1[i]CD[{\[Nu]},Bar@\[Phi]2[j]]CD[{\[Nu]},\[Phi]2[j]]];*)
-		
+		- PlusHc[c\[Phi]D2122[]HermitianCD[\[Nu],Bar@\[Phi]2[i],\[Phi]1[i]]HermitianCD[\[Nu],Bar@\[Phi]2[j],\[Phi]2[j]]];		
 		
 	Lag6\[Phi]6 = c\[Phi]111111[] (Bar@\[Phi]1[i]\[Phi]1[i]) (Bar@\[Phi]1[j]\[Phi]1[j]) (Bar@\[Phi]1[k]\[Phi]1[k])
 		+ c\[Phi]111122[] (Bar@\[Phi]1[i]\[Phi]1[i]) (Bar@\[Phi]1[j]\[Phi]1[j]) (Bar@\[Phi]2[k]\[Phi]2[k])
@@ -427,37 +403,37 @@ Module[
 		+ PlusHc[c\[Phi]112221[] (Bar@\[Phi]1[i]\[Phi]1[i]) (Bar@\[Phi]2[j]\[Phi]2[j]) (Bar@\[Phi]2[k]\[Phi]1[k])];
 		
 	Lag6\[Psi]4 = cll[p,r,s,t] Bar@l[i,p]**\[Gamma][\[Nu]]**l[i,r] Bar@l[j,s]**\[Gamma][\[Nu]]**l[j,t]
-			+ cqq1[p,r,s,t] Bar@q[\[Alpha],i,p]**\[Gamma][\[Nu]]**q[\[Alpha],i,r] Bar@q[\[Beta],j,s]**\[Gamma][\[Nu]]**q[\[Beta],j,t]
-			+ cqq3[p,r,s,t] \[Tau]SU2L[J,i,j]Bar@q[\[Alpha],i,p]**\[Gamma][\[Nu]]**q[\[Alpha],j,r] \[Tau]SU2L[J,k,m]Bar@q[\[Beta],k,s]**\[Gamma][\[Nu]]**q[\[Beta],m,t]
-			+ clq1[p,r,s,t] Bar@l[i,p]**\[Gamma][\[Nu]]**l[i,r] Bar@q[\[Alpha],j,s]**\[Gamma][\[Nu]]**q[\[Alpha],j,t]
-			+ clq3[p,r,s,t] \[Tau]SU2L[J,i,j]Bar@l[i,p]**\[Gamma][\[Nu]]**l[j,r] \[Tau]SU2L[J,k,m]Bar@q[\[Alpha],k,s]**\[Gamma][\[Nu]]**q[\[Alpha],m,t]
-			+ cee[p,r,s,t] Bar@e[p]**\[Gamma][\[Nu]]**e[r] Bar@e[s]**\[Gamma][\[Nu]]**e[t]
-			+ cuu[p,r,s,t] Bar@u[\[Alpha],p]**\[Gamma][\[Nu]]**u[\[Alpha],r] Bar@u[\[Beta],s]**\[Gamma][\[Nu]]**u[\[Beta],t]
-			+ cdd[p,r,s,t] Bar@d[\[Alpha],p]**\[Gamma][\[Nu]]**d[\[Alpha],r] Bar@d[\[Beta],s]**\[Gamma][\[Nu]]**d[\[Beta],t]
-			+ ceu[p,r,s,t] Bar@e[p]**\[Gamma][\[Nu]]**e[r] Bar@u[\[Alpha],s]**\[Gamma][\[Nu]]**u[\[Alpha],t]
-			+ ced[p,r,s,t] Bar@e[p]**\[Gamma][\[Nu]]**e[r] Bar@d[\[Alpha],s]**\[Gamma][\[Nu]]**d[\[Alpha],t]
-			+ cud1[p,r,s,t] Bar@u[\[Alpha],p]**\[Gamma][\[Nu]]**u[\[Alpha],r] Bar@d[\[Beta],s]**\[Gamma][\[Nu]]**d[\[Beta],t]
-			+ cud8[p,r,s,t] TSU3c[A,\[Alpha],\[Beta]] Bar@u[\[Alpha],p]**\[Gamma][\[Nu]]**u[\[Beta],r] TSU3c[A,\[Delta],\[Kappa]] Bar@d[\[Delta],s]**\[Gamma][\[Nu]]**d[\[Kappa],t]
-			+ cle[p,r,s,t] Bar@l[i,p]**\[Gamma][\[Nu]]**l[i,r] Bar@e[s]**\[Gamma][\[Nu]]**e[t]
-			+ clu[p,r,s,t] Bar@l[i,p]**\[Gamma][\[Nu]]**l[i,r] Bar@u[\[Alpha],s]**\[Gamma][\[Nu]]**u[\[Alpha],t]
-			+ cld[p,r,s,t] Bar@l[i,p]**\[Gamma][\[Nu]]**l[i,r] Bar@d[\[Alpha],s]**\[Gamma][\[Nu]]**d[\[Alpha],t]
-			+ cqe[p,r,s,t] Bar@q[\[Alpha],i,p]**\[Gamma][\[Nu]]**q[\[Alpha],i,r] Bar@e[s]**\[Gamma][\[Nu]]**e[t]
-			+ cqu1[p,r,s,t] Bar@q[\[Alpha],i,p]**\[Gamma][\[Nu]]**q[\[Alpha],i,r] Bar@u[\[Beta],s]**\[Gamma][\[Nu]]**u[\[Beta],t]
-			+ cqu8[p,r,s,t] TSU3c[A,\[Alpha],\[Beta]] Bar@q[\[Alpha],i,p]**\[Gamma][\[Nu]]**q[\[Beta],i,r] TSU3c[A,\[Delta],\[Kappa]] Bar@u[\[Delta],s]**\[Gamma][\[Nu]]**u[\[Kappa],t]
-			+ cqd1[p,r,s,t] Bar@q[\[Alpha],i,p]**\[Gamma][\[Nu]]**q[\[Alpha],i,r] Bar@d[\[Beta],s]**\[Gamma][\[Nu]]**d[\[Beta],t]
-			+ cqd8[p,r,s,t] TSU3c[A,\[Alpha],\[Beta]] Bar@q[\[Alpha],i,p]**\[Gamma][\[Nu]]**q[\[Beta],i,r] TSU3c[A,\[Delta],\[Kappa]] Bar@d[\[Delta],s]**\[Gamma][\[Nu]]**d[\[Kappa],t]
-			+ PlusHc[ 
-				+ cledq[p,r,s,t] Bar@l[i,p]**e[r] Bar@d[\[Alpha],s]**q[\[Alpha],i,t]
-				+ cquqd1[p,r,s,t] Bar@q[\[Alpha],i,p]**u[\[Alpha],r] \[Epsilon]SU2L[i,j] Bar@q[\[Beta],j,s]**d[\[Beta],t]
-				+ cquqd8[p,r,s,t] TSU3c[A,\[Alpha],\[Beta]] Bar@q[\[Alpha],i,p]**u[\[Beta],r] \[Epsilon]SU2L[i,j] TSU3c[A,\[Delta],\[Kappa]] Bar@q[\[Delta],j,s]**d[\[Kappa],t]
-				+ clequ1[p,r,s,t] Bar@l[i,p]**e[r] \[Epsilon]SU2L[i,j] Bar@q[\[Alpha],j,s]**u[\[Alpha],t]
-				+ clequ3[p,r,s,t] Bar@l[i,p]**\[Sigma][\[Nu],\[Rho]]**e[r] \[Epsilon]SU2L[i,j] Bar@q[\[Alpha],j,s]**\[Sigma][\[Nu],\[Rho]]**u[\[Alpha],t]
-			];
+		+ cqq1[p,r,s,t] Bar@q[\[Alpha],i,p]**\[Gamma][\[Nu]]**q[\[Alpha],i,r] Bar@q[\[Beta],j,s]**\[Gamma][\[Nu]]**q[\[Beta],j,t]
+		+ cqq3[p,r,s,t] \[Tau]SU2L[J,i,j]Bar@q[\[Alpha],i,p]**\[Gamma][\[Nu]]**q[\[Alpha],j,r] \[Tau]SU2L[J,k,m]Bar@q[\[Beta],k,s]**\[Gamma][\[Nu]]**q[\[Beta],m,t]
+		+ clq1[p,r,s,t] Bar@l[i,p]**\[Gamma][\[Nu]]**l[i,r] Bar@q[\[Alpha],j,s]**\[Gamma][\[Nu]]**q[\[Alpha],j,t]
+		+ clq3[p,r,s,t] \[Tau]SU2L[J,i,j]Bar@l[i,p]**\[Gamma][\[Nu]]**l[j,r] \[Tau]SU2L[J,k,m]Bar@q[\[Alpha],k,s]**\[Gamma][\[Nu]]**q[\[Alpha],m,t]
+		+ cee[p,r,s,t] Bar@e[p]**\[Gamma][\[Nu]]**e[r] Bar@e[s]**\[Gamma][\[Nu]]**e[t]
+		+ cuu[p,r,s,t] Bar@u[\[Alpha],p]**\[Gamma][\[Nu]]**u[\[Alpha],r] Bar@u[\[Beta],s]**\[Gamma][\[Nu]]**u[\[Beta],t]
+		+ cdd[p,r,s,t] Bar@d[\[Alpha],p]**\[Gamma][\[Nu]]**d[\[Alpha],r] Bar@d[\[Beta],s]**\[Gamma][\[Nu]]**d[\[Beta],t]
+		+ ceu[p,r,s,t] Bar@e[p]**\[Gamma][\[Nu]]**e[r] Bar@u[\[Alpha],s]**\[Gamma][\[Nu]]**u[\[Alpha],t]
+		+ ced[p,r,s,t] Bar@e[p]**\[Gamma][\[Nu]]**e[r] Bar@d[\[Alpha],s]**\[Gamma][\[Nu]]**d[\[Alpha],t]
+		+ cud1[p,r,s,t] Bar@u[\[Alpha],p]**\[Gamma][\[Nu]]**u[\[Alpha],r] Bar@d[\[Beta],s]**\[Gamma][\[Nu]]**d[\[Beta],t]
+		+ cud8[p,r,s,t] TSU3c[A,\[Alpha],\[Beta]] Bar@u[\[Alpha],p]**\[Gamma][\[Nu]]**u[\[Beta],r] TSU3c[A,\[Delta],\[Kappa]] Bar@d[\[Delta],s]**\[Gamma][\[Nu]]**d[\[Kappa],t]
+		+ cle[p,r,s,t] Bar@l[i,p]**\[Gamma][\[Nu]]**l[i,r] Bar@e[s]**\[Gamma][\[Nu]]**e[t]
+		+ clu[p,r,s,t] Bar@l[i,p]**\[Gamma][\[Nu]]**l[i,r] Bar@u[\[Alpha],s]**\[Gamma][\[Nu]]**u[\[Alpha],t]
+		+ cld[p,r,s,t] Bar@l[i,p]**\[Gamma][\[Nu]]**l[i,r] Bar@d[\[Alpha],s]**\[Gamma][\[Nu]]**d[\[Alpha],t]
+		+ cqe[p,r,s,t] Bar@q[\[Alpha],i,p]**\[Gamma][\[Nu]]**q[\[Alpha],i,r] Bar@e[s]**\[Gamma][\[Nu]]**e[t]
+		+ cqu1[p,r,s,t] Bar@q[\[Alpha],i,p]**\[Gamma][\[Nu]]**q[\[Alpha],i,r] Bar@u[\[Beta],s]**\[Gamma][\[Nu]]**u[\[Beta],t]
+		+ cqu8[p,r,s,t] TSU3c[A,\[Alpha],\[Beta]] Bar@q[\[Alpha],i,p]**\[Gamma][\[Nu]]**q[\[Beta],i,r] TSU3c[A,\[Delta],\[Kappa]] Bar@u[\[Delta],s]**\[Gamma][\[Nu]]**u[\[Kappa],t]
+		+ cqd1[p,r,s,t] Bar@q[\[Alpha],i,p]**\[Gamma][\[Nu]]**q[\[Alpha],i,r] Bar@d[\[Beta],s]**\[Gamma][\[Nu]]**d[\[Beta],t]
+		+ cqd8[p,r,s,t] TSU3c[A,\[Alpha],\[Beta]] Bar@q[\[Alpha],i,p]**\[Gamma][\[Nu]]**q[\[Beta],i,r] TSU3c[A,\[Delta],\[Kappa]] Bar@d[\[Delta],s]**\[Gamma][\[Nu]]**d[\[Kappa],t]
+		+ PlusHc[ 
+			+ cledq[p,r,s,t] Bar@l[i,p]**e[r] Bar@d[\[Alpha],s]**q[\[Alpha],i,t]
+			+ cquqd1[p,r,s,t] Bar@q[\[Alpha],i,p]**u[\[Alpha],r] \[Epsilon]SU2L[i,j] Bar@q[\[Beta],j,s]**d[\[Beta],t]
+			+ cquqd8[p,r,s,t] TSU3c[A,\[Alpha],\[Beta]] Bar@q[\[Alpha],i,p]**u[\[Beta],r] \[Epsilon]SU2L[i,j] TSU3c[A,\[Delta],\[Kappa]] Bar@q[\[Delta],j,s]**d[\[Kappa],t]
+			+ clequ1[p,r,s,t] Bar@l[i,p]**e[r] \[Epsilon]SU2L[i,j] Bar@q[\[Alpha],j,s]**u[\[Alpha],t]
+			+ clequ3[p,r,s,t] Bar@l[i,p]**\[Sigma][\[Nu],\[Rho]]**e[r] \[Epsilon]SU2L[i,j] Bar@q[\[Alpha],j,s]**\[Sigma][\[Nu],\[Rho]]**u[\[Alpha],t]
+		];
 		
 	Lag6BNV = cduq[p,r,s,t] Bar@\[Epsilon]SU3c[\[Alpha],\[Beta],\[Delta]]Bar@\[Epsilon]SU2L[i,j] CConj@Bar@d[\[Alpha],p]**u[\[Beta],r] CConj@Bar@q[\[Delta],i,s]**l[j,t]
-			+ cqqu[p,r,s,t] Bar@\[Epsilon]SU3c[\[Alpha],\[Beta],\[Delta]]Bar@\[Epsilon]SU2L[i,j] CConj@Bar@q[\[Alpha],i,p]**q[\[Beta],j,r] CConj@Bar@u[\[Delta],s]**e[t]
-			+ cqqq[p,r,s,t] Bar@\[Epsilon]SU3c[\[Alpha],\[Beta],\[Delta]]Bar@\[Epsilon]SU2L[i,j] Bar@\[Epsilon]SU2L[k,m] CConj@Bar@q[\[Alpha],i,p]**q[\[Beta],k,r] CConj@Bar@q[\[Delta],m,s]**l[j,t]
-			+ cduu[p,r,s,t] Bar@\[Epsilon]SU3c[\[Alpha],\[Beta],\[Delta]] CConj@Bar@d[\[Alpha],p]**u[\[Beta],r] CConj@Bar@u[\[Delta],s]**e[t];
+		+ cqqu[p,r,s,t] Bar@\[Epsilon]SU3c[\[Alpha],\[Beta],\[Delta]]Bar@\[Epsilon]SU2L[i,j] CConj@Bar@q[\[Alpha],i,p]**q[\[Beta],j,r] CConj@Bar@u[\[Delta],s]**e[t]
+		+ cqqq[p,r,s,t] Bar@\[Epsilon]SU3c[\[Alpha],\[Beta],\[Delta]]Bar@\[Epsilon]SU2L[i,j] Bar@\[Epsilon]SU2L[k,m] CConj@Bar@q[\[Alpha],i,p]**q[\[Beta],k,r] CConj@Bar@q[\[Delta],m,s]**l[j,t]
+		+ cduu[p,r,s,t] Bar@\[Epsilon]SU3c[\[Alpha],\[Beta],\[Delta]] CConj@Bar@d[\[Alpha],p]**u[\[Beta],r] CConj@Bar@u[\[Delta],s]**e[t];
 
 	Lag= PlusHc[Lag5] + PlusHc[Lag6\[Psi]2\[Phi]3] + PlusHc[Lag6\[Psi]2X\[Phi]] + Lag6\[Psi]2\[Phi]2D + Lag6X3 + Lag6X2\[Phi]2 + Lag6\[Phi]4D2 + Lag6\[Phi]6 + Lag6\[Psi]4 + PlusHc[Lag6BNV];
 	
