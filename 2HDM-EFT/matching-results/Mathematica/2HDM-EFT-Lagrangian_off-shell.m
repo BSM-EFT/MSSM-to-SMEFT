@@ -3227,8 +3227,8 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
   Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   Field[\[Phi]1, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
   ((-Coupling[g1, {}, 0]^2 - Coupling[g2, {}, 0]^2)/8 + 
-   hbar*((-3*Coupling[g1, {}, 0]^4 - 6*Coupling[g1, {}, 0]^2*
-        Coupling[g2, {}, 0]^2 - 7*Coupling[g2, {}, 0]^4)/24 + 
+   hbar*((3*Coupling[g1, {}, 0]^4 + 6*Coupling[g1, {}, 0]^2*
+        Coupling[g2, {}, 0]^2 + 7*Coupling[g2, {}, 0]^4)/24 + 
      (Coupling[g1, {}, 0]^4 - Coupling[g2, {}, 0]^4/2 - 
        (3*Bar[Coupling[yu, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
          Coupling[g2, {}, 0]^2*Coupling[yu, {Index[d$$1, Flavor], 
@@ -3353,8 +3353,8 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
   Field[\[Phi]1, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
   Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   (Coupling[g2, {}, 0]^2/2 + 
-   hbar*(-1/6*(Coupling[g2, {}, 0]^2*(3*Coupling[g1, {}, 0]^2 + 
-        2*Coupling[g2, {}, 0]^2)) + 
+   hbar*((Coupling[g2, {}, 0]^2*(3*Coupling[g1, {}, 0]^2 + 
+        2*Coupling[g2, {}, 0]^2))/6 + 
      (-2*Coupling[g1, {}, 0]^2*Coupling[g2, {}, 0]^2 - 
        Coupling[g2, {}, 0]^4 + (Coupling[g2, {}, 0]^2*
          (3*Bar[Coupling[yd, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
@@ -3527,8 +3527,8 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
   Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
   ((Coupling[g1, {}, 0]^2 - Coupling[g2, {}, 0]^2)/4 + 
-   hbar*((-3*Coupling[g1, {}, 0]^4 + 6*Coupling[g1, {}, 0]^2*
-        Coupling[g2, {}, 0]^2 - 5*Coupling[g2, {}, 0]^4)/24 + 
+   hbar*((3*Coupling[g1, {}, 0]^4 - 6*Coupling[g1, {}, 0]^2*
+        Coupling[g2, {}, 0]^2 + 5*Coupling[g2, {}, 0]^4)/24 + 
      (-3*Coupling[g1, {}, 0]^4 - Coupling[g2, {}, 0]^4 - 
        (Coupling[g2, {}, 0]^2*(3*Bar[Coupling[yd, {Index[d$$1, Flavor], 
               Index[d$$2, Flavor]}, 0]]*Coupling[yd, {Index[d$$1, Flavor], 
@@ -3753,8 +3753,8 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
   Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
   ((-Coupling[g1, {}, 0]^2 - Coupling[g2, {}, 0]^2)/8 + 
-   hbar*((-3*Coupling[g1, {}, 0]^4 - 6*Coupling[g1, {}, 0]^2*
-        Coupling[g2, {}, 0]^2 - 7*Coupling[g2, {}, 0]^4)/24 + 
+   hbar*((3*Coupling[g1, {}, 0]^4 + 6*Coupling[g1, {}, 0]^2*
+        Coupling[g2, {}, 0]^2 + 7*Coupling[g2, {}, 0]^4)/24 + 
      (Coupling[g1, {}, 0]^4 - Coupling[g2, {}, 0]^4/2 + 
        3*Bar[Coupling[yd, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
         Bar[Coupling[yd, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 0]]*
@@ -33006,7 +33006,7 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
  Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   (Bar[Coupling[yd, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]] + 
    hbar*((Bar[Coupling[yd, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
-       (Coupling[g1, {}, 0]^2 + 3*Coupling[g2, {}, 0]^2))/(2*\[Epsilon]) + 
+       (Coupling[g1, {}, 0]^2 + 3*Coupling[g2, {}, 0]^2))/(2*\[Epsilon]) - 
      (Bar[Coupling[yd, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
        (13*Coupling[g1, {}, 0]^2 + 27*Coupling[g2, {}, 0]^2 - 
         96*Coupling[g3, {}, 0]^2))/72 - 
@@ -39514,7 +39514,7 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
  Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   (Bar[Coupling[ye, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]] + 
    hbar*((3*Bar[Coupling[ye, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
-       (-Coupling[g1, {}, 0]^2 + Coupling[g2, {}, 0]^2))/8 + 
+       (Coupling[g1, {}, 0]^2 - Coupling[g2, {}, 0]^2))/8 + 
      (Bar[Coupling[ye, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
        (Coupling[g1, {}, 0]^2 + 3*Coupling[g2, {}, 0]^2))/(2*\[Epsilon]) + 
      Bar[Coupling[ae, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
@@ -42865,7 +42865,7 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
    Field[e, Fermion, {Index[d$$1, Flavor]}, {}] + 
  Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   (Coupling[ye, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0] + 
-   hbar*((3*(-Coupling[g1, {}, 0]^2 + Coupling[g2, {}, 0]^2)*
+   hbar*((3*(Coupling[g1, {}, 0]^2 - Coupling[g2, {}, 0]^2)*
        Coupling[ye, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0])/8 + 
      ((Coupling[g1, {}, 0]^2 + 3*Coupling[g2, {}, 0]^2)*
        Coupling[ye, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0])/
@@ -48848,7 +48848,7 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
   (Coupling[yd, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0] + 
    hbar*(((Coupling[g1, {}, 0]^2 + 3*Coupling[g2, {}, 0]^2)*
        Coupling[yd, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0])/
-      (2*\[Epsilon]) + ((13*Coupling[g1, {}, 0]^2 + 
+      (2*\[Epsilon]) - ((13*Coupling[g1, {}, 0]^2 + 
         27*Coupling[g2, {}, 0]^2 - 96*Coupling[g3, {}, 0]^2)*
        Coupling[yd, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0])/72 - 
      (Coupling[ad, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0]*
@@ -53075,7 +53075,7 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
   (-Coupling[yu, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0] + 
    hbar*(-1/2*((Coupling[g1, {}, 0]^2 + 3*Coupling[g2, {}, 0]^2)*
         Coupling[yu, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0])/
-       \[Epsilon] - ((Coupling[g1, {}, 0]^2 + 27*Coupling[g2, {}, 0]^2 - 
+       \[Epsilon] + ((Coupling[g1, {}, 0]^2 + 27*Coupling[g2, {}, 0]^2 - 
         96*Coupling[g3, {}, 0]^2)*Coupling[yu, {Index[d$$2, Flavor], 
          Index[d$$1, Flavor]}, 0])/72 - 
      (2*Coupling[au, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0]*
@@ -65173,7 +65173,7 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
    {Index[d$$2, SU2L[fund]]}, {}]*
   (-Bar[Coupling[yu, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]] + 
    hbar*(-1/2*(Bar[Coupling[yu, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 
-          0]]*(Coupling[g1, {}, 0]^2 + 3*Coupling[g2, {}, 0]^2))/\[Epsilon] - 
+          0]]*(Coupling[g1, {}, 0]^2 + 3*Coupling[g2, {}, 0]^2))/\[Epsilon] + 
      (Bar[Coupling[yu, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
        (Coupling[g1, {}, 0]^2 + 27*Coupling[g2, {}, 0]^2 - 
         96*Coupling[g3, {}, 0]^2))/72 - 
