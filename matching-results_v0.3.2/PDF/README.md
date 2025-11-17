@@ -1,2 +1,0 @@
-# MSSM-to-SMEFT matching results in PDF format
-This directory contains the results of the MSSM-to-SMEFT matching in PDF format. For every Wilson coefficient a separate PDF is provided. In addition, the file [`_tree-level_matching-conditions.pdf`](_tree-level_matching-conditions.pdf) contains a summary of the tree-level matching conditions.
