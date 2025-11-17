@@ -1,23 +1,67 @@
 (* ::Package:: *)
 
 (* ::Title:: *)
-(*MSSM model file*)
+(*MSSM model file for matching onto the 2HDM-EFT*)
+
+
+(* ::Text:: *)
+(*This file provides the a Matchete model file for the Minimal Supersymmetric Standard Model (MSSM), with two light Higgses for matching onto the 2HDM-EFT.*)
+(*The Lagrangian is implemented in the MS-bar scheme, including the finite SUSY-restoring counterterms that originate from the scheme transformation from DR-bar to MS-bar.*)
+
+
+(* ::Text:: *)
+(*Author: Felix Wilsch*)
+(*E-Mail: felix.wilsch@physik.rwth-aachen.de*)
+(*Date (created): November 14, 2025*)
+(*Date (last modified): November 14, 2025*)
+
+
+(* ::Text:: *)
+(*Change log (current version v1):*)
+(* - v1: initial release.*)
+
+
+(* ::Text:: *)
+(*If you use this Matchete model file implementation, please also cite: *)
+(*"SUSY meets SMEFT: Complete one-loop matching of the general MSSM",*)
+(*Sabine Kraml, Andre Lessa, Suraj Prakash, and Felix Wilsch,*)
+(*[arXiv:2506.05201].*)
 
 
 (* ::Subtitle:: *)
-(*Works  on  Matchete  release v0.3.2*)
-(*[ https://gitlab.com/matchete/matchete/-/tree/v0.3.2 ]*)
+(*Works  on  Matchete  release v0.4.0*)
+(*[ https://gitlab.com/matchete/matchete/-/tree/v0.4.0 ]*)
 
 
 (* ::Text:: *)
 (*Check the Matchete version for compatibility*)
 
 
-Matchete`PackageScope`CheckVersionCompatibility["0.3.2"];
+Matchete`PackageScope`CheckVersionCompatibility["0.4.0"];
 
 
 General::invalidverion="Your Matchete version is not compatible with this model file, which requires v0.3.2. You can update the code using CheckForUpdate[].";
 If[!Matchete`PackageScope`Defined[Matchete`DR2MS],Message[General::invalidverion]];
+
+
+(* ::Text:: *)
+(*Add paper to literature*)
+
+
+AddLiterature[
+	"MSSM-SMEFT matching",
+	"Complete one-loop matching of the MSSM onto the SMEFT",
+	"@article{Kraml:2025fpv,
+    author = \"Kraml, Sabine and Lessa, Andre and Prakash, Suraj and Wilsch, Felix\",
+    title = \"{SUSY meets SMEFT: Complete one-loop matching of the general MSSM}\",
+    eprint = \"2506.05201\",
+    archivePrefix = \"arXiv\",
+    primaryClass = \"hep-ph\",
+    reportNumber = \"TTK-25-14, P3H-25-036\",
+    month = \"6\",
+    year = \"2025\"
+}"
+]
 
 
 (* ::Chapter:: *)
@@ -181,7 +225,7 @@ DefineField[Bt, Fermion,
 ];
 
 
-(* ::Subsection:: *)
+(* ::Subsection::Closed:: *)
 (*Higgs sector (2HDM type-II)*)
 
 

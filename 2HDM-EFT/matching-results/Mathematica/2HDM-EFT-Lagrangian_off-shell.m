@@ -32999,10 +32999,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[au, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 0]*
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[mqt, {Index[d$$3, Flavor]}, 0], 
       Coupling[mut, {Index[d$$4, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
-     {1, 1, 1, 0}])*Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[Proj[-1]]**
+     {1, 1, 1, 0}])*NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, Flavor]}, {}]], DiracProduct[Proj[-1]], 
    Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-     Index[d$$1, Flavor]}, {}] + 
+     Index[d$$1, Flavor]}, {}]] + 
  Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   (Bar[Coupling[yd, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]] + 
    hbar*((Bar[Coupling[yd, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
@@ -33036,10 +33036,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[\[Mu]t, {}, 0]^2*LF[{Coupling[mqt, {Index[d$$3, Flavor]}, 0], 
         Coupling[mut, {Index[d$$4, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
        {1, 1, 1, 0}]))*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
- hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, 
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[Proj[-1]], Field[q, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
+    {}]] + hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, 
     {Index[d$$1, Lorentz], Index[d$$1, Lorentz]}]]*
   ((Bar[Coupling[yd, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
      Coupling[g1, {}, 0]^2*Coupling[m1, {}, 0]*Coupling[\[Mu]t, {}, 0]*
@@ -33137,10 +33137,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[\[Mu]t, {}, 0]*LF[{Coupling[mut, {Index[d$$4, Flavor]}, 0], 
        Coupling[\[Mu]t, {}, 0], Coupling[mqt, {Index[d$$3, Flavor]}, 0]}, 
       {2, 2, 1, -1}])/4)*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
- hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, 
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[Proj[-1]], Field[q, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
+    {}]] + hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, 
     {Index[d$$1, Lorentz], Index[d$$1, Lorentz]}]]*
   ((Bar[Coupling[ad, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
      Coupling[g1, {}, 0]^2*Coupling[m1, {}, 0]*
@@ -33235,10 +33235,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[\[Mu]t, {}, 0]^2*LF[{Coupling[mut, {Index[d$$4, Flavor]}, 0], 
        Coupling[\[Mu]t, {}, 0], Coupling[mqt, {Index[d$$3, Flavor]}, 0]}, 
       {2, 2, 1, -1}])/4)*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
- hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[Proj[-1]], Field[q, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
+    {}]] + hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Bar[Field[\[Phi]1, Scalar, {Index[d$$2, SU2L[fund]]}, {}]]*
   Field[\[Phi]1, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
   (-1/3*(Bar[Coupling[yd, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
@@ -33425,10 +33425,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mqt, {Index[d$$5, Flavor]}, 0], Coupling[mut, 
        {Index[d$$4, Flavor]}, 0], Coupling[mut, {Index[d$$6, Flavor]}, 0], 
       Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
- hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[Proj[-1]], Field[q, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
+    {}]] + hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Bar[Field[\[Phi]1, Scalar, {Index[d$$2, SU2L[fund]]}, {}]]*
   Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
   ((Bar[Coupling[yd, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
@@ -33543,10 +33543,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mqt, {Index[d$$5, Flavor]}, 0], Coupling[mut, 
        {Index[d$$4, Flavor]}, 0], Coupling[mut, {Index[d$$6, Flavor]}, 0], 
       Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
- hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[Proj[-1]], Field[q, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
+    {}]] + hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Bar[Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]]*
   Field[\[Phi]1, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
   ((Bar[Coupling[yd, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
@@ -33863,10 +33863,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mqt, {Index[d$$5, Flavor]}, 0], Coupling[mut, 
        {Index[d$$4, Flavor]}, 0], Coupling[mut, {Index[d$$6, Flavor]}, 0], 
       Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
- hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[Proj[-1]], Field[q, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
+    {}]] + hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Bar[Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]]*
   Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
   (-1/3*(Bar[Coupling[yd, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
@@ -34209,10 +34209,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mqt, {Index[d$$5, Flavor]}, 0], Coupling[mut, 
        {Index[d$$4, Flavor]}, 0], Coupling[mut, {Index[d$$6, Flavor]}, 0], 
       Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
- hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[Proj[-1]], Field[q, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
+    {}]] + hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Bar[Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]]*
   Field[\[Phi]1, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
   (-1/3*(Bar[Coupling[yd, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
@@ -34326,10 +34326,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mqt, {Index[d$$5, Flavor]}, 0], Coupling[mut, 
        {Index[d$$4, Flavor]}, 0], Coupling[mut, {Index[d$$6, Flavor]}, 0], 
       Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
- hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[Proj[-1]], Field[q, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
+    {}]] + hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Bar[Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]]*
   Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
   ((Bar[Coupling[yd, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
@@ -34548,10 +34548,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mqt, {Index[d$$5, Flavor]}, 0], Coupling[mut, 
        {Index[d$$4, Flavor]}, 0], Coupling[mut, {Index[d$$6, Flavor]}, 0], 
       Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
- hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[Proj[-1]], Field[q, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
+    {}]] + hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Bar[Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]]*
   Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   ((Bar[Coupling[yd, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
@@ -34894,10 +34894,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mqt, {Index[d$$5, Flavor]}, 0], Coupling[mut, 
        {Index[d$$4, Flavor]}, 0], Coupling[mut, {Index[d$$6, Flavor]}, 0], 
       Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
- hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[Proj[-1]], Field[q, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, 
+    {}]] + hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Bar[Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]]*
   Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   (-1/3*(Bar[Coupling[yd, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
@@ -35218,11 +35218,11 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mqt, {Index[d$$5, Flavor]}, 0], Coupling[mut, 
        {Index[d$$4, Flavor]}, 0], Coupling[mut, {Index[d$$6, Flavor]}, 0], 
       Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}] - 
- hbar*FieldStrength[B, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]}, {}, 
-   {Index[d$$2, Lorentz]}]*
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[Proj[-1]], Field[q, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, 
+    {}]] - hbar*FieldStrength[B, {Index[d$$1, Lorentz], 
+    Index[d$$2, Lorentz]}, {}, {Index[d$$2, Lorentz]}]*
   ((Coupling[g1, {}, 0]^2*Delta[Index[d$$1, Flavor], Index[d$$2, Flavor]]*
      LF[{Coupling[m1, {}, 0], Coupling[mdt, {Index[d$$1, Flavor]}, 0]}, 
       {2, 1, 0}])/81 + (Coupling[g1, {}, 0]^2*Delta[Index[d$$1, Flavor], 
@@ -35277,9 +35277,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[yd, {Index[d$$3, Flavor], Index[d$$1, Flavor]}, 0]*
      LF[{Coupling[\[Mu]t, {}, 0], Coupling[mqt, {Index[d$$3, Flavor]}, 0]}, 
       {4, 1, -2}])/9)*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]*
   ((I/4)*Bar[Coupling[yd, {Index[d$$3, Flavor], Index[d$$2, Flavor]}, 0]]*
@@ -35382,9 +35382,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     LF[{Coupling[\[Mu]t, {}, 0], Coupling[m1, {}, 0], 
       Coupling[mdt, {Index[d$$2, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$3, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, 
     {Index[d$$1, Lorentz]}]]*Field[\[Phi]2, Scalar, 
    {Index[d$$1, SU2L[fund]]}, {}]*
@@ -35488,9 +35488,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], Coupling[m1, {}, 0], 
       Coupling[mdt, {Index[d$$2, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$3, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*((-1/36*I)*Coupling[g1, {}, 0]^4*Delta[Index[d$$1, Flavor], 
      Index[d$$2, Flavor]]*LF[{Coupling[m1, {}, 0], 
       Coupling[mdt, {Index[d$$1, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
@@ -35616,15 +35616,15 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
   (Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, 
       {Index[d$$1, Lorentz]}]]*Field[\[Phi]1, Scalar, 
      {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-       {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-     Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] - 
+    NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+       {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+     Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]] - 
    Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]*
-    Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-       {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-     Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]) + 
- hbar*((I/36)*Coupling[g1, {}, 0]^4*Delta[Index[d$$1, Flavor], 
+    NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+       {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+     Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, 
+      {}]]) + hbar*((I/36)*Coupling[g1, {}, 0]^4*Delta[Index[d$$1, Flavor], 
      Index[d$$2, Flavor]]*LF[{Coupling[m1, {}, 0], 
       Coupling[mdt, {Index[d$$1, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
      {2, 1, 1, -1}] + (I/18)*Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]^2*
@@ -35745,15 +35745,15 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
   (Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, 
       {Index[d$$1, Lorentz]}]]*Field[\[Phi]2, Scalar, 
      {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-       {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-     Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] - 
+    NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+       {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+     Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]] - 
    Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]*
-    Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-       {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-     Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]) + 
- (I*Delta[Index[d$$1, Flavor], Index[d$$2, Flavor]] + 
+    NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+       {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+     Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, 
+      {}]]) + (I*Delta[Index[d$$1, Flavor], Index[d$$2, Flavor]] + 
    hbar*((-1/18*I)*(9*Bar[Coupling[yd, {Index[d$$3, Flavor], 
            Index[d$$2, Flavor]}, 0]]*Coupling[yd, {Index[d$$3, Flavor], 
           Index[d$$1, Flavor]}, 0] + (Coupling[g1, {}, 0]^2 + 
@@ -35782,10 +35782,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
          Index[d$$2, Flavor]}, 0]]*Coupling[yd, {Index[d$$3, Flavor], 
         Index[d$$1, Flavor]}, 0]*LF[{Coupling[\[Mu]t, {}, 0], 
         Coupling[mqt, {Index[d$$3, Flavor]}, 0]}, {2, 1, -1}]))*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
    Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, 
-    {Index[d$$1, Lorentz]}] + 
+    {Index[d$$1, Lorentz]}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   (((-2*I)/9)*Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]*
@@ -36002,10 +36002,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$4, Flavor]}, 0], Coupling[mut, {Index[d$$5, Flavor]}, 0]}, 
      {2, 1, 1, 1, -1}])*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
    Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, 
-    {Index[d$$1, Lorentz]}] + 
+    {Index[d$$1, Lorentz]}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   ((I/9)*Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]*Coupling[\[Mu]t, {}, 0]*
@@ -36212,10 +36212,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$5, Flavor]}, 0], Coupling[mut, {Index[d$$4, Flavor]}, 0]}, 
      {2, 1, 1, 1, -1}])*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
    Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, 
-    {Index[d$$1, Lorentz]}] - 
+    {Index[d$$1, Lorentz]}]] - 
  hbar*CG[gen[SU3c[fund]], {Index[d$$1, SU3c[adj]], Index[d$$1, SU3c[fund]], 
     Bar[Index[d$$2, SU3c[fund]]]}]*FieldStrength[G, 
    {Index[d$$1, Lorentz], Index[d$$2, Lorentz]}, {Index[d$$1, SU3c[adj]]}, 
@@ -36275,9 +36275,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[yd, {Index[d$$3, Flavor], Index[d$$1, Flavor]}, 0]*
      LF[{Coupling[\[Mu]t, {}, 0], Coupling[mqt, {Index[d$$3, Flavor]}, 0]}, 
       {4, 1, -2}])/3)*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[d, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[d, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, 
     {Index[d$$1, Lorentz]}]]*Bar[Field[\[Phi]1, Scalar, 
     {Index[d$$2, SU2L[fund]]}, {}]]*CG[eps[SU2L], 
@@ -36366,9 +36366,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     LF[{Coupling[\[Mu]t, {}, 0], Coupling[m1, {}, 0], 
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
        {Index[d$$1, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, 
     {Index[d$$1, Lorentz]}]]*Bar[Field[\[Phi]2, Scalar, 
     {Index[d$$2, SU2L[fund]]}, {}]]*CG[eps[SU2L], 
@@ -36457,9 +36457,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], Coupling[m1, {}, 0], 
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
        {Index[d$$1, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Bar[Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, 
     {Index[d$$1, Lorentz]}]]*CG[eps[SU2L], {Index[d$$2, SU2L[fund]], 
@@ -36596,9 +36596,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     LF[{Coupling[\[Mu]t, {}, 0], Coupling[m1, {}, 0], 
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
        {Index[d$$1, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Bar[Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]]*
   CG[eps[SU2L], {Index[d$$1, SU2L[fund]], Index[d$$2, SU2L[fund]]}]*
@@ -36833,10 +36833,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     LF[{Coupling[\[Mu]t, {}, 0], Coupling[m1, {}, 0], 
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
        {Index[d$$1, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
    Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, 
-    {Index[d$$1, Lorentz]}] + 
+    {Index[d$$1, Lorentz]}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   FieldStrength[B, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]}, {}, {}]*
   ((I/216)*Bar[Coupling[yd, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
@@ -36954,10 +36954,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
        {Index[d$$4, Flavor]}, 0]}, {3, 1, 1, -1}])*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
-    Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
+    Proj[-1]], Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   FieldStrength[B, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]}, {}, {}]*
   ((I/216)*Bar[Coupling[ad, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
@@ -37075,10 +37075,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]^2*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
        {Index[d$$4, Flavor]}, 0]}, {3, 1, 1, -1}])*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
-    Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
+    Proj[-1]], Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   CG[gen[SU2L[fund]], {Index[d$$1, SU2L[adj]], Index[d$$1, SU2L[fund]], 
     Bar[Index[d$$2, SU2L[fund]]]}]*FieldStrength[W, 
@@ -37179,10 +37179,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
        {Index[d$$4, Flavor]}, 0]}, {3, 1, 1, -1}])*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
-    Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
+    Proj[-1]], Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   CG[gen[SU2L[fund]], {Index[d$$1, SU2L[adj]], Index[d$$1, SU2L[fund]], 
     Bar[Index[d$$2, SU2L[fund]]]}]*FieldStrength[W, 
@@ -37286,10 +37286,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]^2*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
        {Index[d$$4, Flavor]}, 0]}, {3, 1, 1, -1}])*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
-    Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
+    Proj[-1]], Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   CG[gen[SU3c[fund]], {Index[d$$1, SU3c[adj]], Index[d$$1, SU3c[fund]], 
     Bar[Index[d$$2, SU3c[fund]]]}]*FieldStrength[G, 
@@ -37383,10 +37383,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
        {Index[d$$4, Flavor]}, 0]}, {3, 1, 1, -1}])*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
-    Proj[-1]]**Field[q, Fermion, {Index[d$$2, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
+    Proj[-1]], Field[q, Fermion, {Index[d$$2, SU3c[fund]], 
+     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   CG[gen[SU3c[fund]], {Index[d$$1, SU3c[adj]], Index[d$$1, SU3c[fund]], 
     Bar[Index[d$$2, SU3c[fund]]]}]*FieldStrength[G, 
@@ -37478,10 +37478,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]^2*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
        {Index[d$$4, Flavor]}, 0]}, {3, 1, 1, -1}])*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
-    Proj[-1]]**Field[q, Fermion, {Index[d$$2, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
+    Proj[-1]], Field[q, Fermion, {Index[d$$2, SU3c[fund]], 
+     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, 
     {Index[d$$1, Lorentz]}]]*
   ((Bar[Coupling[yd, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
@@ -37576,10 +37576,11 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], 
        Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
         {Index[d$$4, Flavor]}, 0]}, {3, 1, 1, -1}])/2)*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], GammaM[Index[d$$2, Lorentz]], 
-    Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {Index[d$$2, Lorentz]}] + 
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+    GammaM[Index[d$$2, Lorentz]], Proj[-1]], Field[q, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
+    {Index[d$$2, Lorentz]}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, 
     {Index[d$$1, Lorentz]}]]*
   ((Bar[Coupling[ad, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
@@ -37669,10 +37670,11 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[\[Mu]t, {}, 0]^2*LF[{Coupling[\[Mu]t, {}, 0], 
        Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
         {Index[d$$4, Flavor]}, 0]}, {3, 1, 1, -1}])/2)*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], GammaM[Index[d$$2, Lorentz]], 
-    Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {Index[d$$2, Lorentz]}] + 
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+    GammaM[Index[d$$2, Lorentz]], Proj[-1]], Field[q, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
+    {Index[d$$2, Lorentz]}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   ((-1/9*I)*Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]*Coupling[\[Mu]t, {}, 0]*
@@ -37879,10 +37881,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$4, Flavor]}, 0], Coupling[mut, {Index[d$$5, Flavor]}, 0]}, 
      {2, 1, 1, 1, -1}])*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-     {Index[d$$1, Lorentz]}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    Proj[1]]**Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+    Proj[1]], Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   (((2*I)/9)*Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]*
@@ -38099,10 +38101,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$5, Flavor]}, 0], Coupling[mut, {Index[d$$4, Flavor]}, 0]}, 
      {2, 1, 1, 1, -1}])*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-     {Index[d$$1, Lorentz]}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    Proj[1]]**Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+    Proj[1]], Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*((-1/108*I)*Coupling[g1, {}, 0]^4*Delta[Index[d$$1, Flavor], 
      Index[d$$2, Flavor]]*LF[{Coupling[m1, {}, 0], 
       Coupling[mdt, {Index[d$$1, Flavor]}, 0]}, {2, 2, -1}] - 
@@ -38278,16 +38280,16 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        {Index[d$$4, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
   (Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-       {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
+    NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+       {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
      Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, 
-      {Index[d$$1, Lorentz]}] - 
+      {Index[d$$1, Lorentz]}]] - 
    Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-       {Index[d$$1, Lorentz]}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-      Proj[1]]**Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
-       Index[d$$1, Flavor]}, {}]) + 
+    NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+       {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+      Proj[1]], Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
+       Index[d$$1, Flavor]}, {}]]) + 
  hbar*((-1/4*I)*Bar[Coupling[yd, {Index[d$$3, Flavor], Index[d$$2, Flavor]}, 
       0]]*Bar[Coupling[yu, {Index[d$$4, Flavor], Index[d$$5, Flavor]}, 0]]*
     Coupling[yd, {Index[d$$4, Flavor], Index[d$$1, Flavor]}, 0]*
@@ -38420,16 +38422,16 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        {Index[d$$3, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
   (Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-       {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
+    NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+       {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
      Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, 
-      {Index[d$$1, Lorentz]}] + 
+      {Index[d$$1, Lorentz]}]] + 
    Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-       {Index[d$$1, Lorentz]}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-      Proj[1]]**Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
-       Index[d$$1, Flavor]}, {}]) + 
+    NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+       {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+      Proj[1]], Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
+       Index[d$$1, Flavor]}, {}]]) + 
  hbar*((I/108)*Coupling[g1, {}, 0]^4*Delta[Index[d$$1, Flavor], 
      Index[d$$2, Flavor]]*LF[{Coupling[m1, {}, 0], 
       Coupling[mdt, {Index[d$$1, Flavor]}, 0]}, {2, 2, -1}] + 
@@ -38622,16 +38624,16 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      {2, 1, 1, 1, -1}])*
   (Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-       {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
+    NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+       {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
      Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, 
-      {Index[d$$1, Lorentz]}] - 
+      {Index[d$$1, Lorentz]}]] - 
    Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-       {Index[d$$1, Lorentz]}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-      Proj[1]]**Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
-       Index[d$$1, Flavor]}, {}]) + 
+    NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+       {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+      Proj[1]], Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
+       Index[d$$1, Flavor]}, {}]]) + 
  hbar*((I/18)*Bar[Coupling[yd, {Index[d$$3, Flavor], Index[d$$2, Flavor]}, 
       0]]*Coupling[g1, {}, 0]^2*Coupling[yd, {Index[d$$3, Flavor], 
       Index[d$$1, Flavor]}, 0]*LF[{Coupling[mdt, {Index[d$$1, Flavor]}, 0], 
@@ -38777,16 +38779,16 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        {Index[d$$3, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
   (Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-       {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
+    NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+       {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
      Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, 
-      {Index[d$$1, Lorentz]}] + 
+      {Index[d$$1, Lorentz]}]] + 
    Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-       {Index[d$$1, Lorentz]}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-      Proj[1]]**Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
-       Index[d$$1, Flavor]}, {}]) + 
+    NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+       {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+      Proj[1]], Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
+       Index[d$$1, Flavor]}, {}]]) + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Bar[Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]]*
   CG[eps[SU2L], {Index[d$$1, SU2L[fund]], Index[d$$2, SU2L[fund]]}]*
@@ -39006,10 +39008,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     LF[{Coupling[\[Mu]t, {}, 0], Coupling[m1, {}, 0], 
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
        {Index[d$$1, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-     {Index[d$$1, Lorentz]}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    Proj[1]]**Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+    Proj[1]], Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   ((Bar[Coupling[yd, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
      Coupling[g1, {}, 0]^2*Coupling[m1, {}, 0]*Coupling[\[Mu]t, {}, 0]*
@@ -39099,11 +39101,11 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
        {Index[d$$4, Flavor]}, 0]}, {3, 1, 1, -1}])*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-     {Index[d$$1, Lorentz]}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    GammaM[Index[d$$2, Lorentz]], Proj[-1]]**Field[q, Fermion, 
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+    GammaM[Index[d$$2, Lorentz]], Proj[-1]], Field[q, Fermion, 
     {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
-    {Index[d$$2, Lorentz]}] + 
+    {Index[d$$2, Lorentz]}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   ((Bar[Coupling[ad, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
      Coupling[g1, {}, 0]^2*Coupling[m1, {}, 0]*
@@ -39196,11 +39198,11 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]^2*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
        {Index[d$$4, Flavor]}, 0]}, {3, 1, 1, -1}])*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-     {Index[d$$1, Lorentz]}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    GammaM[Index[d$$2, Lorentz]], Proj[-1]]**Field[q, Fermion, 
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+    GammaM[Index[d$$2, Lorentz]], Proj[-1]], Field[q, Fermion, 
     {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
-    {Index[d$$2, Lorentz]}] + 
+    {Index[d$$2, Lorentz]}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, 
     {Index[d$$1, Lorentz]}]]*
   ((Bar[Coupling[yd, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
@@ -39295,11 +39297,11 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], 
        Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
         {Index[d$$4, Flavor]}, 0]}, {3, 1, 1, -1}])/2)*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-     {Index[d$$2, Lorentz]}]]**DiracProduct[GammaM[Index[d$$2, Lorentz]], 
-    GammaM[Index[d$$1, Lorentz]], Proj[-1]]**Field[q, Fermion, 
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {Index[d$$2, Lorentz]}]], DiracProduct[GammaM[Index[d$$2, Lorentz]], 
+    GammaM[Index[d$$1, Lorentz]], Proj[-1]], Field[q, Fermion, 
     {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
-    {}] + hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, 
+    {}]] + hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, 
     {Index[d$$1, Lorentz]}]]*
   ((Bar[Coupling[ad, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
      Coupling[g1, {}, 0]^2*Coupling[m1, {}, 0]*
@@ -39386,11 +39388,11 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[\[Mu]t, {}, 0]^2*LF[{Coupling[\[Mu]t, {}, 0], 
        Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
         {Index[d$$4, Flavor]}, 0]}, {3, 1, 1, -1}])/2)*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-     {Index[d$$2, Lorentz]}]]**DiracProduct[GammaM[Index[d$$2, Lorentz]], 
-    GammaM[Index[d$$1, Lorentz]], Proj[-1]]**Field[q, Fermion, 
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {Index[d$$2, Lorentz]}]], DiracProduct[GammaM[Index[d$$2, Lorentz]], 
+    GammaM[Index[d$$1, Lorentz]], Proj[-1]], Field[q, Fermion, 
     {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
-    {}] + 
+    {}]] + 
  hbar*((Bar[Coupling[yd, {Index[d$$3, Flavor], Index[d$$2, Flavor]}, 0]]*
      Coupling[yd, {Index[d$$3, Flavor], Index[d$$1, Flavor]}, 0]*
      LF[{Coupling[\[Mu]t, {}, 0], Coupling[mqt, {Index[d$$3, Flavor]}, 0]}, 
@@ -39400,16 +39402,18 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      LF[{Coupling[\[Mu]t, {}, 0], Coupling[mqt, {Index[d$$3, Flavor]}, 0]}, 
       {3, 1, -1}])/4)*
   (-(FieldStrength[B, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]}, {}, {}]*
-     Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-        {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz], 
-        Index[d$$2, Lorentz]], GammaM[Index[d$$3, Lorentz]], Proj[1]]**
-      Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, 
-       {Index[d$$3, Lorentz]}]) + 
+     NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
+         Index[d$$2, Flavor]}, {}]], DiracProduct[
+       GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
+       GammaM[Index[d$$3, Lorentz]], Proj[1]], Field[d, Fermion, 
+       {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, 
+       {Index[d$$3, Lorentz]}]]) + 
    FieldStrength[B, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]}, {}, {}]*
-    Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-       {Index[d$$3, Lorentz]}]]**DiracProduct[GammaM[Index[d$$3, Lorentz]], 
-      GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], Proj[1]]**
-     Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]) + 
+    NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+       {Index[d$$3, Lorentz]}]], DiracProduct[GammaM[Index[d$$3, Lorentz]], 
+      GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], Proj[1]], 
+     Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, 
+      {}]]) + 
  hbar*((-3*Coupling[g3, {}, 0]^2*Delta[Index[d$$1, Flavor], 
       Index[d$$2, Flavor]]*LF[{Coupling[m3, {}, 0], 
        Coupling[mdt, {Index[d$$1, Flavor]}, 0]}, {2, 1, 0}])/4 + 
@@ -39419,20 +39423,20 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
   (-(CG[gen[SU3c[fund]], {Index[d$$1, SU3c[adj]], Index[d$$1, SU3c[fund]], 
        Bar[Index[d$$2, SU3c[fund]]]}]*FieldStrength[G, 
       {Index[d$$1, Lorentz], Index[d$$2, Lorentz]}, {Index[d$$1, SU3c[adj]]}, 
-      {}]*Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
-         Index[d$$2, Flavor]}, {}]]**DiracProduct[
+      {}]*NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
+         Index[d$$2, Flavor]}, {}]], DiracProduct[
        GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
-       GammaM[Index[d$$3, Lorentz]], Proj[1]]**Field[d, Fermion, 
+       GammaM[Index[d$$3, Lorentz]], Proj[1]], Field[d, Fermion, 
        {Index[d$$2, SU3c[fund]], Index[d$$1, Flavor]}, 
-       {Index[d$$3, Lorentz]}]) + 
+       {Index[d$$3, Lorentz]}]]) + 
    CG[gen[SU3c[fund]], {Index[d$$1, SU3c[adj]], Index[d$$1, SU3c[fund]], 
       Bar[Index[d$$2, SU3c[fund]]]}]*FieldStrength[G, 
      {Index[d$$1, Lorentz], Index[d$$2, Lorentz]}, {Index[d$$1, SU3c[adj]]}, 
-     {}]*Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
-        Index[d$$2, Flavor]}, {Index[d$$3, Lorentz]}]]**
+     {}]*NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
+        Index[d$$2, Flavor]}, {Index[d$$3, Lorentz]}]], 
      DiracProduct[GammaM[Index[d$$3, Lorentz]], GammaM[Index[d$$1, Lorentz], 
-       Index[d$$2, Lorentz]], Proj[1]]**Field[d, Fermion, 
-      {Index[d$$2, SU3c[fund]], Index[d$$1, Flavor]}, {}]) + 
+       Index[d$$2, Lorentz]], Proj[1]], Field[d, Fermion, 
+      {Index[d$$2, SU3c[fund]], Index[d$$1, Flavor]}, {}]]) + 
  hbar*((-1/9*I)*Coupling[g1, {}, 0]^2*Delta[Index[d$$1, Flavor], 
      Index[d$$2, Flavor]]*LF[{Coupling[m1, {}, 0], 
       Coupling[mdt, {Index[d$$1, Flavor]}, 0]}, {2, 1, 0}] + 
@@ -39462,15 +39466,15 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[yd, {Index[d$$3, Flavor], Index[d$$1, Flavor]}, 0]*
     LF[{Coupling[\[Mu]t, {}, 0], Coupling[mqt, {Index[d$$3, Flavor]}, 0]}, 
      {4, 1, -2}])*
-  (Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-      {Index[d$$1, Lorentz]}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-     Proj[1]]**Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
-      Index[d$$1, Flavor]}, {Index[d$$2, Lorentz], Index[d$$2, Lorentz]}] - 
-   Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-      {Index[d$$1, Lorentz], Index[d$$1, Lorentz]}]]**
-    DiracProduct[GammaM[Index[d$$2, Lorentz]], Proj[1]]**
+  (NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+      {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+     Proj[1]], Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, Flavor]}, {Index[d$$2, Lorentz], Index[d$$2, Lorentz]}]] - 
+   NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+      {Index[d$$1, Lorentz], Index[d$$1, Lorentz]}]], 
+    DiracProduct[GammaM[Index[d$$2, Lorentz]], Proj[1]], 
     Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, 
-     {Index[d$$2, Lorentz]}]) + 
+     {Index[d$$2, Lorentz]}]]) + 
  hbar*((7*Coupling[g3, {}, 0]^4*Delta[Index[d$$1, Flavor], 
       Index[d$$3, Flavor]]*Delta[Index[d$$2, Flavor], Index[d$$4, Flavor]]*
      LF[{Coupling[m3, {}, 0], Coupling[mdt, {Index[d$$2, Flavor]}, 0], 
@@ -39480,12 +39484,12 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      LF[{Coupling[m1, {}, 0], Coupling[m3, {}, 0], 
        Coupling[mdt, {Index[d$$2, Flavor]}, 0], Coupling[mdt, 
         {Index[d$$3, Flavor]}, 0]}, {1, 1, 1, 1, -1}])/18)*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$4, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]*
-  Bar[Field[d, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[d, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$2, Flavor]}, {}] + 
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$4, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]]*
+  NCM[Bar[Field[d, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$3, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[d, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$2, Flavor]}, {}]] + 
  hbar*((Coupling[g1, {}, 0]^4*Delta[Index[d$$1, Flavor], Index[d$$3, Flavor]]*
      Delta[Index[d$$2, Flavor], Index[d$$4, Flavor]]*
      LF[{Coupling[m1, {}, 0], Coupling[mdt, {Index[d$$1, Flavor]}, 0], 
@@ -39505,12 +39509,12 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      LF[{Coupling[m1, {}, 0], Coupling[m3, {}, 0], 
        Coupling[mdt, {Index[d$$1, Flavor]}, 0], Coupling[mdt, 
         {Index[d$$4, Flavor]}, 0]}, {1, 1, 1, 1, -1}])/54)*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[d, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$2, Flavor]}, {}]*
-  Bar[Field[d, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$4, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[d, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$2, Flavor]}, {}]]*
+  NCM[Bar[Field[d, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$4, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]] + 
  Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   (Bar[Coupling[ye, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]] + 
    hbar*((3*Bar[Coupling[ye, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
@@ -39533,8 +39537,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        Coupling[g2, {}, 0]^2*LF[{Coupling[m2, {}, 0], Coupling[mlt, 
           {Index[d$$1, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
         {1, 1, 1, -1}])/2))*
-  Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]]**DiracProduct[Proj[-1]]**
-   Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[Proj[-1]], Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   (Bar[Coupling[ye, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
     Coupling[g1, {}, 0]^2*Coupling[m1, {}, 0]*Coupling[\[Mu]t, {}, 0]*
@@ -39552,8 +39557,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[g2, {}, 0]^2*Coupling[m2, {}, 0]*Coupling[\[Mu]t, {}, 0]*
      LF[{Coupling[m2, {}, 0], Coupling[mlt, {Index[d$$1, Flavor]}, 0], 
        Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 0}])/2)*
-  Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]]**DiracProduct[Proj[-1]]**
-   Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[Proj[-1]], Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, 
     {Index[d$$1, Lorentz], Index[d$$1, Lorentz]}]]*
   (-1/4*(Bar[Coupling[ae, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
@@ -39589,8 +39595,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[g1, {}, 0]^2*Coupling[m1, {}, 0]*
      LF[{Coupling[mlt, {Index[d$$1, Flavor]}, 0], Coupling[m1, {}, 0], 
        Coupling[met, {Index[d$$2, Flavor]}, 0]}, {3, 1, 1, -1}])/2)*
-  Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]]**DiracProduct[Proj[-1]]**
-   Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[Proj[-1]], Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, 
     {Index[d$$1, Lorentz], Index[d$$1, Lorentz]}]]*
   (-1/4*(Bar[Coupling[ye, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
@@ -39629,8 +39636,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[g1, {}, 0]^2*Coupling[m1, {}, 0]*Coupling[\[Mu]t, {}, 0]*
      LF[{Coupling[mlt, {Index[d$$1, Flavor]}, 0], Coupling[m1, {}, 0], 
        Coupling[met, {Index[d$$2, Flavor]}, 0]}, {3, 1, 1, -1}])/2)*
-  Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]]**DiracProduct[Proj[-1]]**
-   Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[Proj[-1]], Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Bar[Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]]*
   Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
@@ -39773,8 +39781,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        Coupling[met, {Index[d$$3, Flavor]}, 0], Coupling[mlt, 
         {Index[d$$1, Flavor]}, 0], Coupling[mlt, {Index[d$$4, Flavor]}, 0], 
        Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, -1}])/2)*
-  Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]]**DiracProduct[Proj[-1]]**
-   Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[Proj[-1]], Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Bar[Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]]*
   Field[\[Phi]1, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
@@ -39857,8 +39866,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        Coupling[mlt, {Index[d$$1, Flavor]}, 0], Coupling[mlt, 
         {Index[d$$4, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
       {1, 1, 1, 1, 1, -1}])/2)*
-  Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]]**DiracProduct[Proj[-1]]**
-   Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[Proj[-1]], Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Bar[Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]]*
   Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
@@ -40003,9 +40013,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     LF[{Coupling[m2, {}, 0], Coupling[met, {Index[d$$3, Flavor]}, 0], 
       Coupling[mlt, {Index[d$$1, Flavor]}, 0], Coupling[mlt, 
        {Index[d$$4, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
-     {1, 1, 1, 1, 1, 0}])*Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[Proj[-1]]**Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
-     Index[d$$1, Flavor]}, {}] + 
+     {1, 1, 1, 1, 1, 0}])*NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[Proj[-1]], Field[l, Fermion, 
+    {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Bar[Field[\[Phi]1, Scalar, {Index[d$$2, SU2L[fund]]}, {}]]*
   Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
@@ -40084,8 +40094,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        Coupling[mlt, {Index[d$$1, Flavor]}, 0], Coupling[mlt, 
         {Index[d$$4, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
       {1, 1, 1, 1, 1, 0}])/2)*
-  Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]]**DiracProduct[Proj[-1]]**
-   Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[Proj[-1]], Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Bar[Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]]*
   Field[\[Phi]1, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
@@ -40192,8 +40203,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[met, {Index[d$$3, Flavor]}, 0], Coupling[mlt, 
        {Index[d$$1, Flavor]}, 0], Coupling[mlt, {Index[d$$4, Flavor]}, 0], 
       Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])*
-  Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]]**DiracProduct[Proj[-1]]**
-   Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[Proj[-1]], Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Bar[Field[\[Phi]1, Scalar, {Index[d$$2, SU2L[fund]]}, {}]]*
   Field[\[Phi]1, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
@@ -40295,8 +40307,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        Coupling[met, {Index[d$$3, Flavor]}, 0], Coupling[mlt, 
         {Index[d$$1, Flavor]}, 0], Coupling[mlt, {Index[d$$4, Flavor]}, 0], 
        Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])/2)*
-  Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]]**DiracProduct[Proj[-1]]**
-   Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[Proj[-1]], Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Bar[Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]]*
   Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
@@ -40432,8 +40445,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        Coupling[mlt, {Index[d$$1, Flavor]}, 0], Coupling[mlt, 
         {Index[d$$4, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
       {1, 1, 1, 1, 1, 0}])/2)*
-  Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]]**DiracProduct[Proj[-1]]**
-   Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[Proj[-1]], Field[l, Fermion, {Index[d$$2, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Bar[Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]]*
   Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
@@ -40554,8 +40568,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        Coupling[met, {Index[d$$3, Flavor]}, 0], Coupling[mlt, 
         {Index[d$$1, Flavor]}, 0], Coupling[mlt, {Index[d$$4, Flavor]}, 0], 
        Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])/2)*
-  Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]]**DiracProduct[Proj[-1]]**
-   Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}] - 
+  NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[Proj[-1]], Field[l, Fermion, {Index[d$$2, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {}]] - 
  hbar*FieldStrength[B, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]}, {}, 
    {Index[d$$2, Lorentz]}]*
   ((Coupling[g1, {}, 0]^2*Delta[Index[d$$1, Flavor], Index[d$$2, Flavor]]*
@@ -40596,9 +40611,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
    (Bar[Coupling[ye, {Index[d$$3, Flavor], Index[d$$2, Flavor]}, 0]]*
      Coupling[ye, {Index[d$$3, Flavor], Index[d$$1, Flavor]}, 0]*
      LF[{Coupling[\[Mu]t, {}, 0], Coupling[mlt, {Index[d$$3, Flavor]}, 0]}, 
-      {4, 1, -2}])/3)*Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[e, Fermion, {Index[d$$1, Flavor]}, {}] + 
+      {4, 1, -2}])/3)*NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[e, Fermion, {Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]*
   ((I/4)*Bar[Coupling[ye, {Index[d$$3, Flavor], Index[d$$2, Flavor]}, 0]]*
@@ -40687,9 +40702,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     LF[{Coupling[\[Mu]t, {}, 0], Coupling[m1, {}, 0], 
       Coupling[met, {Index[d$$2, Flavor]}, 0], Coupling[mlt, 
        {Index[d$$3, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
-  Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[e, Fermion, {Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[e, Fermion, {Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, 
     {Index[d$$1, Lorentz]}]]*Field[\[Phi]2, Scalar, 
    {Index[d$$1, SU2L[fund]]}, {}]*
@@ -40779,9 +40794,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], Coupling[m1, {}, 0], 
       Coupling[met, {Index[d$$2, Flavor]}, 0], Coupling[mlt, 
        {Index[d$$3, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
-  Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[e, Fermion, {Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[e, Fermion, {Index[d$$1, Flavor]}, {}]] + 
  hbar*((-1/4*I)*Coupling[g1, {}, 0]^4*Delta[Index[d$$1, Flavor], 
      Index[d$$2, Flavor]]*LF[{Coupling[m1, {}, 0], 
       Coupling[met, {Index[d$$1, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
@@ -40893,14 +40908,14 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
   (Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, 
       {Index[d$$1, Lorentz]}]]*Field[\[Phi]1, Scalar, 
      {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]]**
-     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-     Field[e, Fermion, {Index[d$$1, Flavor]}, {}] - 
+    NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]], 
+     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+     Field[e, Fermion, {Index[d$$1, Flavor]}, {}]] - 
    Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]*
-    Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]]**
-     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-     Field[e, Fermion, {Index[d$$1, Flavor]}, {}]) + 
+    NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]], 
+     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+     Field[e, Fermion, {Index[d$$1, Flavor]}, {}]]) + 
  hbar*((I/4)*Coupling[g1, {}, 0]^4*Delta[Index[d$$1, Flavor], 
      Index[d$$2, Flavor]]*LF[{Coupling[m1, {}, 0], 
       Coupling[met, {Index[d$$1, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
@@ -41009,14 +41024,14 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
   (Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, 
       {Index[d$$1, Lorentz]}]]*Field[\[Phi]2, Scalar, 
      {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]]**
-     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-     Field[e, Fermion, {Index[d$$1, Flavor]}, {}] - 
+    NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]], 
+     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+     Field[e, Fermion, {Index[d$$1, Flavor]}, {}]] - 
    Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]*
-    Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]]**
-     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-     Field[e, Fermion, {Index[d$$1, Flavor]}, {}]) + 
+    NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]], 
+     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+     Field[e, Fermion, {Index[d$$1, Flavor]}, {}]]) + 
  (I*Delta[Index[d$$1, Flavor], Index[d$$2, Flavor]] + 
    hbar*((-1/2*I)*(Bar[Coupling[ye, {Index[d$$3, Flavor], 
            Index[d$$2, Flavor]}, 0]]*Coupling[ye, {Index[d$$3, Flavor], 
@@ -41038,9 +41053,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
          Index[d$$2, Flavor]}, 0]]*Coupling[ye, {Index[d$$3, Flavor], 
         Index[d$$1, Flavor]}, 0]*LF[{Coupling[\[Mu]t, {}, 0], 
         Coupling[mlt, {Index[d$$3, Flavor]}, 0]}, {2, 1, -1}]))*
-  Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[e, Fermion, {Index[d$$1, Flavor]}, {Index[d$$1, Lorentz]}] + 
+  NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[e, Fermion, {Index[d$$1, Flavor]}, {Index[d$$1, Lorentz]}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   (I*Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]*Coupling[\[Mu]t, {}, 0]*
@@ -41176,9 +41191,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[met, {Index[d$$4, Flavor]}, 0], Coupling[mlt, 
        {Index[d$$3, Flavor]}, 0], Coupling[mlt, {Index[d$$5, Flavor]}, 0]}, 
-     {2, 1, 1, 1, -1}])*Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[e, Fermion, {Index[d$$1, Flavor]}, {Index[d$$1, Lorentz]}] + 
+     {2, 1, 1, 1, -1}])*NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[e, Fermion, {Index[d$$1, Flavor]}, {Index[d$$1, Lorentz]}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   ((-2*I)*Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]*Coupling[\[Mu]t, {}, 0]*
@@ -41324,9 +41339,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[met, {Index[d$$5, Flavor]}, 0], Coupling[mlt, 
        {Index[d$$3, Flavor]}, 0], Coupling[mlt, {Index[d$$4, Flavor]}, 0]}, 
-     {2, 1, 1, 1, -1}])*Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[e, Fermion, {Index[d$$1, Flavor]}, {Index[d$$1, Lorentz]}] + 
+     {2, 1, 1, 1, -1}])*NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[e, Fermion, {Index[d$$1, Flavor]}, {Index[d$$1, Lorentz]}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   FieldStrength[B, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]}, {}, {}]*
   (((-3*I)/8)*Bar[Coupling[ae, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 
@@ -41405,10 +41420,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
    ((3*I)/4)*Bar[Coupling[ye, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
     Coupling[g2, {}, 0]^2*LF[{Coupling[\[Mu]t, {}, 0], Coupling[m2, {}, 0], 
       Coupling[mlt, {Index[d$$1, Flavor]}, 0]}, {3, 1, 1, -2}])*
-  Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]]**
+  NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]], 
    DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
-    Proj[-1]]**Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
-     Index[d$$1, Flavor]}, {}] + 
+    Proj[-1]], Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   FieldStrength[B, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]}, {}, {}]*
   (((-3*I)/8)*Bar[Coupling[ye, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 
@@ -41487,10 +41502,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[g2, {}, 0]^2*Coupling[m2, {}, 0]*Coupling[\[Mu]t, {}, 0]*
     LF[{Coupling[\[Mu]t, {}, 0], Coupling[m2, {}, 0], 
       Coupling[mlt, {Index[d$$1, Flavor]}, 0]}, {3, 1, 1, -1}])*
-  Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]]**
+  NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]], 
    DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
-    Proj[-1]]**Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
-     Index[d$$1, Flavor]}, {}] + 
+    Proj[-1]], Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   CG[gen[SU2L[fund]], {Index[d$$1, SU2L[adj]], Index[d$$1, SU2L[fund]], 
     Bar[Index[d$$2, SU2L[fund]]]}]*FieldStrength[W, 
@@ -41554,10 +41569,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
    (I/4)*Bar[Coupling[ye, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
     Coupling[g2, {}, 0]^2*LF[{Coupling[\[Mu]t, {}, 0], Coupling[m2, {}, 0], 
       Coupling[mlt, {Index[d$$1, Flavor]}, 0]}, {2, 1, 1, -1}])*
-  Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]]**
+  NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]], 
    DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
-    Proj[-1]]**Field[l, Fermion, {Index[d$$2, SU2L[fund]], 
-     Index[d$$1, Flavor]}, {}] + 
+    Proj[-1]], Field[l, Fermion, {Index[d$$2, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   CG[gen[SU2L[fund]], {Index[d$$1, SU2L[adj]], Index[d$$1, SU2L[fund]], 
     Bar[Index[d$$2, SU2L[fund]]]}]*FieldStrength[W, 
@@ -41618,10 +41633,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[g2, {}, 0]^2*Coupling[m2, {}, 0]*Coupling[\[Mu]t, {}, 0]*
     LF[{Coupling[\[Mu]t, {}, 0], Coupling[m2, {}, 0], 
       Coupling[mlt, {Index[d$$1, Flavor]}, 0]}, {2, 1, 1, 0}])*
-  Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]]**
+  NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]], 
    DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
-    Proj[-1]]**Field[l, Fermion, {Index[d$$2, SU2L[fund]], 
-     Index[d$$1, Flavor]}, {}] + 
+    Proj[-1]], Field[l, Fermion, {Index[d$$2, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, 
     {Index[d$$1, Lorentz]}]]*
   (-1/2*(Bar[Coupling[ae, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
@@ -41671,10 +41686,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
    Bar[Coupling[ye, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
     Coupling[g1, {}, 0]^2*LF[{Coupling[\[Mu]t, {}, 0], Coupling[m1, {}, 0], 
       Coupling[met, {Index[d$$2, Flavor]}, 0]}, {3, 1, 1, -2}])*
-  Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]]**
+  NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]], 
    DiracProduct[GammaM[Index[d$$1, Lorentz]], GammaM[Index[d$$2, Lorentz]], 
-    Proj[-1]]**Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
-     Index[d$$1, Flavor]}, {Index[d$$2, Lorentz]}] + 
+    Proj[-1]], Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {Index[d$$2, Lorentz]}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, 
     {Index[d$$1, Lorentz]}]]*
   (-1/2*(Bar[Coupling[ye, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
@@ -41729,10 +41744,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[g1, {}, 0]^2*Coupling[m1, {}, 0]*Coupling[\[Mu]t, {}, 0]*
     LF[{Coupling[\[Mu]t, {}, 0], Coupling[m1, {}, 0], 
       Coupling[met, {Index[d$$2, Flavor]}, 0]}, {3, 1, 1, -1}])*
-  Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]]**
+  NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]], 
    DiracProduct[GammaM[Index[d$$1, Lorentz]], GammaM[Index[d$$2, Lorentz]], 
-    Proj[-1]]**Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
-     Index[d$$1, Flavor]}, {Index[d$$2, Lorentz]}] + 
+    Proj[-1]], Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {Index[d$$2, Lorentz]}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   ((2*I)*Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]*Coupling[\[Mu]t, {}, 0]*
@@ -41878,9 +41893,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[met, {Index[d$$4, Flavor]}, 0], Coupling[mlt, 
        {Index[d$$3, Flavor]}, 0], Coupling[mlt, {Index[d$$5, Flavor]}, 0]}, 
-     {2, 1, 1, 1, -1}])*Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, 
-     {Index[d$$1, Lorentz]}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    Proj[1]]**Field[e, Fermion, {Index[d$$1, Flavor]}, {}] + 
+     {2, 1, 1, 1, -1}])*NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, 
+     {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+    Proj[1]], Field[e, Fermion, {Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   ((-I)*Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]*Coupling[\[Mu]t, {}, 0]*
@@ -42016,9 +42031,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[met, {Index[d$$5, Flavor]}, 0], Coupling[mlt, 
        {Index[d$$3, Flavor]}, 0], Coupling[mlt, {Index[d$$4, Flavor]}, 0]}, 
-     {2, 1, 1, 1, -1}])*Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, 
-     {Index[d$$1, Lorentz]}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    Proj[1]]**Field[e, Fermion, {Index[d$$1, Flavor]}, {}] + 
+     {2, 1, 1, 1, -1}])*NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, 
+     {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+    Proj[1]], Field[e, Fermion, {Index[d$$1, Flavor]}, {}]] + 
  hbar*((-1/4*I)*Coupling[g1, {}, 0]^4*Delta[Index[d$$1, Flavor], 
      Index[d$$2, Flavor]]*LF[{Coupling[m1, {}, 0], 
       Coupling[met, {Index[d$$1, Flavor]}, 0]}, {2, 2, -1}] + 
@@ -42148,14 +42163,14 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      {2, 1, 1, 1, -1}])*
   (Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]]**
-     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-     Field[e, Fermion, {Index[d$$1, Flavor]}, {Index[d$$1, Lorentz]}] - 
+    NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]], 
+     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+     Field[e, Fermion, {Index[d$$1, Flavor]}, {Index[d$$1, Lorentz]}]] - 
    Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {Index[d$$1, Lorentz]}]]**
-     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-     Field[e, Fermion, {Index[d$$1, Flavor]}, {}]) + 
+    NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, 
+       {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+      Proj[1]], Field[e, Fermion, {Index[d$$1, Flavor]}, {}]]) + 
  hbar*((I/4)*Bar[Coupling[ye, {Index[d$$3, Flavor], Index[d$$2, Flavor]}, 0]]*
     Coupling[g1, {}, 0]^2*Coupling[ye, {Index[d$$3, Flavor], 
       Index[d$$1, Flavor]}, 0]*Coupling[\[Mu]t, {}, 0]^2*
@@ -42246,14 +42261,14 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        {Index[d$$3, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
   (Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]]**
-     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-     Field[e, Fermion, {Index[d$$1, Flavor]}, {Index[d$$1, Lorentz]}] + 
+    NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]], 
+     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+     Field[e, Fermion, {Index[d$$1, Flavor]}, {Index[d$$1, Lorentz]}]] + 
    Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {Index[d$$1, Lorentz]}]]**
-     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-     Field[e, Fermion, {Index[d$$1, Flavor]}, {}]) + 
+    NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, 
+       {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+      Proj[1]], Field[e, Fermion, {Index[d$$1, Flavor]}, {}]]) + 
  hbar*((I/4)*Coupling[g1, {}, 0]^4*Delta[Index[d$$1, Flavor], 
      Index[d$$2, Flavor]]*LF[{Coupling[m1, {}, 0], 
       Coupling[met, {Index[d$$1, Flavor]}, 0]}, {2, 2, -1}] - 
@@ -42403,14 +42418,14 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        {Index[d$$5, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
   (Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]]**
-     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-     Field[e, Fermion, {Index[d$$1, Flavor]}, {Index[d$$1, Lorentz]}] - 
+    NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]], 
+     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+     Field[e, Fermion, {Index[d$$1, Flavor]}, {Index[d$$1, Lorentz]}]] - 
    Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {Index[d$$1, Lorentz]}]]**
-     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-     Field[e, Fermion, {Index[d$$1, Flavor]}, {}]) + 
+    NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, 
+       {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+      Proj[1]], Field[e, Fermion, {Index[d$$1, Flavor]}, {}]]) + 
  hbar*((I/2)*Bar[Coupling[ye, {Index[d$$3, Flavor], Index[d$$2, Flavor]}, 0]]*
     Coupling[g1, {}, 0]^2*Coupling[ye, {Index[d$$3, Flavor], 
       Index[d$$1, Flavor]}, 0]*LF[{Coupling[met, {Index[d$$1, Flavor]}, 0], 
@@ -42521,14 +42536,14 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        {Index[d$$3, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
   (Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]]**
-     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-     Field[e, Fermion, {Index[d$$1, Flavor]}, {Index[d$$1, Lorentz]}] + 
+    NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]], 
+     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+     Field[e, Fermion, {Index[d$$1, Flavor]}, {Index[d$$1, Lorentz]}]] + 
    Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {Index[d$$1, Lorentz]}]]**
-     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-     Field[e, Fermion, {Index[d$$1, Flavor]}, {}]) + 
+    NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, 
+       {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+      Proj[1]], Field[e, Fermion, {Index[d$$1, Flavor]}, {}]]) + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   (-(Bar[Coupling[ae, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
      Coupling[g1, {}, 0]^2*Coupling[m1, {}, 0]*
@@ -42600,10 +42615,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
    (3*Bar[Coupling[ye, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
      Coupling[g2, {}, 0]^2*LF[{Coupling[\[Mu]t, {}, 0], Coupling[m2, {}, 0], 
        Coupling[mlt, {Index[d$$1, Flavor]}, 0]}, {3, 1, 1, -2}])/2)*
-  Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {Index[d$$1, Lorentz]}]]**
+  NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {Index[d$$1, Lorentz]}]], 
    DiracProduct[GammaM[Index[d$$1, Lorentz]], GammaM[Index[d$$2, Lorentz]], 
-    Proj[-1]]**Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
-     Index[d$$1, Flavor]}, {Index[d$$2, Lorentz]}] + 
+    Proj[-1]], Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {Index[d$$2, Lorentz]}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   (-(Bar[Coupling[ye, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
      Coupling[g1, {}, 0]^2*Coupling[m1, {}, 0]*Coupling[\[Mu]t, {}, 0]*
@@ -42673,10 +42688,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[g2, {}, 0]^2*Coupling[m2, {}, 0]*Coupling[\[Mu]t, {}, 0]*
      LF[{Coupling[\[Mu]t, {}, 0], Coupling[m2, {}, 0], 
        Coupling[mlt, {Index[d$$1, Flavor]}, 0]}, {3, 1, 1, -1}])/2)*
-  Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {Index[d$$1, Lorentz]}]]**
+  NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {Index[d$$1, Lorentz]}]], 
    DiracProduct[GammaM[Index[d$$1, Lorentz]], GammaM[Index[d$$2, Lorentz]], 
-    Proj[-1]]**Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
-     Index[d$$1, Flavor]}, {Index[d$$2, Lorentz]}] + 
+    Proj[-1]], Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {Index[d$$2, Lorentz]}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, 
     {Index[d$$1, Lorentz]}]]*
   (-1/2*(Bar[Coupling[ae, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
@@ -42724,10 +42739,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
    (3*Bar[Coupling[ye, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
      Coupling[g2, {}, 0]^2*LF[{Coupling[\[Mu]t, {}, 0], Coupling[m2, {}, 0], 
        Coupling[mlt, {Index[d$$1, Flavor]}, 0]}, {3, 1, 1, -2}])/2)*
-  Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {Index[d$$2, Lorentz]}]]**
+  NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {Index[d$$2, Lorentz]}]], 
    DiracProduct[GammaM[Index[d$$2, Lorentz]], GammaM[Index[d$$1, Lorentz]], 
-    Proj[-1]]**Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
-     Index[d$$1, Flavor]}, {}] + 
+    Proj[-1]], Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, 
     {Index[d$$1, Lorentz]}]]*
   (-1/2*(Bar[Coupling[ye, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
@@ -42782,10 +42797,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[g2, {}, 0]^2*Coupling[m2, {}, 0]*Coupling[\[Mu]t, {}, 0]*
      LF[{Coupling[\[Mu]t, {}, 0], Coupling[m2, {}, 0], 
        Coupling[mlt, {Index[d$$1, Flavor]}, 0]}, {3, 1, 1, -1}])/2)*
-  Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {Index[d$$2, Lorentz]}]]**
+  NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {Index[d$$2, Lorentz]}]], 
    DiracProduct[GammaM[Index[d$$2, Lorentz]], GammaM[Index[d$$1, Lorentz]], 
-    Proj[-1]]**Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
-     Index[d$$1, Flavor]}, {}] + 
+    Proj[-1]], Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*((Bar[Coupling[ye, {Index[d$$3, Flavor], Index[d$$2, Flavor]}, 0]]*
      Coupling[ye, {Index[d$$3, Flavor], Index[d$$1, Flavor]}, 0]*
      LF[{Coupling[\[Mu]t, {}, 0], Coupling[mlt, {Index[d$$3, Flavor]}, 0]}, 
@@ -42795,15 +42810,15 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      LF[{Coupling[\[Mu]t, {}, 0], Coupling[mlt, {Index[d$$3, Flavor]}, 0]}, 
       {3, 1, -1}])/4)*
   (-(FieldStrength[B, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]}, {}, {}]*
-     Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]]**
+     NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {}]], 
       DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
-       GammaM[Index[d$$3, Lorentz]], Proj[1]]**Field[e, Fermion, 
-       {Index[d$$1, Flavor]}, {Index[d$$3, Lorentz]}]) + 
+       GammaM[Index[d$$3, Lorentz]], Proj[1]], Field[e, Fermion, 
+       {Index[d$$1, Flavor]}, {Index[d$$3, Lorentz]}]]) + 
    FieldStrength[B, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]}, {}, {}]*
-    Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {Index[d$$3, Lorentz]}]]**
-     DiracProduct[GammaM[Index[d$$3, Lorentz]], GammaM[Index[d$$1, Lorentz], 
-       Index[d$$2, Lorentz]], Proj[1]]**Field[e, Fermion, 
-      {Index[d$$1, Flavor]}, {}]) + 
+    NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, 
+       {Index[d$$3, Lorentz]}]], DiracProduct[GammaM[Index[d$$3, Lorentz]], 
+      GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], Proj[1]], 
+     Field[e, Fermion, {Index[d$$1, Flavor]}, {}]]) + 
  hbar*((-I)*Coupling[g1, {}, 0]^2*Delta[Index[d$$1, Flavor], 
      Index[d$$2, Flavor]]*LF[{Coupling[m1, {}, 0], 
       Coupling[met, {Index[d$$1, Flavor]}, 0]}, {2, 1, 0}] + 
@@ -42823,14 +42838,14 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        Index[d$$2, Flavor]}, 0]]*Coupling[ye, {Index[d$$3, Flavor], 
       Index[d$$1, Flavor]}, 0]*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[mlt, {Index[d$$3, Flavor]}, 0]}, {4, 1, -2}])*
-  (Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {Index[d$$1, Lorentz]}]]**
-    DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
+  (NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {Index[d$$1, Lorentz]}]], 
+    DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
     Field[e, Fermion, {Index[d$$1, Flavor]}, {Index[d$$2, Lorentz], 
-      Index[d$$2, Lorentz]}] - 
-   Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {Index[d$$1, Lorentz], 
-       Index[d$$1, Lorentz]}]]**DiracProduct[GammaM[Index[d$$2, Lorentz]], 
-     Proj[1]]**Field[e, Fermion, {Index[d$$1, Flavor]}, 
-     {Index[d$$2, Lorentz]}]) + 
+      Index[d$$2, Lorentz]}]] - 
+   NCM[Bar[Field[e, Fermion, {Index[d$$2, Flavor]}, {Index[d$$1, Lorentz], 
+       Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$2, Lorentz]], 
+     Proj[1]], Field[e, Fermion, {Index[d$$1, Flavor]}, 
+     {Index[d$$2, Lorentz]}]]) + 
  hbar*((Coupling[g1, {}, 0]^4*Delta[Index[d$$1, Flavor], Index[d$$3, Flavor]]*
      Delta[Index[d$$2, Flavor], Index[d$$4, Flavor]]*
      LF[{Coupling[m1, {}, 0], Coupling[mdt, {Index[d$$1, Flavor]}, 0], 
@@ -42841,12 +42856,12 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[ye, {Index[d$$6, Flavor], Index[d$$2, Flavor]}, 0]*
      LF[{Coupling[\[Mu]t, {}, 0], Coupling[mlt, {Index[d$$6, Flavor]}, 0], 
        Coupling[mqt, {Index[d$$5, Flavor]}, 0]}, {2, 1, 1, -1}])/2)*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[e, Fermion, {Index[d$$2, Flavor]}, {}]*
-  Bar[Field[e, Fermion, {Index[d$$4, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[e, Fermion, {Index[d$$2, Flavor]}, {}]]*
+  NCM[Bar[Field[e, Fermion, {Index[d$$4, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*((Coupling[g1, {}, 0]^4*Delta[Index[d$$1, Flavor], Index[d$$3, Flavor]]*
      Delta[Index[d$$2, Flavor], Index[d$$4, Flavor]]*
      LF[{Coupling[m1, {}, 0], Coupling[met, {Index[d$$1, Flavor]}, 0], 
@@ -42857,12 +42872,12 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[ye, {Index[d$$6, Flavor], Index[d$$2, Flavor]}, 0]*
      LF[{Coupling[\[Mu]t, {}, 0], Coupling[mlt, {Index[d$$5, Flavor]}, 0], 
        Coupling[mlt, {Index[d$$6, Flavor]}, 0]}, {2, 1, 1, -1}])/4)*
-  Bar[Field[e, Fermion, {Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[e, Fermion, {Index[d$$2, Flavor]}, {}]*
-  Bar[Field[e, Fermion, {Index[d$$4, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[e, Fermion, {Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[e, Fermion, {Index[d$$3, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[e, Fermion, {Index[d$$2, Flavor]}, {}]]*
+  NCM[Bar[Field[e, Fermion, {Index[d$$4, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[e, Fermion, {Index[d$$1, Flavor]}, {}]] + 
  Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   (Coupling[ye, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0] + 
    hbar*((3*(Coupling[g1, {}, 0]^2 - Coupling[g2, {}, 0]^2)*
@@ -42884,9 +42899,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
          Index[d$$1, Flavor]}, 0]*LF[{Coupling[m2, {}, 0], 
          Coupling[mlt, {Index[d$$2, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
         {1, 1, 1, -1}])/2))*
-  Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[Proj[1]]**Field[e, Fermion, {Index[d$$1, Flavor]}, {}] + 
- hbar*Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
+  NCM[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[Proj[1]], Field[e, Fermion, {Index[d$$1, Flavor]}, 
+    {}]] + hbar*Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   (Coupling[g1, {}, 0]^2*Coupling[m1, {}, 0]*
     Coupling[ye, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0]*
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[m1, {}, 0], 
@@ -42905,9 +42920,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[\[Mu]t, {}, 0]*LF[{Coupling[m2, {}, 0], 
        Coupling[mlt, {Index[d$$2, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
       {1, 1, 1, 0}])/2)*
-  Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[Proj[1]]**Field[e, Fermion, {Index[d$$1, Flavor]}, {}] + 
- hbar*Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, 
+  NCM[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[Proj[1]], Field[e, Fermion, {Index[d$$1, Flavor]}, 
+    {}]] + hbar*Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, 
    {Index[d$$1, Lorentz], Index[d$$1, Lorentz]}]*
   (-1/4*(Coupling[ae, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0]*
      Coupling[g1, {}, 0]^2*Coupling[m1, {}, 0]*
@@ -42944,9 +42959,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[g1, {}, 0]^2*Coupling[m1, {}, 0]*
      LF[{Coupling[mlt, {Index[d$$2, Flavor]}, 0], Coupling[m1, {}, 0], 
        Coupling[met, {Index[d$$1, Flavor]}, 0]}, {3, 1, 1, -1}])/2)*
-  Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[Proj[1]]**Field[e, Fermion, {Index[d$$1, Flavor]}, {}] + 
- hbar*Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, 
+  NCM[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[Proj[1]], Field[e, Fermion, {Index[d$$1, Flavor]}, 
+    {}]] + hbar*Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, 
    {Index[d$$1, Lorentz], Index[d$$1, Lorentz]}]*
   (-1/4*(Coupling[g1, {}, 0]^2*Coupling[m1, {}, 0]*
      Coupling[ye, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0]*
@@ -42987,10 +43002,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[\[Mu]t, {}, 0]*LF[{Coupling[mlt, {Index[d$$2, Flavor]}, 0], 
        Coupling[m1, {}, 0], Coupling[met, {Index[d$$1, Flavor]}, 0]}, 
       {3, 1, 1, -1}])/2)*
-  Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[Proj[1]]**Field[e, Fermion, {Index[d$$1, Flavor]}, {}] - 
- hbar*FieldStrength[B, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]}, {}, 
-   {Index[d$$2, Lorentz]}]*
+  NCM[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[Proj[1]], Field[e, Fermion, {Index[d$$1, Flavor]}, 
+    {}]] - hbar*FieldStrength[B, {Index[d$$1, Lorentz], 
+    Index[d$$2, Lorentz]}, {}, {Index[d$$2, Lorentz]}]*
   ((Coupling[g1, {}, 0]^2*Delta[Index[d$$1, Flavor], Index[d$$2, Flavor]]*
      LF[{Coupling[m1, {}, 0], Coupling[mlt, {Index[d$$1, Flavor]}, 0]}, 
       {2, 1, 0}])/24 + (Coupling[g1, {}, 0]^2*Delta[Index[d$$1, Flavor], 
@@ -43045,9 +43060,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[ye, {Index[d$$2, Flavor], Index[d$$3, Flavor]}, 0]*
      LF[{Coupling[\[Mu]t, {}, 0], Coupling[met, {Index[d$$3, Flavor]}, 0]}, 
       {4, 1, -2}])/12)*
-  Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
-   Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+   Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}]] + 
  (I*Delta[Index[d$$1, Flavor], Index[d$$2, Flavor]] + 
    hbar*((-1/8*I)*(2*Bar[Coupling[ye, {Index[d$$1, Flavor], 
            Index[d$$3, Flavor]}, 0]]*Coupling[ye, {Index[d$$2, Flavor], 
@@ -43077,10 +43092,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
          Index[d$$3, Flavor]}, 0]]*Coupling[ye, {Index[d$$2, Flavor], 
         Index[d$$3, Flavor]}, 0]*LF[{Coupling[\[Mu]t, {}, 0], 
         Coupling[met, {Index[d$$3, Flavor]}, 0]}, {2, 1, -1}]))*
-  Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
+  NCM[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
    Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
-    {Index[d$$1, Lorentz]}] - 
+    {Index[d$$1, Lorentz]}]] - 
  hbar*CG[gen[SU2L[fund]], {Index[d$$1, SU2L[adj]], Index[d$$1, SU2L[fund]], 
     Bar[Index[d$$2, SU2L[fund]]]}]*FieldStrength[W, 
    {Index[d$$1, Lorentz], Index[d$$2, Lorentz]}, {Index[d$$1, SU2L[adj]]}, 
@@ -43124,9 +43139,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[ye, {Index[d$$2, Flavor], Index[d$$3, Flavor]}, 0]*
      LF[{Coupling[\[Mu]t, {}, 0], Coupling[met, {Index[d$$3, Flavor]}, 0]}, 
       {4, 1, -2}])/6)*
-  Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
-   Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+   Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*CG[gen[SU2L[fund]], {Index[d$$1, SU2L[adj]], Index[d$$1, SU2L[fund]], 
     Bar[Index[d$$2, SU2L[fund]]]}]*Field[\[Phi]2, Scalar, 
    {Index[d$$2, SU2L[fund]]}, {}]*FieldStrength[W, 
@@ -43191,9 +43206,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[ye, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0]*
     LF[{Coupling[\[Mu]t, {}, 0], Coupling[m2, {}, 0], 
       Coupling[mlt, {Index[d$$2, Flavor]}, 0]}, {2, 1, 1, -1}])*
-  Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], Proj[1]]**
-   Field[e, Fermion, {Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
+    Proj[1]], Field[e, Fermion, {Index[d$$1, Flavor]}, {}]] + 
  hbar*CG[gen[SU2L[fund]], {Index[d$$1, SU2L[adj]], Index[d$$1, SU2L[fund]], 
     Bar[Index[d$$2, SU2L[fund]]]}]*Field[\[Phi]1, Scalar, 
    {Index[d$$2, SU2L[fund]]}, {}]*FieldStrength[W, 
@@ -43258,9 +43273,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[ye, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0]*
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], Coupling[m2, {}, 0], 
       Coupling[mlt, {Index[d$$2, Flavor]}, 0]}, {2, 1, 1, 0}])*
-  Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], Proj[1]]**
-   Field[e, Fermion, {Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
+    Proj[1]], Field[e, Fermion, {Index[d$$1, Flavor]}, {}]] + 
  hbar*Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   FieldStrength[B, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]}, {}, {}]*
   (((-3*I)/8)*Coupling[ae, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0]*
@@ -43341,9 +43356,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[ye, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0]*
     LF[{Coupling[\[Mu]t, {}, 0], Coupling[m2, {}, 0], 
       Coupling[mlt, {Index[d$$2, Flavor]}, 0]}, {3, 1, 1, -2}])*
-  Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], Proj[1]]**
-   Field[e, Fermion, {Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
+    Proj[1]], Field[e, Fermion, {Index[d$$1, Flavor]}, {}]] + 
  hbar*Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   FieldStrength[B, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]}, {}, {}]*
   (((-3*I)/8)*Coupling[g1, {}, 0]^2*Coupling[m1, {}, 0]*
@@ -43426,9 +43441,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[ye, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0]*
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], Coupling[m2, {}, 0], 
       Coupling[mlt, {Index[d$$2, Flavor]}, 0]}, {3, 1, 1, -1}])*
-  Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], Proj[1]]**
-   Field[e, Fermion, {Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
+    Proj[1]], Field[e, Fermion, {Index[d$$1, Flavor]}, {}]] + 
  hbar*Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, 
    {Index[d$$1, Lorentz]}]*
   (-1/2*(Coupling[ae, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0]*
@@ -43479,10 +43494,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        Index[d$$1, Flavor]}, 0]*LF[{Coupling[\[Mu]t, {}, 0], 
        Coupling[m2, {}, 0], Coupling[mlt, {Index[d$$2, Flavor]}, 0]}, 
       {3, 1, 1, -2}])/2)*
-  Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], GammaM[Index[d$$2, Lorentz]], 
-    Proj[1]]**Field[e, Fermion, {Index[d$$1, Flavor]}, 
-    {Index[d$$2, Lorentz]}] + 
+  NCM[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+    GammaM[Index[d$$2, Lorentz]], Proj[1]], Field[e, Fermion, 
+    {Index[d$$1, Flavor]}, {Index[d$$2, Lorentz]}]] + 
  hbar*Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, 
    {Index[d$$1, Lorentz]}]*(-1/2*(Coupling[g1, {}, 0]^2*Coupling[m1, {}, 0]*
      Coupling[ye, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0]*
@@ -43541,10 +43556,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], 
        Coupling[m2, {}, 0], Coupling[mlt, {Index[d$$2, Flavor]}, 0]}, 
       {3, 1, 1, -1}])/2)*
-  Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], GammaM[Index[d$$2, Lorentz]], 
-    Proj[1]]**Field[e, Fermion, {Index[d$$1, Flavor]}, 
-    {Index[d$$2, Lorentz]}] + 
+  NCM[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+    GammaM[Index[d$$2, Lorentz]], Proj[1]], Field[e, Fermion, 
+    {Index[d$$1, Flavor]}, {Index[d$$2, Lorentz]}]] + 
  hbar*Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   (-(Coupling[ae, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0]*
      Coupling[g1, {}, 0]^2*Coupling[m1, {}, 0]*
@@ -43617,10 +43632,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[ye, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0]*
      LF[{Coupling[\[Mu]t, {}, 0], Coupling[m2, {}, 0], 
        Coupling[mlt, {Index[d$$2, Flavor]}, 0]}, {3, 1, 1, -2}])/2)*
-  Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
-     {Index[d$$1, Lorentz]}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    GammaM[Index[d$$2, Lorentz]], Proj[1]]**Field[e, Fermion, 
-    {Index[d$$1, Flavor]}, {Index[d$$2, Lorentz]}] + 
+  NCM[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+    GammaM[Index[d$$2, Lorentz]], Proj[1]], Field[e, Fermion, 
+    {Index[d$$1, Flavor]}, {Index[d$$2, Lorentz]}]] + 
  hbar*Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   (-(Coupling[g1, {}, 0]^2*Coupling[m1, {}, 0]*
      Coupling[ye, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0]*
@@ -43693,10 +43708,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], 
        Coupling[m2, {}, 0], Coupling[mlt, {Index[d$$2, Flavor]}, 0]}, 
       {3, 1, 1, -1}])/2)*
-  Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
-     {Index[d$$1, Lorentz]}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    GammaM[Index[d$$2, Lorentz]], Proj[1]]**Field[e, Fermion, 
-    {Index[d$$1, Flavor]}, {Index[d$$2, Lorentz]}] + 
+  NCM[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+    GammaM[Index[d$$2, Lorentz]], Proj[1]], Field[e, Fermion, 
+    {Index[d$$1, Flavor]}, {Index[d$$2, Lorentz]}]] + 
  hbar*Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, 
    {Index[d$$1, Lorentz]}]*
   (-1/2*(Coupling[ae, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0]*
@@ -43746,11 +43761,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
    Coupling[g1, {}, 0]^2*Coupling[ye, {Index[d$$2, Flavor], 
       Index[d$$1, Flavor]}, 0]*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[m1, {}, 0], Coupling[met, {Index[d$$1, Flavor]}, 0]}, 
-     {3, 1, 1, -2}])*
-  Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
-     {Index[d$$2, Lorentz]}]]**DiracProduct[GammaM[Index[d$$2, Lorentz]], 
-    GammaM[Index[d$$1, Lorentz]], Proj[1]]**Field[e, Fermion, 
-    {Index[d$$1, Flavor]}, {}] + 
+     {3, 1, 1, -2}])*NCM[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
+      Index[d$$2, Flavor]}, {Index[d$$2, Lorentz]}]], 
+   DiracProduct[GammaM[Index[d$$2, Lorentz]], GammaM[Index[d$$1, Lorentz]], 
+    Proj[1]], Field[e, Fermion, {Index[d$$1, Flavor]}, {}]] + 
  hbar*Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, 
    {Index[d$$1, Lorentz]}]*(-1/2*(Coupling[g1, {}, 0]^2*Coupling[m1, {}, 0]*
      Coupling[ye, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0]*
@@ -43808,10 +43822,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[ye, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0]*
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], Coupling[m1, {}, 0], 
       Coupling[met, {Index[d$$1, Flavor]}, 0]}, {3, 1, 1, -1}])*
-  Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
-     {Index[d$$2, Lorentz]}]]**DiracProduct[GammaM[Index[d$$2, Lorentz]], 
-    GammaM[Index[d$$1, Lorentz]], Proj[1]]**Field[e, Fermion, 
-    {Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {Index[d$$2, Lorentz]}]], DiracProduct[GammaM[Index[d$$2, Lorentz]], 
+    GammaM[Index[d$$1, Lorentz]], Proj[1]], Field[e, Fermion, 
+    {Index[d$$1, Flavor]}, {}]] + 
  hbar*(-1/8*(Bar[Coupling[ye, {Index[d$$1, Flavor], Index[d$$3, Flavor]}, 0]]*
      Coupling[ye, {Index[d$$2, Flavor], Index[d$$3, Flavor]}, 0]*
      LF[{Coupling[\[Mu]t, {}, 0], Coupling[met, {Index[d$$3, Flavor]}, 0]}, 
@@ -43821,16 +43835,18 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      LF[{Coupling[\[Mu]t, {}, 0], Coupling[met, {Index[d$$3, Flavor]}, 0]}, 
       {3, 1, -1}])/8)*
   (-(FieldStrength[B, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]}, {}, {}]*
-     Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
-        {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz], 
-        Index[d$$2, Lorentz]], GammaM[Index[d$$3, Lorentz]], Proj[-1]]**
-      Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
-       {Index[d$$3, Lorentz]}]) + 
+     NCM[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
+         Index[d$$2, Flavor]}, {}]], DiracProduct[
+       GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
+       GammaM[Index[d$$3, Lorentz]], Proj[-1]], Field[l, Fermion, 
+       {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
+       {Index[d$$3, Lorentz]}]]) + 
    FieldStrength[B, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]}, {}, {}]*
-    Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
-       {Index[d$$3, Lorentz]}]]**DiracProduct[GammaM[Index[d$$3, Lorentz]], 
-      GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], Proj[-1]]**
-     Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}]) + 
+    NCM[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
+       {Index[d$$3, Lorentz]}]], DiracProduct[GammaM[Index[d$$3, Lorentz]], 
+      GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], Proj[-1]], 
+     Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
+      {}]]) + 
  hbar*(-1/2*(Coupling[g2, {}, 0]^2*Delta[Index[d$$1, Flavor], 
       Index[d$$2, Flavor]]*LF[{Coupling[m2, {}, 0], 
        Coupling[mlt, {Index[d$$1, Flavor]}, 0]}, {2, 1, 0}]) + 
@@ -43848,20 +43864,20 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
   (-(CG[gen[SU2L[fund]], {Index[d$$1, SU2L[adj]], Index[d$$1, SU2L[fund]], 
        Bar[Index[d$$2, SU2L[fund]]]}]*FieldStrength[W, 
       {Index[d$$1, Lorentz], Index[d$$2, Lorentz]}, {Index[d$$1, SU2L[adj]]}, 
-      {}]*Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
-         Index[d$$2, Flavor]}, {}]]**DiracProduct[
+      {}]*NCM[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
+         Index[d$$2, Flavor]}, {}]], DiracProduct[
        GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
-       GammaM[Index[d$$3, Lorentz]], Proj[-1]]**Field[l, Fermion, 
+       GammaM[Index[d$$3, Lorentz]], Proj[-1]], Field[l, Fermion, 
        {Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, 
-       {Index[d$$3, Lorentz]}]) + 
+       {Index[d$$3, Lorentz]}]]) + 
    CG[gen[SU2L[fund]], {Index[d$$1, SU2L[adj]], Index[d$$1, SU2L[fund]], 
       Bar[Index[d$$2, SU2L[fund]]]}]*FieldStrength[W, 
      {Index[d$$1, Lorentz], Index[d$$2, Lorentz]}, {Index[d$$1, SU2L[adj]]}, 
-     {}]*Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
-        Index[d$$2, Flavor]}, {Index[d$$3, Lorentz]}]]**
+     {}]*NCM[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
+        Index[d$$2, Flavor]}, {Index[d$$3, Lorentz]}]], 
      DiracProduct[GammaM[Index[d$$3, Lorentz]], GammaM[Index[d$$1, Lorentz], 
-       Index[d$$2, Lorentz]], Proj[-1]]**Field[l, Fermion, 
-      {Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}]) + 
+       Index[d$$2, Lorentz]], Proj[-1]], Field[l, Fermion, 
+      {Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}]]) + 
  hbar*((-1/4*I)*Coupling[g1, {}, 0]^2*Delta[Index[d$$1, Flavor], 
      Index[d$$2, Flavor]]*LF[{Coupling[m1, {}, 0], 
       Coupling[mlt, {Index[d$$1, Flavor]}, 0]}, {2, 1, 0}] + 
@@ -43891,31 +43907,33 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[ye, {Index[d$$2, Flavor], Index[d$$3, Flavor]}, 0]*
     LF[{Coupling[\[Mu]t, {}, 0], Coupling[met, {Index[d$$3, Flavor]}, 0]}, 
      {4, 1, -2}])*
-  (Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
-      {Index[d$$1, Lorentz]}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-     Proj[-1]]**Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
-      Index[d$$1, Flavor]}, {Index[d$$2, Lorentz], Index[d$$2, Lorentz]}] - 
-   Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
-      {Index[d$$1, Lorentz], Index[d$$1, Lorentz]}]]**
-    DiracProduct[GammaM[Index[d$$2, Lorentz]], Proj[-1]]**
+  (NCM[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
+      {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+     Proj[-1]], Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
+      Index[d$$1, Flavor]}, {Index[d$$2, Lorentz], Index[d$$2, Lorentz]}]] - 
+   NCM[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
+      {Index[d$$1, Lorentz], Index[d$$1, Lorentz]}]], 
+    DiracProduct[GammaM[Index[d$$2, Lorentz]], Proj[-1]], 
     Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
-     {Index[d$$2, Lorentz]}]) + 
+     {Index[d$$2, Lorentz]}]]) + 
  (hbar*Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]^2*
    LF[{Coupling[m1, {}, 0], Coupling[mdt, {Index[d$$3, Flavor]}, 0], 
      Coupling[mlt, {Index[d$$4, Flavor]}, 0]}, {2, 1, 1, 0}]*
-   Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, 
-      {}]]**DiracProduct[Proj[-1]]**Field[l, Fermion, 
-     {Index[d$$1, SU2L[fund]], Index[d$$4, Flavor]}, {}]*
-   Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$4, Flavor]}, 
-      {}]]**DiracProduct[Proj[1]]**Field[d, Fermion, 
-     {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, {}])/9 + 
+   NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, 
+      {}]], DiracProduct[Proj[-1]], Field[l, Fermion, 
+     {Index[d$$1, SU2L[fund]], Index[d$$4, Flavor]}, {}]]*
+   NCM[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$4, Flavor]}, 
+      {}]], DiracProduct[Proj[1]], Field[d, Fermion, 
+     {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, {}]])/9 + 
  hbar*Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]^2*
   LF[{Coupling[m1, {}, 0], Coupling[met, {Index[d$$3, Flavor]}, 0], 
     Coupling[mlt, {Index[d$$4, Flavor]}, 0]}, {2, 1, 1, 0}]*
-  Bar[Field[e, Fermion, {Index[d$$3, Flavor]}, {}]]**DiracProduct[Proj[-1]]**
-   Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$4, Flavor]}, {}]*
-  Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$4, Flavor]}, {}]]**
-   DiracProduct[Proj[1]]**Field[e, Fermion, {Index[d$$3, Flavor]}, {}] + 
+  NCM[Bar[Field[e, Fermion, {Index[d$$3, Flavor]}, {}]], 
+   DiracProduct[Proj[-1]], Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
+     Index[d$$4, Flavor]}, {}]]*
+  NCM[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$4, Flavor]}, 
+     {}]], DiracProduct[Proj[1]], Field[e, Fermion, {Index[d$$3, Flavor]}, 
+    {}]] + 
  hbar*((Bar[Coupling[ye, {Index[d$$2, Flavor], Index[d$$3, Flavor]}, 0]]*
      Coupling[g1, {}, 0]^2*Coupling[ye, {Index[d$$4, Flavor], 
        Index[d$$1, Flavor]}, 0]*LF[{Coupling[m1, {}, 0], 
@@ -43934,12 +43952,12 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        Coupling[mlt, {Index[d$$2, Flavor]}, 0], Coupling[mlt, 
         {Index[d$$4, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
       {1, 1, 1, 1, -1}])/8)*
-  Bar[Field[e, Fermion, {Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[e, Fermion, {Index[d$$1, Flavor]}, {}]*
-  Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$4, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
-   Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}] + 
+  NCM[Bar[Field[e, Fermion, {Index[d$$3, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[e, Fermion, {Index[d$$1, Flavor]}, {}]]*
+  NCM[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$4, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+   Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]] + 
  hbar*((Bar[Coupling[yd, {Index[d$$2, Flavor], Index[d$$3, Flavor]}, 0]]*
      Coupling[g1, {}, 0]^2*Coupling[ye, {Index[d$$4, Flavor], 
        Index[d$$1, Flavor]}, 0]*LF[{Coupling[m1, {}, 0], 
@@ -43958,13 +43976,13 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        Coupling[mlt, {Index[d$$4, Flavor]}, 0], Coupling[mqt, 
         {Index[d$$2, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
       {1, 1, 1, 1, -1}])/8)*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[e, Fermion, {Index[d$$1, Flavor]}, {}]*
-  Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$4, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[e, Fermion, {Index[d$$1, Flavor]}, {}]]*
+  NCM[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$4, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
    Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-     Index[d$$2, Flavor]}, {}] + 
+     Index[d$$2, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
@@ -44105,9 +44123,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        Coupling[met, {Index[d$$4, Flavor]}, 0], Coupling[mlt, 
         {Index[d$$2, Flavor]}, 0], Coupling[mlt, {Index[d$$3, Flavor]}, 0], 
        Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, -1}])/2)*
-  Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[Proj[1]]**Field[e, Fermion, {Index[d$$1, Flavor]}, {}] + 
- hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
+  NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[Proj[1]], Field[e, Fermion, {Index[d$$1, Flavor]}, 
+    {}]] + hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
   (-(Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]*
@@ -44188,9 +44206,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        Coupling[mlt, {Index[d$$2, Flavor]}, 0], Coupling[mlt, 
         {Index[d$$3, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
       {1, 1, 1, 1, 1, -1}])/2)*
-  Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[Proj[1]]**Field[e, Fermion, {Index[d$$1, Flavor]}, {}] + 
- hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
+  NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[Proj[1]], Field[e, Fermion, {Index[d$$1, Flavor]}, 
+    {}]] + hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]1, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
   Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   (-(Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]*
@@ -44335,9 +44353,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[met, {Index[d$$4, Flavor]}, 0], Coupling[mlt, 
        {Index[d$$2, Flavor]}, 0], Coupling[mlt, {Index[d$$3, Flavor]}, 0], 
       Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])*
-  Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[Proj[1]]**Field[e, Fermion, {Index[d$$1, Flavor]}, {}] + 
- hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
+  NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[Proj[1]], Field[e, Fermion, {Index[d$$1, Flavor]}, 
+    {}]] + hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
   (-(Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]*
@@ -44470,9 +44488,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        Coupling[met, {Index[d$$4, Flavor]}, 0], Coupling[mlt, 
         {Index[d$$2, Flavor]}, 0], Coupling[mlt, {Index[d$$3, Flavor]}, 0], 
        Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])/2)*
-  Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[Proj[1]]**Field[e, Fermion, {Index[d$$1, Flavor]}, {}] + 
- hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
+  NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[Proj[1]], Field[e, Fermion, {Index[d$$1, Flavor]}, 
+    {}]] + hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]1, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
   Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   (Coupling[g1, {}, 0]^4*Coupling[ye, {Index[d$$2, Flavor], 
@@ -44577,9 +44595,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[met, {Index[d$$4, Flavor]}, 0], Coupling[mlt, 
        {Index[d$$2, Flavor]}, 0], Coupling[mlt, {Index[d$$3, Flavor]}, 0], 
       Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])*
-  Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[Proj[1]]**Field[e, Fermion, {Index[d$$1, Flavor]}, {}] + 
- hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
+  NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[Proj[1]], Field[e, Fermion, {Index[d$$1, Flavor]}, 
+    {}]] + hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
   ((Coupling[g1, {}, 0]^4*Coupling[ye, {Index[d$$2, Flavor], 
@@ -44697,9 +44715,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        Coupling[met, {Index[d$$4, Flavor]}, 0], Coupling[mlt, 
         {Index[d$$2, Flavor]}, 0], Coupling[mlt, {Index[d$$3, Flavor]}, 0], 
        Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])/2)*
-  Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[Proj[1]]**Field[e, Fermion, {Index[d$$1, Flavor]}, {}] + 
- hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
+  NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[Proj[1]], Field[e, Fermion, {Index[d$$1, Flavor]}, 
+    {}]] + hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   Field[\[Phi]1, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
   (Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]^2*
@@ -44778,9 +44796,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        Coupling[met, {Index[d$$4, Flavor]}, 0], Coupling[mlt, 
         {Index[d$$2, Flavor]}, 0], Coupling[mlt, {Index[d$$3, Flavor]}, 0], 
        Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])/2)*
-  Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[Proj[1]]**Field[e, Fermion, {Index[d$$1, Flavor]}, {}] + 
- hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
+  NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[Proj[1]], Field[e, Fermion, {Index[d$$1, Flavor]}, 
+    {}]] + hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   Field[\[Phi]1, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
   (-(Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]*
@@ -44882,9 +44900,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        Coupling[met, {Index[d$$4, Flavor]}, 0], Coupling[mlt, 
         {Index[d$$2, Flavor]}, 0], Coupling[mlt, {Index[d$$3, Flavor]}, 0], 
        Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])/2)*
-  Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[Proj[1]]**Field[e, Fermion, {Index[d$$1, Flavor]}, {}] + 
- hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, 
+  NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[Proj[1]], Field[e, Fermion, {Index[d$$1, Flavor]}, 
+    {}]] + hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, 
     {Index[d$$1, Lorentz]}]]*Field[\[Phi]2, Scalar, 
    {Index[d$$2, SU2L[fund]]}, {}]*
   ((I/4)*Bar[Coupling[ye, {Index[d$$1, Flavor], Index[d$$3, Flavor]}, 0]]*
@@ -45037,9 +45055,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     LF[{Coupling[\[Mu]t, {}, 0], Coupling[m2, {}, 0], 
       Coupling[met, {Index[d$$3, Flavor]}, 0], Coupling[mlt, 
        {Index[d$$2, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
-  Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
-   Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+   Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]1, Scalar, {Index[d$$2, SU2L[fund]]}, {Index[d$$1, Lorentz]}]*
   ((-1/4*I)*Bar[Coupling[ye, {Index[d$$1, Flavor], Index[d$$3, Flavor]}, 0]]*
@@ -45192,9 +45210,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], Coupling[m2, {}, 0], 
       Coupling[met, {Index[d$$3, Flavor]}, 0], Coupling[mlt, 
        {Index[d$$2, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
-  Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
-   Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+   Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*((-1/8*I)*Bar[Coupling[ye, {Index[d$$1, Flavor], Index[d$$3, Flavor]}, 
       0]]*Coupling[g1, {}, 0]^2*Coupling[ye, {Index[d$$2, Flavor], 
       Index[d$$3, Flavor]}, 0]*Coupling[\[Mu]t, {}, 0]^2*
@@ -45380,14 +45398,15 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
   (Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, 
       {Index[d$$1, Lorentz]}]]*Field[\[Phi]1, Scalar, 
      {Index[d$$2, SU2L[fund]]}, {}]*
-    Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
-       {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
-     Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] - 
+    NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+       {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+     Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}]] - 
    Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]1, Scalar, {Index[d$$2, SU2L[fund]]}, {Index[d$$1, Lorentz]}]*
-    Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
-       {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
-     Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}]) + 
+    NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+       {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+     Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
+      {}]]) + 
  hbar*((-1/8*I)*Bar[Coupling[ye, {Index[d$$1, Flavor], Index[d$$3, Flavor]}, 
       0]]*Coupling[g1, {}, 0]^2*Coupling[ye, {Index[d$$2, Flavor], 
       Index[d$$3, Flavor]}, 0]*LF[{Coupling[m1, {}, 0], 
@@ -45568,15 +45587,15 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
   (Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, 
       {Index[d$$1, Lorentz]}]]*Field[\[Phi]2, Scalar, 
      {Index[d$$2, SU2L[fund]]}, {}]*
-    Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
-       {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
-     Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] - 
+    NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+       {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+     Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}]] - 
    Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {Index[d$$1, Lorentz]}]*
-    Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
-       {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
-     Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}]) + 
- hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
+    NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+       {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+     Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
+      {}]]) + hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
   ((I/4)*Bar[Coupling[ye, {Index[d$$1, Flavor], Index[d$$3, Flavor]}, 0]]*
     Coupling[g1, {}, 0]^2*Coupling[m1, {}, 0]*
@@ -45749,10 +45768,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     LF[{Coupling[\[Mu]t, {}, 0], Coupling[m2, {}, 0], 
       Coupling[met, {Index[d$$3, Flavor]}, 0], Coupling[mlt, 
        {Index[d$$2, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
-  Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
+  NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
    Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
-    {Index[d$$1, Lorentz]}] + 
+    {Index[d$$1, Lorentz]}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]1, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
   ((-1/2*I)*Coupling[g2, {}, 0]^4*Coupling[m2, {}, 0]*Coupling[\[Mu]t, {}, 0]*
@@ -45943,10 +45962,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], Coupling[m2, {}, 0], 
       Coupling[met, {Index[d$$3, Flavor]}, 0], Coupling[mlt, 
        {Index[d$$2, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
-  Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
+  NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
    Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
-    {Index[d$$1, Lorentz]}] + 
+    {Index[d$$1, Lorentz]}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, 
     {Index[d$$1, Lorentz]}]]*Field[\[Phi]2, Scalar, 
    {Index[d$$1, SU2L[fund]]}, {}]*
@@ -46035,9 +46054,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     LF[{Coupling[\[Mu]t, {}, 0], Coupling[m2, {}, 0], 
       Coupling[met, {Index[d$$3, Flavor]}, 0], Coupling[mlt, 
        {Index[d$$2, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
-  Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
-   Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+   Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]*
   ((-1/2*I)*Bar[Coupling[ye, {Index[d$$1, Flavor], Index[d$$3, Flavor]}, 0]]*
@@ -46125,9 +46144,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], Coupling[m2, {}, 0], 
       Coupling[met, {Index[d$$3, Flavor]}, 0], Coupling[mlt, 
        {Index[d$$2, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
-  Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
-   Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+   Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*((I/16)*Coupling[g1, {}, 0]^4*Delta[Index[d$$1, Flavor], 
      Index[d$$2, Flavor]]*LF[{Coupling[m1, {}, 0], 
       Coupling[mlt, {Index[d$$1, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
@@ -46259,19 +46278,19 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
   (Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, 
       {Index[d$$1, Lorentz]}]]*Field[\[Phi]1, Scalar, 
      {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
-       {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
-     Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}] - 
+    NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+       {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+     Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}]] - 
    Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]*
-    Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
-       {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
-     Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}]) + 
- hbar*((-1/16*I)*Coupling[g1, {}, 0]^4*Delta[Index[d$$1, Flavor], 
-     Index[d$$2, Flavor]]*LF[{Coupling[m1, {}, 0], 
-      Coupling[mlt, {Index[d$$1, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
-     {2, 1, 1, -1}] - (I/8)*Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]^2*
+    NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+       {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+     Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, 
+      {}]]) + hbar*((-1/16*I)*Coupling[g1, {}, 0]^4*
     Delta[Index[d$$1, Flavor], Index[d$$2, Flavor]]*
+    LF[{Coupling[m1, {}, 0], Coupling[mlt, {Index[d$$1, Flavor]}, 0], 
+      Coupling[\[Mu]t, {}, 0]}, {2, 1, 1, -1}] - (I/8)*Coupling[g1, {}, 0]^4*
+    Coupling[m1, {}, 0]^2*Delta[Index[d$$1, Flavor], Index[d$$2, Flavor]]*
     LF[{Coupling[m1, {}, 0], Coupling[mlt, {Index[d$$1, Flavor]}, 0], 
       Coupling[\[Mu]t, {}, 0]}, {2, 1, 1, 0}] - (I/16)*Coupling[g1, {}, 0]^4*
     Delta[Index[d$$1, Flavor], Index[d$$2, Flavor]]*
@@ -46396,15 +46415,15 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
   (Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, 
       {Index[d$$1, Lorentz]}]]*Field[\[Phi]2, Scalar, 
      {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
-       {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
-     Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}] - 
+    NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+       {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+     Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}]] - 
    Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]*
-    Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
-       {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
-     Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}]) + 
- hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
+    NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+       {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+     Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, 
+      {}]]) + hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   ((I/4)*Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]*Coupling[\[Mu]t, {}, 0]*
     Delta[Index[d$$1, Flavor], Index[d$$2, Flavor]]*
@@ -46551,10 +46570,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[met, {Index[d$$3, Flavor]}, 0], Coupling[met, 
        {Index[d$$5, Flavor]}, 0], Coupling[mlt, {Index[d$$4, Flavor]}, 0]}, 
      {2, 1, 1, 1, -1}])*
-  Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
+  NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
    Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, 
-    {Index[d$$1, Lorentz]}] + 
+    {Index[d$$1, Lorentz]}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   ((-1/2*I)*Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]*Coupling[\[Mu]t, {}, 0]*
@@ -46721,10 +46740,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[met, {Index[d$$4, Flavor]}, 0], Coupling[met, 
        {Index[d$$5, Flavor]}, 0], Coupling[mlt, {Index[d$$3, Flavor]}, 0]}, 
      {2, 1, 1, 1, -1}])*
-  Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
+  NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
    Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, 
-    {Index[d$$1, Lorentz]}] + 
+    {Index[d$$1, Lorentz]}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]1, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
   ((-1/4*I)*Bar[Coupling[ye, {Index[d$$1, Flavor], Index[d$$3, Flavor]}, 0]]*
@@ -46899,10 +46918,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     LF[{Coupling[\[Mu]t, {}, 0], Coupling[m2, {}, 0], 
       Coupling[met, {Index[d$$3, Flavor]}, 0], Coupling[mlt, 
        {Index[d$$1, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
-  Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
-     {Index[d$$1, Lorentz]}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    Proj[-1]]**Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
-     Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+    Proj[-1]], Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
   ((I/2)*Coupling[g2, {}, 0]^4*Coupling[m2, {}, 0]*Coupling[\[Mu]t, {}, 0]*
@@ -47092,10 +47111,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     LF[{Coupling[\[Mu]t, {}, 0], Coupling[m2, {}, 0], 
       Coupling[met, {Index[d$$3, Flavor]}, 0], Coupling[mlt, 
        {Index[d$$2, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
-  Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
-     {Index[d$$1, Lorentz]}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    Proj[-1]]**Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
-     Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+    Proj[-1]], Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*((-1/16*I)*Coupling[g1, {}, 0]^2*Coupling[g2, {}, 0]^2*
     Delta[Index[d$$1, Flavor], Index[d$$2, Flavor]]*
     LF[{Coupling[m1, {}, 0], Coupling[mlt, {Index[d$$1, Flavor]}, 0]}, 
@@ -47288,16 +47307,16 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        {Index[d$$2, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
   (Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]1, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
-    Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
-       {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
+    NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+       {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
      Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
-      {Index[d$$1, Lorentz]}] - 
+      {Index[d$$1, Lorentz]}]] - 
    Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]1, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
-    Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
-       {Index[d$$1, Lorentz]}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-      Proj[-1]]**Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
-       Index[d$$1, Flavor]}, {}]) + 
+    NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+       {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+      Proj[-1]], Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
+       Index[d$$1, Flavor]}, {}]]) + 
  hbar*((-1/8*I)*Bar[Coupling[ye, {Index[d$$1, Flavor], Index[d$$3, Flavor]}, 
       0]]*Coupling[g1, {}, 0]^2*Coupling[ye, {Index[d$$2, Flavor], 
       Index[d$$3, Flavor]}, 0]*Coupling[\[Mu]t, {}, 0]^2*
@@ -47444,16 +47463,16 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        {Index[d$$2, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
   (Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]1, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
-    Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
-       {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
+    NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+       {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
      Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
-      {Index[d$$1, Lorentz]}] + 
+      {Index[d$$1, Lorentz]}]] + 
    Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]1, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
-    Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
-       {Index[d$$1, Lorentz]}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-      Proj[-1]]**Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
-       Index[d$$1, Flavor]}, {}]) + 
+    NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+       {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+      Proj[-1]], Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
+       Index[d$$1, Flavor]}, {}]]) + 
  hbar*((I/16)*Coupling[g1, {}, 0]^2*Coupling[g2, {}, 0]^2*
     Delta[Index[d$$1, Flavor], Index[d$$2, Flavor]]*
     LF[{Coupling[m1, {}, 0], Coupling[mlt, {Index[d$$1, Flavor]}, 0]}, 
@@ -47662,16 +47681,16 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        {Index[d$$2, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
   (Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
-    Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
-       {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
+    NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+       {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
      Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
-      {Index[d$$1, Lorentz]}] - 
+      {Index[d$$1, Lorentz]}]] - 
    Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
-    Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
-       {Index[d$$1, Lorentz]}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-      Proj[-1]]**Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
-       Index[d$$1, Flavor]}, {}]) + 
+    NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+       {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+      Proj[-1]], Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
+       Index[d$$1, Flavor]}, {}]]) + 
  hbar*((I/8)*Bar[Coupling[ye, {Index[d$$1, Flavor], Index[d$$3, Flavor]}, 0]]*
     Coupling[g1, {}, 0]^2*Coupling[ye, {Index[d$$2, Flavor], 
       Index[d$$3, Flavor]}, 0]*LF[{Coupling[mlt, {Index[d$$1, Flavor]}, 0], 
@@ -47832,16 +47851,16 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        {Index[d$$2, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
   (Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
-    Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
-       {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
+    NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+       {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
      Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
-      {Index[d$$1, Lorentz]}] + 
+      {Index[d$$1, Lorentz]}]] + 
    Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
-    Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
-       {Index[d$$1, Lorentz]}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-      Proj[-1]]**Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
-       Index[d$$1, Flavor]}, {}]) + 
+    NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+       {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+      Proj[-1]], Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
+       Index[d$$1, Flavor]}, {}]]) + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   ((I/2)*Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]*Coupling[\[Mu]t, {}, 0]*
@@ -48008,10 +48027,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[met, {Index[d$$3, Flavor]}, 0], Coupling[met, 
        {Index[d$$5, Flavor]}, 0], Coupling[mlt, {Index[d$$4, Flavor]}, 0]}, 
      {2, 1, 1, 1, -1}])*
-  Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
-     {Index[d$$1, Lorentz]}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    Proj[-1]]**Field[l, Fermion, {Index[d$$2, SU2L[fund]], 
-     Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+    Proj[-1]], Field[l, Fermion, {Index[d$$2, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   ((-1/4*I)*Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]*Coupling[\[Mu]t, {}, 0]*
@@ -48159,10 +48178,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[met, {Index[d$$4, Flavor]}, 0], Coupling[met, 
        {Index[d$$5, Flavor]}, 0], Coupling[mlt, {Index[d$$3, Flavor]}, 0]}, 
      {2, 1, 1, 1, -1}])*
-  Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
-     {Index[d$$1, Lorentz]}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    Proj[-1]]**Field[l, Fermion, {Index[d$$2, SU2L[fund]], 
-     Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+    Proj[-1]], Field[l, Fermion, {Index[d$$2, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*((I/32)*Coupling[g1, {}, 0]^2*(Coupling[g1, {}, 0]^2 + 
      Coupling[g2, {}, 0]^2)*Delta[Index[d$$1, Flavor], Index[d$$2, Flavor]]*
     LF[{Coupling[m1, {}, 0], Coupling[mlt, {Index[d$$1, Flavor]}, 0]}, 
@@ -48337,16 +48356,16 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      {2, 1, 1, 1, -1}])*
   (Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
-       {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
+    NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+       {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
      Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, 
-      {Index[d$$1, Lorentz]}] - 
+      {Index[d$$1, Lorentz]}]] - 
    Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
-       {Index[d$$1, Lorentz]}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-      Proj[-1]]**Field[l, Fermion, {Index[d$$2, SU2L[fund]], 
-       Index[d$$1, Flavor]}, {}]) + 
+    NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+       {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+      Proj[-1]], Field[l, Fermion, {Index[d$$2, SU2L[fund]], 
+       Index[d$$1, Flavor]}, {}]]) + 
  hbar*((I/4)*Bar[Coupling[ye, {Index[d$$1, Flavor], Index[d$$3, Flavor]}, 0]]*
     Coupling[g2, {}, 0]^2*Coupling[ye, {Index[d$$2, Flavor], 
       Index[d$$3, Flavor]}, 0]*Coupling[\[Mu]t, {}, 0]^2*
@@ -48437,16 +48456,16 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        {Index[d$$2, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
   (Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
-       {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
+    NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+       {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
      Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, 
-      {Index[d$$1, Lorentz]}] + 
+      {Index[d$$1, Lorentz]}]] + 
    Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
-       {Index[d$$1, Lorentz]}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-      Proj[-1]]**Field[l, Fermion, {Index[d$$2, SU2L[fund]], 
-       Index[d$$1, Flavor]}, {}]) + 
+    NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+       {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+      Proj[-1]], Field[l, Fermion, {Index[d$$2, SU2L[fund]], 
+       Index[d$$1, Flavor]}, {}]]) + 
  hbar*((-1/32*I)*Coupling[g1, {}, 0]^2*(Coupling[g1, {}, 0]^2 + 
      Coupling[g2, {}, 0]^2)*Delta[Index[d$$1, Flavor], Index[d$$2, Flavor]]*
     LF[{Coupling[m1, {}, 0], Coupling[mlt, {Index[d$$1, Flavor]}, 0]}, 
@@ -48642,16 +48661,16 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        {Index[d$$3, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
   (Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
-       {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
+    NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+       {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
      Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, 
-      {Index[d$$1, Lorentz]}] - 
+      {Index[d$$1, Lorentz]}]] - 
    Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
-       {Index[d$$1, Lorentz]}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-      Proj[-1]]**Field[l, Fermion, {Index[d$$2, SU2L[fund]], 
-       Index[d$$1, Flavor]}, {}]) + 
+    NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+       {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+      Proj[-1]], Field[l, Fermion, {Index[d$$2, SU2L[fund]], 
+       Index[d$$1, Flavor]}, {}]]) + 
  hbar*((I/4)*Bar[Coupling[ye, {Index[d$$1, Flavor], Index[d$$3, Flavor]}, 0]]*
     Bar[Coupling[ye, {Index[d$$4, Flavor], Index[d$$5, Flavor]}, 0]]*
     Coupling[ye, {Index[d$$2, Flavor], Index[d$$5, Flavor]}, 0]*
@@ -48762,16 +48781,16 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        {Index[d$$2, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
   (Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
-       {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
+    NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+       {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
      Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, 
-      {Index[d$$1, Lorentz]}] + 
+      {Index[d$$1, Lorentz]}]] + 
    Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
-       {Index[d$$1, Lorentz]}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-      Proj[-1]]**Field[l, Fermion, {Index[d$$2, SU2L[fund]], 
-       Index[d$$1, Flavor]}, {}]) + 
+    NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+       {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+      Proj[-1]], Field[l, Fermion, {Index[d$$2, SU2L[fund]], 
+       Index[d$$1, Flavor]}, {}]]) + 
  hbar*((Coupling[g2, {}, 0]^4*Delta[Index[d$$1, Flavor], Index[d$$3, Flavor]]*
      Delta[Index[d$$2, Flavor], Index[d$$4, Flavor]]*
      LF[{Coupling[m2, {}, 0], Coupling[mlt, {Index[d$$2, Flavor]}, 0], 
@@ -48787,12 +48806,12 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      LF[{Coupling[m1, {}, 0], Coupling[m2, {}, 0], 
        Coupling[mlt, {Index[d$$2, Flavor]}, 0], Coupling[mlt, 
         {Index[d$$3, Flavor]}, 0]}, {1, 1, 1, 1, -1}])/8)*
-  Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$4, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
-   Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}]*
-  Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
-   Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}] + 
+  NCM[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$4, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+   Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}]]*
+  NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$3, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+   Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]] + 
  hbar*((Coupling[g1, {}, 0]^4*Delta[Index[d$$1, Flavor], Index[d$$3, Flavor]]*
      Delta[Index[d$$2, Flavor], Index[d$$4, Flavor]]*
      LF[{Coupling[m1, {}, 0], Coupling[mlt, {Index[d$$1, Flavor]}, 0], 
@@ -48806,12 +48825,12 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      LF[{Coupling[m1, {}, 0], Coupling[m2, {}, 0], 
        Coupling[mlt, {Index[d$$1, Flavor]}, 0], Coupling[mlt, 
         {Index[d$$4, Flavor]}, 0]}, {1, 1, 1, 1, -1}])/16)*
-  Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
-   Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]*
-  Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$4, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
-   Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$3, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+   Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]]*
+  NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$4, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+   Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   (-1/9*(Coupling[g1, {}, 0]^2*Coupling[m1, {}, 0]*
      Coupling[yd, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0]*
@@ -48840,10 +48859,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[yu, {Index[d$$2, Flavor], Index[d$$4, Flavor]}, 0]*
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[mqt, {Index[d$$3, Flavor]}, 0], 
       Coupling[mut, {Index[d$$4, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
-     {1, 1, 1, 0}])*Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-      Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[Proj[1]]**Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, Flavor]}, {}] + 
+     {1, 1, 1, 0}])*NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[Proj[1]], Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   (Coupling[yd, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0] + 
    hbar*(((Coupling[g1, {}, 0]^2 + 3*Coupling[g2, {}, 0]^2)*
@@ -48876,9 +48895,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[\[Mu]t, {}, 0]^2*LF[{Coupling[mqt, {Index[d$$3, Flavor]}, 0], 
         Coupling[mut, {Index[d$$4, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
        {1, 1, 1, 0}]))*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[Proj[1]]**
-   Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[Proj[1]], Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, 
    {Index[d$$1, Lorentz], Index[d$$1, Lorentz]}]*
   ((Coupling[g1, {}, 0]^2*Coupling[m1, {}, 0]*
@@ -48982,9 +49002,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[\[Mu]t, {}, 0]*LF[{Coupling[mut, {Index[d$$4, Flavor]}, 0], 
        Coupling[\[Mu]t, {}, 0], Coupling[mqt, {Index[d$$3, Flavor]}, 0]}, 
       {2, 2, 1, -1}])/4)*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[Proj[1]]**
-   Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[Proj[1]], Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, 
    {Index[d$$1, Lorentz], Index[d$$1, Lorentz]}]*
   ((Coupling[ad, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0]*
@@ -49082,9 +49103,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[\[Mu]t, {}, 0]^2*LF[{Coupling[mut, {Index[d$$4, Flavor]}, 0], 
        Coupling[\[Mu]t, {}, 0], Coupling[mqt, {Index[d$$3, Flavor]}, 0]}, 
       {2, 2, 1, -1}])/4)*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[Proj[1]]**
-   Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[Proj[1]], Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$2, SU2L[fund]]}, 
     {Index[d$$1, Lorentz], Index[d$$1, Lorentz]}]]*
   CG[eps[SU2L], {Index[d$$1, SU2L[fund]], Index[d$$2, SU2L[fund]]}]*
@@ -49183,9 +49205,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[g3, {}, 0]^2*Coupling[m3, {}, 0]*
      LF[{Coupling[mut, {Index[d$$1, Flavor]}, 0], Coupling[m3, {}, 0], 
        Coupling[mqt, {Index[d$$2, Flavor]}, 0]}, {3, 1, 1, -1}])/3)*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[Proj[1]]**
-   Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[Proj[1]], Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, 
     {Index[d$$1, Lorentz], Index[d$$1, Lorentz]}]]*
   CG[eps[SU2L], {Index[d$$1, SU2L[fund]], Index[d$$2, SU2L[fund]]}]*
@@ -49289,9 +49312,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[\[Mu]t, {}, 0]*LF[{Coupling[mut, {Index[d$$1, Flavor]}, 0], 
        Coupling[m3, {}, 0], Coupling[mqt, {Index[d$$2, Flavor]}, 0]}, 
       {3, 1, 1, -1}])/3)*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[Proj[1]]**
-   Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] - 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[Proj[1]], Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, Flavor]}, {}]] - 
  hbar*FieldStrength[B, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]}, {}, 
    {Index[d$$2, Lorentz]}]*
   (-1/648*(Coupling[g1, {}, 0]^2*Delta[Index[d$$1, Flavor], 
@@ -49388,10 +49412,11 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[yu, {Index[d$$2, Flavor], Index[d$$3, Flavor]}, 0]*
      LF[{Coupling[\[Mu]t, {}, 0], Coupling[mut, {Index[d$$3, Flavor]}, 0]}, 
       {4, 1, -2}])/36)*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+   Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  (I*Delta[Index[d$$1, Flavor], Index[d$$2, Flavor]] + 
    hbar*((-1/72*I)*(18*Bar[Coupling[yd, {Index[d$$1, Flavor], 
            Index[d$$3, Flavor]}, 0]]*Coupling[yd, {Index[d$$2, Flavor], 
@@ -49439,10 +49464,11 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
          Index[d$$3, Flavor]}, 0]]*Coupling[yu, {Index[d$$2, Flavor], 
         Index[d$$3, Flavor]}, 0]*LF[{Coupling[\[Mu]t, {}, 0], 
         Coupling[mut, {Index[d$$3, Flavor]}, 0]}, {2, 1, -1}]))*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {Index[d$$1, Lorentz]}] - 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+   Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {Index[d$$1, Lorentz]}]] - 
  hbar*CG[gen[SU2L[fund]], {Index[d$$1, SU2L[adj]], Index[d$$1, SU2L[fund]], 
     Bar[Index[d$$2, SU2L[fund]]]}]*FieldStrength[W, 
    {Index[d$$1, Lorentz], Index[d$$2, Lorentz]}, {Index[d$$1, SU2L[adj]]}, 
@@ -49509,10 +49535,11 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[yu, {Index[d$$2, Flavor], Index[d$$3, Flavor]}, 0]*
      LF[{Coupling[\[Mu]t, {}, 0], Coupling[mut, {Index[d$$3, Flavor]}, 0]}, 
       {4, 1, -2}])/6)*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}] - 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+   Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {}]] - 
  hbar*CG[gen[SU3c[fund]], {Index[d$$1, SU3c[adj]], Index[d$$1, SU3c[fund]], 
     Bar[Index[d$$2, SU3c[fund]]]}]*FieldStrength[G, 
    {Index[d$$1, Lorentz], Index[d$$2, Lorentz]}, {Index[d$$1, SU3c[adj]]}, 
@@ -49611,10 +49638,11 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[yu, {Index[d$$2, Flavor], Index[d$$3, Flavor]}, 0]*
      LF[{Coupling[\[Mu]t, {}, 0], Coupling[mut, {Index[d$$3, Flavor]}, 0]}, 
       {4, 1, -2}])/6)*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    Proj[-1]]**Field[q, Fermion, {Index[d$$2, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+   Field[q, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$1, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   FieldStrength[B, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]}, {}, {}]*
   ((I/216)*Coupling[g1, {}, 0]^2*Coupling[m1, {}, 0]*
@@ -49740,10 +49768,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
        {Index[d$$4, Flavor]}, 0]}, {3, 1, 1, -1}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz], 
-     Index[d$$2, Lorentz]], Proj[1]]**Field[d, Fermion, 
-    {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], Proj[1]], 
+   Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*CG[gen[SU2L[fund]], {Index[d$$1, SU2L[adj]], Index[d$$1, SU2L[fund]], 
     Bar[Index[d$$2, SU2L[fund]]]}]*Field[\[Phi]1, Scalar, 
    {Index[d$$2, SU2L[fund]]}, {}]*FieldStrength[W, 
@@ -49851,10 +49879,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
        {Index[d$$4, Flavor]}, 0]}, {3, 1, 1, -1}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz], 
-     Index[d$$2, Lorentz]], Proj[1]]**Field[d, Fermion, 
-    {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], Proj[1]], 
+   Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   FieldStrength[B, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]}, {}, {}]*
   ((I/216)*Coupling[ad, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0]*
@@ -49972,10 +50000,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]^2*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
        {Index[d$$4, Flavor]}, 0]}, {3, 1, 1, -1}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz], 
-     Index[d$$2, Lorentz]], Proj[1]]**Field[d, Fermion, 
-    {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], Proj[1]], 
+   Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*CG[gen[SU2L[fund]], {Index[d$$1, SU2L[adj]], Index[d$$1, SU2L[fund]], 
     Bar[Index[d$$2, SU2L[fund]]]}]*Field[\[Phi]2, Scalar, 
    {Index[d$$2, SU2L[fund]]}, {}]*FieldStrength[W, 
@@ -50079,10 +50107,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]^2*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
        {Index[d$$4, Flavor]}, 0]}, {3, 1, 1, -1}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz], 
-     Index[d$$2, Lorentz]], Proj[1]]**Field[d, Fermion, 
-    {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], Proj[1]], 
+   Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*CG[gen[SU3c[fund]], {Index[d$$1, SU3c[adj]], Index[d$$1, SU3c[fund]], 
     Bar[Index[d$$2, SU3c[fund]]]}]*Field[\[Phi]1, Scalar, 
    {Index[d$$1, SU2L[fund]]}, {}]*FieldStrength[G, 
@@ -50179,10 +50207,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
        {Index[d$$4, Flavor]}, 0]}, {3, 1, 1, -1}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz], 
-     Index[d$$2, Lorentz]], Proj[1]]**Field[d, Fermion, 
-    {Index[d$$2, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], Proj[1]], 
+   Field[d, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*CG[gen[SU3c[fund]], {Index[d$$1, SU3c[adj]], Index[d$$1, SU3c[fund]], 
     Bar[Index[d$$2, SU3c[fund]]]}]*Field[\[Phi]2, Scalar, 
    {Index[d$$1, SU2L[fund]]}, {}]*FieldStrength[G, 
@@ -50275,10 +50303,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]^2*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
        {Index[d$$4, Flavor]}, 0]}, {3, 1, 1, -1}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz], 
-     Index[d$$2, Lorentz]], Proj[1]]**Field[d, Fermion, 
-    {Index[d$$2, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], Proj[1]], 
+   Field[d, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, 
    {Index[d$$1, Lorentz]}]*((Coupling[g1, {}, 0]^2*Coupling[m1, {}, 0]*
      Coupling[yd, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0]*
@@ -50380,10 +50408,11 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], 
        Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
         {Index[d$$4, Flavor]}, 0]}, {3, 1, 1, -1}])/2)*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    GammaM[Index[d$$2, Lorentz]], Proj[1]]**Field[d, Fermion, 
-    {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {Index[d$$2, Lorentz]}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz]], GammaM[Index[d$$2, Lorentz]], 
+    Proj[1]], Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, Flavor]}, {Index[d$$2, Lorentz]}]] + 
  hbar*Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, 
    {Index[d$$1, Lorentz]}]*
   ((Coupling[ad, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0]*
@@ -50474,10 +50503,11 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[\[Mu]t, {}, 0]^2*LF[{Coupling[\[Mu]t, {}, 0], 
        Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
         {Index[d$$4, Flavor]}, 0]}, {3, 1, 1, -1}])/2)*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    GammaM[Index[d$$2, Lorentz]], Proj[1]]**Field[d, Fermion, 
-    {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {Index[d$$2, Lorentz]}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz]], GammaM[Index[d$$2, Lorentz]], 
+    Proj[1]], Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, Flavor]}, {Index[d$$2, Lorentz]}]] + 
  hbar*Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   ((Coupling[g1, {}, 0]^2*Coupling[m1, {}, 0]*
      Coupling[yd, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0]*
@@ -50572,11 +50602,12 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
        {Index[d$$4, Flavor]}, 0]}, {3, 1, 1, -1}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {Index[d$$1, Lorentz]}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], GammaM[Index[d$$2, Lorentz]], 
-    Proj[1]]**Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, Flavor]}, {Index[d$$2, Lorentz]}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+    GammaM[Index[d$$2, Lorentz]], Proj[1]], Field[d, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, 
+    {Index[d$$2, Lorentz]}]] + 
  hbar*Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   ((Coupling[ad, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0]*
      Coupling[g1, {}, 0]^2*Coupling[m1, {}, 0]*
@@ -50669,11 +50700,12 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]^2*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
        {Index[d$$4, Flavor]}, 0]}, {3, 1, 1, -1}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {Index[d$$1, Lorentz]}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], GammaM[Index[d$$2, Lorentz]], 
-    Proj[1]]**Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, Flavor]}, {Index[d$$2, Lorentz]}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+    GammaM[Index[d$$2, Lorentz]], Proj[1]], Field[d, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, 
+    {Index[d$$2, Lorentz]}]] + 
  hbar*Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, 
    {Index[d$$1, Lorentz]}]*((Coupling[g1, {}, 0]^2*Coupling[m1, {}, 0]*
      Coupling[yd, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0]*
@@ -50775,11 +50807,11 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], 
        Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
         {Index[d$$4, Flavor]}, 0]}, {3, 1, 1, -1}])/2)*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {Index[d$$2, Lorentz]}]]**
-   DiracProduct[GammaM[Index[d$$2, Lorentz]], GammaM[Index[d$$1, Lorentz]], 
-    Proj[1]]**Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {Index[d$$2, Lorentz]}]], DiracProduct[GammaM[Index[d$$2, Lorentz]], 
+    GammaM[Index[d$$1, Lorentz]], Proj[1]], Field[d, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, 
    {Index[d$$1, Lorentz]}]*
   ((Coupling[ad, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0]*
@@ -50870,11 +50902,11 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[\[Mu]t, {}, 0]^2*LF[{Coupling[\[Mu]t, {}, 0], 
        Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
         {Index[d$$4, Flavor]}, 0]}, {3, 1, 1, -1}])/2)*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {Index[d$$2, Lorentz]}]]**
-   DiracProduct[GammaM[Index[d$$2, Lorentz]], GammaM[Index[d$$1, Lorentz]], 
-    Proj[1]]**Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {Index[d$$2, Lorentz]}]], DiracProduct[GammaM[Index[d$$2, Lorentz]], 
+    GammaM[Index[d$$1, Lorentz]], Proj[1]], Field[d, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*(-1/8*(Bar[Coupling[yd, {Index[d$$1, Flavor], Index[d$$3, Flavor]}, 0]]*
      Coupling[yd, {Index[d$$2, Flavor], Index[d$$3, Flavor]}, 0]*
      LF[{Coupling[\[Mu]t, {}, 0], Coupling[mdt, {Index[d$$3, Flavor]}, 0]}, 
@@ -50892,19 +50924,19 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      LF[{Coupling[\[Mu]t, {}, 0], Coupling[mut, {Index[d$$3, Flavor]}, 0]}, 
       {3, 1, -1}])/8)*
   (-(FieldStrength[B, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]}, {}, {}]*
-     Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-         Index[d$$2, Flavor]}, {}]]**DiracProduct[
-       GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
-       GammaM[Index[d$$3, Lorentz]], Proj[-1]]**Field[q, Fermion, 
+     NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+         Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+      DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
+       GammaM[Index[d$$3, Lorentz]], Proj[-1]], Field[q, Fermion, 
        {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-        Index[d$$1, Flavor]}, {Index[d$$3, Lorentz]}]) + 
+        Index[d$$1, Flavor]}, {Index[d$$3, Lorentz]}]]) + 
    FieldStrength[B, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]}, {}, {}]*
-    Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-        Index[d$$2, Flavor]}, {Index[d$$3, Lorentz]}]]**
-     DiracProduct[GammaM[Index[d$$3, Lorentz]], GammaM[Index[d$$1, Lorentz], 
-       Index[d$$2, Lorentz]], Proj[-1]]**Field[q, Fermion, 
-      {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-       Index[d$$1, Flavor]}, {}]) + 
+    NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+        Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
+       {Index[d$$3, Lorentz]}]], DiracProduct[GammaM[Index[d$$3, Lorentz]], 
+      GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], Proj[-1]], 
+     Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
+       Index[d$$1, Flavor]}, {}]]) + 
  hbar*(-1/2*(Coupling[g2, {}, 0]^2*Delta[Index[d$$1, Flavor], 
       Index[d$$2, Flavor]]*LF[{Coupling[m2, {}, 0], 
        Coupling[mqt, {Index[d$$1, Flavor]}, 0]}, {2, 1, 0}]) + 
@@ -50930,21 +50962,21 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
   (-(CG[gen[SU2L[fund]], {Index[d$$1, SU2L[adj]], Index[d$$1, SU2L[fund]], 
        Bar[Index[d$$2, SU2L[fund]]]}]*FieldStrength[W, 
       {Index[d$$1, Lorentz], Index[d$$2, Lorentz]}, {Index[d$$1, SU2L[adj]]}, 
-      {}]*Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-         Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]]**
+      {}]*NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+         Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
       DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
-       GammaM[Index[d$$3, Lorentz]], Proj[-1]]**Field[q, Fermion, 
+       GammaM[Index[d$$3, Lorentz]], Proj[-1]], Field[q, Fermion, 
        {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-        Index[d$$1, Flavor]}, {Index[d$$3, Lorentz]}]) + 
+        Index[d$$1, Flavor]}, {Index[d$$3, Lorentz]}]]) + 
    CG[gen[SU2L[fund]], {Index[d$$1, SU2L[adj]], Index[d$$1, SU2L[fund]], 
       Bar[Index[d$$2, SU2L[fund]]]}]*FieldStrength[W, 
      {Index[d$$1, Lorentz], Index[d$$2, Lorentz]}, {Index[d$$1, SU2L[adj]]}, 
-     {}]*Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+     {}]*NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
         Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
-       {Index[d$$3, Lorentz]}]]**DiracProduct[GammaM[Index[d$$3, Lorentz]], 
-      GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], Proj[-1]]**
+       {Index[d$$3, Lorentz]}]], DiracProduct[GammaM[Index[d$$3, Lorentz]], 
+      GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], Proj[-1]], 
      Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-       Index[d$$1, Flavor]}, {}]) + 
+       Index[d$$1, Flavor]}, {}]]) + 
  hbar*((-3*Coupling[g3, {}, 0]^2*Delta[Index[d$$1, Flavor], 
       Index[d$$2, Flavor]]*LF[{Coupling[m3, {}, 0], 
        Coupling[mqt, {Index[d$$1, Flavor]}, 0]}, {2, 1, 0}])/4 + 
@@ -50954,21 +50986,21 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
   (-(CG[gen[SU3c[fund]], {Index[d$$1, SU3c[adj]], Index[d$$1, SU3c[fund]], 
        Bar[Index[d$$2, SU3c[fund]]]}]*FieldStrength[G, 
       {Index[d$$1, Lorentz], Index[d$$2, Lorentz]}, {Index[d$$1, SU3c[adj]]}, 
-      {}]*Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-         Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]]**
+      {}]*NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+         Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
       DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
-       GammaM[Index[d$$3, Lorentz]], Proj[-1]]**Field[q, Fermion, 
+       GammaM[Index[d$$3, Lorentz]], Proj[-1]], Field[q, Fermion, 
        {Index[d$$2, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-        Index[d$$1, Flavor]}, {Index[d$$3, Lorentz]}]) + 
+        Index[d$$1, Flavor]}, {Index[d$$3, Lorentz]}]]) + 
    CG[gen[SU3c[fund]], {Index[d$$1, SU3c[adj]], Index[d$$1, SU3c[fund]], 
       Bar[Index[d$$2, SU3c[fund]]]}]*FieldStrength[G, 
      {Index[d$$1, Lorentz], Index[d$$2, Lorentz]}, {Index[d$$1, SU3c[adj]]}, 
-     {}]*Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+     {}]*NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
         Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
-       {Index[d$$3, Lorentz]}]]**DiracProduct[GammaM[Index[d$$3, Lorentz]], 
-      GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], Proj[-1]]**
+       {Index[d$$3, Lorentz]}]], DiracProduct[GammaM[Index[d$$3, Lorentz]], 
+      GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], Proj[-1]], 
      Field[q, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-       Index[d$$1, Flavor]}, {}]) + 
+       Index[d$$1, Flavor]}, {}]]) + 
  hbar*((-1/36*I)*Coupling[g1, {}, 0]^2*Delta[Index[d$$1, Flavor], 
      Index[d$$2, Flavor]]*LF[{Coupling[m1, {}, 0], 
       Coupling[mqt, {Index[d$$1, Flavor]}, 0]}, {2, 1, 0}] + 
@@ -51017,16 +51049,18 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        Index[d$$3, Flavor]}, 0]]*Coupling[yu, {Index[d$$2, Flavor], 
       Index[d$$3, Flavor]}, 0]*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[mut, {Index[d$$3, Flavor]}, 0]}, {4, 1, -2}])*
-  (Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-       Index[d$$2, Flavor]}, {Index[d$$1, Lorentz]}]]**
-    DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
+  (NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+       Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
+      {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+     Proj[-1]], Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
+     {Index[d$$2, Lorentz], Index[d$$2, Lorentz]}]] - 
+   NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+       Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
+      {Index[d$$1, Lorentz], Index[d$$1, Lorentz]}]], 
+    DiracProduct[GammaM[Index[d$$2, Lorentz]], Proj[-1]], 
     Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$1, Flavor]}, {Index[d$$2, Lorentz], Index[d$$2, Lorentz]}] - 
-   Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-       Index[d$$2, Flavor]}, {Index[d$$1, Lorentz], Index[d$$1, Lorentz]}]]**
-    DiracProduct[GammaM[Index[d$$2, Lorentz]], Proj[-1]]**
-    Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$1, Flavor]}, {Index[d$$2, Lorentz]}]) + 
+      Index[d$$1, Flavor]}, {Index[d$$2, Lorentz]}]]) + 
  hbar*((Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]^2*
      Delta[Index[d$$1, Flavor], Index[d$$3, Flavor]]*
      Delta[Index[d$$2, Flavor], Index[d$$4, Flavor]]*
@@ -51039,12 +51073,12 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]^2*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[mlt, {Index[d$$5, Flavor]}, 0], Coupling[mut, 
        {Index[d$$6, Flavor]}, 0]}, {2, 1, 1, 0}])*
-  Bar[Field[e, Fermion, {Index[d$$3, Flavor]}, {}]]**DiracProduct[Proj[-1]]**
-   Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-     Index[d$$2, Flavor]}, {}]*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$4, Flavor]}, {}]]**DiracProduct[Proj[1]]**
-   Field[e, Fermion, {Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[e, Fermion, {Index[d$$3, Flavor]}, {}]], 
+   DiracProduct[Proj[-1]], Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]]*
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$4, Flavor]}, {}]], 
+   DiracProduct[Proj[1]], Field[e, Fermion, {Index[d$$1, Flavor]}, {}]] + 
  hbar*CG[eps[SU2L], {Index[d$$1, SU2L[fund]], Index[d$$2, SU2L[fund]]}]*
   (-1/3*(Coupling[g1, {}, 0]^2*Coupling[m1, {}, 0]*
      Coupling[ye, {Index[d$$3, Flavor], Index[d$$1, Flavor]}, 0]*
@@ -51059,12 +51093,12 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        Coupling[mlt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
         {Index[d$$2, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
       {1, 1, 1, 1, 0}])/3)*
-  Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[Proj[1]]**Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$2, Flavor]}, {}]*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$4, Flavor]}, {}]]**DiracProduct[Proj[1]]**
-   Field[e, Fermion, {Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$3, Flavor]}, 
+     {}]], DiracProduct[Proj[1]], Field[u, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]*
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$4, Flavor]}, {}]], 
+   DiracProduct[Proj[1]], Field[e, Fermion, {Index[d$$1, Flavor]}, {}]] + 
  hbar*((Bar[Coupling[ye, {Index[d$$2, Flavor], Index[d$$3, Flavor]}, 0]]*
      Coupling[g1, {}, 0]^2*Coupling[yd, {Index[d$$4, Flavor], 
        Index[d$$1, Flavor]}, 0]*LF[{Coupling[m1, {}, 0], 
@@ -51083,13 +51117,13 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        Coupling[mlt, {Index[d$$2, Flavor]}, 0], Coupling[mqt, 
         {Index[d$$4, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
       {1, 1, 1, 1, -1}])/8)*
-  Bar[Field[e, Fermion, {Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$4, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    Proj[-1]]**Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
-     Index[d$$2, Flavor]}, {}] + 
+  NCM[Bar[Field[e, Fermion, {Index[d$$3, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]]*
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$4, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+   Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   Field[\[Phi]1, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
@@ -51277,9 +51311,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mqt, {Index[d$$5, Flavor]}, 0], Coupling[mut, 
        {Index[d$$4, Flavor]}, 0], Coupling[mut, {Index[d$$6, Flavor]}, 0], 
       Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[Proj[1]]**
-   Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[Proj[1]], Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
@@ -51609,9 +51644,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mqt, {Index[d$$5, Flavor]}, 0], Coupling[mut, 
        {Index[d$$4, Flavor]}, 0], Coupling[mut, {Index[d$$6, Flavor]}, 0], 
       Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[Proj[1]]**
-   Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[Proj[1]], Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]1, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
   Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
@@ -51916,9 +51952,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mqt, {Index[d$$5, Flavor]}, 0], Coupling[mut, 
        {Index[d$$4, Flavor]}, 0], Coupling[mut, {Index[d$$6, Flavor]}, 0], 
       Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[Proj[1]]**
-   Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[Proj[1]], Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   Field[\[Phi]1, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
@@ -52035,9 +52072,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mqt, {Index[d$$5, Flavor]}, 0], Coupling[mut, 
        {Index[d$$4, Flavor]}, 0], Coupling[mut, {Index[d$$6, Flavor]}, 0], 
       Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[Proj[1]]**
-   Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[Proj[1]], Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
@@ -52152,9 +52190,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mqt, {Index[d$$5, Flavor]}, 0], Coupling[mut, 
        {Index[d$$4, Flavor]}, 0], Coupling[mut, {Index[d$$6, Flavor]}, 0], 
       Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[Proj[1]]**
-   Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[Proj[1]], Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
@@ -52471,9 +52510,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mqt, {Index[d$$5, Flavor]}, 0], Coupling[mut, 
        {Index[d$$4, Flavor]}, 0], Coupling[mut, {Index[d$$6, Flavor]}, 0], 
       Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[Proj[1]]**
-   Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[Proj[1]], Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]1, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
   Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
@@ -52813,9 +52853,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mqt, {Index[d$$5, Flavor]}, 0], Coupling[mut, 
        {Index[d$$4, Flavor]}, 0], Coupling[mut, {Index[d$$6, Flavor]}, 0], 
       Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[Proj[1]]**
-   Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[Proj[1]], Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
@@ -53034,9 +53075,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mqt, {Index[d$$5, Flavor]}, 0], Coupling[mut, 
        {Index[d$$4, Flavor]}, 0], Coupling[mut, {Index[d$$6, Flavor]}, 0], 
       Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[Proj[1]]**
-   Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[Proj[1]], Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   CG[eps[SU2L], {Index[d$$2, SU2L[fund]], Index[d$$1, SU2L[fund]]}]*
   ((-2*Coupling[g1, {}, 0]^2*Coupling[m1, {}, 0]*
@@ -53066,10 +53108,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[yu, {Index[d$$3, Flavor], Index[d$$1, Flavor]}, 0]*
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[mdt, {Index[d$$4, Flavor]}, 0], 
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
-     {1, 1, 1, 0}])*Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-      Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[Proj[1]]**Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, Flavor]}, {}] + 
+     {1, 1, 1, 0}])*NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[Proj[1]], Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   CG[eps[SU2L], {Index[d$$2, SU2L[fund]], Index[d$$1, SU2L[fund]]}]*
   (-Coupling[yu, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0] + 
@@ -53103,9 +53145,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[\[Mu]t, {}, 0]^2*LF[{Coupling[mdt, {Index[d$$4, Flavor]}, 0], 
         Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
        {1, 1, 1, 0}]))*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[Proj[1]]**
-   Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[Proj[1]], Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, 
     {Index[d$$1, Lorentz]}]]*Field[\[Phi]2, Scalar, 
    {Index[d$$2, SU2L[fund]]}, {}]*
@@ -53417,10 +53460,11 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     LF[{Coupling[\[Mu]t, {}, 0], Coupling[m2, {}, 0], 
       Coupling[mqt, {Index[d$$2, Flavor]}, 0], Coupling[mut, 
        {Index[d$$3, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+   Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]1, Scalar, {Index[d$$2, SU2L[fund]]}, {Index[d$$1, Lorentz]}]*
   ((-1/4*I)*Bar[Coupling[yd, {Index[d$$1, Flavor], Index[d$$3, Flavor]}, 0]]*
@@ -53731,10 +53775,11 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], Coupling[m2, {}, 0], 
       Coupling[mqt, {Index[d$$2, Flavor]}, 0], Coupling[mut, 
        {Index[d$$3, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+   Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*((-1/8*I)*Bar[Coupling[yd, {Index[d$$1, Flavor], Index[d$$3, Flavor]}, 
       0]]*Coupling[g1, {}, 0]^2*Coupling[yd, {Index[d$$2, Flavor], 
       Index[d$$3, Flavor]}, 0]*Coupling[\[Mu]t, {}, 0]^2*
@@ -54079,18 +54124,18 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
   (Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, 
       {Index[d$$1, Lorentz]}]]*Field[\[Phi]1, Scalar, 
      {Index[d$$2, SU2L[fund]]}, {}]*
-    Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-        Index[d$$2, Flavor]}, {}]]**DiracProduct[
-      GammaM[Index[d$$1, Lorentz]], Proj[-1]]**Field[q, Fermion, 
-      {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-       Index[d$$1, Flavor]}, {}] - 
+    NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+        Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+     Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
+       Index[d$$1, Flavor]}, {}]] - 
    Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]1, Scalar, {Index[d$$2, SU2L[fund]]}, {Index[d$$1, Lorentz]}]*
-    Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-        Index[d$$2, Flavor]}, {}]]**DiracProduct[
-      GammaM[Index[d$$1, Lorentz]], Proj[-1]]**Field[q, Fermion, 
-      {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-       Index[d$$1, Flavor]}, {}]) + 
+    NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+        Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+     Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
+       Index[d$$1, Flavor]}, {}]]) + 
  hbar*((-1/8*I)*Bar[Coupling[yd, {Index[d$$1, Flavor], Index[d$$3, Flavor]}, 
       0]]*Coupling[g1, {}, 0]^2*Coupling[yd, {Index[d$$2, Flavor], 
       Index[d$$3, Flavor]}, 0]*LF[{Coupling[m1, {}, 0], 
@@ -54435,18 +54480,18 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
   (Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, 
       {Index[d$$1, Lorentz]}]]*Field[\[Phi]2, Scalar, 
      {Index[d$$2, SU2L[fund]]}, {}]*
-    Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-        Index[d$$2, Flavor]}, {}]]**DiracProduct[
-      GammaM[Index[d$$1, Lorentz]], Proj[-1]]**Field[q, Fermion, 
-      {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-       Index[d$$1, Flavor]}, {}] - 
+    NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+        Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+     Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
+       Index[d$$1, Flavor]}, {}]] - 
    Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {Index[d$$1, Lorentz]}]*
-    Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-        Index[d$$2, Flavor]}, {}]]**DiracProduct[
-      GammaM[Index[d$$1, Lorentz]], Proj[-1]]**Field[q, Fermion, 
-      {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-       Index[d$$1, Flavor]}, {}]) + 
+    NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+        Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+     Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
+       Index[d$$1, Flavor]}, {}]]) + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
   ((I/4)*Bar[Coupling[yd, {Index[d$$1, Flavor], Index[d$$3, Flavor]}, 0]]*
@@ -54827,10 +54872,11 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     LF[{Coupling[\[Mu]t, {}, 0], Coupling[m2, {}, 0], 
       Coupling[mqt, {Index[d$$2, Flavor]}, 0], Coupling[mut, 
        {Index[d$$3, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {Index[d$$1, Lorentz]}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+   Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {Index[d$$1, Lorentz]}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]1, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
   ((-1/4*I)*Bar[Coupling[yu, {Index[d$$1, Flavor], Index[d$$3, Flavor]}, 0]]*
@@ -55260,10 +55306,11 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], Coupling[m2, {}, 0], 
       Coupling[mqt, {Index[d$$2, Flavor]}, 0], Coupling[mut, 
        {Index[d$$3, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {Index[d$$1, Lorentz]}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+   Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {Index[d$$1, Lorentz]}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, 
     {Index[d$$1, Lorentz]}]]*Field[\[Phi]2, Scalar, 
    {Index[d$$1, SU2L[fund]]}, {}]*
@@ -55512,10 +55559,11 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     LF[{Coupling[\[Mu]t, {}, 0], Coupling[m2, {}, 0], 
       Coupling[mqt, {Index[d$$2, Flavor]}, 0], Coupling[mut, 
        {Index[d$$3, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+   Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]*
   ((I/4)*Bar[Coupling[yu, {Index[d$$1, Flavor], Index[d$$3, Flavor]}, 0]]*
@@ -55763,10 +55811,11 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], Coupling[m2, {}, 0], 
       Coupling[mqt, {Index[d$$2, Flavor]}, 0], Coupling[mut, 
        {Index[d$$3, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+   Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*((I/144)*Coupling[g1, {}, 0]^4*Delta[Index[d$$1, Flavor], 
      Index[d$$2, Flavor]]*LF[{Coupling[m1, {}, 0], 
       Coupling[mqt, {Index[d$$1, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
@@ -56059,18 +56108,18 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
   (Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, 
       {Index[d$$1, Lorentz]}]]*Field[\[Phi]1, Scalar, 
      {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-        Index[d$$2, Flavor]}, {}]]**DiracProduct[
-      GammaM[Index[d$$1, Lorentz]], Proj[-1]]**Field[q, Fermion, 
-      {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-       Index[d$$1, Flavor]}, {}] - 
+    NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+        Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+     Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
+       Index[d$$1, Flavor]}, {}]] - 
    Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]*
-    Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-        Index[d$$2, Flavor]}, {}]]**DiracProduct[
-      GammaM[Index[d$$1, Lorentz]], Proj[-1]]**Field[q, Fermion, 
-      {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-       Index[d$$1, Flavor]}, {}]) + 
+    NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+        Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+     Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
+       Index[d$$1, Flavor]}, {}]]) + 
  hbar*((-1/144*I)*Coupling[g1, {}, 0]^4*Delta[Index[d$$1, Flavor], 
      Index[d$$2, Flavor]]*LF[{Coupling[m1, {}, 0], 
       Coupling[mqt, {Index[d$$1, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
@@ -56367,18 +56416,18 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
   (Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, 
       {Index[d$$1, Lorentz]}]]*Field[\[Phi]2, Scalar, 
      {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-        Index[d$$2, Flavor]}, {}]]**DiracProduct[
-      GammaM[Index[d$$1, Lorentz]], Proj[-1]]**Field[q, Fermion, 
-      {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-       Index[d$$1, Flavor]}, {}] - 
+    NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+        Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+     Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
+       Index[d$$1, Flavor]}, {}]] - 
    Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]*
-    Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-        Index[d$$2, Flavor]}, {}]]**DiracProduct[
-      GammaM[Index[d$$1, Lorentz]], Proj[-1]]**Field[q, Fermion, 
-      {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-       Index[d$$1, Flavor]}, {}]) + 
+    NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+        Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+     Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
+       Index[d$$1, Flavor]}, {}]]) + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   ((-1/18*I)*Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]*
@@ -56793,10 +56842,11 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
        {Index[d$$4, Flavor]}, 0], Coupling[mut, {Index[d$$5, Flavor]}, 0]}, 
      {2, 1, 1, 1, -1}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {Index[d$$1, Lorentz]}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+   Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {Index[d$$1, Lorentz]}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   ((I/36)*Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]*Coupling[\[Mu]t, {}, 0]*
@@ -57160,10 +57210,11 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mqt, {Index[d$$4, Flavor]}, 0], Coupling[mut, 
        {Index[d$$3, Flavor]}, 0], Coupling[mut, {Index[d$$5, Flavor]}, 0]}, 
      {2, 1, 1, 1, -1}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {Index[d$$1, Lorentz]}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+   Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {Index[d$$1, Lorentz]}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   CG[eps[SU2L], {Index[d$$2, SU2L[fund]], Index[d$$1, SU2L[fund]]}]*
   FieldStrength[B, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]}, {}, {}]*
@@ -57290,10 +57341,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[mdt, {Index[d$$4, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$3, Flavor]}, 0]}, {3, 1, 1, -1}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz], 
-     Index[d$$2, Lorentz]], Proj[1]]**Field[u, Fermion, 
-    {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], Proj[1]], 
+   Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   CG[cg1, {Index[d$$2, SU2L[fund]], Index[d$$1, SU2L[adj]], 
     Index[d$$1, SU2L[fund]]}]*FieldStrength[W, {Index[d$$1, Lorentz], 
@@ -57401,10 +57452,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[mdt, {Index[d$$4, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$3, Flavor]}, 0]}, {3, 1, 1, -1}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz], 
-     Index[d$$2, Lorentz]], Proj[1]]**Field[u, Fermion, 
-    {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], Proj[1]], 
+   Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   CG[eps[SU2L], {Index[d$$2, SU2L[fund]], Index[d$$1, SU2L[fund]]}]*
   FieldStrength[B, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]}, {}, {}]*
@@ -57524,10 +57575,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]^2*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[mdt, {Index[d$$4, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$3, Flavor]}, 0]}, {3, 1, 1, -1}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz], 
-     Index[d$$2, Lorentz]], Proj[1]]**Field[u, Fermion, 
-    {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], Proj[1]], 
+   Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   CG[cg1, {Index[d$$2, SU2L[fund]], Index[d$$1, SU2L[adj]], 
     Index[d$$1, SU2L[fund]]}]*FieldStrength[W, {Index[d$$1, Lorentz], 
@@ -57632,10 +57683,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]^2*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[mdt, {Index[d$$4, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$3, Flavor]}, 0]}, {3, 1, 1, -1}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz], 
-     Index[d$$2, Lorentz]], Proj[1]]**Field[u, Fermion, 
-    {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], Proj[1]], 
+   Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   CG[eps[SU2L], {Index[d$$2, SU2L[fund]], Index[d$$1, SU2L[fund]]}]*
   CG[gen[SU3c[fund]], {Index[d$$1, SU3c[adj]], Index[d$$1, SU3c[fund]], 
@@ -57733,10 +57784,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[mdt, {Index[d$$4, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$3, Flavor]}, 0]}, {3, 1, 1, -1}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz], 
-     Index[d$$2, Lorentz]], Proj[1]]**Field[u, Fermion, 
-    {Index[d$$2, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], Proj[1]], 
+   Field[u, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   CG[eps[SU2L], {Index[d$$2, SU2L[fund]], Index[d$$1, SU2L[fund]]}]*
   CG[gen[SU3c[fund]], {Index[d$$1, SU3c[adj]], Index[d$$1, SU3c[fund]], 
@@ -57831,10 +57882,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]^2*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[mdt, {Index[d$$4, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$3, Flavor]}, 0]}, {3, 1, 1, -1}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz], 
-     Index[d$$2, Lorentz]], Proj[1]]**Field[u, Fermion, 
-    {Index[d$$2, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], Proj[1]], 
+   Field[u, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, 
     {Index[d$$1, Lorentz]}]]*CG[eps[SU2L], {Index[d$$2, SU2L[fund]], 
     Index[d$$1, SU2L[fund]]}]*
@@ -57938,10 +57989,11 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], 
        Coupling[mdt, {Index[d$$4, Flavor]}, 0], Coupling[mqt, 
         {Index[d$$3, Flavor]}, 0]}, {3, 1, 1, -1}])/2)*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    GammaM[Index[d$$2, Lorentz]], Proj[1]]**Field[u, Fermion, 
-    {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {Index[d$$2, Lorentz]}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz]], GammaM[Index[d$$2, Lorentz]], 
+    Proj[1]], Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, Flavor]}, {Index[d$$2, Lorentz]}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, 
     {Index[d$$1, Lorentz]}]]*CG[eps[SU2L], {Index[d$$2, SU2L[fund]], 
     Index[d$$1, SU2L[fund]]}]*
@@ -58033,10 +58085,11 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[\[Mu]t, {}, 0]^2*LF[{Coupling[\[Mu]t, {}, 0], 
        Coupling[mdt, {Index[d$$4, Flavor]}, 0], Coupling[mqt, 
         {Index[d$$3, Flavor]}, 0]}, {3, 1, 1, -1}])/2)*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    GammaM[Index[d$$2, Lorentz]], Proj[1]]**Field[u, Fermion, 
-    {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {Index[d$$2, Lorentz]}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz]], GammaM[Index[d$$2, Lorentz]], 
+    Proj[1]], Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, Flavor]}, {Index[d$$2, Lorentz]}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
   ((I/4)*Bar[Coupling[yu, {Index[d$$1, Flavor], Index[d$$3, Flavor]}, 0]]*
@@ -58466,11 +58519,11 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], Coupling[m2, {}, 0], 
       Coupling[mqt, {Index[d$$1, Flavor]}, 0], Coupling[mut, 
        {Index[d$$3, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {Index[d$$1, Lorentz]}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
-   Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-     Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+    Proj[-1]], Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]1, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
   ((-1/4*I)*Bar[Coupling[yd, {Index[d$$1, Flavor], Index[d$$3, Flavor]}, 0]]*
@@ -58851,11 +58904,11 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], Coupling[m2, {}, 0], 
       Coupling[mqt, {Index[d$$2, Flavor]}, 0], Coupling[mut, 
        {Index[d$$3, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {Index[d$$1, Lorentz]}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
-   Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-     Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+    Proj[-1]], Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*((-1/144*I)*Coupling[g1, {}, 0]^2*Coupling[g2, {}, 0]^2*
     Delta[Index[d$$1, Flavor], Index[d$$2, Flavor]]*
     LF[{Coupling[m1, {}, 0], Coupling[mqt, {Index[d$$1, Flavor]}, 0]}, 
@@ -59229,18 +59282,18 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        {Index[d$$3, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
   (Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]1, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
-    Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-        Index[d$$2, Flavor]}, {}]]**DiracProduct[
-      GammaM[Index[d$$1, Lorentz]], Proj[-1]]**Field[q, Fermion, 
-      {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-       Index[d$$1, Flavor]}, {Index[d$$1, Lorentz]}] - 
+    NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+        Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+     Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
+       Index[d$$1, Flavor]}, {Index[d$$1, Lorentz]}]] - 
    Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]1, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
-    Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-        Index[d$$2, Flavor]}, {Index[d$$1, Lorentz]}]]**
-     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
-     Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-       Index[d$$1, Flavor]}, {}]) + 
+    NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+        Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+       {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+      Proj[-1]], Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+       Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}]]) + 
  hbar*((-1/72*I)*Bar[Coupling[yu, {Index[d$$1, Flavor], Index[d$$3, Flavor]}, 
       0]]*Coupling[g1, {}, 0]^2*Coupling[yu, {Index[d$$2, Flavor], 
       Index[d$$3, Flavor]}, 0]*LF[{Coupling[mqt, {Index[d$$1, Flavor]}, 0], 
@@ -59576,18 +59629,18 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        {Index[d$$3, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
   (Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]1, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
-    Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-        Index[d$$2, Flavor]}, {}]]**DiracProduct[
-      GammaM[Index[d$$1, Lorentz]], Proj[-1]]**Field[q, Fermion, 
-      {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-       Index[d$$1, Flavor]}, {Index[d$$1, Lorentz]}] + 
+    NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+        Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+     Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
+       Index[d$$1, Flavor]}, {Index[d$$1, Lorentz]}]] + 
    Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]1, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
-    Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-        Index[d$$2, Flavor]}, {Index[d$$1, Lorentz]}]]**
-     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
-     Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-       Index[d$$1, Flavor]}, {}]) + 
+    NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+        Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+       {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+      Proj[-1]], Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+       Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}]]) + 
  hbar*((I/144)*Coupling[g1, {}, 0]^2*Coupling[g2, {}, 0]^2*
     Delta[Index[d$$1, Flavor], Index[d$$2, Flavor]]*
     LF[{Coupling[m1, {}, 0], Coupling[mqt, {Index[d$$1, Flavor]}, 0]}, 
@@ -59962,18 +60015,18 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        {Index[d$$3, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
   (Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
-    Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-        Index[d$$2, Flavor]}, {}]]**DiracProduct[
-      GammaM[Index[d$$1, Lorentz]], Proj[-1]]**Field[q, Fermion, 
-      {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-       Index[d$$1, Flavor]}, {Index[d$$1, Lorentz]}] - 
+    NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+        Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+     Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
+       Index[d$$1, Flavor]}, {Index[d$$1, Lorentz]}]] - 
    Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
-    Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-        Index[d$$2, Flavor]}, {Index[d$$1, Lorentz]}]]**
-     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
-     Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-       Index[d$$1, Flavor]}, {}]) + 
+    NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+        Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+       {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+      Proj[-1]], Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+       Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}]]) + 
  hbar*((I/72)*Bar[Coupling[yd, {Index[d$$1, Flavor], Index[d$$3, Flavor]}, 
       0]]*Coupling[g1, {}, 0]^2*Coupling[yd, {Index[d$$2, Flavor], 
       Index[d$$3, Flavor]}, 0]*LF[{Coupling[mqt, {Index[d$$1, Flavor]}, 0], 
@@ -60309,18 +60362,18 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        {Index[d$$3, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
   (Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
-    Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-        Index[d$$2, Flavor]}, {}]]**DiracProduct[
-      GammaM[Index[d$$1, Lorentz]], Proj[-1]]**Field[q, Fermion, 
-      {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-       Index[d$$1, Flavor]}, {Index[d$$1, Lorentz]}] + 
+    NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+        Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+     Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
+       Index[d$$1, Flavor]}, {Index[d$$1, Lorentz]}]] + 
    Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]*
-    Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-        Index[d$$2, Flavor]}, {Index[d$$1, Lorentz]}]]**
-     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
-     Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-       Index[d$$1, Flavor]}, {}]) + 
+    NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+        Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+       {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+      Proj[-1]], Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+       Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}]]) + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   ((-1/36*I)*Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]*
@@ -60684,11 +60737,11 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
        {Index[d$$4, Flavor]}, 0], Coupling[mut, {Index[d$$5, Flavor]}, 0]}, 
      {2, 1, 1, 1, -1}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {Index[d$$1, Lorentz]}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
-   Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-     Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+    Proj[-1]], Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   ((I/18)*Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]*Coupling[\[Mu]t, {}, 0]*
@@ -61103,11 +61156,11 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mqt, {Index[d$$4, Flavor]}, 0], Coupling[mut, 
        {Index[d$$3, Flavor]}, 0], Coupling[mut, {Index[d$$5, Flavor]}, 0]}, 
      {2, 1, 1, 1, -1}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {Index[d$$1, Lorentz]}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
-   Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-     Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+    Proj[-1]], Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*((-1/864*I)*Coupling[g1, {}, 0]^2*(Coupling[g1, {}, 0]^2 - 
      3*Coupling[g2, {}, 0]^2)*Delta[Index[d$$1, Flavor], Index[d$$2, Flavor]]*
     LF[{Coupling[m1, {}, 0], Coupling[mqt, {Index[d$$1, Flavor]}, 0]}, 
@@ -61488,18 +61541,18 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        {Index[d$$5, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
   (Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-        Index[d$$2, Flavor]}, {}]]**DiracProduct[
-      GammaM[Index[d$$1, Lorentz]], Proj[-1]]**Field[q, Fermion, 
-      {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-       Index[d$$1, Flavor]}, {Index[d$$1, Lorentz]}] - 
+    NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+        Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+     Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
+       Index[d$$1, Flavor]}, {Index[d$$1, Lorentz]}]] - 
    Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-        Index[d$$2, Flavor]}, {Index[d$$1, Lorentz]}]]**
-     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
-     Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-       Index[d$$1, Flavor]}, {}]) + 
+    NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+        Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+       {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+      Proj[-1]], Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+       Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}]]) + 
  hbar*((I/72)*Bar[Coupling[yu, {Index[d$$1, Flavor], Index[d$$3, Flavor]}, 
       0]]*Coupling[g1, {}, 0]^2*Coupling[yu, {Index[d$$2, Flavor], 
       Index[d$$3, Flavor]}, 0]*LF[{Coupling[mqt, {Index[d$$1, Flavor]}, 0], 
@@ -61796,18 +61849,18 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        {Index[d$$3, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
   (Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-        Index[d$$2, Flavor]}, {}]]**DiracProduct[
-      GammaM[Index[d$$1, Lorentz]], Proj[-1]]**Field[q, Fermion, 
-      {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-       Index[d$$1, Flavor]}, {Index[d$$1, Lorentz]}] + 
+    NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+        Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+     Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
+       Index[d$$1, Flavor]}, {Index[d$$1, Lorentz]}]] + 
    Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-        Index[d$$2, Flavor]}, {Index[d$$1, Lorentz]}]]**
-     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
-     Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-       Index[d$$1, Flavor]}, {}]) + 
+    NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+        Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+       {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+      Proj[-1]], Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+       Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}]]) + 
  hbar*((I/864)*Coupling[g1, {}, 0]^2*(Coupling[g1, {}, 0]^2 - 
      3*Coupling[g2, {}, 0]^2)*Delta[Index[d$$1, Flavor], Index[d$$2, Flavor]]*
     LF[{Coupling[m1, {}, 0], Coupling[mqt, {Index[d$$1, Flavor]}, 0]}, 
@@ -62171,18 +62224,18 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      {2, 1, 1, 1, -1}])*
   (Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-        Index[d$$2, Flavor]}, {}]]**DiracProduct[
-      GammaM[Index[d$$1, Lorentz]], Proj[-1]]**Field[q, Fermion, 
-      {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-       Index[d$$1, Flavor]}, {Index[d$$1, Lorentz]}] - 
+    NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+        Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+     Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
+       Index[d$$1, Flavor]}, {Index[d$$1, Lorentz]}]] - 
    Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-        Index[d$$2, Flavor]}, {Index[d$$1, Lorentz]}]]**
-     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
-     Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-       Index[d$$1, Flavor]}, {}]) + 
+    NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+        Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+       {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+      Proj[-1]], Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+       Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}]]) + 
  hbar*((I/4)*Bar[Coupling[yd, {Index[d$$1, Flavor], Index[d$$3, Flavor]}, 0]]*
     Bar[Coupling[yd, {Index[d$$4, Flavor], Index[d$$5, Flavor]}, 0]]*
     Coupling[yd, {Index[d$$2, Flavor], Index[d$$5, Flavor]}, 0]*
@@ -62466,18 +62519,18 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        {Index[d$$3, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
   (Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-        Index[d$$2, Flavor]}, {}]]**DiracProduct[
-      GammaM[Index[d$$1, Lorentz]], Proj[-1]]**Field[q, Fermion, 
-      {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-       Index[d$$1, Flavor]}, {Index[d$$1, Lorentz]}] + 
+    NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+        Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+     Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
+       Index[d$$1, Flavor]}, {Index[d$$1, Lorentz]}]] + 
    Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-        Index[d$$2, Flavor]}, {Index[d$$1, Lorentz]}]]**
-     DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
-     Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-       Index[d$$1, Flavor]}, {}]) + 
+    NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+        Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+       {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+      Proj[-1]], Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+       Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}]]) + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   CG[eps[SU2L], {Index[d$$2, SU2L[fund]], Index[d$$1, SU2L[fund]]}]*
   ((2*Coupling[g1, {}, 0]^2*Coupling[m1, {}, 0]*
@@ -62573,11 +62626,12 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[mdt, {Index[d$$4, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$3, Flavor]}, 0]}, {3, 1, 1, -1}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {Index[d$$1, Lorentz]}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], GammaM[Index[d$$2, Lorentz]], 
-    Proj[1]]**Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, Flavor]}, {Index[d$$2, Lorentz]}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+    GammaM[Index[d$$2, Lorentz]], Proj[1]], Field[u, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, 
+    {Index[d$$2, Lorentz]}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   CG[eps[SU2L], {Index[d$$2, SU2L[fund]], Index[d$$1, SU2L[fund]]}]*
   ((2*Coupling[au, {Index[d$$2, Flavor], Index[d$$1, Flavor]}, 0]*
@@ -62671,11 +62725,12 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]^2*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[mdt, {Index[d$$4, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$3, Flavor]}, 0]}, {3, 1, 1, -1}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {Index[d$$1, Lorentz]}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], GammaM[Index[d$$2, Lorentz]], 
-    Proj[1]]**Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, Flavor]}, {Index[d$$2, Lorentz]}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+    GammaM[Index[d$$2, Lorentz]], Proj[1]], Field[u, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, 
+    {Index[d$$2, Lorentz]}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, 
     {Index[d$$1, Lorentz]}]]*CG[eps[SU2L], {Index[d$$2, SU2L[fund]], 
     Index[d$$1, SU2L[fund]]}]*
@@ -62779,11 +62834,11 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], 
        Coupling[mdt, {Index[d$$4, Flavor]}, 0], Coupling[mqt, 
         {Index[d$$3, Flavor]}, 0]}, {3, 1, 1, -1}])/2)*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {Index[d$$2, Lorentz]}]]**
-   DiracProduct[GammaM[Index[d$$2, Lorentz]], GammaM[Index[d$$1, Lorentz]], 
-    Proj[1]]**Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {Index[d$$2, Lorentz]}]], DiracProduct[GammaM[Index[d$$2, Lorentz]], 
+    GammaM[Index[d$$1, Lorentz]], Proj[1]], Field[u, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, 
     {Index[d$$1, Lorentz]}]]*CG[eps[SU2L], {Index[d$$2, SU2L[fund]], 
     Index[d$$1, SU2L[fund]]}]*
@@ -62875,11 +62930,11 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[\[Mu]t, {}, 0]^2*LF[{Coupling[\[Mu]t, {}, 0], 
        Coupling[mdt, {Index[d$$4, Flavor]}, 0], Coupling[mqt, 
         {Index[d$$3, Flavor]}, 0]}, {3, 1, 1, -1}])/2)*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {Index[d$$2, Lorentz]}]]**
-   DiracProduct[GammaM[Index[d$$2, Lorentz]], GammaM[Index[d$$1, Lorentz]], 
-    Proj[1]]**Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
+     {Index[d$$2, Lorentz]}]], DiracProduct[GammaM[Index[d$$2, Lorentz]], 
+    GammaM[Index[d$$1, Lorentz]], Proj[1]], Field[u, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*((Coupling[g1, {}, 0]^4*Delta[Index[d$$1, Flavor], Index[d$$3, Flavor]]*
      Delta[Index[d$$2, Flavor], Index[d$$4, Flavor]]*
      LF[{Coupling[m1, {}, 0], Coupling[mlt, {Index[d$$1, Flavor]}, 0], 
@@ -62893,14 +62948,14 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      LF[{Coupling[m1, {}, 0], Coupling[m2, {}, 0], 
        Coupling[mlt, {Index[d$$1, Flavor]}, 0], Coupling[mqt, 
         {Index[d$$4, Flavor]}, 0]}, {1, 1, 1, 1, -1}])/24)*
-  Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
+  NCM[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$3, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
    Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-     Index[d$$2, Flavor]}, {}]*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$4, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    Proj[-1]]**Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
-     Index[d$$1, Flavor]}, {}] + 
+     Index[d$$2, Flavor]}, {}]]*
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$4, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+   Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*((Coupling[g2, {}, 0]^4*Delta[Index[d$$1, Flavor], Index[d$$3, Flavor]]*
      Delta[Index[d$$2, Flavor], Index[d$$4, Flavor]]*
      LF[{Coupling[m2, {}, 0], Coupling[mlt, {Index[d$$1, Flavor]}, 0], 
@@ -62916,14 +62971,14 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      LF[{Coupling[m1, {}, 0], Coupling[m2, {}, 0], 
        Coupling[mlt, {Index[d$$1, Flavor]}, 0], Coupling[mqt, 
         {Index[d$$4, Flavor]}, 0]}, {1, 1, 1, 1, -1}])/12)*
-  Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
+  NCM[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$3, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
    Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-     Index[d$$2, Flavor]}, {}]*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$4, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    Proj[-1]]**Field[l, Fermion, {Index[d$$2, SU2L[fund]], 
-     Index[d$$1, Flavor]}, {}] + 
+     Index[d$$2, Flavor]}, {}]]*
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$4, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+   Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Bar[Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]]*
   CG[eps[SU2L], {Index[d$$3, SU2L[fund]], Index[d$$2, SU2L[fund]]}]*
@@ -63112,9 +63167,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mdt, {Index[d$$6, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$3, Flavor]}, 0], Coupling[mqt, {Index[d$$5, Flavor]}, 0], 
       Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[Proj[1]]**
-   Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$3, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[Proj[1]], Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Bar[Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]]*
   CG[eps[SU2L], {Index[d$$3, SU2L[fund]], Index[d$$2, SU2L[fund]]}]*
@@ -63232,9 +63288,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mdt, {Index[d$$6, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$3, Flavor]}, 0], Coupling[mqt, {Index[d$$5, Flavor]}, 0], 
       Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[Proj[1]]**
-   Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$3, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[Proj[1]], Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Bar[Field[\[Phi]1, Scalar, {Index[d$$2, SU2L[fund]]}, {}]]*
   CG[eps[SU2L], {Index[d$$3, SU2L[fund]], Index[d$$2, SU2L[fund]]}]*
@@ -63351,9 +63408,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mdt, {Index[d$$6, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$3, Flavor]}, 0], Coupling[mqt, {Index[d$$5, Flavor]}, 0], 
       Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[Proj[1]]**
-   Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$3, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[Proj[1]], Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Bar[Field[\[Phi]1, Scalar, {Index[d$$2, SU2L[fund]]}, {}]]*
   CG[eps[SU2L], {Index[d$$3, SU2L[fund]], Index[d$$2, SU2L[fund]]}]*
@@ -63573,9 +63631,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mdt, {Index[d$$6, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$3, Flavor]}, 0], Coupling[mqt, {Index[d$$5, Flavor]}, 0], 
       Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[Proj[1]]**
-   Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$3, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[Proj[1]], Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Bar[Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]]*
   CG[eps[SU2L], {Index[d$$3, SU2L[fund]], Index[d$$1, SU2L[fund]]}]*
@@ -63900,9 +63959,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$5, Flavor]}, 0], Coupling[mut, {Index[d$$6, Flavor]}, 0], 
       Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[Proj[1]]**
-   Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$3, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[Proj[1]], Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Bar[Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]]*
   CG[eps[SU2L], {Index[d$$3, SU2L[fund]], Index[d$$2, SU2L[fund]]}]*
@@ -64202,9 +64262,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$5, Flavor]}, 0], Coupling[mut, {Index[d$$6, Flavor]}, 0], 
       Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[Proj[1]]**
-   Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$3, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[Proj[1]], Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Bar[Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]]*
   CG[eps[SU2L], {Index[d$$3, SU2L[fund]], Index[d$$1, SU2L[fund]]}]*
@@ -64529,9 +64590,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$5, Flavor]}, 0], Coupling[mut, {Index[d$$4, Flavor]}, 0], 
       Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[Proj[1]]**
-   Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$3, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[Proj[1]], Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Bar[Field[\[Phi]2, Scalar, {Index[d$$2, SU2L[fund]]}, {}]]*
   CG[eps[SU2L], {Index[d$$3, SU2L[fund]], Index[d$$2, SU2L[fund]]}]*
@@ -64878,9 +64940,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$5, Flavor]}, 0], Coupling[mut, {Index[d$$4, Flavor]}, 0], 
       Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[Proj[1]]**
-   Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$3, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[Proj[1]], Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*((Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]^2*
      Delta[Index[d$$1, Flavor], Index[d$$3, Flavor]]*
      Delta[Index[d$$2, Flavor], Index[d$$4, Flavor]]*
@@ -64903,12 +64966,13 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      LF[{Coupling[m1, {}, 0], Coupling[m3, {}, 0], 
        Coupling[mdt, {Index[d$$1, Flavor]}, 0], Coupling[mqt, 
         {Index[d$$4, Flavor]}, 0]}, {1, 1, 1, 1, 0}])/27)*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[Proj[-1]]**Field[q, Fermion, {Index[d$$2, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]*
-  Bar[Field[q, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$4, Flavor]}, {}]]**DiracProduct[Proj[1]]**
-   Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, 
+     {}]], DiracProduct[Proj[-1]], Field[q, Fermion, 
+    {Index[d$$2, SU3c[fund]], Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
+    {}]]*NCM[Bar[Field[q, Fermion, {Index[d$$2, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$4, Flavor]}, {}]], 
+   DiracProduct[Proj[1]], Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*CG[eps[SU2L], {Index[d$$1, SU2L[fund]], Index[d$$2, SU2L[fund]]}]*
   (-1/9*(Coupling[g1, {}, 0]^2*Coupling[m1, {}, 0]*
      Coupling[yd, {Index[d$$3, Flavor], Index[d$$1, Flavor]}, 0]*
@@ -64935,12 +64999,14 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
         {Index[d$$2, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
       {1, 1, 1, 1, 0}])/3)*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$3, Flavor]}, {}]]**DiracProduct[Proj[1]]**
-   Field[u, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$2, Flavor]}, {}]*
-  Bar[Field[q, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$4, Flavor]}, {}]]**DiracProduct[Proj[1]]**
-   Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$3, Flavor]}, {}]], 
+   DiracProduct[Proj[1]], Field[u, Fermion, {Index[d$$2, SU3c[fund]], 
+     Index[d$$2, Flavor]}, {}]]*
+  NCM[Bar[Field[q, Fermion, {Index[d$$2, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$4, Flavor]}, {}]], 
+   DiracProduct[Proj[1]], Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*((7*Coupling[g3, {}, 0]^4*Coupling[m3, {}, 0]^2*
      Delta[Index[d$$1, Flavor], Index[d$$3, Flavor]]*
      Delta[Index[d$$2, Flavor], Index[d$$4, Flavor]]*
@@ -64952,12 +65018,13 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      LF[{Coupling[m1, {}, 0], Coupling[m3, {}, 0], 
        Coupling[mdt, {Index[d$$1, Flavor]}, 0], Coupling[mqt, 
         {Index[d$$4, Flavor]}, 0]}, {1, 1, 1, 1, 0}])/9)*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]*
-  Bar[Field[q, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$4, Flavor]}, {}]]**DiracProduct[Proj[1]]**
-   Field[d, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, 
+     {}]], DiracProduct[Proj[-1]], Field[q, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
+    {}]]*NCM[Bar[Field[q, Fermion, {Index[d$$2, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$4, Flavor]}, {}]], 
+   DiracProduct[Proj[1]], Field[d, Fermion, {Index[d$$2, SU3c[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*CG[eps[SU2L], {Index[d$$1, SU2L[fund]], Index[d$$2, SU2L[fund]]}]*
   (Coupling[g3, {}, 0]^2*Coupling[m3, {}, 0]*
     Coupling[yd, {Index[d$$3, Flavor], Index[d$$1, Flavor]}, 0]*
@@ -64971,12 +65038,14 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[m3, {}, 0], 
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
        {Index[d$$2, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 0}])*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$3, Flavor]}, {}]]**DiracProduct[Proj[1]]**
-   Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]*
-  Bar[Field[q, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$4, Flavor]}, {}]]**DiracProduct[Proj[1]]**
-   Field[d, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$3, Flavor]}, {}]], 
+   DiracProduct[Proj[1]], Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$2, Flavor]}, {}]]*
+  NCM[Bar[Field[q, Fermion, {Index[d$$2, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$4, Flavor]}, {}]], 
+   DiracProduct[Proj[1]], Field[d, Fermion, {Index[d$$2, SU3c[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*((Bar[Coupling[yd, {Index[d$$2, Flavor], Index[d$$3, Flavor]}, 0]]*
      Coupling[g1, {}, 0]^2*Coupling[yd, {Index[d$$4, Flavor], 
        Index[d$$1, Flavor]}, 0]*LF[{Coupling[m1, {}, 0], 
@@ -65007,13 +65076,14 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        Coupling[mqt, {Index[d$$2, Flavor]}, 0], Coupling[mqt, 
         {Index[d$$4, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
       {1, 1, 1, 1, -1}])/12)*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[d, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$1, Flavor]}, {}]*
-  Bar[Field[q, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$4, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}] + 
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[d, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$1, Flavor]}, {}]]*
+  NCM[Bar[Field[q, Fermion, {Index[d$$2, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$4, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+   Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
+     Index[d$$2, Flavor]}, {}]] + 
  hbar*((Bar[Coupling[yd, {Index[d$$2, Flavor], Index[d$$3, Flavor]}, 0]]*
      Coupling[g3, {}, 0]^2*Coupling[yd, {Index[d$$4, Flavor], 
        Index[d$$1, Flavor]}, 0]*LF[{Coupling[m3, {}, 0], 
@@ -65026,13 +65096,14 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        Coupling[mqt, {Index[d$$2, Flavor]}, 0], Coupling[mqt, 
         {Index[d$$4, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
       {1, 1, 1, 1, -1}])/4)*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]*
-  Bar[Field[q, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$4, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    Proj[-1]]**Field[q, Fermion, {Index[d$$2, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}] + 
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]]*
+  NCM[Bar[Field[q, Fermion, {Index[d$$2, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$4, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+   Field[q, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$1, SU2L[fund]], 
+     Index[d$$2, Flavor]}, {}]] + 
  hbar*((Coupling[g2, {}, 0]^4*Delta[Index[d$$1, Flavor], Index[d$$4, Flavor]]*
      Delta[Index[d$$2, Flavor], Index[d$$3, Flavor]]*
      LF[{Coupling[m2, {}, 0], Coupling[mqt, {Index[d$$1, Flavor]}, 0], 
@@ -65059,14 +65130,16 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      LF[{Coupling[m2, {}, 0], Coupling[m3, {}, 0], 
        Coupling[mqt, {Index[d$$1, Flavor]}, 0], Coupling[mqt, 
         {Index[d$$3, Flavor]}, 0]}, {1, 1, 1, 1, -1}])/12)*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$4, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    Proj[-1]]**Field[q, Fermion, {Index[d$$2, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]*
-  Bar[Field[q, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$3, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$4, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+   Field[q, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$1, SU2L[fund]], 
+     Index[d$$2, Flavor]}, {}]]*
+  NCM[Bar[Field[q, Fermion, {Index[d$$2, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$3, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+   Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*((7*Coupling[g3, {}, 0]^4*Delta[Index[d$$1, Flavor], 
       Index[d$$3, Flavor]]*Delta[Index[d$$2, Flavor], Index[d$$4, Flavor]]*
      LF[{Coupling[m3, {}, 0], Coupling[mqt, {Index[d$$2, Flavor]}, 0], 
@@ -65081,26 +65154,30 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      LF[{Coupling[m2, {}, 0], Coupling[m3, {}, 0], 
        Coupling[mqt, {Index[d$$2, Flavor]}, 0], Coupling[mqt, 
         {Index[d$$3, Flavor]}, 0]}, {1, 1, 1, 1, -1}])/8)*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$4, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}]*
-  Bar[Field[q, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$3, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    Proj[-1]]**Field[q, Fermion, {Index[d$$2, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$4, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+   Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {}]]*
+  NCM[Bar[Field[q, Fermion, {Index[d$$2, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$3, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+   Field[q, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$1, SU2L[fund]], 
+     Index[d$$2, Flavor]}, {}]] + 
  (hbar*Coupling[g2, {}, 0]^2*Coupling[g3, {}, 0]^2*
    LF[{Coupling[m2, {}, 0], Coupling[m3, {}, 0], 
      Coupling[mqt, {Index[d$$4, Flavor]}, 0], Coupling[mqt, 
       {Index[d$$3, Flavor]}, 0]}, {1, 1, 1, 1, -1}]*
-   Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-       Index[d$$4, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-     Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-      Index[d$$1, SU2L[fund]], Index[d$$3, Flavor]}, {}]*
-   Bar[Field[q, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-       Index[d$$3, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-     Proj[-1]]**Field[q, Fermion, {Index[d$$2, SU3c[fund]], 
-      Index[d$$2, SU2L[fund]], Index[d$$4, Flavor]}, {}])/4 + 
+   NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+       Index[d$$1, SU2L[fund]], Index[d$$4, Flavor]}, {}]], 
+    DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+    Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
+      Index[d$$3, Flavor]}, {}]]*
+   NCM[Bar[Field[q, Fermion, {Index[d$$2, SU3c[fund]], 
+       Index[d$$2, SU2L[fund]], Index[d$$3, Flavor]}, {}]], 
+    DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+    Field[q, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$2, SU2L[fund]], 
+      Index[d$$4, Flavor]}, {}]])/4 + 
  hbar*((Coupling[g1, {}, 0]^4*Delta[Index[d$$1, Flavor], Index[d$$3, Flavor]]*
      Delta[Index[d$$2, Flavor], Index[d$$4, Flavor]]*
      LF[{Coupling[m1, {}, 0], Coupling[mqt, {Index[d$$1, Flavor]}, 0], 
@@ -65128,14 +65205,16 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      LF[{Coupling[m2, {}, 0], Coupling[m3, {}, 0], 
        Coupling[mqt, {Index[d$$1, Flavor]}, 0], Coupling[mqt, 
         {Index[d$$4, Flavor]}, 0]}, {1, 1, 1, 1, -1}])/24)*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$3, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    Proj[-1]]**Field[q, Fermion, {Index[d$$2, SU3c[fund]], 
-     Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]*
-  Bar[Field[q, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$4, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$3, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+   Field[q, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$2, SU2L[fund]], 
+     Index[d$$2, Flavor]}, {}]]*
+  NCM[Bar[Field[q, Fermion, {Index[d$$2, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$4, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+   Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*CG[Bar[eps[SU2L]], {Bar[Index[d$$1, SU2L[fund]]], 
     Bar[Index[d$$2, SU2L[fund]]]}]*Field[\[Phi]2, Scalar, 
    {Index[d$$2, SU2L[fund]]}, {}]*
@@ -65164,10 +65243,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[ad, {Index[d$$4, Flavor], Index[d$$3, Flavor]}, 0]*
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[mdt, {Index[d$$3, Flavor]}, 0], 
       Coupling[mqt, {Index[d$$4, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
-     {1, 1, 1, 0}])*Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[Proj[-1]]**
+     {1, 1, 1, 0}])*NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, Flavor]}, {}]], DiracProduct[Proj[-1]], 
    Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-     Index[d$$1, Flavor]}, {}] + 
+     Index[d$$1, Flavor]}, {}]] + 
  CG[Bar[eps[SU2L]], {Bar[Index[d$$1, SU2L[fund]]], 
     Bar[Index[d$$2, SU2L[fund]]]}]*Field[\[Phi]1, Scalar, 
    {Index[d$$2, SU2L[fund]]}, {}]*
@@ -65203,10 +65282,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[\[Mu]t, {}, 0]^2*LF[{Coupling[mdt, {Index[d$$3, Flavor]}, 0], 
         Coupling[mqt, {Index[d$$4, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
        {1, 1, 1, 0}]))*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
- hbar*CG[Bar[eps[SU2L]], {Bar[Index[d$$1, SU2L[fund]]], 
+  NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[Proj[-1]], Field[q, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
+    {}]] + hbar*CG[Bar[eps[SU2L]], {Bar[Index[d$$1, SU2L[fund]]], 
     Bar[Index[d$$2, SU2L[fund]]]}]*Field[\[Phi]1, Scalar, 
    {Index[d$$2, SU2L[fund]]}, {Index[d$$1, Lorentz], Index[d$$1, Lorentz]}]*
   ((Bar[Coupling[au, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
@@ -65302,10 +65381,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[g3, {}, 0]^2*Coupling[m3, {}, 0]*
      LF[{Coupling[mut, {Index[d$$2, Flavor]}, 0], Coupling[m3, {}, 0], 
        Coupling[mqt, {Index[d$$1, Flavor]}, 0]}, {3, 1, 1, -1}])/3)*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
- hbar*CG[Bar[eps[SU2L]], {Bar[Index[d$$1, SU2L[fund]]], 
+  NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[Proj[-1]], Field[q, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
+    {}]] + hbar*CG[Bar[eps[SU2L]], {Bar[Index[d$$1, SU2L[fund]]], 
     Bar[Index[d$$2, SU2L[fund]]]}]*Field[\[Phi]2, Scalar, 
    {Index[d$$2, SU2L[fund]]}, {Index[d$$1, Lorentz], Index[d$$1, Lorentz]}]*
   ((Bar[Coupling[yu, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
@@ -65404,10 +65483,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[g3, {}, 0]^2*Coupling[m3, {}, 0]*Coupling[\[Mu]t, {}, 0]*
      LF[{Coupling[mut, {Index[d$$2, Flavor]}, 0], Coupling[m3, {}, 0], 
        Coupling[mqt, {Index[d$$1, Flavor]}, 0]}, {3, 1, 1, -1}])/3)*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
- hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
+  NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[Proj[-1]], Field[q, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
+    {}]] + hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   CG[Bar[eps[SU2L]], {Bar[Index[d$$2, SU2L[fund]]], 
     Bar[Index[d$$3, SU2L[fund]]]}]*Field[\[Phi]2, Scalar, 
    {Index[d$$1, SU2L[fund]]}, {}]*Field[\[Phi]2, Scalar, 
@@ -65524,10 +65603,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mdt, {Index[d$$5, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$4, Flavor]}, 0], Coupling[mqt, {Index[d$$6, Flavor]}, 0], 
       Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
- hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
+  NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[Proj[-1]], Field[q, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, 
+    {}]] + hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   CG[Bar[eps[SU2L]], {Bar[Index[d$$2, SU2L[fund]]], 
     Bar[Index[d$$3, SU2L[fund]]]}]*Field[\[Phi]1, Scalar, 
    {Index[d$$1, SU2L[fund]]}, {}]*Field[\[Phi]1, Scalar, 
@@ -65748,10 +65827,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mdt, {Index[d$$5, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$4, Flavor]}, 0], Coupling[mqt, {Index[d$$6, Flavor]}, 0], 
       Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
- hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
+  NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[Proj[-1]], Field[q, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, 
+    {}]] + hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   CG[Bar[eps[SU2L]], {Bar[Index[d$$2, SU2L[fund]]], 
     Bar[Index[d$$3, SU2L[fund]]]}]*Field[\[Phi]2, Scalar, 
    {Index[d$$1, SU2L[fund]]}, {}]*Field[\[Phi]2, Scalar, 
@@ -65940,10 +66019,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mdt, {Index[d$$5, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$3, Flavor]}, 0], Coupling[mqt, {Index[d$$6, Flavor]}, 0], 
       Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
- hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
+  NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[Proj[-1]], Field[q, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, 
+    {}]] + hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   CG[Bar[eps[SU2L]], {Bar[Index[d$$2, SU2L[fund]]], 
     Bar[Index[d$$3, SU2L[fund]]]}]*Field[\[Phi]1, Scalar, 
    {Index[d$$1, SU2L[fund]]}, {}]*Field[\[Phi]1, Scalar, 
@@ -66059,10 +66138,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mdt, {Index[d$$5, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$3, Flavor]}, 0], Coupling[mqt, {Index[d$$6, Flavor]}, 0], 
       Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
- hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
+  NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[Proj[-1]], Field[q, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, 
+    {}]] + hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   CG[Bar[eps[SU2L]], {Bar[Index[d$$2, SU2L[fund]]], 
     Bar[Index[d$$3, SU2L[fund]]]}]*Field[\[Phi]1, Scalar, 
    {Index[d$$1, SU2L[fund]]}, {}]*Field[\[Phi]2, Scalar, 
@@ -66425,10 +66504,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$6, Flavor]}, 0], Coupling[mut, {Index[d$$4, Flavor]}, 0], 
       Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
- hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
+  NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[Proj[-1]], Field[q, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, 
+    {}]] + hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   CG[Bar[eps[SU2L]], {Bar[Index[d$$2, SU2L[fund]]], 
     Bar[Index[d$$3, SU2L[fund]]]}]*Field[\[Phi]1, Scalar, 
    {Index[d$$3, SU2L[fund]]}, {}]*Field[\[Phi]2, Scalar, 
@@ -66769,10 +66848,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$6, Flavor]}, 0], Coupling[mut, {Index[d$$4, Flavor]}, 0], 
       Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
- hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
+  NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[Proj[-1]], Field[q, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, 
+    {}]] + hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   CG[Bar[eps[SU2L]], {Bar[Index[d$$2, SU2L[fund]]], 
     Bar[Index[d$$3, SU2L[fund]]]}]*Field[\[Phi]1, Scalar, 
    {Index[d$$1, SU2L[fund]]}, {}]*Field[\[Phi]2, Scalar, 
@@ -67084,10 +67163,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$6, Flavor]}, 0], Coupling[mut, {Index[d$$4, Flavor]}, 0], 
       Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
- hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
+  NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[Proj[-1]], Field[q, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, 
+    {}]] + hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   CG[Bar[eps[SU2L]], {Bar[Index[d$$2, SU2L[fund]]], 
     Bar[Index[d$$3, SU2L[fund]]]}]*Field[\[Phi]1, Scalar, 
    {Index[d$$3, SU2L[fund]]}, {}]*Field[\[Phi]2, Scalar, 
@@ -67425,10 +67504,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$6, Flavor]}, 0], Coupling[mut, {Index[d$$4, Flavor]}, 0], 
       Coupling[\[Mu]t, {}, 0]}, {1, 1, 1, 1, 1, 0}])*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
- hbar*CG[Bar[eps[SU2L]], {Bar[Index[d$$1, SU2L[fund]]], 
+  NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[Proj[-1]], Field[q, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, 
+    {}]] + hbar*CG[Bar[eps[SU2L]], {Bar[Index[d$$1, SU2L[fund]]], 
     Bar[Index[d$$2, SU2L[fund]]]}]*Field[\[Phi]1, Scalar, 
    {Index[d$$1, SU2L[fund]]}, {}]*Field[\[Phi]1, Scalar, 
    {Index[d$$2, SU2L[fund]]}, {Index[d$$1, Lorentz]}]*
@@ -67516,9 +67595,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     LF[{Coupling[\[Mu]t, {}, 0], Coupling[m1, {}, 0], 
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
        {Index[d$$2, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*CG[Bar[eps[SU2L]], {Bar[Index[d$$1, SU2L[fund]]], 
     Bar[Index[d$$2, SU2L[fund]]]}]*Field[\[Phi]2, Scalar, 
    {Index[d$$1, SU2L[fund]]}, {}]*Field[\[Phi]2, Scalar, 
@@ -67607,9 +67686,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], Coupling[m1, {}, 0], 
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
        {Index[d$$2, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*CG[Bar[eps[SU2L]], {Bar[Index[d$$1, SU2L[fund]]], 
     Bar[Index[d$$2, SU2L[fund]]]}]*Field[\[Phi]1, Scalar, 
    {Index[d$$2, SU2L[fund]]}, {}]*Field[\[Phi]2, Scalar, 
@@ -67746,9 +67825,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[\[Mu]t, {}, 0]^2)*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[m1, {}, 0], Coupling[mqt, {Index[d$$3, Flavor]}, 0], 
       Coupling[mut, {Index[d$$2, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*CG[Bar[eps[SU2L]], {Bar[Index[d$$1, SU2L[fund]]], 
     Bar[Index[d$$2, SU2L[fund]]]}]*Field[\[Phi]1, Scalar, 
    {Index[d$$1, SU2L[fund]]}, {}]*Field[\[Phi]2, Scalar, 
@@ -67969,10 +68048,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     LF[{Coupling[\[Mu]t, {}, 0], Coupling[m1, {}, 0], 
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
        {Index[d$$2, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
+  NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
    Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, 
-    {Index[d$$1, Lorentz]}] - 
+    {Index[d$$1, Lorentz]}]] - 
  hbar*FieldStrength[B, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]}, {}, 
    {Index[d$$2, Lorentz]}]*
   ((-8*Coupling[g1, {}, 0]^2*Delta[Index[d$$1, Flavor], Index[d$$2, Flavor]]*
@@ -68029,9 +68108,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[yu, {Index[d$$3, Flavor], Index[d$$1, Flavor]}, 0]*
      LF[{Coupling[\[Mu]t, {}, 0], Coupling[mqt, {Index[d$$3, Flavor]}, 0]}, 
       {4, 1, -2}])/9)*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]*
   ((-1/4*I)*Bar[Coupling[yu, {Index[d$$3, Flavor], Index[d$$2, Flavor]}, 0]]*
@@ -68134,9 +68213,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     LF[{Coupling[\[Mu]t, {}, 0], Coupling[m1, {}, 0], 
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
        {Index[d$$2, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, 
     {Index[d$$1, Lorentz]}]]*Field[\[Phi]2, Scalar, 
    {Index[d$$1, SU2L[fund]]}, {}]*
@@ -68240,9 +68319,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], Coupling[m1, {}, 0], 
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
        {Index[d$$2, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*((-1/9*I)*Coupling[g1, {}, 0]^4*Delta[Index[d$$1, Flavor], 
      Index[d$$2, Flavor]]*LF[{Coupling[m1, {}, 0], 
       Coupling[mut, {Index[d$$1, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
@@ -68363,15 +68442,15 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
   (Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, 
       {Index[d$$1, Lorentz]}]]*Field[\[Phi]1, Scalar, 
      {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-       {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-     Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] - 
+    NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+       {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+     Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]] - 
    Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]*
-    Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-       {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-     Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]) + 
- hbar*((I/9)*Coupling[g1, {}, 0]^4*Delta[Index[d$$1, Flavor], 
+    NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+       {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+     Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, 
+      {}]]) + hbar*((I/9)*Coupling[g1, {}, 0]^4*Delta[Index[d$$1, Flavor], 
      Index[d$$2, Flavor]]*LF[{Coupling[m1, {}, 0], 
       Coupling[mut, {Index[d$$1, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
      {2, 1, 1, -1}] + ((2*I)/9)*Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]^2*
@@ -68496,15 +68575,15 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
   (Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, 
       {Index[d$$1, Lorentz]}]]*Field[\[Phi]2, Scalar, 
      {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-       {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-     Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] - 
+    NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+       {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+     Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]] - 
    Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {Index[d$$1, Lorentz]}]*
-    Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-       {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-     Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]) + 
- (I*Delta[Index[d$$1, Flavor], Index[d$$2, Flavor]] + 
+    NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+       {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+     Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, 
+      {}]]) + (I*Delta[Index[d$$1, Flavor], Index[d$$2, Flavor]] + 
    hbar*((-1/18*I)*(9*Bar[Coupling[yu, {Index[d$$3, Flavor], 
            Index[d$$2, Flavor]}, 0]]*Coupling[yu, {Index[d$$3, Flavor], 
           Index[d$$1, Flavor]}, 0] + 4*(Coupling[g1, {}, 0]^2 + 
@@ -68533,10 +68612,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
          Index[d$$2, Flavor]}, 0]]*Coupling[yu, {Index[d$$3, Flavor], 
         Index[d$$1, Flavor]}, 0]*LF[{Coupling[\[Mu]t, {}, 0], 
         Coupling[mqt, {Index[d$$3, Flavor]}, 0]}, {2, 1, -1}]))*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
+  NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
    Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, 
-    {Index[d$$1, Lorentz]}] + 
+    {Index[d$$1, Lorentz]}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   (((-8*I)/9)*Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]*
@@ -68765,10 +68844,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$4, Flavor]}, 0], Coupling[mut, {Index[d$$5, Flavor]}, 0]}, 
      {2, 1, 1, 1, -1}])*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
+  NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
    Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, 
-    {Index[d$$1, Lorentz]}] + 
+    {Index[d$$1, Lorentz]}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   (((4*I)/9)*Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]*
@@ -68967,10 +69046,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$5, Flavor]}, 0], Coupling[mut, {Index[d$$4, Flavor]}, 0]}, 
      {2, 1, 1, 1, -1}])*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
+  NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
    Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, 
-    {Index[d$$1, Lorentz]}] - 
+    {Index[d$$1, Lorentz]}]] - 
  hbar*CG[gen[SU3c[fund]], {Index[d$$1, SU3c[adj]], Index[d$$1, SU3c[fund]], 
     Bar[Index[d$$2, SU3c[fund]]]}]*FieldStrength[G, 
    {Index[d$$1, Lorentz], Index[d$$2, Lorentz]}, {Index[d$$1, SU3c[adj]]}, 
@@ -69029,9 +69108,9 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[yu, {Index[d$$3, Flavor], Index[d$$1, Flavor]}, 0]*
      LF[{Coupling[\[Mu]t, {}, 0], Coupling[mqt, {Index[d$$3, Flavor]}, 0]}, 
       {4, 1, -2}])/3)*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[u, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[u, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*CG[Bar[eps[SU2L]], {Bar[Index[d$$1, SU2L[fund]]], 
     Bar[Index[d$$2, SU2L[fund]]]}]*Field[\[Phi]2, Scalar, 
    {Index[d$$2, SU2L[fund]]}, {}]*FieldStrength[B, 
@@ -69151,10 +69230,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[mdt, {Index[d$$3, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$4, Flavor]}, 0]}, {3, 1, 1, -1}])*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
-    Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
+    Proj[-1]], Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*CG[Bar[cg1], {Bar[Index[d$$1, SU2L[fund]]], Index[d$$1, SU2L[adj]], 
     Bar[Index[d$$2, SU2L[fund]]]}]*Field[\[Phi]2, Scalar, 
    {Index[d$$2, SU2L[fund]]}, {}]*FieldStrength[W, 
@@ -69255,10 +69334,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[mdt, {Index[d$$3, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$4, Flavor]}, 0]}, {3, 1, 1, -1}])*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
-    Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
+    Proj[-1]], Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*CG[Bar[eps[SU2L]], {Bar[Index[d$$1, SU2L[fund]]], 
     Bar[Index[d$$2, SU2L[fund]]]}]*Field[\[Phi]1, Scalar, 
    {Index[d$$2, SU2L[fund]]}, {}]*FieldStrength[B, 
@@ -69379,10 +69458,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]^2*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[mdt, {Index[d$$3, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$4, Flavor]}, 0]}, {3, 1, 1, -1}])*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
-    Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
+    Proj[-1]], Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*CG[Bar[cg1], {Bar[Index[d$$1, SU2L[fund]]], Index[d$$1, SU2L[adj]], 
     Bar[Index[d$$2, SU2L[fund]]]}]*Field[\[Phi]1, Scalar, 
    {Index[d$$2, SU2L[fund]]}, {}]*FieldStrength[W, 
@@ -69485,10 +69564,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]^2*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[mdt, {Index[d$$3, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$4, Flavor]}, 0]}, {3, 1, 1, -1}])*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
-    Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
+    Proj[-1]], Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*CG[Bar[eps[SU2L]], {Bar[Index[d$$1, SU2L[fund]]], 
     Bar[Index[d$$2, SU2L[fund]]]}]*CG[gen[SU3c[fund]], 
    {Index[d$$1, SU3c[adj]], Index[d$$1, SU3c[fund]], 
@@ -69583,10 +69662,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[mdt, {Index[d$$3, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$4, Flavor]}, 0]}, {3, 1, 1, -1}])*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
-    Proj[-1]]**Field[q, Fermion, {Index[d$$2, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
+    Proj[-1]], Field[q, Fermion, {Index[d$$2, SU3c[fund]], 
+     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*CG[Bar[eps[SU2L]], {Bar[Index[d$$1, SU2L[fund]]], 
     Bar[Index[d$$2, SU2L[fund]]]}]*CG[gen[SU3c[fund]], 
    {Index[d$$1, SU3c[adj]], Index[d$$1, SU3c[fund]], 
@@ -69680,10 +69759,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]^2*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[mdt, {Index[d$$3, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$4, Flavor]}, 0]}, {3, 1, 1, -1}])*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
-    Proj[-1]]**Field[q, Fermion, {Index[d$$2, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
+    Proj[-1]], Field[q, Fermion, {Index[d$$2, SU3c[fund]], 
+     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*CG[Bar[eps[SU2L]], {Bar[Index[d$$1, SU2L[fund]]], 
     Bar[Index[d$$2, SU2L[fund]]]}]*Field[\[Phi]2, Scalar, 
    {Index[d$$2, SU2L[fund]]}, {Index[d$$1, Lorentz]}]*
@@ -69779,10 +69858,11 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], 
        Coupling[mdt, {Index[d$$3, Flavor]}, 0], Coupling[mqt, 
         {Index[d$$4, Flavor]}, 0]}, {3, 1, 1, -1}])/2)*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], GammaM[Index[d$$2, Lorentz]], 
-    Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {Index[d$$2, Lorentz]}] + 
+  NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+    GammaM[Index[d$$2, Lorentz]], Proj[-1]], Field[q, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
+    {Index[d$$2, Lorentz]}]] + 
  hbar*CG[Bar[eps[SU2L]], {Bar[Index[d$$1, SU2L[fund]]], 
     Bar[Index[d$$2, SU2L[fund]]]}]*Field[\[Phi]1, Scalar, 
    {Index[d$$2, SU2L[fund]]}, {Index[d$$1, Lorentz]}]*
@@ -69873,10 +69953,11 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[\[Mu]t, {}, 0]^2*LF[{Coupling[\[Mu]t, {}, 0], 
        Coupling[mdt, {Index[d$$3, Flavor]}, 0], Coupling[mqt, 
         {Index[d$$4, Flavor]}, 0]}, {3, 1, 1, -1}])/2)*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], GammaM[Index[d$$2, Lorentz]], 
-    Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {Index[d$$2, Lorentz]}] + 
+  NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+    GammaM[Index[d$$2, Lorentz]], Proj[-1]], Field[q, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
+    {Index[d$$2, Lorentz]}]] + 
  hbar*CG[Bar[eps[SU2L]], {Bar[Index[d$$1, SU2L[fund]]], 
     Bar[Index[d$$2, SU2L[fund]]]}]*Field[\[Phi]1, Scalar, 
    {Index[d$$1, SU2L[fund]]}, {}]*Field[\[Phi]2, Scalar, 
@@ -70110,10 +70191,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     LF[{Coupling[\[Mu]t, {}, 0], Coupling[m1, {}, 0], 
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
        {Index[d$$2, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-     {Index[d$$1, Lorentz]}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    Proj[1]]**Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+    Proj[1]], Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   (((-4*I)/9)*Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]*
@@ -70312,10 +70393,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$4, Flavor]}, 0], Coupling[mut, {Index[d$$5, Flavor]}, 0]}, 
      {2, 1, 1, 1, -1}])*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-     {Index[d$$1, Lorentz]}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    Proj[1]]**Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+    Proj[1]], Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
   Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
   (((8*I)/9)*Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]*
@@ -70544,10 +70625,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
       Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$5, Flavor]}, 0], Coupling[mut, {Index[d$$4, Flavor]}, 0]}, 
      {2, 1, 1, 1, -1}])*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-     {Index[d$$1, Lorentz]}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    Proj[1]]**Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+    Proj[1]], Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*(((2*I)/27)*Coupling[g1, {}, 0]^4*Delta[Index[d$$1, Flavor], 
      Index[d$$2, Flavor]]*LF[{Coupling[m1, {}, 0], 
       Coupling[mut, {Index[d$$1, Flavor]}, 0]}, {2, 2, -1}] + 
@@ -70741,16 +70822,16 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        {Index[d$$4, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
   (Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-       {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
+    NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+       {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
      Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, 
-      {Index[d$$1, Lorentz]}] - 
+      {Index[d$$1, Lorentz]}]] - 
    Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-       {Index[d$$1, Lorentz]}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-      Proj[1]]**Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
-       Index[d$$1, Flavor]}, {}]) + 
+    NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+       {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+      Proj[1]], Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
+       Index[d$$1, Flavor]}, {}]]) + 
  hbar*((-1/4*I)*Bar[Coupling[yu, {Index[d$$3, Flavor], Index[d$$2, Flavor]}, 
       0]]*Bar[Coupling[yu, {Index[d$$4, Flavor], Index[d$$5, Flavor]}, 0]]*
     Coupling[yu, {Index[d$$3, Flavor], Index[d$$5, Flavor]}, 0]*
@@ -70896,16 +70977,16 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        {Index[d$$2, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
   (Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-       {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
+    NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+       {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
      Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, 
-      {Index[d$$1, Lorentz]}] + 
+      {Index[d$$1, Lorentz]}]] + 
    Bar[Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]1, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-       {Index[d$$1, Lorentz]}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-      Proj[1]]**Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
-       Index[d$$1, Flavor]}, {}]) + 
+    NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+       {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+      Proj[1]], Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
+       Index[d$$1, Flavor]}, {}]]) + 
  hbar*(((-2*I)/27)*Coupling[g1, {}, 0]^4*Delta[Index[d$$1, Flavor], 
      Index[d$$2, Flavor]]*LF[{Coupling[m1, {}, 0], 
       Coupling[mut, {Index[d$$1, Flavor]}, 0]}, {2, 2, -1}] - 
@@ -71083,16 +71164,16 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      {2, 1, 1, 1, -1}])*
   (Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-       {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
+    NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+       {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
      Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, 
-      {Index[d$$1, Lorentz]}] - 
+      {Index[d$$1, Lorentz]}]] - 
    Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-       {Index[d$$1, Lorentz]}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-      Proj[1]]**Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
-       Index[d$$1, Flavor]}, {}]) + 
+    NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+       {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+      Proj[1]], Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
+       Index[d$$1, Flavor]}, {}]]) + 
  hbar*((I/4)*Bar[Coupling[yd, {Index[d$$3, Flavor], Index[d$$4, Flavor]}, 0]]*
     Bar[Coupling[yu, {Index[d$$5, Flavor], Index[d$$2, Flavor]}, 0]]*
     Coupling[yd, {Index[d$$5, Flavor], Index[d$$4, Flavor]}, 0]*
@@ -71225,16 +71306,16 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        {Index[d$$2, Flavor]}, 0]}, {2, 1, 1, 1, -1}])*
   (Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-       {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
+    NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+       {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
      Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, 
-      {Index[d$$1, Lorentz]}] + 
+      {Index[d$$1, Lorentz]}]] + 
    Bar[Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]]*
     Field[\[Phi]2, Scalar, {Index[d$$1, SU2L[fund]]}, {}]*
-    Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-       {Index[d$$1, Lorentz]}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-      Proj[1]]**Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
-       Index[d$$1, Flavor]}, {}]) + 
+    NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+       {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+      Proj[1]], Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
+       Index[d$$1, Flavor]}, {}]]) + 
  hbar*CG[Bar[eps[SU2L]], {Bar[Index[d$$1, SU2L[fund]]], 
     Bar[Index[d$$2, SU2L[fund]]]}]*Field[\[Phi]2, Scalar, 
    {Index[d$$2, SU2L[fund]]}, {}]*
@@ -71326,11 +71407,11 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[mdt, {Index[d$$3, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$4, Flavor]}, 0]}, {3, 1, 1, -1}])*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-     {Index[d$$1, Lorentz]}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    GammaM[Index[d$$2, Lorentz]], Proj[-1]]**Field[q, Fermion, 
+  NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+    GammaM[Index[d$$2, Lorentz]], Proj[-1]], Field[q, Fermion, 
     {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
-    {Index[d$$2, Lorentz]}] + 
+    {Index[d$$2, Lorentz]}]] + 
  hbar*CG[Bar[eps[SU2L]], {Bar[Index[d$$1, SU2L[fund]]], 
     Bar[Index[d$$2, SU2L[fund]]]}]*Field[\[Phi]1, Scalar, 
    {Index[d$$2, SU2L[fund]]}, {}]*
@@ -71425,11 +71506,11 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]^2*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[mdt, {Index[d$$3, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$4, Flavor]}, 0]}, {3, 1, 1, -1}])*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-     {Index[d$$1, Lorentz]}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    GammaM[Index[d$$2, Lorentz]], Proj[-1]]**Field[q, Fermion, 
+  NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+    GammaM[Index[d$$2, Lorentz]], Proj[-1]], Field[q, Fermion, 
     {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
-    {Index[d$$2, Lorentz]}] + 
+    {Index[d$$2, Lorentz]}]] + 
  hbar*CG[Bar[eps[SU2L]], {Bar[Index[d$$1, SU2L[fund]]], 
     Bar[Index[d$$2, SU2L[fund]]]}]*Field[\[Phi]2, Scalar, 
    {Index[d$$2, SU2L[fund]]}, {Index[d$$1, Lorentz]}]*
@@ -71525,11 +71606,11 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[\[Mu]t, {}, 0]*LF[{Coupling[\[Mu]t, {}, 0], 
        Coupling[mdt, {Index[d$$3, Flavor]}, 0], Coupling[mqt, 
         {Index[d$$4, Flavor]}, 0]}, {3, 1, 1, -1}])/2)*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-     {Index[d$$2, Lorentz]}]]**DiracProduct[GammaM[Index[d$$2, Lorentz]], 
-    GammaM[Index[d$$1, Lorentz]], Proj[-1]]**Field[q, Fermion, 
+  NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {Index[d$$2, Lorentz]}]], DiracProduct[GammaM[Index[d$$2, Lorentz]], 
+    GammaM[Index[d$$1, Lorentz]], Proj[-1]], Field[q, Fermion, 
     {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
-    {}] + hbar*CG[Bar[eps[SU2L]], {Bar[Index[d$$1, SU2L[fund]]], 
+    {}]] + hbar*CG[Bar[eps[SU2L]], {Bar[Index[d$$1, SU2L[fund]]], 
     Bar[Index[d$$2, SU2L[fund]]]}]*Field[\[Phi]1, Scalar, 
    {Index[d$$2, SU2L[fund]]}, {Index[d$$1, Lorentz]}]*
   ((Bar[Coupling[au, {Index[d$$1, Flavor], Index[d$$2, Flavor]}, 0]]*
@@ -71617,11 +71698,11 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[\[Mu]t, {}, 0]^2*LF[{Coupling[\[Mu]t, {}, 0], 
        Coupling[mdt, {Index[d$$3, Flavor]}, 0], Coupling[mqt, 
         {Index[d$$4, Flavor]}, 0]}, {3, 1, 1, -1}])/2)*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-     {Index[d$$2, Lorentz]}]]**DiracProduct[GammaM[Index[d$$2, Lorentz]], 
-    GammaM[Index[d$$1, Lorentz]], Proj[-1]]**Field[q, Fermion, 
+  NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+     {Index[d$$2, Lorentz]}]], DiracProduct[GammaM[Index[d$$2, Lorentz]], 
+    GammaM[Index[d$$1, Lorentz]], Proj[-1]], Field[q, Fermion, 
     {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
-    {}] + 
+    {}]] + 
  hbar*(-1/4*(Bar[Coupling[yu, {Index[d$$3, Flavor], Index[d$$2, Flavor]}, 0]]*
      Coupling[yu, {Index[d$$3, Flavor], Index[d$$1, Flavor]}, 0]*
      LF[{Coupling[\[Mu]t, {}, 0], Coupling[mqt, {Index[d$$3, Flavor]}, 0]}, 
@@ -71631,16 +71712,18 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      LF[{Coupling[\[Mu]t, {}, 0], Coupling[mqt, {Index[d$$3, Flavor]}, 0]}, 
       {3, 1, -1}])/4)*
   (-(FieldStrength[B, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]}, {}, {}]*
-     Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-        {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz], 
-        Index[d$$2, Lorentz]], GammaM[Index[d$$3, Lorentz]], Proj[1]]**
-      Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, 
-       {Index[d$$3, Lorentz]}]) + 
+     NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
+         Index[d$$2, Flavor]}, {}]], DiracProduct[
+       GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
+       GammaM[Index[d$$3, Lorentz]], Proj[1]], Field[u, Fermion, 
+       {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, 
+       {Index[d$$3, Lorentz]}]]) + 
    FieldStrength[B, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]}, {}, {}]*
-    Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-       {Index[d$$3, Lorentz]}]]**DiracProduct[GammaM[Index[d$$3, Lorentz]], 
-      GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], Proj[1]]**
-     Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]) + 
+    NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+       {Index[d$$3, Lorentz]}]], DiracProduct[GammaM[Index[d$$3, Lorentz]], 
+      GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], Proj[1]], 
+     Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, 
+      {}]]) + 
  hbar*((-3*Coupling[g3, {}, 0]^2*Delta[Index[d$$1, Flavor], 
       Index[d$$2, Flavor]]*LF[{Coupling[m3, {}, 0], 
        Coupling[mut, {Index[d$$1, Flavor]}, 0]}, {2, 1, 0}])/4 + 
@@ -71650,20 +71733,20 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
   (-(CG[gen[SU3c[fund]], {Index[d$$1, SU3c[adj]], Index[d$$1, SU3c[fund]], 
        Bar[Index[d$$2, SU3c[fund]]]}]*FieldStrength[G, 
       {Index[d$$1, Lorentz], Index[d$$2, Lorentz]}, {Index[d$$1, SU3c[adj]]}, 
-      {}]*Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
-         Index[d$$2, Flavor]}, {}]]**DiracProduct[
+      {}]*NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
+         Index[d$$2, Flavor]}, {}]], DiracProduct[
        GammaM[Index[d$$1, Lorentz], Index[d$$2, Lorentz]], 
-       GammaM[Index[d$$3, Lorentz]], Proj[1]]**Field[u, Fermion, 
+       GammaM[Index[d$$3, Lorentz]], Proj[1]], Field[u, Fermion, 
        {Index[d$$2, SU3c[fund]], Index[d$$1, Flavor]}, 
-       {Index[d$$3, Lorentz]}]) + 
+       {Index[d$$3, Lorentz]}]]) + 
    CG[gen[SU3c[fund]], {Index[d$$1, SU3c[adj]], Index[d$$1, SU3c[fund]], 
       Bar[Index[d$$2, SU3c[fund]]]}]*FieldStrength[G, 
      {Index[d$$1, Lorentz], Index[d$$2, Lorentz]}, {Index[d$$1, SU3c[adj]]}, 
-     {}]*Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
-        Index[d$$2, Flavor]}, {Index[d$$3, Lorentz]}]]**
+     {}]*NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
+        Index[d$$2, Flavor]}, {Index[d$$3, Lorentz]}]], 
      DiracProduct[GammaM[Index[d$$3, Lorentz]], GammaM[Index[d$$1, Lorentz], 
-       Index[d$$2, Lorentz]], Proj[1]]**Field[u, Fermion, 
-      {Index[d$$2, SU3c[fund]], Index[d$$1, Flavor]}, {}]) + 
+       Index[d$$2, Lorentz]], Proj[1]], Field[u, Fermion, 
+      {Index[d$$2, SU3c[fund]], Index[d$$1, Flavor]}, {}]]) + 
  hbar*(((-4*I)/9)*Coupling[g1, {}, 0]^2*Delta[Index[d$$1, Flavor], 
      Index[d$$2, Flavor]]*LF[{Coupling[m1, {}, 0], 
       Coupling[mut, {Index[d$$1, Flavor]}, 0]}, {2, 1, 0}] + 
@@ -71693,15 +71776,15 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[yu, {Index[d$$3, Flavor], Index[d$$1, Flavor]}, 0]*
     LF[{Coupling[\[Mu]t, {}, 0], Coupling[mqt, {Index[d$$3, Flavor]}, 0]}, 
      {4, 1, -2}])*
-  (Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-      {Index[d$$1, Lorentz]}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-     Proj[1]]**Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
-      Index[d$$1, Flavor]}, {Index[d$$2, Lorentz], Index[d$$2, Lorentz]}] - 
-   Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-      {Index[d$$1, Lorentz], Index[d$$1, Lorentz]}]]**
-    DiracProduct[GammaM[Index[d$$2, Lorentz]], Proj[1]]**
+  (NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+      {Index[d$$1, Lorentz]}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], 
+     Proj[1]], Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, Flavor]}, {Index[d$$2, Lorentz], Index[d$$2, Lorentz]}]] - 
+   NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
+      {Index[d$$1, Lorentz], Index[d$$1, Lorentz]}]], 
+    DiracProduct[GammaM[Index[d$$2, Lorentz]], Proj[1]], 
     Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, 
-     {Index[d$$2, Lorentz]}]) + 
+     {Index[d$$2, Lorentz]}]]) + 
  hbar*((4*Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]^2*
      Delta[Index[d$$1, Flavor], Index[d$$3, Flavor]]*
      Delta[Index[d$$2, Flavor], Index[d$$4, Flavor]]*
@@ -71714,12 +71797,12 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]^2*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[met, {Index[d$$5, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$6, Flavor]}, 0]}, {2, 1, 1, 0}])*
-  Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[Proj[1]]**Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$2, Flavor]}, {}]*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$4, Flavor]}, {}]]**
-   DiracProduct[Proj[-1]]**Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
-     Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$3, Flavor]}, 
+     {}]], DiracProduct[Proj[1]], Field[u, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]*
+  NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$4, Flavor]}, 
+     {}]], DiracProduct[Proj[-1]], Field[l, Fermion, 
+    {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*CG[Bar[eps[SU2L]], {Bar[Index[d$$1, SU2L[fund]]], 
     Bar[Index[d$$2, SU2L[fund]]]}]*
   (-1/3*(Bar[Coupling[ye, {Index[d$$1, Flavor], Index[d$$3, Flavor]}, 0]]*
@@ -71733,21 +71816,21 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[g1, {}, 0]^2*Coupling[m1, {}, 0]*Coupling[\[Mu]t, {}, 0]*
      LF[{Coupling[m1, {}, 0], Coupling[mlt, {Index[d$$1, Flavor]}, 0], 
        Coupling[mut, {Index[d$$4, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
-      {1, 1, 1, 1, 0}])/3)*Bar[Field[e, Fermion, {Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$4, Flavor]}, {}]]**
-   DiracProduct[Proj[-1]]**Field[l, Fermion, {Index[d$$2, SU2L[fund]], 
-     Index[d$$1, Flavor]}, {}] + 
+      {1, 1, 1, 1, 0}])/3)*NCM[Bar[Field[e, Fermion, {Index[d$$3, Flavor]}, 
+     {}]], DiracProduct[Proj[-1]], Field[q, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
+    {}]]*NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$4, Flavor]}, {}]], DiracProduct[Proj[-1]], 
+   Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}]] + 
  (4*hbar*Coupling[g1, {}, 0]^4*LF[{Coupling[m1, {}, 0], 
      Coupling[met, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
       {Index[d$$4, Flavor]}, 0]}, {2, 1, 1, -1}]*
-   Bar[Field[e, Fermion, {Index[d$$3, Flavor]}, {}]]**
-    DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-    Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$4, Flavor]}, {}]*
-   Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$4, Flavor]}, 
-      {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-    Field[e, Fermion, {Index[d$$3, Flavor]}, {}])/9 + 
+   NCM[Bar[Field[e, Fermion, {Index[d$$3, Flavor]}, {}]], 
+    DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+    Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$4, Flavor]}, {}]]*
+   NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$4, Flavor]}, 
+      {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+    Field[e, Fermion, {Index[d$$3, Flavor]}, {}]])/9 + 
  hbar*((7*Coupling[g3, {}, 0]^4*Delta[Index[d$$1, Flavor], 
       Index[d$$3, Flavor]]*Delta[Index[d$$2, Flavor], Index[d$$4, Flavor]]*
      LF[{Coupling[m3, {}, 0], Coupling[mut, {Index[d$$2, Flavor]}, 0], 
@@ -71757,12 +71840,12 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      LF[{Coupling[m1, {}, 0], Coupling[m3, {}, 0], 
        Coupling[mut, {Index[d$$2, Flavor]}, 0], Coupling[mut, 
         {Index[d$$3, Flavor]}, 0]}, {1, 1, 1, 1, -1}])/9)*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$4, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]*
-  Bar[Field[u, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[u, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$2, Flavor]}, {}] + 
+  NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$4, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]]*
+  NCM[Bar[Field[u, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$3, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[u, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$2, Flavor]}, {}]] + 
  hbar*((4*Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]^2*
      Delta[Index[d$$1, Flavor], Index[d$$3, Flavor]]*
      Delta[Index[d$$2, Flavor], Index[d$$4, Flavor]]*
@@ -71785,13 +71868,14 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      LF[{Coupling[m1, {}, 0], Coupling[m3, {}, 0], 
        Coupling[mqt, {Index[d$$1, Flavor]}, 0], Coupling[mut, 
         {Index[d$$4, Flavor]}, 0]}, {1, 1, 1, 1, 0}])/27)*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$3, Flavor]}, {}]]**DiracProduct[Proj[1]]**
-   Field[u, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$2, Flavor]}, {}]*
-  Bar[Field[u, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$4, Flavor]}, {}]]**
-   DiracProduct[Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
- hbar*CG[Bar[eps[SU2L]], {Bar[Index[d$$1, SU2L[fund]]], 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$3, Flavor]}, {}]], 
+   DiracProduct[Proj[1]], Field[u, Fermion, {Index[d$$2, SU3c[fund]], 
+     Index[d$$2, Flavor]}, {}]]*
+  NCM[Bar[Field[u, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$4, Flavor]}, 
+     {}]], DiracProduct[Proj[-1]], Field[q, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
+    {}]] + hbar*CG[Bar[eps[SU2L]], {Bar[Index[d$$1, SU2L[fund]]], 
     Bar[Index[d$$2, SU2L[fund]]]}]*
   (-1/9*(Bar[Coupling[yd, {Index[d$$1, Flavor], Index[d$$3, Flavor]}, 0]]*
      Bar[Coupling[yu, {Index[d$$2, Flavor], Index[d$$4, Flavor]}, 0]]*
@@ -71817,12 +71901,13 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      LF[{Coupling[m3, {}, 0], Coupling[mqt, {Index[d$$1, Flavor]}, 0], 
        Coupling[mut, {Index[d$$4, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
       {1, 1, 1, 1, 0}])/3)*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[Proj[-1]]**Field[q, Fermion, {Index[d$$2, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]*
-  Bar[Field[u, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$4, Flavor]}, {}]]**
-   DiracProduct[Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, 
+     {}]], DiracProduct[Proj[-1]], Field[q, Fermion, 
+    {Index[d$$2, SU3c[fund]], Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
+    {}]]*NCM[Bar[Field[u, Fermion, {Index[d$$2, SU3c[fund]], 
+      Index[d$$4, Flavor]}, {}]], DiracProduct[Proj[-1]], 
+   Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*((7*Coupling[g3, {}, 0]^4*Coupling[m3, {}, 0]^2*
      Delta[Index[d$$1, Flavor], Index[d$$3, Flavor]]*
      Delta[Index[d$$2, Flavor], Index[d$$4, Flavor]]*
@@ -71834,13 +71919,14 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      LF[{Coupling[m1, {}, 0], Coupling[m3, {}, 0], 
        Coupling[mqt, {Index[d$$1, Flavor]}, 0], Coupling[mut, 
         {Index[d$$4, Flavor]}, 0]}, {1, 1, 1, 1, 0}])/9)*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$3, Flavor]}, {}]]**DiracProduct[Proj[1]]**
-   Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]*
-  Bar[Field[u, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$4, Flavor]}, {}]]**
-   DiracProduct[Proj[-1]]**Field[q, Fermion, {Index[d$$2, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
- hbar*CG[Bar[eps[SU2L]], {Bar[Index[d$$1, SU2L[fund]]], 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$3, Flavor]}, {}]], 
+   DiracProduct[Proj[1]], Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
+     Index[d$$2, Flavor]}, {}]]*
+  NCM[Bar[Field[u, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$4, Flavor]}, 
+     {}]], DiracProduct[Proj[-1]], Field[q, Fermion, 
+    {Index[d$$2, SU3c[fund]], Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
+    {}]] + hbar*CG[Bar[eps[SU2L]], {Bar[Index[d$$1, SU2L[fund]]], 
     Bar[Index[d$$2, SU2L[fund]]]}]*
   (Bar[Coupling[yd, {Index[d$$1, Flavor], Index[d$$3, Flavor]}, 0]]*
     Bar[Coupling[yu, {Index[d$$2, Flavor], Index[d$$4, Flavor]}, 0]]*
@@ -71854,12 +71940,13 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     LF[{Coupling[m3, {}, 0], Coupling[mqt, {Index[d$$1, Flavor]}, 0], 
       Coupling[mut, {Index[d$$4, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
      {1, 1, 1, 1, 0}])*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]*
-  Bar[Field[u, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$4, Flavor]}, {}]]**
-   DiracProduct[Proj[-1]]**Field[q, Fermion, {Index[d$$2, SU3c[fund]], 
-     Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, 
+     {}]], DiracProduct[Proj[-1]], Field[q, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
+    {}]]*NCM[Bar[Field[u, Fermion, {Index[d$$2, SU3c[fund]], 
+      Index[d$$4, Flavor]}, {}]], DiracProduct[Proj[-1]], 
+   Field[q, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$2, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {}]] + 
  hbar*((4*Coupling[g1, {}, 0]^4*Delta[Index[d$$1, Flavor], 
       Index[d$$3, Flavor]]*Delta[Index[d$$2, Flavor], Index[d$$4, Flavor]]*
      LF[{Coupling[m1, {}, 0], Coupling[mdt, {Index[d$$1, Flavor]}, 0], 
@@ -71873,12 +71960,12 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      LF[{Coupling[m1, {}, 0], Coupling[m3, {}, 0], 
        Coupling[mdt, {Index[d$$1, Flavor]}, 0], Coupling[mut, 
         {Index[d$$4, Flavor]}, 0]}, {1, 1, 1, 1, -1}])/27)*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[u, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$2, Flavor]}, {}]*
-  Bar[Field[u, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$4, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[u, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$2, Flavor]}, {}]]*
+  NCM[Bar[Field[u, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$4, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*((7*Coupling[g3, {}, 0]^4*Delta[Index[d$$1, Flavor], 
       Index[d$$3, Flavor]]*Delta[Index[d$$2, Flavor], Index[d$$4, Flavor]]*
      LF[{Coupling[m3, {}, 0], Coupling[mdt, {Index[d$$1, Flavor]}, 0], 
@@ -71888,12 +71975,12 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      LF[{Coupling[m1, {}, 0], Coupling[m3, {}, 0], 
        Coupling[mdt, {Index[d$$1, Flavor]}, 0], Coupling[mut, 
         {Index[d$$4, Flavor]}, 0]}, {1, 1, 1, 1, -1}])/9)*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]*
-  Bar[Field[u, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$4, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[d, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]]*
+  NCM[Bar[Field[u, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$4, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[d, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$1, Flavor]}, {}]] + 
  hbar*((8*Coupling[g1, {}, 0]^4*Delta[Index[d$$1, Flavor], 
       Index[d$$3, Flavor]]*Delta[Index[d$$2, Flavor], Index[d$$4, Flavor]]*
      LF[{Coupling[m1, {}, 0], Coupling[mut, {Index[d$$1, Flavor]}, 0], 
@@ -71913,24 +72000,24 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      LF[{Coupling[m1, {}, 0], Coupling[m3, {}, 0], 
        Coupling[mut, {Index[d$$1, Flavor]}, 0], Coupling[mut, 
         {Index[d$$4, Flavor]}, 0]}, {1, 1, 1, 1, -1}])/27)*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[u, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$2, Flavor]}, {}]*
-  Bar[Field[u, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$4, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+  NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[u, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$2, Flavor]}, {}]]*
+  NCM[Bar[Field[u, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$4, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, {}]] + 
  (hbar*Bar[Coupling[yd, {Index[d$$5, Flavor], Index[d$$3, Flavor]}, 0]]*
    Bar[Coupling[yu, {Index[d$$6, Flavor], Index[d$$4, Flavor]}, 0]]*
    Coupling[yd, {Index[d$$6, Flavor], Index[d$$1, Flavor]}, 0]*
    Coupling[yu, {Index[d$$5, Flavor], Index[d$$2, Flavor]}, 0]*
    LF[{Coupling[\[Mu]t, {}, 0], Coupling[mqt, {Index[d$$5, Flavor]}, 0], 
      Coupling[mqt, {Index[d$$6, Flavor]}, 0]}, {2, 1, 1, -1}]*
-   Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, 
-      {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-    Field[d, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$1, Flavor]}, {}]*
-   Bar[Field[u, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$4, Flavor]}, 
-      {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-    Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}])/
+   NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, 
+      {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+    Field[d, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$1, Flavor]}, {}]]*
+   NCM[Bar[Field[u, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$4, Flavor]}, 
+      {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+    Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]])/
   2 + hbar*((Bar[Coupling[yu, {Index[d$$1, Flavor], Index[d$$4, Flavor]}, 0]]*
      Coupling[g1, {}, 0]^2*Coupling[yu, {Index[d$$3, Flavor], 
        Index[d$$2, Flavor]}, 0]*LF[{Coupling[m1, {}, 0], 
@@ -71961,13 +72048,14 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        Coupling[mut, {Index[d$$2, Flavor]}, 0], Coupling[mut, 
         {Index[d$$4, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
       {1, 1, 1, 1, -1}])/12)*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$3, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    Proj[-1]]**Field[q, Fermion, {Index[d$$2, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}]*
-  Bar[Field[u, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$4, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$3, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+   Field[q, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$1, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {}]]*
+  NCM[Bar[Field[u, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$4, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]] + 
  hbar*((Bar[Coupling[yu, {Index[d$$1, Flavor], Index[d$$4, Flavor]}, 0]]*
      Coupling[g3, {}, 0]^2*Coupling[yu, {Index[d$$3, Flavor], 
        Index[d$$2, Flavor]}, 0]*LF[{Coupling[m3, {}, 0], 
@@ -71980,13 +72068,14 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        Coupling[mut, {Index[d$$2, Flavor]}, 0], Coupling[mut, 
         {Index[d$$4, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
       {1, 1, 1, 1, -1}])/4)*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$3, Flavor]}, {}]]**DiracProduct[GammaM[Index[d$$1, Lorentz]], 
-    Proj[-1]]**Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-     Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}]*
-  Bar[Field[u, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$4, Flavor]}, {}]]**
-   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-   Field[u, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$2, Flavor]}, {}] + 
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$3, Flavor]}, {}]], 
+   DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+   Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
+     Index[d$$1, Flavor]}, {}]]*
+  NCM[Bar[Field[u, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$4, Flavor]}, 
+     {}]], DiracProduct[GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[u, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$2, Flavor]}, {}]] + 
  hbar*((16*Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]^2*
      Delta[Index[d$$1, Flavor], Index[d$$3, Flavor]]*
      Delta[Index[d$$2, Flavor], Index[d$$4, Flavor]]*
@@ -72009,13 +72098,13 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      LF[{Coupling[m1, {}, 0], Coupling[m3, {}, 0], 
        Coupling[mdt, {Index[d$$1, Flavor]}, 0], Coupling[mut, 
         {Index[d$$2, Flavor]}, 0]}, {1, 1, 1, 1, 0}])/27)*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[GammaCC, Proj[-1]]**
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, 
+     {}]], DiracProduct[GammaCC, Proj[-1]], 
    Transp[Bar[Field[u, Fermion, {Index[d$$2, SU3c[fund]], 
-       Index[d$$4, Flavor]}, {}]]]*
-  Transp[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, 
-     {}]]**DiracProduct[GammaCC, Proj[1]]**Field[u, Fermion, 
-    {Index[d$$2, SU3c[fund]], Index[d$$2, Flavor]}, {}] + 
+       Index[d$$4, Flavor]}, {}]]]]*
+  NCM[Transp[Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, Flavor]}, {}]], DiracProduct[GammaCC, Proj[1]], 
+   Field[u, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$2, Flavor]}, {}]] + 
  hbar*CG[eps[SU2L], {Index[d$$1, SU2L[fund]], Index[d$$2, SU2L[fund]]}]*
   ((-4*Coupling[g1, {}, 0]^2*Coupling[m1, {}, 0]*
      Coupling[yd, {Index[d$$3, Flavor], Index[d$$1, Flavor]}, 0]*
@@ -72052,13 +72141,14 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mqt, 
         {Index[d$$4, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
       {1, 1, 1, 1, 0}])/3)*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$3, Flavor]}, {}]]**DiracProduct[GammaCC, Proj[1]]**
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$3, Flavor]}, {}]], 
+   DiracProduct[GammaCC, Proj[1]], 
    Transp[Bar[Field[q, Fermion, {Index[d$$2, SU3c[fund]], 
-       Index[d$$2, SU2L[fund]], Index[d$$4, Flavor]}, {}]]]*
-  Transp[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, 
-     {}]]**DiracProduct[GammaCC, Proj[1]]**Field[u, Fermion, 
-    {Index[d$$2, SU3c[fund]], Index[d$$2, Flavor]}, {}] + 
+       Index[d$$2, SU2L[fund]], Index[d$$4, Flavor]}, {}]]]]*
+  NCM[Transp[Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, Flavor]}, {}]], DiracProduct[GammaCC, Proj[1]], 
+   Field[u, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$2, Flavor]}, {}]] + 
  hbar*((Coupling[g1, {}, 0]^4*Delta[Index[d$$1, Flavor], Index[d$$3, Flavor]]*
      Delta[Index[d$$2, Flavor], Index[d$$4, Flavor]]*
      LF[{Coupling[m1, {}, 0], Coupling[mdt, {Index[d$$1, Flavor]}, 0], 
@@ -72069,13 +72159,14 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[ye, {Index[d$$4, Flavor], Index[d$$6, Flavor]}, 0]*
      LF[{Coupling[\[Mu]t, {}, 0], Coupling[met, {Index[d$$6, Flavor]}, 0], 
        Coupling[mqt, {Index[d$$5, Flavor]}, 0]}, {2, 1, 1, -1}])/4)*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[GammaCC, Transp[GammaM[Index[d$$1, Lorentz]]], Proj[1]]**
-   Transp[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
-       Index[d$$4, Flavor]}, {}]]]*
-  Transp[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, 
-     {}]]**DiracProduct[GammaCC, GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
-   Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}] + 
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, 
+     {}]], DiracProduct[GammaCC, Transp[GammaM[Index[d$$1, Lorentz]]], 
+    Proj[1]], Transp[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
+       Index[d$$4, Flavor]}, {}]]]]*
+  NCM[Transp[Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, Flavor]}, {}]], DiracProduct[GammaCC, 
+    GammaM[Index[d$$1, Lorentz]], Proj[-1]], Field[l, Fermion, 
+    {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]] + 
  hbar*((Bar[Coupling[ye, {Index[d$$2, Flavor], Index[d$$3, Flavor]}, 0]]*
      Coupling[g1, {}, 0]^2*Coupling[yd, {Index[d$$4, Flavor], 
        Index[d$$1, Flavor]}, 0]*LF[{Coupling[m1, {}, 0], 
@@ -72088,13 +72179,14 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        Coupling[met, {Index[d$$3, Flavor]}, 0], Coupling[mqt, 
         {Index[d$$4, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
       {1, 1, 1, 1, -1}])/12)*
-  Bar[Field[e, Fermion, {Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[GammaCC, Transp[GammaM[Index[d$$1, Lorentz]]], Proj[1]]**
+  NCM[Bar[Field[e, Fermion, {Index[d$$3, Flavor]}, {}]], 
+   DiracProduct[GammaCC, Transp[GammaM[Index[d$$1, Lorentz]]], Proj[1]], 
    Transp[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-       Index[d$$1, SU2L[fund]], Index[d$$4, Flavor]}, {}]]]*
-  Transp[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, 
-     {}]]**DiracProduct[GammaCC, GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
-   Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}] + 
+       Index[d$$1, SU2L[fund]], Index[d$$4, Flavor]}, {}]]]]*
+  NCM[Transp[Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, Flavor]}, {}]], DiracProduct[GammaCC, 
+    GammaM[Index[d$$1, Lorentz]], Proj[-1]], Field[l, Fermion, 
+    {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]] + 
  hbar*((Coupling[g1, {}, 0]^4*Delta[Index[d$$1, Flavor], Index[d$$3, Flavor]]*
      Delta[Index[d$$2, Flavor], Index[d$$4, Flavor]]*
      LF[{Coupling[m1, {}, 0], Coupling[mdt, {Index[d$$1, Flavor]}, 0], 
@@ -72126,15 +72218,15 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        Coupling[mdt, {Index[d$$3, Flavor]}, 0], Coupling[mqt, 
         {Index[d$$4, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
       {1, 1, 1, 1, -1}])/4)*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[GammaCC, Transp[GammaM[Index[d$$1, Lorentz]]], Proj[1]]**
-   Transp[Bar[Field[q, Fermion, {Index[d$$2, SU3c[fund]], 
-       Index[d$$1, SU2L[fund]], Index[d$$4, Flavor]}, {}]]]*
-  Transp[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, Flavor]}, 
-     {}]]**DiracProduct[GammaCC, GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
-   Field[q, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-     Index[d$$2, Flavor]}, {}] + 
- hbar*((2*Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]^2*
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, 
+     {}]], DiracProduct[GammaCC, Transp[GammaM[Index[d$$1, Lorentz]]], 
+    Proj[1]], Transp[Bar[Field[q, Fermion, {Index[d$$2, SU3c[fund]], 
+       Index[d$$1, SU2L[fund]], Index[d$$4, Flavor]}, {}]]]]*
+  NCM[Transp[Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, Flavor]}, {}]], DiracProduct[GammaCC, 
+    GammaM[Index[d$$1, Lorentz]], Proj[-1]], Field[q, Fermion, 
+    {Index[d$$2, SU3c[fund]], Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
+    {}]] + hbar*((2*Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]^2*
      Delta[Index[d$$1, Flavor], Index[d$$4, Flavor]]*
      Delta[Index[d$$2, Flavor], Index[d$$3, Flavor]]*
      LF[{Coupling[m1, {}, 0], Coupling[mdt, {Index[d$$1, Flavor]}, 0], 
@@ -72154,22 +72246,22 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      LF[{Coupling[m1, {}, 0], Coupling[m3, {}, 0], 
        Coupling[mdt, {Index[d$$1, Flavor]}, 0], Coupling[mdt, 
         {Index[d$$2, Flavor]}, 0]}, {1, 1, 1, 1, 0}])/27)*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[GammaCC, Proj[-1]]**
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, 
+     {}]], DiracProduct[GammaCC, Proj[-1]], 
    Transp[Bar[Field[d, Fermion, {Index[d$$2, SU3c[fund]], 
-       Index[d$$4, Flavor]}, {}]]]*
-  Transp[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-     {}]]**DiracProduct[GammaCC, Proj[1]]**Field[d, Fermion, 
-    {Index[d$$2, SU3c[fund]], Index[d$$1, Flavor]}, {}] + 
+       Index[d$$4, Flavor]}, {}]]]]*
+  NCM[Transp[Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, Flavor]}, {}]], DiracProduct[GammaCC, Proj[1]], 
+   Field[d, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$1, Flavor]}, {}]] + 
  (4*hbar*Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]^2*
    LF[{Coupling[m1, {}, 0], Coupling[mdt, {Index[d$$3, Flavor]}, 0], 
      Coupling[met, {Index[d$$4, Flavor]}, 0]}, {2, 1, 1, 0}]*
-   Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, 
-      {}]]**DiracProduct[GammaCC, Proj[-1]]**
-    Transp[Bar[Field[e, Fermion, {Index[d$$4, Flavor]}, {}]]]*
-   Transp[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, 
-      {}]]**DiracProduct[GammaCC, Proj[1]]**Field[e, Fermion, 
-     {Index[d$$4, Flavor]}, {}])/9 + 
+   NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, 
+      {}]], DiracProduct[GammaCC, Proj[-1]], 
+    Transp[Bar[Field[e, Fermion, {Index[d$$4, Flavor]}, {}]]]]*
+   NCM[Transp[Field[d, Fermion, {Index[d$$1, SU3c[fund]], 
+       Index[d$$3, Flavor]}, {}]], DiracProduct[GammaCC, Proj[1]], 
+    Field[e, Fermion, {Index[d$$4, Flavor]}, {}]])/9 + 
  hbar*((-2*Coupling[g3, {}, 0]^4*Coupling[m3, {}, 0]^2*
      Delta[Index[d$$1, Flavor], Index[d$$3, Flavor]]*
      Delta[Index[d$$2, Flavor], Index[d$$4, Flavor]]*
@@ -72188,13 +72280,13 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      LF[{Coupling[m1, {}, 0], Coupling[m3, {}, 0], 
        Coupling[mdt, {Index[d$$1, Flavor]}, 0], Coupling[mut, 
         {Index[d$$2, Flavor]}, 0]}, {1, 1, 1, 1, 0}])/9)*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[GammaCC, Proj[-1]]**
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, 
+     {}]], DiracProduct[GammaCC, Proj[-1]], 
    Transp[Bar[Field[u, Fermion, {Index[d$$2, SU3c[fund]], 
-       Index[d$$4, Flavor]}, {}]]]*
-  Transp[Field[d, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$1, Flavor]}, 
-     {}]]**DiracProduct[GammaCC, Proj[1]]**Field[u, Fermion, 
-    {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}] + 
+       Index[d$$4, Flavor]}, {}]]]]*
+  NCM[Transp[Field[d, Fermion, {Index[d$$2, SU3c[fund]], 
+      Index[d$$1, Flavor]}, {}]], DiracProduct[GammaCC, Proj[1]], 
+   Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]] + 
  hbar*(-1/6*(Coupling[g3, {}, 0]^4*Delta[Index[d$$1, Flavor], 
       Index[d$$3, Flavor]]*Delta[Index[d$$2, Flavor], Index[d$$4, Flavor]]*
      LF[{Coupling[m3, {}, 0], Coupling[mdt, {Index[d$$1, Flavor]}, 0], 
@@ -72228,15 +72320,15 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        Coupling[mdt, {Index[d$$3, Flavor]}, 0], Coupling[mqt, 
         {Index[d$$4, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
       {1, 1, 1, 1, -1}])/12)*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[GammaCC, Transp[GammaM[Index[d$$1, Lorentz]]], Proj[1]]**
-   Transp[Bar[Field[q, Fermion, {Index[d$$2, SU3c[fund]], 
-       Index[d$$1, SU2L[fund]], Index[d$$4, Flavor]}, {}]]]*
-  Transp[Field[d, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$1, Flavor]}, 
-     {}]]**DiracProduct[GammaCC, GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
-   Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-     Index[d$$2, Flavor]}, {}] + 
- hbar*((16*Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]^2*
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, 
+     {}]], DiracProduct[GammaCC, Transp[GammaM[Index[d$$1, Lorentz]]], 
+    Proj[1]], Transp[Bar[Field[q, Fermion, {Index[d$$2, SU3c[fund]], 
+       Index[d$$1, SU2L[fund]], Index[d$$4, Flavor]}, {}]]]]*
+  NCM[Transp[Field[d, Fermion, {Index[d$$2, SU3c[fund]], 
+      Index[d$$1, Flavor]}, {}]], DiracProduct[GammaCC, 
+    GammaM[Index[d$$1, Lorentz]], Proj[-1]], Field[q, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
+    {}]] + hbar*((16*Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]^2*
      Delta[Index[d$$1, Flavor], Index[d$$3, Flavor]]*
      Delta[Index[d$$2, Flavor], Index[d$$4, Flavor]]*
      LF[{Coupling[m1, {}, 0], Coupling[met, {Index[d$$1, Flavor]}, 0], 
@@ -72248,13 +72340,13 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
     Coupling[\[Mu]t, {}, 0]^2*LF[{Coupling[\[Mu]t, {}, 0], 
       Coupling[mlt, {Index[d$$5, Flavor]}, 0], Coupling[mqt, 
        {Index[d$$6, Flavor]}, 0]}, {2, 1, 1, 0}])*
-  Bar[Field[e, Fermion, {Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[GammaCC, Proj[-1]]**
+  NCM[Bar[Field[e, Fermion, {Index[d$$3, Flavor]}, {}]], 
+   DiracProduct[GammaCC, Proj[-1]], 
    Transp[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
-       Index[d$$4, Flavor]}, {}]]]*
-  Transp[Field[e, Fermion, {Index[d$$1, Flavor]}, {}]]**
-   DiracProduct[GammaCC, Proj[1]]**Field[u, Fermion, 
-    {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}] + 
+       Index[d$$4, Flavor]}, {}]]]]*
+  NCM[Transp[Field[e, Fermion, {Index[d$$1, Flavor]}, {}]], 
+   DiracProduct[GammaCC, Proj[1]], Field[u, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]] + 
  hbar*CG[eps[SU2L], {Index[d$$1, SU2L[fund]], Index[d$$2, SU2L[fund]]}]*
   ((-4*Coupling[g1, {}, 0]^2*Coupling[m1, {}, 0]*
      Coupling[ye, {Index[d$$3, Flavor], Index[d$$1, Flavor]}, 0]*
@@ -72275,13 +72367,13 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        Coupling[mlt, {Index[d$$3, Flavor]}, 0], Coupling[mqt, 
         {Index[d$$4, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
       {1, 1, 1, 1, 0}])/2)*
-  Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[GammaCC, Proj[1]]**
+  NCM[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$3, Flavor]}, 
+     {}]], DiracProduct[GammaCC, Proj[1]], 
    Transp[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-       Index[d$$2, SU2L[fund]], Index[d$$4, Flavor]}, {}]]]*
-  Transp[Field[e, Fermion, {Index[d$$1, Flavor]}, {}]]**
-   DiracProduct[GammaCC, Proj[1]]**Field[u, Fermion, 
-    {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}] + 
+       Index[d$$2, SU2L[fund]], Index[d$$4, Flavor]}, {}]]]]*
+  NCM[Transp[Field[e, Fermion, {Index[d$$1, Flavor]}, {}]], 
+   DiracProduct[GammaCC, Proj[1]], Field[u, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]] + 
  hbar*((Coupling[g1, {}, 0]^4*Delta[Index[d$$1, Flavor], Index[d$$3, Flavor]]*
      Delta[Index[d$$2, Flavor], Index[d$$4, Flavor]]*
      LF[{Coupling[m1, {}, 0], Coupling[met, {Index[d$$1, Flavor]}, 0], 
@@ -72304,13 +72396,13 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        Coupling[met, {Index[d$$3, Flavor]}, 0], Coupling[mlt, 
         {Index[d$$4, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
       {1, 1, 1, 1, -1}])/4)*
-  Bar[Field[e, Fermion, {Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[GammaCC, Transp[GammaM[Index[d$$1, Lorentz]]], Proj[1]]**
+  NCM[Bar[Field[e, Fermion, {Index[d$$3, Flavor]}, {}]], 
+   DiracProduct[GammaCC, Transp[GammaM[Index[d$$1, Lorentz]]], Proj[1]], 
    Transp[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
-       Index[d$$4, Flavor]}, {}]]]*
-  Transp[Field[e, Fermion, {Index[d$$1, Flavor]}, {}]]**
-   DiracProduct[GammaCC, GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
-   Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}] + 
+       Index[d$$4, Flavor]}, {}]]]]*
+  NCM[Transp[Field[e, Fermion, {Index[d$$1, Flavor]}, {}]], 
+   DiracProduct[GammaCC, GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
+   Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]] + 
  hbar*((Bar[Coupling[yd, {Index[d$$2, Flavor], Index[d$$3, Flavor]}, 0]]*
      Coupling[g1, {}, 0]^2*Coupling[ye, {Index[d$$4, Flavor], 
        Index[d$$1, Flavor]}, 0]*LF[{Coupling[m1, {}, 0], 
@@ -72323,14 +72415,14 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        Coupling[met, {Index[d$$1, Flavor]}, 0], Coupling[mqt, 
         {Index[d$$2, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
       {1, 1, 1, 1, -1}])/12)*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[GammaCC, Transp[GammaM[Index[d$$1, Lorentz]]], Proj[1]]**
-   Transp[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
-       Index[d$$4, Flavor]}, {}]]]*
-  Transp[Field[e, Fermion, {Index[d$$1, Flavor]}, {}]]**
-   DiracProduct[GammaCC, GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, 
+     {}]], DiracProduct[GammaCC, Transp[GammaM[Index[d$$1, Lorentz]]], 
+    Proj[1]], Transp[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
+       Index[d$$4, Flavor]}, {}]]]]*
+  NCM[Transp[Field[e, Fermion, {Index[d$$1, Flavor]}, {}]], 
+   DiracProduct[GammaCC, GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
    Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-     Index[d$$2, Flavor]}, {}] + 
+     Index[d$$2, Flavor]}, {}]] + 
  hbar*((Coupling[g1, {}, 0]^4*Delta[Index[d$$1, Flavor], Index[d$$3, Flavor]]*
      Delta[Index[d$$2, Flavor], Index[d$$4, Flavor]]*
      LF[{Coupling[m1, {}, 0], Coupling[met, {Index[d$$1, Flavor]}, 0], 
@@ -72341,23 +72433,23 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[ye, {Index[d$$6, Flavor], Index[d$$1, Flavor]}, 0]*
      LF[{Coupling[\[Mu]t, {}, 0], Coupling[mdt, {Index[d$$5, Flavor]}, 0], 
        Coupling[mlt, {Index[d$$6, Flavor]}, 0]}, {2, 1, 1, -1}])/4)*
-  Bar[Field[e, Fermion, {Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[GammaCC, Transp[GammaM[Index[d$$1, Lorentz]]], Proj[1]]**
+  NCM[Bar[Field[e, Fermion, {Index[d$$3, Flavor]}, {}]], 
+   DiracProduct[GammaCC, Transp[GammaM[Index[d$$1, Lorentz]]], Proj[1]], 
    Transp[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-       Index[d$$1, SU2L[fund]], Index[d$$4, Flavor]}, {}]]]*
-  Transp[Field[e, Fermion, {Index[d$$1, Flavor]}, {}]]**
-   DiracProduct[GammaCC, GammaM[Index[d$$1, Lorentz]], Proj[-1]]**
+       Index[d$$1, SU2L[fund]], Index[d$$4, Flavor]}, {}]]]]*
+  NCM[Transp[Field[e, Fermion, {Index[d$$1, Flavor]}, {}]], 
+   DiracProduct[GammaCC, GammaM[Index[d$$1, Lorentz]], Proj[-1]], 
    Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-     Index[d$$2, Flavor]}, {}] + 2*hbar*Coupling[g1, {}, 0]^4*
+     Index[d$$2, Flavor]}, {}]] + 2*hbar*Coupling[g1, {}, 0]^4*
   Coupling[m1, {}, 0]^2*LF[{Coupling[m1, {}, 0], 
     Coupling[met, {Index[d$$3, Flavor]}, 0], 
     Coupling[met, {Index[d$$4, Flavor]}, 0]}, {2, 1, 1, 0}]*
-  Bar[Field[e, Fermion, {Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[GammaCC, Proj[-1]]**
-   Transp[Bar[Field[e, Fermion, {Index[d$$4, Flavor]}, {}]]]*
-  Transp[Field[e, Fermion, {Index[d$$4, Flavor]}, {}]]**
-   DiracProduct[GammaCC, Proj[1]]**Field[e, Fermion, {Index[d$$3, Flavor]}, 
-    {}] + hbar*CG[Bar[eps[SU2L]], {Bar[Index[d$$1, SU2L[fund]]], 
+  NCM[Bar[Field[e, Fermion, {Index[d$$3, Flavor]}, {}]], 
+   DiracProduct[GammaCC, Proj[-1]], 
+   Transp[Bar[Field[e, Fermion, {Index[d$$4, Flavor]}, {}]]]]*
+  NCM[Transp[Field[e, Fermion, {Index[d$$4, Flavor]}, {}]], 
+   DiracProduct[GammaCC, Proj[1]], Field[e, Fermion, {Index[d$$3, Flavor]}, 
+    {}]] + hbar*CG[Bar[eps[SU2L]], {Bar[Index[d$$1, SU2L[fund]]], 
     Bar[Index[d$$2, SU2L[fund]]]}]*
   ((-4*Bar[Coupling[ye, {Index[d$$1, Flavor], Index[d$$3, Flavor]}, 0]]*
      Bar[Coupling[yu, {Index[d$$2, Flavor], Index[d$$4, Flavor]}, 0]]*
@@ -72376,14 +72468,15 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      Coupling[g2, {}, 0]^2*Coupling[m2, {}, 0]*Coupling[\[Mu]t, {}, 0]*
      LF[{Coupling[m2, {}, 0], Coupling[mlt, {Index[d$$1, Flavor]}, 0], 
        Coupling[mqt, {Index[d$$2, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
-      {1, 1, 1, 1, 0}])/2)*Bar[Field[e, Fermion, {Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[GammaCC, Proj[-1]]**
+      {1, 1, 1, 1, 0}])/2)*NCM[Bar[Field[e, Fermion, {Index[d$$3, Flavor]}, 
+     {}]], DiracProduct[GammaCC, Proj[-1]], 
    Transp[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
-       Index[d$$4, Flavor]}, {}]]]*
-  Transp[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
-     {}]]**DiracProduct[GammaCC, Proj[-1]]**Field[q, Fermion, 
-    {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
-    {}] + hbar*((Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]^2*
+       Index[d$$4, Flavor]}, {}]]]]*
+  NCM[Transp[Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
+      Index[d$$1, Flavor]}, {}]], DiracProduct[GammaCC, Proj[-1]], 
+   Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
+     Index[d$$2, Flavor]}, {}]] + 
+ hbar*((Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]^2*
      Delta[Index[d$$1, Flavor], Index[d$$3, Flavor]]*
      Delta[Index[d$$2, Flavor], Index[d$$4, Flavor]]*
      LF[{Coupling[m1, {}, 0], Coupling[mlt, {Index[d$$1, Flavor]}, 0], 
@@ -72405,14 +72498,15 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      LF[{Coupling[m1, {}, 0], Coupling[m2, {}, 0], 
        Coupling[mlt, {Index[d$$1, Flavor]}, 0], Coupling[mqt, 
         {Index[d$$2, Flavor]}, 0]}, {1, 1, 1, 1, 0}])/6)*
-  Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[GammaCC, Proj[1]]**
+  NCM[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$3, Flavor]}, 
+     {}]], DiracProduct[GammaCC, Proj[1]], 
    Transp[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-       Index[d$$2, SU2L[fund]], Index[d$$4, Flavor]}, {}]]]*
-  Transp[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
-     {}]]**DiracProduct[GammaCC, Proj[-1]]**Field[q, Fermion, 
-    {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, 
-    {}] + hbar*((Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]^2*
+       Index[d$$2, SU2L[fund]], Index[d$$4, Flavor]}, {}]]]]*
+  NCM[Transp[Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
+      Index[d$$1, Flavor]}, {}]], DiracProduct[GammaCC, Proj[-1]], 
+   Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
+     Index[d$$2, Flavor]}, {}]] + 
+ hbar*((Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]^2*
      Delta[Index[d$$1, Flavor], Index[d$$4, Flavor]]*
      Delta[Index[d$$2, Flavor], Index[d$$3, Flavor]]*
      LF[{Coupling[m1, {}, 0], Coupling[mlt, {Index[d$$1, Flavor]}, 0], 
@@ -72432,24 +72526,25 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      LF[{Coupling[m1, {}, 0], Coupling[m2, {}, 0], 
        Coupling[mlt, {Index[d$$1, Flavor]}, 0], Coupling[mlt, 
         {Index[d$$2, Flavor]}, 0]}, {1, 1, 1, 1, 0}])/4)*
-  Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[GammaCC, Proj[1]]**
+  NCM[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$3, Flavor]}, 
+     {}]], DiracProduct[GammaCC, Proj[1]], 
    Transp[Bar[Field[l, Fermion, {Index[d$$2, SU2L[fund]], 
-       Index[d$$4, Flavor]}, {}]]]*
-  Transp[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
-     {}]]**DiracProduct[GammaCC, Proj[-1]]**Field[l, Fermion, 
-    {Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}] + 
+       Index[d$$4, Flavor]}, {}]]]]*
+  NCM[Transp[Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
+      Index[d$$2, Flavor]}, {}]], DiracProduct[GammaCC, Proj[-1]], 
+   Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, {}]] + 
  (hbar*Coupling[g1, {}, 0]^4*LF[{Coupling[m1, {}, 0], 
      Coupling[mlt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
       {Index[d$$4, Flavor]}, 0]}, {2, 1, 1, -1}]*
-   Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$3, Flavor]}, 
-      {}]]**DiracProduct[GammaCC, Transp[GammaM[Index[d$$1, Lorentz]]], 
-     Proj[-1]]**Transp[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
-        Index[d$$4, Flavor]}, {}]]]*
-   Transp[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$3, Flavor]}, 
-      {}]]**DiracProduct[GammaCC, GammaM[Index[d$$1, Lorentz]], Proj[1]]**
-    Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$4, Flavor]}, {}])/
-  9 + hbar*(-(Coupling[g2, {}, 0]^4*Coupling[m2, {}, 0]^2*
+   NCM[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$3, Flavor]}, 
+      {}]], DiracProduct[GammaCC, Transp[GammaM[Index[d$$1, Lorentz]]], 
+     Proj[-1]], Transp[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
+        Index[d$$4, Flavor]}, {}]]]]*
+   NCM[Transp[Field[l, Fermion, {Index[d$$1, SU2L[fund]], 
+       Index[d$$3, Flavor]}, {}]], DiracProduct[GammaCC, 
+     GammaM[Index[d$$1, Lorentz]], Proj[1]], Field[u, Fermion, 
+     {Index[d$$1, SU3c[fund]], Index[d$$4, Flavor]}, {}]])/9 + 
+ hbar*(-(Coupling[g2, {}, 0]^4*Coupling[m2, {}, 0]^2*
      Delta[Index[d$$1, Flavor], Index[d$$3, Flavor]]*
      Delta[Index[d$$2, Flavor], Index[d$$4, Flavor]]*
      LF[{Coupling[m2, {}, 0], Coupling[mlt, {Index[d$$1, Flavor]}, 0], 
@@ -72467,15 +72562,16 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      LF[{Coupling[m1, {}, 0], Coupling[m2, {}, 0], 
        Coupling[mlt, {Index[d$$1, Flavor]}, 0], Coupling[mqt, 
         {Index[d$$2, Flavor]}, 0]}, {1, 1, 1, 1, 0}])/3)*
-  Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[GammaCC, Proj[1]]**
+  NCM[Bar[Field[l, Fermion, {Index[d$$1, SU2L[fund]], Index[d$$3, Flavor]}, 
+     {}]], DiracProduct[GammaCC, Proj[1]], 
    Transp[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
-       Index[d$$2, SU2L[fund]], Index[d$$4, Flavor]}, {}]]]*
-  Transp[Field[l, Fermion, {Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, 
-     {}]]**DiracProduct[GammaCC, Proj[-1]]**Field[q, Fermion, 
-    {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, 
-    {}] + hbar*((Coupling[g1, {}, 0]^4*Delta[Index[d$$1, Flavor], 
-      Index[d$$3, Flavor]]*Delta[Index[d$$2, Flavor], Index[d$$4, Flavor]]*
+       Index[d$$2, SU2L[fund]], Index[d$$4, Flavor]}, {}]]]]*
+  NCM[Transp[Field[l, Fermion, {Index[d$$2, SU2L[fund]], 
+      Index[d$$1, Flavor]}, {}]], DiracProduct[GammaCC, Proj[-1]], 
+   Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
+     Index[d$$2, Flavor]}, {}]] + 
+ hbar*((Coupling[g1, {}, 0]^4*Delta[Index[d$$1, Flavor], Index[d$$3, Flavor]]*
+     Delta[Index[d$$2, Flavor], Index[d$$4, Flavor]]*
      LF[{Coupling[m1, {}, 0], Coupling[mqt, {Index[d$$1, Flavor]}, 0], 
        Coupling[mut, {Index[d$$2, Flavor]}, 0]}, {2, 1, 1, -1}])/81 + 
    (5*Coupling[g3, {}, 0]^4*Delta[Index[d$$1, Flavor], Index[d$$3, Flavor]]*
@@ -72505,15 +72601,15 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
         {Index[d$$4, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
       {1, 1, 1, 1, -1}])/4)*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$3, Flavor]}, {}]]**DiracProduct[GammaCC, 
-    Transp[GammaM[Index[d$$1, Lorentz]]], Proj[-1]]**
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$3, Flavor]}, {}]], 
+   DiracProduct[GammaCC, Transp[GammaM[Index[d$$1, Lorentz]]], Proj[-1]], 
    Transp[Bar[Field[u, Fermion, {Index[d$$2, SU3c[fund]], 
-       Index[d$$4, Flavor]}, {}]]]*
-  Transp[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$1, Flavor]}, {}]]**DiracProduct[GammaCC, 
-    GammaM[Index[d$$1, Lorentz]], Proj[1]]**Field[u, Fermion, 
-    {Index[d$$2, SU3c[fund]], Index[d$$2, Flavor]}, {}] + 
+       Index[d$$4, Flavor]}, {}]]]]*
+  NCM[Transp[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}]], 
+   DiracProduct[GammaCC, GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[u, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$2, Flavor]}, {}]] + 
  hbar*((Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]^2*
      Delta[Index[d$$1, Flavor], Index[d$$4, Flavor]]*
      Delta[Index[d$$2, Flavor], Index[d$$3, Flavor]]*
@@ -72554,15 +72650,16 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      LF[{Coupling[m2, {}, 0], Coupling[m3, {}, 0], 
        Coupling[mqt, {Index[d$$1, Flavor]}, 0], Coupling[mqt, 
         {Index[d$$2, Flavor]}, 0]}, {1, 1, 1, 1, 0}])/6)*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$3, Flavor]}, {}]]**DiracProduct[GammaCC, Proj[1]]**
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$3, Flavor]}, {}]], 
+   DiracProduct[GammaCC, Proj[1]], 
    Transp[Bar[Field[q, Fermion, {Index[d$$2, SU3c[fund]], 
-       Index[d$$2, SU2L[fund]], Index[d$$4, Flavor]}, {}]]]*
-  Transp[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[GammaCC, Proj[-1]]**
-   Field[q, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-     Index[d$$1, Flavor]}, {}] + 
- hbar*(-1/2*(Coupling[g2, {}, 0]^4*Coupling[m2, {}, 0]^2*
+       Index[d$$2, SU2L[fund]], Index[d$$4, Flavor]}, {}]]]]*
+  NCM[Transp[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[GammaCC, Proj[-1]], Field[q, Fermion, 
+    {Index[d$$2, SU3c[fund]], Index[d$$2, SU2L[fund]], Index[d$$1, Flavor]}, 
+    {}]] + hbar*(-1/2*(Coupling[g2, {}, 0]^4*Coupling[m2, {}, 0]^2*
      Delta[Index[d$$1, Flavor], Index[d$$4, Flavor]]*
      Delta[Index[d$$2, Flavor], Index[d$$3, Flavor]]*
      LF[{Coupling[m2, {}, 0], Coupling[mqt, {Index[d$$1, Flavor]}, 0], 
@@ -72598,15 +72695,16 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      LF[{Coupling[m2, {}, 0], Coupling[m3, {}, 0], 
        Coupling[mqt, {Index[d$$1, Flavor]}, 0], Coupling[mqt, 
         {Index[d$$2, Flavor]}, 0]}, {1, 1, 1, 1, 0}])/6)*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$3, Flavor]}, {}]]**DiracProduct[GammaCC, Proj[1]]**
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$3, Flavor]}, {}]], 
+   DiracProduct[GammaCC, Proj[1]], 
    Transp[Bar[Field[q, Fermion, {Index[d$$2, SU3c[fund]], 
-       Index[d$$2, SU2L[fund]], Index[d$$4, Flavor]}, {}]]]*
-  Transp[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[GammaCC, Proj[-1]]**
-   Field[q, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-     Index[d$$1, Flavor]}, {}] + 
- hbar*(-1/6*(Coupling[g3, {}, 0]^4*Delta[Index[d$$1, Flavor], 
+       Index[d$$2, SU2L[fund]], Index[d$$4, Flavor]}, {}]]]]*
+  NCM[Transp[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[GammaCC, Proj[-1]], Field[q, Fermion, 
+    {Index[d$$2, SU3c[fund]], Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
+    {}]] + hbar*(-1/6*(Coupling[g3, {}, 0]^4*Delta[Index[d$$1, Flavor], 
       Index[d$$3, Flavor]]*Delta[Index[d$$2, Flavor], Index[d$$4, Flavor]]*
      LF[{Coupling[m3, {}, 0], Coupling[mqt, {Index[d$$1, Flavor]}, 0], 
        Coupling[mut, {Index[d$$2, Flavor]}, 0]}, {2, 1, 1, -1}]) + 
@@ -72639,15 +72737,15 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
        Coupling[mqt, {Index[d$$3, Flavor]}, 0], Coupling[mut, 
         {Index[d$$4, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
       {1, 1, 1, 1, -1}])/12)*
-  Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$3, Flavor]}, {}]]**DiracProduct[GammaCC, 
-    Transp[GammaM[Index[d$$1, Lorentz]]], Proj[-1]]**
+  NCM[Bar[Field[q, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$3, Flavor]}, {}]], 
+   DiracProduct[GammaCC, Transp[GammaM[Index[d$$1, Lorentz]]], Proj[-1]], 
    Transp[Bar[Field[u, Fermion, {Index[d$$2, SU3c[fund]], 
-       Index[d$$4, Flavor]}, {}]]]*
-  Transp[Field[q, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-      Index[d$$1, Flavor]}, {}]]**DiracProduct[GammaCC, 
-    GammaM[Index[d$$1, Lorentz]], Proj[1]]**Field[u, Fermion, 
-    {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}] + 
+       Index[d$$4, Flavor]}, {}]]]]*
+  NCM[Transp[Field[q, Fermion, {Index[d$$2, SU3c[fund]], 
+      Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, {}]], 
+   DiracProduct[GammaCC, GammaM[Index[d$$1, Lorentz]], Proj[1]], 
+   Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, {}]] + 
  hbar*CG[Bar[eps[SU2L]], {Bar[Index[d$$1, SU2L[fund]]], 
     Bar[Index[d$$2, SU2L[fund]]]}]*
   ((-4*Bar[Coupling[yd, {Index[d$$1, Flavor], Index[d$$3, Flavor]}, 0]]*
@@ -72684,15 +72782,15 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      LF[{Coupling[m3, {}, 0], Coupling[mqt, {Index[d$$1, Flavor]}, 0], 
        Coupling[mqt, {Index[d$$2, Flavor]}, 0], Coupling[\[Mu]t, {}, 0]}, 
       {1, 1, 1, 1, 0}])/3)*
-  Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[GammaCC, Proj[-1]]**
+  NCM[Bar[Field[d, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, 
+     {}]], DiracProduct[GammaCC, Proj[-1]], 
    Transp[Bar[Field[u, Fermion, {Index[d$$2, SU3c[fund]], 
-       Index[d$$4, Flavor]}, {}]]]*
-  Transp[Field[q, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$2, SU2L[fund]], 
-      Index[d$$2, Flavor]}, {}]]**DiracProduct[GammaCC, Proj[-1]]**
-   Field[q, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], 
-     Index[d$$1, Flavor]}, {}] + 
- hbar*((32*Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]^2*
+       Index[d$$4, Flavor]}, {}]]]]*
+  NCM[Transp[Field[q, Fermion, {Index[d$$2, SU3c[fund]], 
+      Index[d$$2, SU2L[fund]], Index[d$$2, Flavor]}, {}]], 
+   DiracProduct[GammaCC, Proj[-1]], Field[q, Fermion, 
+    {Index[d$$1, SU3c[fund]], Index[d$$1, SU2L[fund]], Index[d$$1, Flavor]}, 
+    {}]] + hbar*((32*Coupling[g1, {}, 0]^4*Coupling[m1, {}, 0]^2*
      Delta[Index[d$$1, Flavor], Index[d$$4, Flavor]]*
      Delta[Index[d$$2, Flavor], Index[d$$3, Flavor]]*
      LF[{Coupling[m1, {}, 0], Coupling[mut, {Index[d$$1, Flavor]}, 0], 
@@ -72712,10 +72810,10 @@ FieldStrength[G, {Index[d$$1, Lorentz], Index[d$$2, Lorentz]},
      LF[{Coupling[m1, {}, 0], Coupling[m3, {}, 0], 
        Coupling[mut, {Index[d$$1, Flavor]}, 0], Coupling[mut, 
         {Index[d$$2, Flavor]}, 0]}, {1, 1, 1, 1, 0}])/27)*
-  Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, {}]]**
-   DiracProduct[GammaCC, Proj[-1]]**
+  NCM[Bar[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$3, Flavor]}, 
+     {}]], DiracProduct[GammaCC, Proj[-1]], 
    Transp[Bar[Field[u, Fermion, {Index[d$$2, SU3c[fund]], 
-       Index[d$$4, Flavor]}, {}]]]*
-  Transp[Field[u, Fermion, {Index[d$$1, SU3c[fund]], Index[d$$2, Flavor]}, 
-     {}]]**DiracProduct[GammaCC, Proj[1]]**Field[u, Fermion, 
-    {Index[d$$2, SU3c[fund]], Index[d$$1, Flavor]}, {}]
+       Index[d$$4, Flavor]}, {}]]]]*
+  NCM[Transp[Field[u, Fermion, {Index[d$$1, SU3c[fund]], 
+      Index[d$$2, Flavor]}, {}]], DiracProduct[GammaCC, Proj[1]], 
+   Field[u, Fermion, {Index[d$$2, SU3c[fund]], Index[d$$1, Flavor]}, {}]]

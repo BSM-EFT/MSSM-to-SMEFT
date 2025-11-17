@@ -9,7 +9,7 @@
 
 
 (* ::Text:: *)
-(*Notice: For using this EFT basis in combination with MapEffectiveCouplings Matchete v0.3.2 or newer is required!*)
+(*Notice: For using this EFT basis in combination with MapEffectiveCouplings Matchete v0.4.0 or newer is required!*)
 
 
 (* ::Text:: *)
@@ -38,7 +38,47 @@
 (*[arXiv:2506.05201].*)
 
 
+(* ::Subtitle:: *)
+(*Works  on  Matchete  release v0.4.0*)
+(*[ https://gitlab.com/matchete/matchete/-/tree/v0.4.0 ]*)
+
+
 ParentModel["2HDM"]
+
+
+(* ::Text:: *)
+(*Check the Matchete version for compatibility*)
+
+
+Matchete`PackageScope`CheckVersionCompatibility["0.4.0"];
+
+
+General::invalidverion="Your Matchete version is not compatible with this model file, which requires v0.3.2. You can update the code using CheckForUpdate[].";
+If[!Matchete`PackageScope`Defined[Matchete`DR2MS],Message[General::invalidverion]];
+
+
+(* ::Text:: *)
+(*Add paper to literature*)
+
+
+AddLiterature[
+	"MSSM-SMEFT matching",
+	"Complete one-loop matching of the MSSM onto the SMEFT",
+	"@article{Kraml:2025fpv,
+    author = \"Kraml, Sabine and Lessa, Andre and Prakash, Suraj and Wilsch, Felix\",
+    title = \"{SUSY meets SMEFT: Complete one-loop matching of the general MSSM}\",
+    eprint = \"2506.05201\",
+    archivePrefix = \"arXiv\",
+    primaryClass = \"hep-ph\",
+    reportNumber = \"TTK-25-14, P3H-25-036\",
+    month = \"6\",
+    year = \"2025\"
+}"
+]
+
+
+(* ::Chapter:: *)
+(*Definition*)
 
 
 (* ::Section:: *)
