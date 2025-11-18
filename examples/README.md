@@ -12,3 +12,5 @@ In particular:
  * [cHB_oneloop.nb](./cHB_oneloop.nb) contains the expression for the Wilson coefficient $C_{HB}$ generated at one loop
  * [cHWB_oneloop.nb](./cHWB_oneloop.nb) contains the expression for the Wilson coefficient $C_{HWB}$ generated at one loop
  * [stopBino_coeffs.nb](./stopBino_coeffs.nb) contains the calculations for extracting some of the Wilson coefficients for the stop-Bino scenario from the general MSSM results
+ * [BosonicOperators.nb](./BosonicOperators.nb) contains the comparison of the CP-even bosonic operators against literature results
+ * [HiggsQuartic.nb](./HiggsQuartic.nb) contains the comparison of the Higgs quartic coupling against literature results
