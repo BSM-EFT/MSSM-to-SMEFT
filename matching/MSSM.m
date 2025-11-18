@@ -41,7 +41,7 @@
 Matchete`PackageScope`CheckVersionCompatibility["0.4.0"];
 
 
-General::invalidverion="Your Matchete version is not compatible with this model file, which requires v0.3.2. You can update the code using CheckForUpdate[].";
+General::invalidverion="Your Matchete version is not compatible with this model file, which requires v0.4.0. You can update the code using CheckForUpdate[].";
 If[!Matchete`PackageScope`Defined[Matchete`DR2MS],Message[General::invalidverion]];
 
 

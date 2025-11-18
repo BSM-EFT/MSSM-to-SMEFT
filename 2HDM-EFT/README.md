@@ -8,4 +8,4 @@ This directory contains four files which allow the one-loop matching of the MSSM
 
 The matching results obtained with these files can be found in the directory [matching-results/](matching-results/).
 
-*Notice that these files have been created for Matchete v0.3.2 and are not compatible with earlier versions of the program.*
+*Notice that these files have been created for Matchete v0.4.0 and are not compatible with earlier versions of the program.*
