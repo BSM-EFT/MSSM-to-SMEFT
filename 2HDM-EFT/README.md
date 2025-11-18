@@ -1,7 +1,7 @@
 # MSSM to 2HDM-EFT matching
 This directory contains four files which allow the one-loop matching of the MSSM onto the 2 Higgs Doublet Model (2HDM) EFT:
 
-- the Matchte model file containing all model defintions of the MSSM with twoo light Higgs (`MSSM-2HDM.m`);
+- the Matchte model file containing all model defintions of the MSSM with two light Higgs doublets (`MSSM-2HDM.m`);
 - the Matchte model file for the 2HDM (`2HDM.m`);
 - the Matchte model file for the EFT extension of the 2HDM provided in \[[2405.20511](https://arxiv.org/abs/2405.20511)\] (`2HDMEFT.m`);
 - a Mathematica notebook for performing the matching and mapping onto the 2HDM-EFT basis (`MSSM-2HDM-matching.nb`).
