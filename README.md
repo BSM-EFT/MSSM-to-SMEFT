@@ -15,4 +15,4 @@ Concretely we provide:
     * full matching results for this scenario in the form of Mathematica and PDF files.
 
 The matching is performed up to dimension six at a single scale $\bar\mu$, with the masses of all BSM states kept generic and non-degenerate.  
-*Note that the code provided here requires [Matchete v0.3.2](https://gitlab.com/matchete/matchete/tree/v0.3.2) or higher!*  
+*Note that the code provided here requires [Matchete v0.4.0](https://gitlab.com/matchete/matchete/tree/v0.4.0) or higher!*  
