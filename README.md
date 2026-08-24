@@ -3,7 +3,7 @@
 [![DOI](https://zenodo.org/badge/946582313.svg)](https://doi.org/10.5281/zenodo.15602469) 
 [![arXiv](https://img.shields.io/badge/arXiv-2506.05201-00aa00.svg)](https://arxiv.org/abs/2506.05201)
 
-This repository contains the supplementary material for the paper "SUSY meets SMEFT: Complete one-loop matching of the general MSSM", [arXiv:2506.05201](https://arxiv.org/abs/2506.05201), by Sabine Kraml, Andre Lessa, Suraj Prakash and Felix Wilsch. 
+This repository contains the supplementary material for the publication "SUSY meets SMEFT: Complete one-loop matching of the general MSSM", [JHEP 04 (2026) 028](https://link.springer.com/article/10.1007/JHEP04(2026)028) [[arXiv:2506.05201](https://arxiv.org/abs/2506.05201)], by Sabine Kraml, Andre Lessa, Suraj Prakash and Felix Wilsch. 
 Concretely we provide:
 
 - the implementation of the MSSM in Matchete (see folder [matching](matching)); 
